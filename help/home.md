@@ -4,7 +4,7 @@ seo-title: Panoramica di Adobe Places
 description: 'Adobe Places è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
 seo-description: 'Luoghi è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
 translation-type: tm+mt
-source-git-commit: ef3d77eba407013e1f701ed001ef9ab7b3818e07
+source-git-commit: fdfeb8c17820c4eb0eae249da39be4eebece22d3
 
 ---
 
@@ -30,13 +30,19 @@ Di seguito sono riportati alcuni modi per utilizzare i Luoghi:
 * Segmentate un'audience in base al comportamento offline utilizzando i profili di audience con contesto della posizione.
 * Esegue il targeting di un utente con un'esperienza in-store quando pertinente.
 
+## Aggiunta di un segnaposto per il video "Introduzione a Luoghi" da Brandon
+
+## Casi di utilizzo luoghi
+
+Migliorare questa sezione con
+
 ## Posiziona i componenti
 
 Le posizioni comprendono i seguenti componenti:
 
 * **Luoghi del servizio Web**
 
-   Potete creare e gestire i POI utilizzando le API REST. Per ulteriori informazioni sulle API REST, vedere Servizi [Web](/help/places-rest-apis/api-usage/api-usage.md)Luoghi.
+   Potete creare e gestire i POI utilizzando le API REST di Luoghi. Per ulteriori informazioni sulle API REST, consultate [Gestire le librerie](/help/places-web-service-api/api-usage/manage-libraries/manage-libraries.md) e [gestire i POI](/help/places-web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **Interfaccia utente Luoghi**
 
@@ -44,7 +50,7 @@ Le posizioni comprendono i seguenti componenti:
 
 * **Places SDK**
 
-   L'interfaccia API mobile multipiattaforma per integrare il contesto della posizione nelle app mobili. Per ulteriori informazioni sugli SDK, vedi Estensione [](/help/configure-places-in-the-sdk/places-extension/places-extension.md)Luoghi.
+   L'interfaccia API mobile multipiattaforma per integrare il contesto della posizione nelle app mobili. Per ulteriori informazioni sugli SDK, vedi Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
 * **Regole di posizione**
 
@@ -52,7 +58,7 @@ Le posizioni comprendono i seguenti componenti:
 
 * **Monitor Luoghi**
 
-   L’SDK per dispositivi mobili multipiattaforma che può essere incorporato nell’app mobile per monitorare automaticamente i cambiamenti di posizione dell’utente e attivare le regole di posizione. Per ulteriori informazioni, consultate Estensione [Monitor](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)posizioni.
+   L’SDK per dispositivi mobili multipiattaforma che può essere incorporato nell’app mobile per monitorare automaticamente i cambiamenti di posizione dell’utente e attivare le regole di posizione. Per ulteriori informazioni, consultate Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)posizioni.
 
 ## Terminologia
 
@@ -87,23 +93,3 @@ Di seguito sono riportati alcuni termini comuni utilizzati nella documentazione:
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
 
    For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
-
-## Interfaccia utente Luoghi
-
-Per accedere all’interfaccia utente Luoghi, in un browser, accedete all’interfaccia utente [](https://places.adobe.com) Luoghi ed effettuate l’accesso con il vostro Adobe ID.
-
-Seguono alcune informazioni di base per acquisire familiarità con l’interfaccia utente:
-
-* Nell’angolo in alto a destra sono disponibili dei pulsanti su cui è possibile fare clic per creare una libreria, POI e filtrare la ricerca.
-* Nell'angolo inferiore destro dello schermo sono presenti pulsanti per ingrandire e ridurre, centrare la posizione corrente **[!UICONTROL Find Me]** e passare dalla vista mappa a quella satellitare.
-* Fate doppio clic per ingrandire o fate clic e trascinate per reimmettere la mappa.
-* È inoltre possibile utilizzare i tasti freccia per scorrere la mappa.
-
-![](assets/location-services.png)
-
-
-## Flusso di lavoro Luoghi
-
-Di seguito è riportata una vista di alto livello del flusso di lavoro Luoghi:
-
-![](/help/assets/places-workflow-diagram-lc-1.png)
