@@ -1,17 +1,21 @@
 ---
-title: Introduzione
-seo-title: Introduzione
+title: Guida introduttiva
+seo-title: Guida introduttiva
 description: Primi passi con Places.
 seo-description: Primi passi con Places.
 translation-type: tm+mt
-source-git-commit: ef3d77eba407013e1f701ed001ef9ab7b3818e07
+source-git-commit: f6c92bbd4fb21999f5c96ea0df8ede6919d1bc79
 
 ---
 
 
-# Introduzione {#getting-started}
+# Guida introduttiva {#getting-started}
 
-Di seguito sono elencate le attività da completare prima di poter utilizzare Places.
+Ecco un video che illustra come iniziare a usare i Luoghi:
+
+>[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
+
+Per utilizzare Luoghi, completare le seguenti attività:
 
 ## 1. Ottieni il provisioning per utilizzare Places
 
@@ -25,11 +29,11 @@ Per eseguire il provisioning, completare le seguenti attività:
 
 * Verifica di essere elencato come utente nei contesti di prodotti Places e Experience Platform Launch nell'Admin Console.
 
-   Per ulteriori informazioni, consultate [Aggiunta di un utente a Experience Platform Launch e Places](/help/adding-a-user-to-places.md).
+   Per ulteriori informazioni, consulta *Aggiunta di un utente a Experience Platform Launch e Places* nelle domande frequenti su [Places](/help/places-faqs.md).
 
 * Verifica che la proprietà dell'app mobile sia configurata in Experience Platform Launch con l'estensione Places installata.
 
-   Per ulteriori informazioni, vedere Estensione [](/help/configure-places-in-the-sdk/places-extension/places-extension.md)Luoghi.
+   Per ulteriori informazioni, vedere Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
 * Se l'azienda dispone di più organizzazioni Adobe, accertatevi di selezionare sempre l'organizzazione per la quale è stato effettuato il provisioning per Places.
 
@@ -37,7 +41,7 @@ Per eseguire il provisioning, completare le seguenti attività:
 
 ## 2. Configurare l’estensione Luoghi e l’estensione Monitor Luoghi
 
-Per ulteriori informazioni sulla configurazione dell’estensione Luoghi e Monitor, consultate Estensione [Luoghi e Estensione](/help/configure-places-in-the-sdk/places-extension/places-extension.md) [Luoghi](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md).
+Per ulteriori informazioni sulla configurazione dell’estensione Luoghi e Monitor, consultate Estensione [Luoghi e Estensione](/help/places-ext-aep-sdks/places-extension/places-extension.md) [Luoghi](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## 3. Creare librerie e POI
 
@@ -45,14 +49,8 @@ Potete creare librerie e POI in uno dei seguenti modi:
 
 * Tramite i servizi Web.
 
-   Per ulteriori informazioni, vedere Servizi [Web](/help/places-rest-apis/places-web-services.md)Luoghi.
+   Per ulteriori informazioni, vedere Servizi [Web](/help/places-web-service-api/places-web-services.md)Luoghi.
 
 * Utilizzando l’interfaccia utente Luoghi.
 
-   Per ulteriori informazioni, consulta [Interfaccia utente](/help/places-database-management-1/places-database-management.md)Luoghi.
-
-## 4. Guida introduttiva a Luoghi
-
-Ecco un video che illustra come iniziare a usare i Luoghi:
-
->[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
+   Per ulteriori informazioni, consulta [Interfaccia utente](/help/poi-mgmt-ui/places-services-overview.md)Luoghi.
