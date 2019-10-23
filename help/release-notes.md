@@ -4,7 +4,7 @@ seo-title: Note sulla versione di Adobe Places.
 description: Note sulla versione di Adobe Places.
 seo-description: Note sulla versione di Adobe Places.
 translation-type: tm+mt
-source-git-commit: 60d72318db5f19646bca8870cec33979934593a7
+source-git-commit: a9aacd39be486195159b163b2c5969cb8b82b51b
 
 ---
 
@@ -183,7 +183,7 @@ iOS Places Monitor 1.0.0
 
 Versione iniziale del monitor Luoghi per iOS.
 
-Places Monitor gestisce le API Location a livello di sistema operativo e comunica direttamente con l'estensione Places. Con entrambe le estensioni installate, i clienti possono avere un monitoraggio out-of-the-box nella propria applicazione. Per ulteriori informazioni sul monitor Luoghi, consultate Estensione [Monitor](/help/configure-places-in-the-sdk/places-monitor-extension/places-monitor-extension.md)Luoghi.
+Places Monitor gestisce le API Location a livello di sistema operativo e comunica direttamente con l'estensione Places. Con entrambe le estensioni installate, i clienti possono avere un monitoraggio out-of-the-box nella propria applicazione. Per ulteriori informazioni sul monitor Luoghi, consultate Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Luoghi.
 
 ## 28 febbraio 2019
 
@@ -212,7 +212,7 @@ Nell'estensione Luoghi:
 * Eventi regola che si attivano all’entrata o all’uscita del POI.
 * Crea elementi dati che puntano al POI corrente dell’utente.
 
-Per ulteriori informazioni sull’estensione Luoghi, consultate [Estensione]Luoghi (sdk/places-extension/places-extension.md).
+Per ulteriori informazioni sull'estensione Luoghi, vedere Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
 #### API Places
 
@@ -224,7 +224,7 @@ Puoi utilizzare le API Places per effettuare le seguenti operazioni:
 
    Viene fornita un'utility python con le API.
 
-Per ulteriori informazioni sulle API Places, vedere Servizi [Web](/help/places-rest-apis/places-web-services.md)Places.
+Per ulteriori informazioni sulle API Places, vedere Servizi [Web](/help/places-web-service-api/places-web-services.md)Places.
 
 ### Presto disponibile
 
