@@ -4,7 +4,7 @@ seo-title: Configurare l’SDK con l’estensione Luoghi
 description: 'Puoi configurare l’SDK con l’estensione Luoghi per abilitare la localizzazione nell’app mobile. '
 seo-description: 'Puoi configurare l’SDK con l’estensione Luoghi per abilitare la localizzazione nell’app mobile. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -19,15 +19,15 @@ Per configurare l'estensione Luoghi:
 
 1. Configurare l’estensione Luoghi in Launch.
 
-   Per ulteriori informazioni, vedi *Configurare l’estensione Luoghi in Launch*.
+   Per ulteriori informazioni, consulta *Configurare l’estensione Luoghi in Launch* in [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 1. Aggiungi l’estensione Luoghi alla tua app mobile.
 
-   Per ulteriori informazioni, consultate *Aggiungere l'estensione Luoghi all'app*.
+   Per ulteriori informazioni, consulta *Aggiungere l’estensione Luoghi all’app* in Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
 1. Registra i luoghi con l'estensione Mobile Core.
 
-   Per ulteriori informazioni, consulta *Registrazione di Adobe Places con core* Mobile.
+   Per ulteriori informazioni, consulta *Registrazione di luoghi con core* Mobile nell’estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
 ## Configurazione dell’estensione Places Monitor
 
