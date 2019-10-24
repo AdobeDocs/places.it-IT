@@ -1,17 +1,17 @@
 ---
-title: Note sulla versione
+title: Note sulla versione di Adobe Experience Platform
 seo-title: Note sulla versione di Adobe Experience Platform.
 description: Note sulla versione di Adobe Experience Platform.
 seo-description: Note sulla versione di Adobe Experience Platform.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: 9fc484fd44c74ad77255668e4fbd7bc1642932e2
 
 ---
 
 
 # Note sulla versione {#release-notes}
 
-Di seguito sono riportate le note sulla versione relative a Luoghi:
+Di seguito sono riportate le note sulla versione di Adobe Experience Platform Places (Luoghi):
 
 ## 9 ottobre 2019
 
