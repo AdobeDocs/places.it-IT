@@ -4,7 +4,7 @@ seo-title: Estensione Luoghi
 description: L’estensione Luoghi consente di agire in base alla posizione degli utenti.
 seo-description: L’estensione Luoghi consente di agire in base alla posizione degli utenti.
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
 
 ---
 
@@ -16,7 +16,7 @@ L’estensione Luoghi consente di agire in base alla posizione degli utenti. Que
 ## Installa l’estensione Places in Adobe Experience Platform Launch
 
 1. In Experience Platform Launch, fai clic sulla **[!UICONTROL Extensions]** scheda.
-2. Nella **[!UICONTROL Catalog]** scheda, individuare l’ **[!UICONTROL Adobe Places]** estensione e fare clic su **[!UICONTROL Install]**.
+2. Nella **[!UICONTROL Catalog]** scheda, individuare l’ **[!UICONTROL Places]** estensione e fare clic su **[!UICONTROL Install]**.
 3. Selezionare le librerie Luoghi da utilizzare in questa proprietà. Queste sono le librerie che saranno accessibili nella tua app.
 4. Fai clic su **[!UICONTROL Save]**.
 
