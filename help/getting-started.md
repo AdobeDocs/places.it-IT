@@ -1,35 +1,35 @@
 ---
 title: Guida introduttiva
 seo-title: Guida introduttiva
-description: Primi passi con Places.
-seo-description: Primi passi con Places.
+description: Guida introduttiva a Location Service.
+seo-description: Guida introduttiva a Location Service.
 translation-type: tm+mt
-source-git-commit: f6c92bbd4fb21999f5c96ea0df8ede6919d1bc79
+source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
 
 ---
 
 
 # Guida introduttiva {#getting-started}
 
-Ecco un video che illustra come iniziare a usare i Luoghi:
+Di seguito è riportato un video che illustra come iniziare a usare il servizio di localizzazione:
 
 >[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
 
-Per utilizzare Luoghi, completare le seguenti attività:
+Per utilizzare Location Service, completa le seguenti attività:
 
-## 1. Ottieni il provisioning per utilizzare Places
+## 1. Ottenere il provisioning per utilizzare il servizio di localizzazione
 
-Le posizioni richiedono un contesto di provisioning speciale con il normale contesto di provisioning di Adobe Experience Platform.
+Location Service richiede un contesto di provisioning speciale con il normale contesto di provisioning di Adobe Experience Platform.
 
 Per eseguire il provisioning, completare le seguenti attività:
 
-* In Admin Console, assicurati che all’organizzazione sia assegnato il provisioning Luoghi.
+* In Admin Console, assicurati che all’organizzazione sia assegnato il provisioning con Location Service.
 
-   Se non sei l'amministratore Adobe, contatta l'amministratore per assicurarti che il contesto Luoghi sia in Admin Console.
+   Se non sei l’amministratore di Adobe, contatta l’amministratore per assicurarti che il contesto del servizio di localizzazione sia in Admin Console.
 
-* Verifica di essere elencato come utente nei contesti di prodotti Places e Experience Platform Launch nell'Admin Console.
+* Verifica di essere elencato come utente nei contesti di prodotti Location Service e Experience Platform Launch nell'Admin Console.
 
-   Per ulteriori informazioni, consulta *Aggiunta di un utente a Experience Platform Launch e Places* nelle domande frequenti su [Places](/help/places-faqs.md).
+   Per ulteriori informazioni, consulta *Aggiunta di un utente a Experience Platform Launch and Location Service* in [Domande](/help/places-faqs.md)frequenti.
 
 * Verifica che la proprietà dell'app mobile sia configurata in Experience Platform Launch con l'estensione Places installata.
 
@@ -49,7 +49,7 @@ Potete creare librerie e POI in uno dei seguenti modi:
 
 * Tramite i servizi Web.
 
-   Per ulteriori informazioni, vedere Servizi [Web](/help/places-web-service-api/places-web-services.md)Luoghi.
+   Per ulteriori informazioni, vedere API [di servizio](/help/web-service-api/places-web-services.md)Web.
 
 * Utilizzando l’interfaccia utente Luoghi.
 
