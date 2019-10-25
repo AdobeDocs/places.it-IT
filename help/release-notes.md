@@ -1,17 +1,17 @@
 ---
-title: Note sulla versione di Adobe Experience Platform
-seo-title: Note sulla versione di Adobe Experience Platform.
-description: Note sulla versione di Adobe Experience Platform.
-seo-description: Note sulla versione di Adobe Experience Platform.
+title: Note sulla versione
+seo-title: Note sulla versione
+description: Note sulla versione di Adobe Experience Platform Location Service.
+seo-description: Note sulla versione di Adobe Experience Platform Location Service.
 translation-type: tm+mt
-source-git-commit: 9fc484fd44c74ad77255668e4fbd7bc1642932e2
+source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
 
 ---
 
 
 # Note sulla versione {#release-notes}
 
-Di seguito sono riportate le note sulla versione di Adobe Experience Platform Places (Luoghi):
+Di seguito sono riportate le note sulla versione:
 
 ## 9 ottobre 2019
 
@@ -31,7 +31,7 @@ Di seguito sono riportate le note sulla versione di Adobe Experience Platform Pl
 
 In questa versione sono stati introdotti i seguenti aggiornamenti:
 
-### Luoghi aggiornamenti dell'interfaccia utente
+### Aggiornamenti interfaccia
 
 Elenco degli aggiornamenti all’interfaccia utente Luoghi:
 
@@ -54,7 +54,7 @@ Elenco degli aggiornamenti all’interfaccia utente Luoghi:
 
 In questa versione sono stati introdotti i seguenti aggiornamenti:
 
-### Lancio del monitor Luoghi estensione 2.0.0
+### Avvia monitor estensione 2.0.0
 
 * Aggiornate le istruzioni di installazione di Android e iOS per il Monitor posizioni 2.0.
 
@@ -72,7 +72,7 @@ In questa versione sono stati introdotti i seguenti aggiornamenti:
 
    Nuova API: `public static void stop (final boolean clearData);`
 
-* Aggiornamento dell'utilizzo dell' `getNearbyPointsOfInterest` API Places per gestire gli scenari di errore in modo più efficace.
+* Aggiornamento dell'utilizzo dell' `getNearbyPointsOfInterest` API per gestire gli scenari di errore in modo più efficace.
 
 ## 25 luglio 2019
 
@@ -195,12 +195,12 @@ Questa è la prima release di Places, un set di strumenti che consente ai client
 
 Di seguito sono elencate le funzioni chiave di questa versione:
 
-#### Interfaccia utente Luoghi
+#### Interfaccia utente del servizio di localizzazione
 
 Abbiamo rilasciato un’interfaccia utente di gestione in cui puoi visualizzare e gestire i punti di interesse (POI). Potete anche organizzare i POI in librerie. Oltre ai metadati standard come città, stato e categoria, è anche possibile aggiungere metadati personalizzati ai POI.
 
-* Per visualizzare l'interfaccia utente Luoghi, andate a [https://places.adobe.com](https://places.adobe.com).
-* Per iniziare a usare l’interfaccia utente Luoghi, consulta [Guida introduttiva](/help/getting-started.md).
+* Per visualizzare l’interfaccia utente, visitate [https://places.adobe.com](https://places.adobe.com).
+* Per iniziare a usare l’interfaccia, consulta [Guida introduttiva](/help/getting-started.md).
 
 #### Estensione Luoghi
 
@@ -224,7 +224,7 @@ Puoi utilizzare le API Places per effettuare le seguenti operazioni:
 
    Viene fornita un'utility python con le API.
 
-Per ulteriori informazioni sulle API Places, vedere Servizi [Web](/help/places-web-service-api/places-web-services.md)Places.
+Per ulteriori informazioni sulle API Places, vedi API [del servizio](/help/web-service-api/places-web-services.md)Web.
 
 ### Presto disponibile
 
