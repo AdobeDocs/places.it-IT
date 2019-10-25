@@ -1,19 +1,19 @@
 ---
-title: Adobe Experience Platform Places
-seo-title: Adobe Experience Platform Places
-description: 'Luoghi è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
-seo-description: 'Luoghi è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
+title: Adobe Experience Platform Location Service
+seo-title: Adobe Experience Platform Location Service
+description: 'Location Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
+seo-description: 'Location Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: 85ce31329ad155e5c835be286c18e6609b88167b
 
 ---
 
 
 # Panoramica {#home}
 
-Adobe Experience Platform Places (Luoghi) è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell'app e renderla un'esperienza più personalizzata e coinvolgente. Places è un servizio di geolocalizzazione che consente agli sviluppatori di app mobili di comprendere il contesto della posizione utilizzando interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI).
+Adobe Experience Platform Location Service (Location Service) è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell'app e renderla un'esperienza più personalizzata e coinvolgente. Places è un servizio di geolocalizzazione che consente agli sviluppatori di app mobili di comprendere il contesto della posizione utilizzando interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI).
 
-Luoghi consente di ottenere quanto segue:
+Location Service consente di ottenere quanto segue:
 
 * Crea e gestisci un database di POI che puoi sfruttare con altre soluzioni Adobe Experience Cloud.
 * Allegate metadati personalizzati ai POI per renderli più ricchi e significativi specificando attributi aggiuntivi.
@@ -30,21 +30,21 @@ Di seguito sono riportati alcuni modi per utilizzare i Luoghi:
 * Segmentate un'audience in base al comportamento offline utilizzando i profili di audience con contesto della posizione.
 * Esegue il targeting di un utente con un'esperienza in-store quando pertinente.
 
-## Aggiunta di un segnaposto per il video "Introduzione a Luoghi" da Brandon
+## Aggiunta di un segnaposto per il video "Location Service intro" di Brandon
 
-## Casi di utilizzo luoghi
+## Casi di utilizzo del servizio di localizzazione
 
 Migliorare questa sezione con
 
-## Posiziona i componenti
+## Componenti di Location Service
 
-Le posizioni comprendono i seguenti componenti:
+Il servizio di localizzazione comprende i seguenti componenti:
 
 * **Luoghi del servizio Web**
 
    Potete creare e gestire i POI utilizzando le API REST di Luoghi. Per ulteriori informazioni sulle API REST, consultate [Gestire le librerie](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [gestire i POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
-* **Interfaccia utente Luoghi**
+* **Interfaccia utente del servizio di localizzazione**
 
    Visualizzare i POI su una mappa per comprendere il contesto spaziale e aggiungere o modificare i POI e i relativi metadati personalizzati.
 
