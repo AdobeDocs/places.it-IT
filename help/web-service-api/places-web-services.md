@@ -4,7 +4,7 @@ seo-title: 'Panoramica API dei servizi Web '
 description: Luoghi è l'insieme di servizi che semplifica l'idratazione da parte dei clienti Adobe delle soluzioni Adobe Experience Cloud e Adobe Experience Platform con i dati sulla posizione e l'esperienza giusta per la persona giusta al momento giusto e nel posto giusto.
 seo-description: Luoghi è l'insieme di servizi che semplifica l'idratazione da parte dei clienti Adobe delle soluzioni Adobe Experience Cloud e Adobe Experience Platform con i dati sulla posizione e l'esperienza giusta per la persona giusta al momento giusto e nel posto giusto.
 translation-type: tm+mt
-source-git-commit: e204958ac3acbf5fb45d2347987f35557be70e43
+source-git-commit: e899cde6230353c8b34090c793983dc570e8115e
 
 ---
 
@@ -39,17 +39,3 @@ Informazioni aggiuntive:
 
 * Per ulteriori informazioni sulle API disponibili e su come utilizzarle, consultate [Gestire le librerie](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [gestire i POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 * Per ulteriori informazioni sulle intestazioni e i parametri di queste API, consultate [Intestazioni e parametri](/help/web-service-api/api-usage/headers-and-parameters.md).
-
-## Requisiti organizzativi {#org-requirements}
-
-Per accedere alle API REST dei servizi Web, verifica con l’amministratore di sistema che le seguenti attività siano state completate:
-
-* I luoghi sono stati predisposti e sono visualizzati nell'organizzazione.
-* È stato aggiunto all'organizzazione.
-* Sei stato aggiunto a Places nella tua organizzazione.
-
-   Per ulteriori informazioni, consulta *Aggiunta di un utente a Luoghi e al lancio* della piattaforma di esperienze in [Domande](/help/places-faqs.md)frequenti.
-
-* È stato aggiunto come sviluppatore Luoghi alla propria organizzazione.
-
-   Per ulteriori informazioni sul ruolo di sviluppatore, consultate [Gestire gli sviluppatori](https://helpx.adobe.com/enterprise/using/manage-developers.html).
