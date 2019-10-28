@@ -4,15 +4,13 @@ seo-title: Invia dati Luoghi ad Adobe Analytics
 description: Questa sezione fornisce informazioni su come inviare i dati Luoghi ad Analytics.
 seo-description: 'Questa sezione fornisce informazioni su come inviare i dati Luoghi ad Analytics. '
 translation-type: tm+mt
-source-git-commit: 0612e2fb06e45ff25ad580e3336be3eb48bb39b9
+source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 
 ---
 
 
 # Invia dati Luoghi ad Adobe Analytics {#places-data-analytics}
 
-
-(Segnaposto per il video di Steve.)
 
 >[!IMPORTANT]
 >
