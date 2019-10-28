@@ -4,7 +4,7 @@ seo-title: Definizione degli elementi di dati
 description: Questa sezione fornisce informazioni su come creare, utilizzare e pubblicare elementi di dati in Experience Platform Launch for Places.
 seo-description: 'Questa sezione fornisce informazioni su come creare, utilizzare e pubblicare elementi di dati in Experience Platform Launch for Places. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: 573f2bb368bd8384f5b465819600a1668b0bdda8
 
 ---
 
@@ -30,10 +30,10 @@ Con l'estensione Luoghi, potete fare riferimento ai valori delle seguenti destin
 Ciascun POI contiene i seguenti riferimenti di dati:
 
 * **[!UICONTROL Category]**: categoria di POI
-* **[!IUICONTROL Città]**: città del POI
+* **[!UICONTROL City]**: città del POI
 * **[!UICONTROL Country]**: paese dell’API
-* **[Latitudine]** UICONTROL: latitudine del POI
-* **[Longitudine]** UICONTROL: longitudine del POI
+* **[!UICONTROL Latitude]**: latitudine del POI
+* **[!UICONTROL Longitude]**: longitudine del POI
 * **[!UICONTROL Metadata]**: metadati personalizzati del POI
 * **[!UICONTROL Name]**: regione dell'OPA
 * **[!UICONTROL Radius]**: raggio del POI
