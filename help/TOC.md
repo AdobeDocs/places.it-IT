@@ -3,7 +3,7 @@ product: Adobe Experience Platform Location Service
 audience: utente finale
 user-guide-title: Adobe Experience Platform Location Service
 translation-type: tm+mt
-source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
+source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
    + [Gestire più librerie](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
 + API servizio Web {#web-service-api}
    + [Panoramica API del servizio Web](web-service-api/places-web-services.md)
-   + [Integrazione di Adobe I/O](web-service-api/adobe-i-o-integration.md)
+   + [Prerequisiti per l'integrazione](web-service-api/adobe-i-o-integration.md)
    + Utilizzo API {#api-usage}
       + [Intestazioni e parametri](web-service-api/api-usage/headers-and-parameters.md)
       + Manage libraries {#manage-libraries}
@@ -76,5 +76,5 @@ source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
    + Adobe Target {#places-target}
       + [Utilizzo di Location Service con Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
 + Test e convalida {#places-testing-validation}
-   + [Verifica e convalida dei luoghi](places-testing-validation/test-validate-places.md)
+   + [Test e convalida del servizio di localizzazione](places-testing-validation/test-validate-places.md)
 + [Domande frequenti](places-faqs.md)
