@@ -4,12 +4,12 @@ seo-title: Panoramica sull'integrazione di Adobe I/O
 description: Informazioni sulla creazione di un'integrazione Adobe I/O.
 seo-description: Informazioni sulla creazione di un'integrazione Adobe I/O.
 translation-type: tm+mt
-source-git-commit: f99930325a3d94bcc60595e69306c51d6b81caa6
+source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 ---
 
 
-# Integrazione di Adobe I/O {#adobeio-integration}
+# Panoramica dell'integrazione e prerequisiti {#integration-prereqs}
 
 Queste informazioni mostrano come creare un'integrazione di Adobe I/O e Luoghi.
 
