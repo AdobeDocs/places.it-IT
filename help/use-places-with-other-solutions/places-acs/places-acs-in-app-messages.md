@@ -4,7 +4,7 @@ seo-title: Messaggi in-app con Location Service
 description: Questa sezione fornisce informazioni sull'utilizzo dei messaggi push in Campaign Standard con messaggi in-app in Campaign Standard.
 seo-description: 'Questa sezione fornisce informazioni sull''utilizzo dei messaggi push in Campaign Standard con i messaggi in-app in Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
 
 ---
 
@@ -54,6 +54,4 @@ Queste informazioni sono utili per comprendere come utilizzare le informazioni d
 
 L'utilizzo di Location Services con Adobe Campaign Standard vi offre uno strumento efficace per segmentare e indirizzare i vostri messaggi agli utenti in base a entrate ed uscite specifiche. Questa semplice integrazione apre la porta a casi di utilizzo più personalizzati e contestuali.
 
-## Creare diverse attivazioni in Campaign Standard in base ai metadati Luoghi
-
-(verranno fornite queste informazioni?)
+>[!VIDEO](https://www.youtube.com/watch?v=ikiTTQw9c-o)
