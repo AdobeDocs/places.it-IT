@@ -4,7 +4,7 @@ seo-title: Panoramica sull'integrazione di Adobe I/O
 description: Informazioni sulla creazione di un'integrazione Adobe I/O.
 seo-description: Informazioni sulla creazione di un'integrazione Adobe I/O.
 translation-type: tm+mt
-source-git-commit: 3a9653dcc7f5d18b717c4bb59424b8cad7104dd7
+source-git-commit: f99930325a3d94bcc60595e69306c51d6b81caa6
 
 ---
 
@@ -100,25 +100,31 @@ Il seguente video illustra il processo di generazione della coppia di chiavi:
 Per creare un'integrazione Luoghi:
 
 1. Andate a [https://console.adobe.io](https://console.adobe.io) ed effettuate l'accesso con il vostro Adobe ID.
-2. Se hai accesso a più organizzazioni Experience Cloud, seleziona l’organizzazione dall’elenco a discesa a sinistra.
-3. Fai clic su **[!UICONTROL New Integration]**.
-4. Selezionate **[!UICONTROL Access an API]** e fate clic su **[!UICONTROL Continue]**.
+2. nella sezione Avvio **** rapido, fate clic su **Crea integrazione**.
+3. Selezionate **[!UICONTROL Access an API]** e fate clic su **[!UICONTROL Continue]**.
+
+   **[!UICONTROL Access an API]** è il percorso predefinito.
+
+4. Se hai accesso a più organizzazioni Experience Cloud, seleziona l’organizzazione dall’elenco a discesa in alto a destra.
 5. In **[!UICONTROL Experience Cloud]**, selezionate **[!UICONTROL Places]** come servizio Adobe al quale desiderate integrare e fate clic su **[!UICONTROL Continue]**.
 6. Selezionate **[!UICONTROL New integration]** e fate clic su **[!UICONTROL Continue]**.
-7. Nella schermata *Crea nuova integrazione* , immettete un nome e una descrizione.
+7. Nella schermata Crea una nuova integrazione, immettete un nome e una descrizione.
 8. Trascinare il `xxxx_public.crt` file creato sopra nella zona di **[!UICONTROL Public keys certificates]** rilascio.
-9. At the bottom of the page, click **[!UICONTROL Create integration]**.
-10. Dopo alcuni secondi, nella schermata *Integrazione creata* , verifica che venga visualizzato il messaggio seguente:
+9. Selezionate un profilo di prodotto.
+
+   Se non sai quale profilo selezionare, contatta l’amministratore di sistema.
+10. At the bottom of the page, click **[!UICONTROL Create integration]**.
+11. Dopo alcuni secondi, nella schermata *Integrazione creata* , verifica che venga visualizzato il messaggio seguente:
 
    `Your integration has been created.`
 
-11. Fai clic su **[!UICONTROL Continue to integration details]**.
+12. Viene visualizzata la pagina dei dettagli dell’integrazione con il nome dell’integrazione nella parte superiore.
 
-   Viene visualizzata una panoramica dell’integrazione con la chiave API, l’ID organizzazione, l’ID account tecnico e altri dettagli sulle integrazioni.
+   La **[!UICONTROL Overview]** scheda viene visualizzata per impostazione predefinita e contiene la chiave API, l'ID organizzazione, l'ID account tecnico e altri dettagli sulle integrazioni.
 
 ### Registrazione dell'ID organizzazione e della chiave API
 
-1. Nella **[!UICONTROL Services]** scheda, verificare che **[!UICONTROL Places]** sia visualizzato.
+1. Nella pagina dei dettagli dell'integrazione, fate clic sulla **[!UICONTROL Services]** scheda e confermate che **[!UICONTROL Places]** sia visualizzata in **[!UICONTROL Configured Services]**.
 2. Nella **[!UICONTROL Overview]** scheda, individua e registra la chiave API (ID client) e l'ID organizzazione.
 
    Questi ID sono necessari per ogni richiesta REST API di Places.
@@ -127,7 +133,7 @@ Per creare un'integrazione Luoghi:
 
 ### Generazione di un token JWT
 
-Nella **[!UICONTROL JWT]** scheda, la console Adobe I/O consente di verificare l’integrazione generando un JWT e fornendo l’URL di scambio.
+Nella pagina dei dettagli dell'integrazione, fate clic sulla **[!UICONTROL JWT]** scheda per verificare l'integrazione generando un JWT e fornendo l'URL di scambio.
 
 Per generare un token JWT:
 
@@ -142,4 +148,4 @@ Per generare un token JWT:
 
 >[!IMPORTANT]
 >
->I token di accesso Adobe sono validi **solo** per 24 ore, quindi salvate il comando CURL di esempio (passaggio 5). Se il token di accesso non è più valido, è necessario generare di nuovo il token.
+>I token di accesso Adobe sono validi **solo** per 24 ore, quindi salvate il comando CURL di esempio (passaggio 5). Se il token di accesso non è più valido, è necessario rigenerare il token.
