@@ -4,7 +4,7 @@ seo-title: Guida introduttiva
 description: Guida introduttiva a Location Service.
 seo-description: Guida introduttiva a Location Service.
 translation-type: tm+mt
-source-git-commit: fb8bfc92f7af5ee30da395b7ee2d9c4eb2a87c09
+source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
 
 ---
 
@@ -15,9 +15,11 @@ Di seguito è disponibile un utile video per una panoramica dei servizi di local
 
 >[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
 
+## Utilizzo di Location Service
+
 Per utilizzare Location Service, completa le seguenti attività:
 
-## 1. Verifica che sia stato eseguito il provisioning dell'utente per utilizzare il servizio di localizzazione
+### 1. Verifica che sia stato eseguito il provisioning dell'utente per utilizzare il servizio di localizzazione
 
 Il contesto del prodotto Location Service è disponibile per tutte le organizzazioni Experience Cloud.
 
@@ -30,7 +32,7 @@ Il contesto del prodotto Location Service è disponibile per tutte le organizzaz
    Per utilizzare il monitoraggio regionale fornito da Adobe per le vostre recinzioni geografiche, installate l'estensione Places Monitor. Per ulteriori informazioni, vedere Estensione [del monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Luoghi.
 
 
-## 2. Creare i POI
+### 2. Creare i POI
 
 I punti di interesse (POI) sono i geofence creati per le organizzazioni e potete creare i punti di interesse in uno dei seguenti modi:
 
@@ -43,7 +45,7 @@ I punti di interesse (POI) sono i geofence creati per le organizzazioni e potete
    Per ulteriori informazioni, vedere API [di servizio](/help/web-service-api/places-web-services.md)Web.
 
 
-## 3. Configurare l’estensione Luoghi e l’estensione Monitor Luoghi
+### 3. Configurare l’estensione Luoghi e l’estensione Monitor Luoghi
 
 Per ulteriori informazioni sulla configurazione dell'estensione Luoghi e dell'estensione Monitor, consultate le seguenti informazioni:
 
