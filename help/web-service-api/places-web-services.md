@@ -4,7 +4,7 @@ seo-title: 'Panoramica API dei servizi Web '
 description: Luoghi è l'insieme di servizi che semplifica l'idratazione da parte dei clienti Adobe delle soluzioni Adobe Experience Cloud e Adobe Experience Platform con i dati sulla posizione e l'esperienza giusta per la persona giusta al momento giusto e nel posto giusto.
 seo-description: Luoghi è l'insieme di servizi che semplifica l'idratazione da parte dei clienti Adobe delle soluzioni Adobe Experience Cloud e Adobe Experience Platform con i dati sulla posizione e l'esperienza giusta per la persona giusta al momento giusto e nel posto giusto.
 translation-type: tm+mt
-source-git-commit: e899cde6230353c8b34090c793983dc570e8115e
+source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
 
 ---
 
@@ -29,11 +29,11 @@ Prima di poter utilizzare l'API dei servizi Web, accertati che siano stati soddi
 
 * Il provisioning dei luoghi avviene all'interno dell'organizzazione e l'utente dispone dell'accesso appropriato come utente.
 
-   Per ulteriori informazioni, consulta la sezione *Requisiti* di organizzazione di seguito.
+   Per ulteriori informazioni, consulta *Prerequisiti per l’accesso* degli utenti in Panoramica dell’ [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 
 * Dopo che il provisioning di Places è stato eseguito nell’organizzazione e l’utente dispone dell’accesso, create un’integrazione Adobe per Places.
 
-   Per ulteriori informazioni, consultate *Creazione dell'integrazione* Luoghi nella panoramica [dell'integrazione di](/help/web-service-api/adobe-i-o-integration.md)Adobe I/O.
+   Per ulteriori informazioni, consulta *Creazione dell’integrazione* Luoghi in Panoramica dell’ [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 
 Informazioni aggiuntive:
 
