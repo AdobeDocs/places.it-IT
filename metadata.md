@@ -10,7 +10,7 @@ tutorials-url: https://experienceleague.adobe.com/
 git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
 index: true
 translation-type: tm+mt
-source-git-commit: 35353d02b791bcb234a45b612b0bc481b604afdf
+source-git-commit: 8b9b84a12c40e93ecd1aea1cee5d44c37dc439e8
 
 ---
 
@@ -31,7 +31,7 @@ Il file metadata.md include metadati a livello di repository che passano attrave
 | tutorials-title | Utilizzato di rado quando le Esercitazioni non sono appropriate |
 | tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o KT |
 | mini-toc-levels | Determina il numero di livelli di intestazione visualizzati nella barra laterale destra. Il valore predefinito è 2 |
-| git-repo | Specifica la posizione del repository collaborativo. Usa il mirror di github.com per i documenti rivolti al pubblico |
+| git-repo | https://github.com/AdobeDocs/places.en |
 | index | set index=no for soft launch |
 
 Nel file TOC.md
