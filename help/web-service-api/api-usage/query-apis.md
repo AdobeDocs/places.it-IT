@@ -4,7 +4,7 @@ seo-title: API di query
 description: Informazioni e utilizzo delle API di query.
 seo-description: Informazioni e utilizzo delle API di query.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
 
 ---
 
@@ -45,7 +45,7 @@ Gli argomenti vengono forniti come parametri di query seguenti:
 
    ID della libreria da interrogare. Per eseguire query su più librerie, accertatevi di includere più copie del parametro della libreria nella query.
 
-Di seguito è riportato un esempio del formato JSON restituito:
+Di seguito è riportato un esempio del formato JSON restituito correttamente:
 
 ```markup
 {
