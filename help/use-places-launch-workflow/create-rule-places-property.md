@@ -4,14 +4,14 @@ seo-title: Creazione di una regola per la proprietà Luoghi
 description: 'L’SDK Luoghi tiene traccia della posizione corrente, monitora i POI configurati intorno alla posizione corrente e tiene traccia degli eventi di entrata e uscita per tali POI. '
 seo-description: 'L’SDK Luoghi tiene traccia della posizione corrente, monitora i POI configurati intorno alla posizione corrente e tiene traccia degli eventi di entrata e uscita per tali POI. '
 translation-type: tm+mt
-source-git-commit: 9feb88f1ccec83c96d08ac5bd48e43d7d9c247c8
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
 # Creare regole di entrata e uscita {#create-entry-exit-rules}
 
-Con le estensioni Places e Places Monitor installate nell’applicazione per dispositivi mobili, puoi creare regole in Adobe Experience Platform Launch che vengono attivate o condizionate per i dati sulla posizione, inclusi gli eventi di entrata e uscita della posizione Luoghi.
+Con le estensioni Places e Places Monitor installate nell’applicazione per dispositivi mobili, puoi creare regole in Adobe Experience Platform Launch che vengono attivate o condizionate per i dati della posizione, inclusi gli eventi di ingresso e uscita dalla posizione.
 
 ## Regole
 
@@ -54,7 +54,7 @@ Le azioni definiscono le operazioni che l'app eseguirà in risposta alla condizi
 
 >[!CAUTION]
 >
->Questo esempio presuppone che sia stata creata una libreria POI di tutti i coffee shop degli Stati Uniti. Per ulteriori informazioni sulla creazione di POI e librerie, consultate [Creare un POI](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/managing-pois-in-the-places-ui#create-a-poi) e [Creare una libreria](https://placesdocs.com/places-services-by-adobe-documentation/places-database-management-1/manage-libraries#create-a-library).
+>Questo esempio presuppone che sia stata creata una libreria POI di tutti i coffee shop degli Stati Uniti. Per ulteriori informazioni sulla creazione di POI e librerie, consultate [Creare un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Creare una libreria* in [Gestione di più librerie](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 La procedura seguente è un esempio di come creare una regola che invia un post a Slack quando si entra in un coffee shop a San Francisco.
 
@@ -128,6 +128,6 @@ Per creare un elemento dati in Experience Platform Launch:
 
 ### Pensare oltre le entrate e le uscite
 
-L'utilizzo di voci ed uscite di geofencing Places per attivare le regole in Launch è incredibilmente potente, ma è anche possibile utilizzare i dati della posizione come condizione per attivare altri eventi. Ad esempio, potresti avere un attivatore di eventi di tracciamento core Mobile pronto per essere attivato in base a un particolare evento di chiamata trackAction all’interno dell’app. In base a questo evento, potete inserire condizioni di posizione aggiuntive per l'evento prima che venga eseguita un'azione. Ad esempio, aprite un sondaggio in-app quando si verifica un `trackAction` evento di acquisto, ma **solo** se la posizione corrente dell'utente include metadati specifici del servizio di localizzazione.
+L'utilizzo di voci ed uscite del servizio Location per attivare le regole in Experience Platform Launch è incredibilmente potente, ma puoi anche utilizzare i dati della posizione come condizione per attivare altri eventi. Ad esempio, potresti avere un attivatore di eventi di tracciamento core Mobile pronto per essere attivato in base a un particolare evento di chiamata trackAction all’interno dell’app. In base a questo evento, potete inserire condizioni di posizione aggiuntive per l'evento prima che venga eseguita un'azione. Ad esempio, aprite un sondaggio in-app quando si verifica un `trackAction` evento di acquisto, ma **solo** se la posizione corrente dell'utente include metadati specifici del servizio di localizzazione.
 
-![creare una condizione](/help/assets/places-condition.png)
+![creare una condizione](/help/assets/places-condition
