@@ -4,14 +4,14 @@ seo-title: Notifiche push
 description: In questa sezione viene illustrato come utilizzare Luoghi con le notifiche push.
 seo-description: In questa sezione viene illustrato come utilizzare Luoghi con le notifiche push.
 translation-type: tm+mt
-source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
 
 # Notifiche push (#place-push-messaging)
 
-Mobile Services consente di inviare notifiche push ai segmenti di Adobe Analytics. In Location Service, puoi segmentare il pubblico del messaggio push in base alle interazioni storiche con i tuoi POI. Ad esempio, puoi inviare un messaggio agli utenti che si sono trovati in uno dei tuoi negozi negli ultimi 30 giorni.
+Mobile Services consente di inviare notifiche push ai segmenti di Adobe Analytics. In Location Service, puoi segmentare il pubblico per il messaggio push utilizzando le loro interazioni storiche con i tuoi POI. Ad esempio, puoi inviare un messaggio agli utenti che si sono trovati in uno dei tuoi negozi negli ultimi 30 giorni.
 
 Prima di iniziare, accertarsi di aver completato le seguenti attività:
 
@@ -36,4 +36,3 @@ Nella **[!UICONTROL Audience]** scheda del flusso di lavoro *Crea notifica* push
 * Nella **[!UICONTROL Custom Segment]** sezione, crea un'audience utilizzando i parametri di segmento personalizzati disponibili.
 
 ![impostazione di un messaggio push](/help/assets/push-set-up.png)
-
