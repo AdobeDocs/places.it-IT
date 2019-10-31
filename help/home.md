@@ -4,14 +4,16 @@ seo-title: Adobe Experience Platform Location Service
 description: 'Location Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
 seo-description: 'Location Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
 translation-type: tm+mt
-source-git-commit: a5eee2378475885a2aef9867ff2c38a8881c9bbe
+source-git-commit: 3e75d51d9c686e700175e370ad352fafa9c814c6
 
 ---
 
 
-# Panoramica {#home}
+# Panoramica di Adobe Experience Platform Location Service {#home}
 
-Adobe Experience Platform Location Service (Location Service) è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell'app e renderla un'esperienza più personalizzata e coinvolgente. Places è un servizio di geolocalizzazione che consente agli sviluppatori di app mobili di comprendere il contesto della posizione utilizzando interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI).
+La posizione è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell'app e renderla un'esperienza più personalizzata e coinvolgente.
+
+Adobe Experience Platform Location Service (Location Service) è un servizio di geolocalizzazione che consente agli sviluppatori di app mobili di comprendere il contesto della posizione utilizzando interfacce SDK ricche e facili da usare, accompagnato da un database flessibile di punti di interesse (POI).
 
 Location Service consente di ottenere quanto segue:
 
@@ -19,7 +21,7 @@ Location Service consente di ottenere quanto segue:
 * Allegate metadati personalizzati ai POI per renderli più ricchi e significativi specificando attributi aggiuntivi.
 * Visualizzate i POI su una mappa per comprendere facilmente il contesto spaziale e aggiungere/modificare gli attributi dei metadati.
 * Configura l’SDK in Adobe Experience Platform Launch per definire le regole attivate dalla posizione e le condizioni basate sui metadati.
-* Ridurre il codice necessario per scrivere nella posizione di un dispositivo di monitoraggio e utilizzare l'estensione Luoghi per attivare automaticamente le regole specifiche per la posizione.
+* Ridurre il codice da scrivere per monitorare la posizione di un dispositivo e utilizzare l'estensione Luoghi per attivare automaticamente le regole specifiche per la posizione.
 
 In questo modo potrete eseguire azioni dai segnali di posizione in tempo reale, quando e dove sono importanti. Il contesto giusto offre un'esperienza di coinvolgimento mobile più arricchente.
 
@@ -30,31 +32,27 @@ Di seguito sono riportati alcuni modi per utilizzare i Luoghi:
 * Segmentate un'audience in base al comportamento offline utilizzando i profili di audience con contesto della posizione.
 * Esegue il targeting di un utente con un'esperienza in-store quando pertinente.
 
-## Casi di utilizzo del servizio di localizzazione
-
-Migliorare questa sezione con
-
 ## Componenti di Location Service
 
 Il servizio di localizzazione comprende i seguenti componenti:
 
-* **Luoghi del servizio Web**
+* **Servizio Web**
 
    Potete creare e gestire i POI utilizzando le API REST di Luoghi. Per ulteriori informazioni sulle API REST, consultate [Gestire le librerie](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [gestire i POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
-* **Interfaccia utente del servizio di localizzazione**
+* **Interfaccia di gestione POI**
 
    Visualizzare i POI su una mappa per comprendere il contesto spaziale e aggiungere o modificare i POI e i relativi metadati personalizzati.
 
-* **Places SDK**
+* **Estensione Luoghi**
 
    L'interfaccia API mobile multipiattaforma per integrare il contesto della posizione nelle app mobili. Per ulteriori informazioni sugli SDK, vedi Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
-* **Regole di posizione**
+* **Regole di avvio**
 
    Regole di Launch geo-intelligenti che consentono di attivare azioni con eventi di entrata e uscita. Le regole consentono inoltre di utilizzare gli attributi geografici in condizioni per personalizzare l'esperienza.
 
-* **Monitor Luoghi**
+* **Estensione Luoghi monitor**
 
    L’SDK per dispositivi mobili multipiattaforma che può essere incorporato nell’app mobile per monitorare automaticamente i cambiamenti di posizione dell’utente e attivare le regole di posizione. Per ulteriori informazioni, consultate Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)posizioni.
 
@@ -76,7 +74,7 @@ Di seguito sono riportati alcuni termini comuni utilizzati nella documentazione:
 
 * Una **libreria** è una raccolta di POI, raggruppati per allegare facilmente le regole a un set invece di un POI.
 
-* L’ **estensione** SDK Places è l’estensione Experience Platform Launch necessaria per integrare l’SDK Places nelle app mobili.
+* Un’ **estensione** è l’estensione Experience Platform Launch necessaria per integrare l’SDK Places nelle app mobili.
 
    L’estensione utilizzata con gli altri SDK per dispositivi mobili per aggiungere contesto di posizione alle esperienze.
 
