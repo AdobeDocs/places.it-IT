@@ -4,7 +4,7 @@ seo-title: Invia dati Luoghi ad Adobe Analytics
 description: Questa sezione fornisce informazioni su come inviare i dati Luoghi ad Analytics.
 seo-description: 'Questa sezione fornisce informazioni su come inviare i dati Luoghi ad Analytics. '
 translation-type: tm+mt
-source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: fd98249c01fba93250dc7111798c76f3c96c6e20
 
 >[!IMPORTANT]
 >
->Questo documento presuppone che nell'applicazione siano implementate le posizioni. Per ulteriori informazioni sull'implementazione di Places, vedi [Posiziona estensioni](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+>Questa sezione presuppone che nell'applicazione siano implementate le posizioni. Per ulteriori informazioni sull'implementazione di Luoghi, vedere Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
 Dopo che Places invia gli eventi di entrata e uscita, puoi creare delle regole in Experience Platform Launch per inviare i dati Luoghi ad Adobe Analytics. Per creare questo tipo di regola, selezionate la proprietà in Lancio e completate i seguenti passaggi:
 
@@ -24,12 +24,14 @@ Dopo che Places invia gli eventi di entrata e uscita, puoi creare delle regole i
 
    Considerazioni da ricordare:
 
-   * Se non sono presenti regole per questa proprietà, il pulsante si trova al centro dello schermo.
-   * Se la proprietà dispone di regole, il pulsante si trova in alto a destra nella schermata.
+   * Se non sono presenti regole per questa proprietà, il **[!UICONTROL Create New Rule]** pulsante si trova al centro dello schermo.
+   * Se la proprietà dispone di regole, il **[!UICONTROL Create New Rule]** pulsante si trova in alto a destra nella schermata.
 
-## 2. Selezionare un evento
+## 2. Selezione di un evento
 
-1. Attribuite alla regola un nome significativo in modo che possa essere facilmente riconoscibile nell'elenco delle regole. In questo esempio, la regola è denominata **Invia dati ad Analytics**.
+1. Digitate un nome significativo per la regola.
+
+   In questo modo, la regola sarà facilmente riconoscibile nell'elenco delle regole. In questo esempio, la regola viene denominata **[!UICONTROL Send Data to Analytics]**.
 
 2. In the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 
@@ -46,8 +48,7 @@ Dopo che Places invia gli eventi di entrata e uscita, puoi creare delle regole i
 
 >[!IMPORTANT]
 >
->Completa questo passaggio se desideri aggiungere Condizioni alla regola. In caso contrario, passare a *Definisci azione* .
-
+>Completa questo passaggio per aggiungere condizioni alla regola. In caso contrario, passare a *Definisci azione* .
 
 In questo esempio, viene creata una condizione che determina l’attivazione della regola solo quando il nome del POI corrente è uguale a **[!UICONTROL My POI]**.
 
@@ -57,7 +58,7 @@ In questo esempio, viene creata una condizione che determina l’attivazione del
 
 3. Dall’elenco a **[!UICONTROL Condition Type]** discesa, selezionate **[!UICONTROL Name]**.
 
-4. Nella finestra a destra, nel campo di testo, immettere **[!UICONTROL My POI]**.
+4. Nel riquadro a destra, nel campo di testo, immettere **[!UICONTROL My POI]**.
 
 5. Fai clic su **[!UICONTROL Keep Changes]**.
 
@@ -72,20 +73,21 @@ In questo esempio, viene creata una condizione che determina l’attivazione del
 
 3. Dall’elenco a **[!UICONTROL Action Type]** discesa, selezionate **[!UICONTROL Track]**.
 
-4. Nel riquadro a destra, aggiungi l’azione o lo stato da inviare ad Analytics. Potete anche scegliere di aggiungere eventuali dati contestuali aggiuntivi a questa richiesta. Ricorda che puoi utilizzare gli elementi dati per ottenere questi dati in modo dinamico dall’SDK.
+4. Nel riquadro a destra, aggiungi l’azione o lo stato da inviare ad Analytics.
+
+   Potete anche scegliere di aggiungere eventuali dati contestuali aggiuntivi a questa richiesta. Ricorda che puoi utilizzare gli elementi dati per ottenere questi dati in modo dinamico dall’SDK.
 
 5. Fai clic su **[!UICONTROL Keep Changes]**.
 
-Nell’esempio seguente, una `TrackAction` chiamata viene inviata ad Analytics con dati contestuali aggiuntivi di **poi.name** pari al nome del POI che ha attivato questo evento di voce:
+   Nell’esempio seguente, una `TrackAction` chiamata viene inviata ad Analytics con dati di contesto aggiuntivi `poi.name` uguali al nome del POI che ha attivato questo evento di voce:
 
-!["imposta un'azione"](/help/assets/pt-setAction.png)
+   !["imposta un'azione"](/help/assets/pt-setAction.png)
 
-## 5. Salvate la regola e ricreate la proprietà
+## 5. Salvare la regola e ricreare la proprietà
 
 Dopo aver completato la configurazione, verifica che la regola abbia l'aspetto seguente:
 
 !["rule is created"](/help/assets/pt-ruleComplete.png)
-
 
 1. Fai clic su **[!UICONTROL Save]**
 
