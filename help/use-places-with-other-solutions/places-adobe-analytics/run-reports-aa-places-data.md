@@ -4,7 +4,7 @@ seo-title: Eseguire rapporti in Adobe Analytics che includono i dati Luoghi
 description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
 seo-description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
 translation-type: tm+mt
-source-git-commit: 0612e2fb06e45ff25ad580e3336be3eb48bb39b9
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -22,14 +22,14 @@ Dopo che Places invia gli eventi di entrata e uscita, puoi creare regole in Expe
 1. Nella **[!UICONTROL Rules]** scheda fare clic su **[!UICONTROL Create New Rule]**.
 
    Considerazioni da ricordare:
-   * Se non sono presenti regole per questa proprietà, il pulsante si trova al centro dello schermo.
-   * Se la proprietà dispone di regole, il pulsante si trova in alto a destra nella schermata.
+   * Se non sono presenti regole per questa proprietà, il **[!UICONTROL Create New Rule]** pulsante si trova al centro dello schermo.
+   * Se la proprietà dispone di regole, il **[!UICONTROL Create New Rule]** pulsante si trova in alto a destra nella schermata.
 
 ## 1.Selezionare un evento
 
 1. Attribuite alla regola un nome significativo in modo che possa essere facilmente riconoscibile nell'elenco delle regole.
 
-   In questo esempio, la regola è denominata **Allega dati Luoghi ad Analytics Traccia eventi** di azione.
+   In questo esempio, la regola viene denominata **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
 
 2. Nella **[!UICONTROL Events]** sezione fare clic su **[!UICONTROL Add]**.
 
@@ -46,7 +46,7 @@ Ora puoi determinare quali attivatori includere per questa regola. In questo ese
 
 >[!IMPORTANT]
 >
->Completa questo passaggio se desideri aggiungere Condizioni alla regola. In caso contrario, passare alla sezione *Definisci azione* seguente.
+>Completate questa procedura per aggiungere le condizioni alla regola. In caso contrario, passare alla sezione *Definisci azione* seguente.
 
 In questo esempio, viene creata una condizione che determina l'attivazione della regola solo per i clienti AT&amp;T.
 
