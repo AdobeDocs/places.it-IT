@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
 seo-description: 'Questa sezione fornisce informazioni sull''utilizzo di Location Service con Adobe Target. '
 translation-type: tm+mt
-source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
@@ -82,7 +82,7 @@ Nell'esempio seguente, `poiCity` e `poiName` i valori vengono aggiunti alla **[!
 >
 >La notazione di `request[*]` può essere letta a voce alta come _per ogni oggetto dell' `request` array.
 
-![aggiungere un evento](/help/assets/ad-setCondition_target.png)
+![aggiungere un evento](/help/assets/ad-setAction_target.png)
 
 ## 5. Salvate la regola e ricreate la proprietà
 
