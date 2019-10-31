@@ -4,7 +4,7 @@ seo-title: Eseguire rapporti in Adobe Analytics che includono i dati Luoghi
 description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
 seo-description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
 
 ---
 
@@ -39,7 +39,7 @@ Dopo che Places invia gli eventi di entrata e uscita, puoi creare regole in Expe
 
 Ora puoi determinare quali attivatori includere per questa regola. In questo esempio, il trigger è basato su tutte le `TrackAction` chiamate. Dopo aver configurato l’evento, fate clic su **[!UICONTROL Keep Changes]**.
 
-!["create a event"](/help/assets/ad-setEvent.png)
+!["create a event"](/help/assets/pt-selectEvent.png)
 
 
 ## 2. Aggiungi condizioni
@@ -60,7 +60,7 @@ In questo esempio, viene creata una condizione che determina l'attivazione della
 
 5. Fai clic su **[!UICONTROL Keep Changes]**.
 
-!["create una condizione"](/help/assets/ad-setCondition.png)
+!["create una condizione"](/help/assets/pt-setCondition.png)
 
 ## 3. Definire l'azione
 
