@@ -1,21 +1,23 @@
 ---
-title: 'Usa luoghi senza monitoraggio area attiva '
-seo-title: 'Usa luoghi senza monitoraggio area attiva '
-description: Questa sezione fornisce informazioni su come utilizzare i luoghi senza il monitoraggio delle aree attive.
-seo-description: Questa sezione fornisce informazioni su come utilizzare i Luoghi senza monitoraggio delle aree attive.
+title: 'Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva '
+seo-title: 'Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva '
+description: Questa sezione fornisce informazioni su come utilizzare Location ServicePlaces senza monitoraggio delle aree attive.
+seo-description: Questa sezione fornisce informazioni su come utilizzare Location Service senza il monitoraggio delle aree attive.
 translation-type: tm+mt
-source-git-commit: ba918bfdb989ba4037409b17d799ef596064b676
+source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
 
 ---
 
 
-# Usa luoghi senza monitoraggio area attiva {#use-places-without-active-monitoring}
+# Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva {#use-places-without-active-monitoring}
 
-I casi di utilizzo per l'applicazione potrebbero non richiedere il monitoraggio dell'area attiva. Adobe Places può ancora essere utilizzato per integrare i dati sulla posizione degli utenti con altri prodotti Experience Platform.
+I casi di utilizzo dell'applicazione potrebbero non richiedere il monitoraggio dell'area attiva. Adobe Places può ancora essere utilizzato per integrare i dati sulla posizione degli utenti con altri prodotti Experience Platform.
 
 In questa sezione viene illustrato come completare un controllo dell’iscrizione a un POI solo al momento della raccolta della posizione dell’utente (latitudine e longitudine).
 
-****Prerequisito:
+## Prerequisito
+
+
 Lo sviluppatore raccoglierà la posizione del dispositivo utilizzando le API fornite dal sistema operativo della piattaforma di destinazione.
 
 >[!TIP]
@@ -81,7 +83,6 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
     }
 }
 ```
-
 
 ### Objective-C
 
@@ -230,9 +231,11 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 ## Implementazione completa dei campioni
 
-Gli esempi di codice riportati di seguito mostrano come recuperare la posizione corrente del dispositivo, attivare gli eventi necessari e assicurarsi di non ottenere più voci per la stessa posizione in una visita:
+Gli esempi di codice riportati di seguito mostrano come recuperare la posizione corrente del dispositivo, attivare gli eventi necessari e assicurarsi di non ottenere più voci per la stessa posizione in una visita.
 
 >[!IMPORTANT]
+>
+>
 Questi snippet sono **solo** esempi. Gli sviluppatori devono determinare in che modo intendono implementare la funzionalità, e la decisione deve prendere in considerazione le best practice consigliate dal sistema operativo di destinazione.
 
 ### Android
