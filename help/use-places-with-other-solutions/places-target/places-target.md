@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
 seo-description: 'Questa sezione fornisce informazioni sull''utilizzo di Location Service con Adobe Target. '
 translation-type: tm+mt
-source-git-commit: ba918bfdb989ba4037409b17d799ef596064b676
+source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
 
 ---
 
@@ -38,7 +38,7 @@ Dopo che l'estensione Luoghi invia eventi per voci ed uscite, puoi utilizzare Re
 
 5. Fai clic su **[!UICONTROL Keep Changes]**.
 
-![aggiungere un evento](/help/assets/ad-addEvent.png)
+![aggiungere un evento](/help/assets/ad-setEvent_target.png)
 
 ## 3. Aggiungi condizioni
 
@@ -58,7 +58,7 @@ Nell'esempio seguente, viene creata una condizione che determina l'attivazione d
 
 5. Fai clic su **[!UICONTROL Keep Changes]**.
 
-![aggiungere un evento](/help/assets/ad-setCondition.png)
+![aggiungere un evento](/help/assets/ad-setCondition_target.png)
 
 ## 4. Definire l'azione
 
@@ -82,13 +82,13 @@ Nell'esempio seguente, `poiCity` e `poiName` i valori vengono aggiunti alla **[!
 >
 >La notazione di `request[*]` può essere letta a voce alta come _per ogni oggetto dell' `request` array.
 
-![aggiungere un evento](/help/assets/ad-setAction.png)
+![aggiungere un evento](/help/assets/ad-setCondition_target.png)
 
 ## 5. Salvate la regola e ricreate la proprietà
 
 Dopo aver completato la configurazione, verifica che la regola abbia l'aspetto seguente:
 
-![regola completata](/help/assets/ad-ruleComplete.png)
+![regola completata](/help/assets/ad-ruleComplete_target.png)
 
 1. Fai clic su **[!UICONTROL Save]**
 
