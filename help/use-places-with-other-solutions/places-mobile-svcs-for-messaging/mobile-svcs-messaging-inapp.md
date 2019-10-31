@@ -4,7 +4,7 @@ seo-title: Notifiche in-app
 description: In questa sezione viene illustrato come utilizzare i Luoghi con i messaggi in-app.
 seo-description: In questa sezione viene illustrato come utilizzare i Luoghi con i messaggi in-app.
 translation-type: tm+mt
-source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
+source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
 
 ---
 
@@ -29,7 +29,7 @@ Elenco dei tipi di messaggi in-app disponibili:
 * Avviso
 * Notifiche locali
 
-Questi tipi sono messaggi in-app perché sono attivati dall'SDK. Le notifiche locali appaiono come notifiche push perché vengono visualizzate quando l'app è in background. Queste notifiche forniscono anche notifiche in tempo reale quando gli utenti immettono o chiudono i POI mentre l’app è in background. Per ulteriori informazioni, consultate Estensione [Monitor luoghi.](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
+Questi tipi sono messaggi in-app perché sono attivati dall'SDK. Le notifiche locali appaiono come notifiche push perché vengono visualizzate quando l'app è in background. Queste notifiche forniscono anche notifiche in tempo reale quando gli utenti immettono o chiudono i POI mentre l’app è in background. Per ulteriori informazioni, consultate Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)posizioni.
 
 ### Prerequisiti
 
@@ -51,18 +51,18 @@ Una volta impostata la regola con i parametri di evento e condizione corretti, c
 
 ## Crea un'azione
 
-Per eseguire questa operazione:
+Per creare un'azione:
 
 1. Seleziona l'estensione **.[!UICONTROL Adobe Analytics]**
 1. Nell'elenco a **[!UICONTROL Action type]** discesa, seleziona **[!UICONTROL Track.]**
 1. Digitare un nome per l'azione.
-1. Nel riquadro a destra, in **[!UICONTROL Context Data]**, selezionate la coppia chiave/valore per impostare i dati contestuali che verranno inviati ad Analytics.
+1. Nel riquadro a destra, in **[!UICONTROL Context Data]**, selezionate la coppia chiave-valore per impostare i dati contestuali che verranno inviati ad Analytics.
 
-Ad esempio, è possibile selezionare **[!UICONTROL poiname]** come chiave e **[!UICONTROL `{%%Last Entered POI Name}`.]
+Ad esempio, potete selezionare `poiname` come chiave e `{%%Last Entered POI Name}` come valore.
 
 >[!TIP]
 >
->È possibile impostare le regole di elaborazione di Analytics per recuperare i dati contestuali. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Nell’esempio in *Creazione di un’azione*, l’azione invierà l’evento `poiname` come contesto per descrivere l’evento POIentry che viene inviato ad Analytics.
+>È possibile impostare le regole di elaborazione di Analytics per recuperare i dati contestuali. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Nell’esempio in *Creazione di un’azione*, l’azione invierà l’evento `poiname` come contesto per descrivere l’evento POI inviato ad Analytics.
 
 ![creazione di un'azione](/help/assets/configure-action.png)
 
@@ -70,7 +70,7 @@ Esempio della regola completa:
 
 ![regola completata](/help/assets/create-a-rule.png)
 
-## Creazione di un messaggio in-app in AMS
+## Creazione di un messaggio in-app in Mobile Services
 
 Come parte dei parametri di Trigger, puoi creare il pubblico per il messaggio con i dati provenienti da Location Service in uno dei modi seguenti:
 
@@ -83,4 +83,6 @@ Come parte dei parametri di Trigger, puoi creare il pubblico per il messaggio co
 
    ![parametri di attivazione](/help/assets/trigger-parameters.png)
 
-* I parametri nelle intestazioni Luoghi della pagina *Triggers e Caratteristiche* di Mobile Services non funzionano con i dati di Location Service. Questi parametri sono solo per il database legacy di Places creato in Mobile Services.
+* I parametri nelle intestazioni Luoghi della pagina *Triggers e Caratteristiche* di Mobile Services non funzionano con i dati di Location Service.
+
+   Questi parametri sono solo per il database legacy di Places creato in Mobile Services.
