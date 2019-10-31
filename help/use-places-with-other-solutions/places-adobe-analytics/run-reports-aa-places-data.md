@@ -4,7 +4,7 @@ seo-title: Eseguire rapporti in Adobe Analytics che includono i dati Luoghi
 description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
 seo-description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
 translation-type: tm+mt
-source-git-commit: fc1dd9e36bf45a2e7c17c3d9dbbed66b28cb8b07
+source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
 
 ---
 
@@ -25,7 +25,7 @@ Dopo che Places invia gli eventi di entrata e uscita, puoi creare regole in Expe
    * Se non sono presenti regole per questa proprietà, il **[!UICONTROL Create New Rule]** pulsante si trova al centro dello schermo.
    * Se la proprietà dispone di regole, il **[!UICONTROL Create New Rule]** pulsante si trova in alto a destra nella schermata.
 
-## 1.Selezionare un evento
+## 2.Selezionare un evento
 
 1. Attribuite alla regola un nome significativo in modo che possa essere facilmente riconoscibile nell'elenco delle regole.
 
@@ -42,7 +42,7 @@ Ora puoi determinare quali attivatori includere per questa regola. In questo ese
 !["create a event"](/help/assets/pt-selectEvent.png)
 
 
-## 2. Aggiungi condizioni
+## 3. Aggiungi condizioni
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ In questo esempio, viene creata una condizione che determina l'attivazione della
 
 !["create una condizione"](/help/assets/pt-setCondition.png)
 
-## 3. Definire l'azione
+## 4. Definire l'azione
 
 1. Nella **[!UICONTROL Actions]** sezione fare clic su **[!UICONTROL Add]**.
 
@@ -80,7 +80,7 @@ Nell'esempio seguente, `poi.city` e `poi.name` i valori vengono aggiunti ai dati
 
 !["create un'azione"](/help/assets/pt-setAction.png)
 
-## 4. Salvare la regola e ricreare la proprietà
+## 5. Salvare la regola e ricreare la proprietà
 
 Dopo aver completato la configurazione, verifica che la regola abbia l'aspetto seguente:
 
