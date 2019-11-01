@@ -4,7 +4,7 @@ seo-title: Creazione di una regola per la proprietà Luoghi
 description: 'L’SDK Luoghi tiene traccia della posizione corrente, monitora i POI configurati intorno alla posizione corrente e tiene traccia degli eventi di entrata e uscita per tali POI. '
 seo-description: 'L’SDK Luoghi tiene traccia della posizione corrente, monitora i POI configurati intorno alla posizione corrente e tiene traccia degli eventi di entrata e uscita per tali POI. '
 translation-type: tm+mt
-source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -71,44 +71,44 @@ Prima di creare una regola, è necessario creare un elemento dati in Adobe Exper
 Per creare un elemento dati in Experience Platform Launch:
 
 1. Fare clic sulla scheda **Elementi** dati.
-2. Fare clic su **Aggiungi elemento** dati.
-3. Digitare un nome, ad esempio **Nome** caffetteria corrente.
-4. Nell’elenco a discesa **Estensione** , selezionate **Luoghi - Beta**.
-5. In Elemento **** dati, selezionare **Città**.
-6. Nel riquadro a destra, selezionare **POI** correnti.
-7. Fai clic su **Salva**.
+1. Fare clic su **Aggiungi elemento** dati.
+1. Digitare un nome, ad esempio **Nome** caffetteria corrente.
+1. Nell’elenco a discesa **Estensione** , selezionate **Luoghi - Beta**.
+1. In Elemento **** dati, selezionare **Città**.
+1. Nel riquadro a destra, selezionare **POI** correnti.
+1. Fai clic su **Salva**.
 
 ### Creare una regola in Experience Platform Launch for Places
 
 ![creazione di una regola](/help/assets/placesrule.png)
 
 1. In Experience Platform Launch, fai clic sulla **[!UICONTROL Rules]** scheda.
-2. Fai clic su **[!UICONTROL Add Rule]**.
-3. Digitare un nome per la regola, ad esempio **[!UICONTROL Track entry for coffee shop in SF]**.
+1. Fai clic su **[!UICONTROL Add Rule]**.
+1. Digitare un nome per la regola, ad esempio **[!UICONTROL Track entry for coffee shop in SF]**.
 
 ### Crea un evento
 
 1. Nella sezione Eventi, fate clic su **[!UICONTROL + Add]**. Gli eventi determinano quando attivare la regola.
-2. Nell'elenco a **[!UICONTROL Extension]** discesa, selezionare **[!UICONTROL Places – Beta]**.
-3. Nell'elenco a **[!UICONTROL Event Type]** discesa, selezionare **[!UICONTROL Enter POI]**.
-4. In **[!UICONTROL Name]**, immettete un nome per l’evento, ad esempio **[!UICONTROL Entering a coffee shop]**.
-5. Fai clic su **[!UICONTROL Keep Changes]**.
+1. Nell'elenco a **[!UICONTROL Extension]** discesa, selezionare **[!UICONTROL Places – Beta]**.
+1. Nell'elenco a **[!UICONTROL Event Type]** discesa, selezionare **[!UICONTROL Enter POI]**.
+1. In **[!UICONTROL Name]**, immettete un nome per l’evento, ad esempio **[!UICONTROL Entering a coffee shop]**.
+1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 ### Crea una condizione
 
 1. Nella sezione Condizioni, fate clic su **[!UICONTROL +Add]**. Le condizioni determinano quali criteri devono essere soddisfatti per l'azione da intraprendere.
-2. In **[!UICONTROL Logic Type]**, selezionate Regolare, che consente l'esecuzione di azioni se la condizione è soddisfatta.
-3. Nell'elenco a **[!UICONTROL Extension]** discesa, selezionare **[!UICONTROL Places – Beta]**.
-4. In **[!UICONTROL Condition Type]**, selezionate **[!UICONTROL City]**.
-5. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-6. Nel riquadro a destra, fare clic su **[!UICONTROL Current POI]** e, nell’elenco a discesa, selezionare **[!UICONTROL San Francisco]** una delle città.
-7. Fai clic su **[!UICONTROL Keep Changes]**.
+1. In **[!UICONTROL Logic Type]**, selezionate Regolare, che consente l'esecuzione di azioni se la condizione è soddisfatta.
+1. Nell'elenco a **[!UICONTROL Extension]** discesa, selezionare **[!UICONTROL Places – Beta]**.
+1. In **[!UICONTROL Condition Type]**, selezionate **[!UICONTROL City]**.
+1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
+1. Nel riquadro a destra, fare clic su **[!UICONTROL Current POI]** e, nell’elenco a discesa, selezionare **[!UICONTROL San Francisco]** una delle città.
+1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 ### Crea un'azione
 
 1. In the **[!UICONTROL Actions]** section, click **[!UICONTROL + Add]**.
-2. Nell'elenco a **[!UICONTROL Extension]** discesa, lasciare selezionata l' **[!UICONTROL Mobile Core]** opzione predefinita.
-3. Selezionare un tipo di azione, ad esempio **[!UICONTROL Send Postback]**.
+1. Nell'elenco a **[!UICONTROL Extension]** discesa, lasciare selezionata l' **[!UICONTROL Mobile Core]** opzione predefinita.
+1. Selezionare un tipo di azione, ad esempio **[!UICONTROL Send Postback]**.
 
    a. In **[!UICONTROL URL]**, digitate l’URL postback per Slack, ad esempio `https://hooks.slack.com/services/`.
 
@@ -120,7 +120,7 @@ Per creare un elemento dati in Experience Platform Launch:
 
    d. Selezionate un valore di timeout, ad esempio **[!UICONTROL 5]**.
 
-4. Fai clic su **[!UICONTROL Keep Changes]**.
+1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 ### Pubblicare la regola
 
@@ -130,4 +130,4 @@ Per creare un elemento dati in Experience Platform Launch:
 
 L'utilizzo di voci ed uscite del servizio Location per attivare le regole in Experience Platform Launch è incredibilmente potente, ma puoi anche utilizzare i dati della posizione come condizione per attivare altri eventi. Ad esempio, potresti avere un attivatore di eventi di tracciamento core Mobile pronto per essere attivato in base a un particolare evento di chiamata trackAction all’interno dell’app. In base a questo evento, potete inserire condizioni di posizione aggiuntive per l'evento prima che venga eseguita un'azione. Ad esempio, aprite un sondaggio in-app quando si verifica un `trackAction` evento di acquisto, ma **solo** se la posizione corrente dell'utente include metadati specifici del servizio di localizzazione.
 
-![creare una condizione](/help/assets/places-condition
+![creare una condizione](/help/assets/places-condition.png)
