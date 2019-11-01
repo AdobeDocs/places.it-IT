@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
 seo-description: 'Questa sezione fornisce informazioni sull''utilizzo di Location Service con Adobe Target. '
 translation-type: tm+mt
-source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -30,13 +30,13 @@ Dopo che l'estensione Luoghi invia eventi per voci ed uscite, puoi utilizzare Re
 
    In questo esempio, la regola viene denominata **[!UICONTROL Attach Places Data to Target Content Requested]**.
 
-2. Nella **[!UICONTROL Events]** sezione fare clic su **[!UICONTROL Add]**.
+1. Nella **[!UICONTROL Events]** sezione fare clic su **[!UICONTROL Add]**.
 
-3. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Adobe Target]**.
+1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Adobe Target]**.
 
-4. Dall’elenco a **[!UICONTROL Event Type]** discesa, selezionate **[!UICONTROL Content Requested]**.
+1. Dall’elenco a **[!UICONTROL Event Type]** discesa, selezionate **[!UICONTROL Content Requested]**.
 
-5. Fai clic su **[!UICONTROL Keep Changes]**.
+1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 ![aggiungere un evento](/help/assets/ad-setEvent_target.png)
 
@@ -50,13 +50,13 @@ Nell'esempio seguente, viene creata una condizione che determina l'attivazione d
 
 1. Nella **[!UICONTROL Conditions]** sezione fare clic su **[!UICONTROL Add]**.
 
-2. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
+1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
 
-3. Dall’elenco a **[!UICONTROL Condition Type]** discesa, selezionate **[!UICONTROL Launches]**.
+1. Dall’elenco a **[!UICONTROL Condition Type]** discesa, selezionate **[!UICONTROL Launches]**.
 
-4. Nel riquadro a destra, modificate l'elenco a discesa e i controlli numerici in modo che la condizione **[!UICONTROL User ha avviato l'app più o meno 5 volte**.
+1. Nel riquadro a destra, modificate l'elenco a discesa e i controlli numerici in modo che la condizione **[!UICONTROL User ha avviato l'app più o meno 5 volte**.
 
-5. Fai clic su **[!UICONTROL Keep Changes]**.
+1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 ![aggiungere un evento](/help/assets/ad-setCondition_target.png)
 
@@ -64,13 +64,13 @@ Nell'esempio seguente, viene creata una condizione che determina l'attivazione d
 
 1. Nella **[!UICONTROL Actions]** sezione fare clic su **[!UICONTROL Add]**.
 
-2. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
+1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
 
-3. Dall’elenco a **[!UICONTROL Action Type]** discesa, selezionate **[!UICONTROL Attach Data]**.
+1. Dall’elenco a **[!UICONTROL Action Type]** discesa, selezionate **[!UICONTROL Attach Data]**.
 
-4. Nel riquadro di destra, nel **[!UICONTROL JSON Payload]** campo, digitare i dati che verranno aggiunti a questo evento.
+1. Nel riquadro di destra, nel **[!UICONTROL JSON Payload]** campo, digitare i dati che verranno aggiunti a questo evento.
 
-5. Fai clic su **[!UICONTROL Keep Changes]**.
+1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 Nel riquadro a destra, puoi aggiungere un payload JSON a forma libera che aggiunge dati a un evento SDK prima che le estensioni ascoltino l'evento.
 
@@ -92,4 +92,4 @@ Dopo aver completato la configurazione, verifica che la regola abbia l'aspetto s
 
 1. Fai clic su **[!UICONTROL Save]**
 
-2. Generate di nuovo la proprietà Launch e distribuitela nell'ambiente corretto.
+1. Generate di nuovo la proprietà Launch e distribuitela nell'ambiente corretto.
