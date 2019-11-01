@@ -4,7 +4,7 @@ seo-title: Gestione delle librerie nell'interfaccia utente Luoghi
 description: Gestire le librerie utilizzando l'interfaccia utente Luoghi.
 seo-description: Gestire le librerie utilizzando l'interfaccia utente Luoghi.
 translation-type: tm+mt
-source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -26,29 +26,29 @@ Le librerie sono definite dalle seguenti:
 ## Creare una libreria
 
 1. Accedi a Luoghi con il tuo Adobe ID.
-2. In alto a destra, fate clic su **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
-3. Fai clic su **[!UICONTROL New]**.
-4. Digitate il nome.
-5. Fai clic su **[!UICONTROL Confirm]**.
+1. In alto a destra, fate clic su **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
+1. Fai clic su **[!UICONTROL New]**.
+1. Digitate il nome.
+1. Fai clic su **[!UICONTROL Confirm]**.
 
 ## Modificare il livello di una libreria nell’interfaccia utente Luoghi
 
 1. Accedi a Luoghi con il tuo Adobe ID.
-2. In alto a destra, fate clic su **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
-3. Fate clic sull'icona a sinistra del nome della libreria e trascinatela nella nuova posizione.
+1. In alto a destra, fate clic su **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
+1. Fate clic sull'icona a sinistra del nome della libreria e trascinatela nella nuova posizione.
 
 ## Rinominare una libreria
 
 1. Accedi a Luoghi con il tuo Adobe ID.
-2. In alto a destra, fate clic su **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
-3. Individuate la libreria da eliminare.
-4. Fate clic **[!UICONTROL ...]** e selezionate **[!UICONTROL Rename]**.
-5. Aggiorna il nome e fai clic su **[!UICONTROL Save]**.
+1. In alto a destra, fate clic su **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
+1. Individuate la libreria da eliminare.
+1. Fate clic **[!UICONTROL ...]** e selezionate **[!UICONTROL Rename]**.
+1. Aggiorna il nome e fai clic su **[!UICONTROL Save]**.
 
 ## Eliminare una libreria
 
 1. Accedi a Luoghi con il tuo Adobe ID.
-2. In alto a destra, fate clic su **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
-3. Individuate la libreria da eliminare.
-4. Fate clic **[!UICONTROL ...]** e selezionate **[!UICONTROL Delete]**.
+1. In alto a destra, fate clic su **[!UICONTROL ...]** &gt; **[!UICONTROL Manage Libraries]**.
+1. Individuate la libreria da eliminare.
+1. Fate clic **[!UICONTROL ...]** e selezionate **[!UICONTROL Delete]**.
 
