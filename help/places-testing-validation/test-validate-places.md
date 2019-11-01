@@ -4,7 +4,7 @@ seo-title: Verifica e convalida dei luoghi
 description: Questa sezione fornisce informazioni su come verificare e convalidare i luoghi.
 seo-description: Questa sezione fornisce informazioni su come verificare e convalidare i luoghi.
 translation-type: tm+mt
-source-git-commit: 39374c1457d33f4cd4014c78fb8daaaa59e5d62d
+source-git-commit: 181185d441a6a4740b2e8770adcb71e81e2e816e
 
 ---
 
@@ -33,8 +33,8 @@ Una volta convalidati correttamente gli eventi di posizione, è possibile sottop
 | 5 | Verificate che gli ambienti corretti siano configurati per il test. L'ID dell'ambiente Launch deve corrispondere all'ambiente di sviluppo Launch. | Confermato |
 | 6 | Create file GPX per ciascun POI da verificare. I file GPX possono essere utilizzati nell'ambiente di sviluppo locale per simulare una voce di posizione. Per informazioni sulla creazione e l'utilizzo di file GPX, consultate le seguenti sezioni: File <br>[GPX per iOS Simulator [closed]](https://stackoverflow.com/questions/17292783/gpx-files-for-ios-simulator)<br>[https://mapstogpx.com/mobiledev.](https://mapstogpx.com/mobiledev.php)<br>[phpLOCATION TESTING IN MOBILE APPS](https://qacumtester.wordpress.com/2014/02/27/location-testing-in-mobile-apps/) | I file GPX vengono creati e caricati nel progetto dell'app. |
 | 7 | Senza fare altro, dovresti essere in grado di avviare l'applicazione da Android Studio o XCode e visualizzare l'avviso appropriato per richiedere l'accesso per il percorso di tracciamento. Fate clic sull'autorizzazione Consenti *sempre* .<br><br>È consigliabile utilizzare un dispositivo reale collegato al computer invece di utilizzare il simulatore del dispositivo. | La richiesta di posizione deve essere visualizzata nell'applicazione caricata tramite IDE |
-| 8 | Dopo l’accettazione dell’autorizzazione Posizione, nella console dell’applicazione dovrebbero essere visualizzati messaggi che indicano `ACPExtensionEventName : requestgetnearbyplaces`la presenza di una chiamata. La commutazione tra diverse posizioni nello studio XCode o Android dovrebbe produrre eventi di ingresso per POI specifici | `ACPExtensionEventName : requestgetnearbyplaces` devono essere visualizzati durante la simulazione di posizioni diverse. |
-| 9 | Se la posizione selezionata è vicina ai POI vicini, l’estensione Monitor avvia il monitoraggio dei 20 POI più vicini dalla posizione corrente. Il messaggio nella console avrà un aspetto simile al seguente: `[AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Received a new list of POIs from Places:`. | La commutazione tra diverse posizioni nello studio XCode o Android dovrebbe produrre eventi di ingresso per POI specifici. |
+| 8 | Una volta accettata l'autorizzazione Posizione. L’SDK Luoghi recupererà la posizione corrente del dispositivo e l’estensione Luoghi monitor inizierà a monitorare i 20 POI più vicini dalla posizione corrente | Vedere l'esempio di registro sotto la tabella. |
+| 9 | La commutazione tra diverse posizioni nello studio XCode o Android dovrebbe produrre eventi di ingresso per POI specifici. Al momento dell’accesso a un POI sono previsti i seguenti registri. | Vedere l'esempio di registro sotto la tabella. |
 | 10 | Dopo aver visualizzato i punti di interesse vicini nel monitor Luoghi, è necessario eseguire il test inviando i punti di interesse. In Avvia, crea una nuova regola che utilizza l'estensione Luoghi per l'attivazione in base a una voce di geotrecinto. Quindi crea una nuova azione utilizzando Mobile Core per inviare un postback. La creazione di un'app Slow Webhook consente di visualizzare voci ed uscite di posizione. Per informazioni sulla creazione di un'app Slow Webhook, vedi [Invio di messaggi tramite webhooks in arrivo.](https://api.slack.com/messaging/webhooks) |  |
 | 10a | In Launch, accertati di aver aggiunto elementi di dati per l’estensione Places, tra cui: <br>Nome POI<br>corrente<br>Ultimo POI corrente<br>lungoUltimo<br>nome inseritoUltimo<br>ultimo inserito<br>lungoUltimo<br>nome uscitoUltimo<br>ultimo<br>nome uscitoUltimotimestamp |  |
 | 10b | Creare una nuova regola con Evento = Luoghi → Inserisci POI |  |
@@ -71,3 +71,47 @@ Una volta convalidati correttamente gli eventi di posizione, è possibile sottop
 | 19 | Eseguire il test con solo cellulare abilitato e con il wifi spento. |  |
 | 20 | Eseguire test con cellulare e wifi acceso. |  |
 |  | **I test** on-site SUMMARY POINT <br>devono corrispondere al test di sviluppo. Tenere presente che alcuni fattori ambientali possono essere utilizzati per determinare la posizione degli utenti, come la durata del tempo trascorso in una recinzione geografica POI, la disponibilità del segnale cellulare e la forza dei punti di accesso wifi nelle vicinanze. |  |
+
+## Esempi di registro
+
+**** Passaggio 8: Registri iOS e Android previsti durante un aggiornamento della posizione
+
+**iOS**
+
+```
+[AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Authorization status changed: Always
+[AdobeExperienceSDK DEBUG <Places>]: Requesting 20 nearby POIs for device location (<lat>, <longitude>)
+[AdobeExperienceSDK DEBUG <Places>]: Response from Places Query Service contained <n> nearby POIs
+[AdobeExperienceSDK DEBUG <com.adobe.placesMonitor>]: Received a new list of POIs from Places: (
+<ACPPlacePoi: 0x600002b75a40> Name: <poi name>; ID:<poi id>; Center: (<lat>, <long>); Radius: <radius>
+..
+..)   
+```
+
+**Android**
+
+```
+PlacesMonitor - All location settings are satisfied to monitor location
+PlacesMonitor - PlacesMonitorInternal : New location obtained: <latitude> <longitude> Attempting to get the near by pois
+PlacesExtension - Dispatching nearby places event with n POIs
+PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latitude <lat> longitude <longitude>
+...
+...
+PlacesMonitor - Successfully added n fences for monitoring
+```
+
+**** Passaggio 9: Registri iOS e Android previsti durante un evento
+
+**iOS**
+
+```
+[AdobeExperienceSDK TRACE <Places>]: Dispatching Places region entry event for place ID <poiId>
+```
+
+**Android**
+
+```
+PlacesExtension -  Dispatching Places Region Event for <poi name> with eventType entry
+```
