@@ -4,7 +4,7 @@ seo-title: Messaggi in-app con Location Service
 description: Questa sezione fornisce informazioni sull'utilizzo dei messaggi push in Campaign Standard con messaggi in-app in Campaign Standard.
 seo-description: 'Questa sezione fornisce informazioni sull''utilizzo dei messaggi push in Campaign Standard con i messaggi in-app in Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -29,9 +29,9 @@ Prima di iniziare, effettuate le seguenti operazioni:
 ## Invio di un messaggio in-app in base a una voce o un'uscita di recinto geografico
 
 1. Nell'istanza di Adobe Campaign Standard, fai clic su **[!UICONTROL Create In-App message]**.
-2. Per il tipo di messaggio, selezionare **[!UICONTROL Target all users of a Mobile application]**.
-3. Fare clic **[!UICONTROL Next]** e digitare i dettagli generali.
-4. Nel riquadro a sinistra, verifica di poter utilizzare diversi attivatori relativi a Location Services.
+1. Per il tipo di messaggio, selezionare **[!UICONTROL Target all users of a Mobile application]**.
+1. Fare clic **[!UICONTROL Next]** e digitare i dettagli generali.
+1. Nel riquadro a sinistra, verifica di poter utilizzare diversi attivatori relativi a Location Services.
 
    * Potete scegliere di visualizzare il messaggio in-app se l’utente ha inserito un limite geografico per i POI.
    * Potete anche utilizzare i metadati definiti nell'interfaccia utente di Location Services per filtrare l'audience.
@@ -39,7 +39,7 @@ Prima di iniziare, effettuate le seguenti operazioni:
 
    !["Metadati Luoghi messaggio in-app"](/help/assets/last-entered-vacation.png)
 
-5. Fai clic su per **[!UICONTROL Next]** terminare la creazione del messaggio in-app da consegnare.
+1. Fai clic su per **[!UICONTROL Next]** terminare la creazione del messaggio in-app da consegnare.
 
    !["create a event"](/help/assets/prepare-ACS.png)
 
