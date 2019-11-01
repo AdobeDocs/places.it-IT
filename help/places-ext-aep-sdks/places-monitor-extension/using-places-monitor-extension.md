@@ -4,7 +4,7 @@ seo-title: Utilizzo dell’estensione Monitor luoghi
 description: Informazioni su come installare, configurare e utilizzare l’estensione Places Monitor.
 seo-description: 'Informazioni su come installare, configurare e utilizzare l’estensione Places Monitor. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -16,9 +16,9 @@ Per utilizzare l'estensione Luoghi monitor, completare le seguenti operazioni:
 ## Installare l’estensione Places Monitor in Experience Platform Launch
 
 1. In Experience Platform Launch, fai clic sulla **[!UICONTROL Extensions]** scheda.
-2. Nella **[!UICONTROL Catalog]** scheda, individuate l’ **[!UICONTROL Places Monitor]** estensione e fate clic su **Installa**.
-3. Fai clic su **[!UICONTROL Save]**.
-4. Segui il processo di pubblicazione per aggiornare la configurazione SDK.
+1. Nella **[!UICONTROL Catalog]** scheda, individuate l’ **[!UICONTROL Places Monitor]** estensione e fate clic su **Installa**.
+1. Fai clic su **[!UICONTROL Save]**.
+1. Segui il processo di pubblicazione per aggiornare la configurazione SDK.
 
 ### Configurare l’estensione Monitor luoghi {#configure-places-monitor-extension}
 
@@ -38,7 +38,7 @@ In Android, completa i seguenti passaggi:
 
 1. Aggiungi l'estensione Places Monitor e l'estensione Places al progetto utilizzando il file gradle dell'app.
 
-2. Includete anche i servizi Google Location più recenti nel file gradle.
+1. Includete anche i servizi Google Location più recenti nel file gradle.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
@@ -47,7 +47,7 @@ In Android, completa i seguenti passaggi:
    implementation 'com.google.android.gms:play-services-location:16.0.0'
    ```
 
-3. Importa l’estensione Places Monitor nell’attività principale dell’applicazione.
+1. Importa l’estensione Places Monitor nell’attività principale dell’applicazione.
 
    ```java
    import com.adobe.marketing.mobile.PlacesMonitor;
@@ -58,7 +58,7 @@ In Android, completa i seguenti passaggi:
 In iOS, completa i seguenti passaggi:
 
 1. Aggiungete la libreria al progetto tramite i cocoapodi `Podfile` aggiungendo `pod 'ACPPlacesMonitor'`.
-2. Importare le librerie di monitor Luoghi e Luoghi:
+1. Importare le librerie di monitor Luoghi e Luoghi:
 
 #### Objective-C
 
