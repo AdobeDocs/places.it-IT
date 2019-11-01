@@ -4,14 +4,12 @@ seo-title: Note sulla versione
 description: Note sulla versione di Adobe Experience Platform Location Service.
 seo-description: Note sulla versione di Adobe Experience Platform Location Service.
 translation-type: tm+mt
-source-git-commit: 6ff72eb72ce3ae1abf805b7b542721a7e4915824
+source-git-commit: a5e5d5792d1a0368936f5f54e86a7ce9726a9122
 
 ---
 
 
 # Note sulla versione {#release-notes}
-
-Di seguito sono riportate le note sulla versione:
 
 ## 9 ottobre 2019
 
