@@ -4,7 +4,7 @@ seo-title: Estensione Luoghi
 description: L’estensione Luoghi consente di agire in base alla posizione degli utenti.
 seo-description: L’estensione Luoghi consente di agire in base alla posizione degli utenti.
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -16,13 +16,13 @@ L’estensione Luoghi consente di agire in base alla posizione degli utenti. Que
 ## Installa l’estensione Places in Adobe Experience Platform Launch
 
 1. In Experience Platform Launch, fai clic sulla **[!UICONTROL Extensions]** scheda.
-2. Nella **[!UICONTROL Catalog]** scheda, individuare l’ **[!UICONTROL Places]** estensione e fare clic su **[!UICONTROL Install]**.
-3. Selezionare le librerie Luoghi da utilizzare in questa proprietà. Queste sono le librerie che saranno accessibili nella tua app.
-4. Fai clic su **[!UICONTROL Save]**.
+1. Nella **[!UICONTROL Catalog]** scheda, individuare l’ **[!UICONTROL Places]** estensione e fare clic su **[!UICONTROL Install]**.
+1. Selezionare le librerie Luoghi da utilizzare in questa proprietà. Queste sono le librerie che saranno accessibili nella tua app.
+1. Fai clic su **[!UICONTROL Save]**.
 
    Quando fai clic su **[!UICONTROL Save]**, l’SDK di Experience Platform cerca nei Servizi Luoghi i punti di interesse nelle librerie selezionate. I dati POI non vengono inclusi nel download della libreria al momento della creazione dell’app, ma un sottoinsieme di POI basato sulla posizione viene scaricato nel dispositivo dell’utente finale in fase di esecuzione e si basa sulle coordinate GPS dell’utente.
 
-5. Completa il processo di pubblicazione per aggiornare la configurazione SDK.
+1. Completa il processo di pubblicazione per aggiornare la configurazione SDK.
 
    Per ulteriori informazioni sulla pubblicazione in Experience Platform Launch, consultate [Pubblicazione](https://docs.adobelaunch.com/launch-reference/publishing).
 
@@ -45,7 +45,7 @@ Per aggiungere l'estensione Luoghi all'app utilizzando Java:
    implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
    ```
 
-2. Importa l'estensione Luoghi nell'attività principale dell'applicazione.
+1. Importa l'estensione Luoghi nell'attività principale dell'applicazione.
 
    ```java
    import com.adobe.marketing.mobile.Places;
@@ -65,13 +65,13 @@ Per aggiungere l'estensione Luoghi all'app utilizzando Objective-C o Swift:
 
    In alternativa, se non utilizzate i cococoapodi, potete includere manualmente le librerie Mobile Core e Luoghi dalla pagina [delle](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) versioni di Github.
 
-2. Aggiornate i cocopodi:
+1. Aggiornate i cocopodi:
 
    ```objective-c
    pod update
    ```
 
-3. Apri Xcode e nella classe AppDelegate importa le intestazioni Core e Places:
+1. Apri Xcode e nella classe AppDelegate importa le intestazioni Core e Places:
 
    **Objective-C**
 
