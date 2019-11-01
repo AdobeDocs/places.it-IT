@@ -4,7 +4,7 @@ seo-title: Domande frequenti
 description: Questo argomento fornisce ulteriori informazioni su alcune domande frequenti.
 seo-description: Questo argomento fornisce ulteriori informazioni su alcune domande frequenti.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -91,7 +91,7 @@ Per impostare il profilo e aggiungere le autorizzazioni:
 
       Se in precedenza hai aggiunto utenti a Experience Platform Launch, potrebbero essere elencati più profili.
 
-2. Seleziona il profilo corretto:
+1. Seleziona il profilo corretto:
 
    a. Fare clic sul nome del profilo predefinito.
 
@@ -145,7 +145,7 @@ Per aggiungere un utente ai profili di avvio di Location Service e Experience Pl
 
    g.Fate clic **[!UICONTROL Save]**.
 
-2. Aggiungete un utente a **[!UICONTROL Places Core Services]**.
+1. Aggiungete un utente a **[!UICONTROL Places Core Services]**.
 
    >[!TIP]
    >
