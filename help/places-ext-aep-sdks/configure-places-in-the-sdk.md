@@ -4,7 +4,7 @@ seo-title: Configurare l’SDK con l’estensione Luoghi
 description: 'Puoi configurare l’SDK con l’estensione Luoghi per abilitare la localizzazione nell’app mobile. '
 seo-description: 'Puoi configurare l’SDK con l’estensione Luoghi per abilitare la localizzazione nell’app mobile. '
 translation-type: tm+mt
-source-git-commit: fd1b37a0f50d93de1efff4cb38fc23253f02d517
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -37,14 +37,14 @@ Per configurare l’estensione Monitor luoghi in Launch:
 
    Per ulteriori informazioni, vedi *Configurare l’estensione Monitoraggio luoghi in Launch*.
 
-2. Aggiungete l’estensione Places Monitor all’app mobile.
+1. Aggiungete l’estensione Places Monitor all’app mobile.
 
    Per ulteriori informazioni, consultate *Aggiungere l'estensione Places Monitor all'app*.
 
-3. Registra il monitor Luoghi con l’estensione Mobile Core.
+1. Registra il monitor Luoghi con l’estensione Mobile Core.
 
    Per ulteriori informazioni, consulta Registrare il monitor *Luoghi con Mobile Core*.
 
-4. Abilitare gli aggiornamenti della posizione in background.
+1. Abilitare gli aggiornamenti della posizione in background.
 
    Per ulteriori informazioni, consultate *Attivare gli aggiornamenti di posizione in background*.
