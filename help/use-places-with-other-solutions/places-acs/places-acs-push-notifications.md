@@ -4,7 +4,7 @@ seo-title: Notifiche push
 description: Questa sezione fornisce informazioni sull'utilizzo di Luoghi con notifiche push in Campaign Standard.
 seo-description: 'Questa sezione fornisce informazioni sull''utilizzo di Luoghi con notifiche push in Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -34,15 +34,15 @@ Dopo aver verificato che le estensioni del servizio Places e Places Monitor for 
 Per creare un elemento dati:
 
 1. Nella proprietà mobile Launch della piattaforma Experience, fai clic sulla **[!UICONTROL Data Elements]** scheda e poi su **[!UICONTROLAAggiungi elemento]** dati.
-2. Nell'elenco a **[!UICONTROL Extension]** discesa, selezionare **[!UICONTROL Places]**.
-3. Dall’elenco a **[!UICONTROL Data Element Type]** discesa, selezionate **[!UICONTROL Name]**.
-4. Nel riquadro a destra è possibile selezionare **[!UICONTROL Current POI]** il nome del POI in cui si trova l’utente.
+1. Nell'elenco a **[!UICONTROL Extension]** discesa, selezionare **[!UICONTROL Places]**.
+1. Dall’elenco a **[!UICONTROL Data Element Type]** discesa, selezionate **[!UICONTROL Name]**.
+1. Nel riquadro a destra è possibile selezionare **[!UICONTROL Current POI]** il nome del POI in cui si trova l’utente.
 
    **[!UICONTROL Last Entered]** recupera il nome del POI immesso per l’ultima volta dall’utente e **[!UICONTROL Last Exited]** fornisce il nome del POI che l’ultimo utente ha lasciato. In questo esempio, sarà selezionato **[!UICONTROL Last Entered]** e digitato un nome per l'elemento dati, ad esempio **[!UICONTROL Last Entered POI Name]** e facendo clic su **[!UICONTROL Save]**.
 
    !["Messaggi push in Campaign Standard"](/help/assets/ACS_Push1.png)
 
-5. Ripetete i passaggi da 1 a 4 e create gli elementi di dati per l’ *ultima latitudine* POI inserita, l’ *ultima longitudine* POI inserita e l’ *ultimo raggio* POI inserito.
+1. Ripetete i passaggi da 1 a 4 e create gli elementi di dati per l’ *ultima latitudine* POI inserita, l’ *ultima longitudine* POI inserita e l’ *ultimo raggio* POI inserito.
 
 Oltre agli elementi di dati per il servizio Location, accertati di creare elementi di dati Mobile Core per l'ID ** app e l'ID ** Experience Cloud.
 
@@ -51,22 +51,22 @@ Oltre agli elementi di dati per il servizio Location, accertati di creare elemen
 Le regole in Experience Platform Launch consentono di creare flussi di lavoro complessi e con più soluzioni basati su attivatori di eventi. Con le regole, puoi creare nuove regole o modificarne quelle esistenti e distribuire dinamicamente gli aggiornamenti alle applicazioni mobili. Nell’esempio seguente, la regola viene attivata quando un utente immette un POI con geofrequenza. Dopo l'attivazione della regola, viene inviato un aggiornamento a Campaign Standard per registrare una voce a un POI specifico per un utente specifico in base all'Experience Cloud ID.
 
 1. Nella proprietà Launch Mobile, nella **[!UICONTROL Rules]** scheda fare clic su **[!UICONTROL Add Rule]**.
-2. Nella **[!UICONTROL Events]** sezione fare clic **[!UICONTROL +]** e selezionare **[!UICONTROL Places]** l'estensione.
-3. For the **[!UICONTROL Event Type]**, select **[!UICONTROL Enter POI]**.
-4. Denominate la regola, ad esempio **Utente immesso POI**.
-5. Fai clic su **[!UICONTROL Keep Changes]**.
-6. Lasciate vuota la **[!UICONTROL Conditions]** sezione.
+1. Nella **[!UICONTROL Events]** sezione fare clic **[!UICONTROL +]** e selezionare **[!UICONTROL Places]** l'estensione.
+1. For the **[!UICONTROL Event Type]**, select **[!UICONTROL Enter POI]**.
+1. Denominate la regola, ad esempio **Utente immesso POI**.
+1. Fai clic su **[!UICONTROL Keep Changes]**.
+1. Lasciate vuota la **[!UICONTROL Conditions]** sezione.
 
    Questa sezione consente di filtrare o limitare il momento in cui questa regola deve essere attivata.
 
-7. Nella **[!UICONTROL Actions]** sezione fare clic su **[!UICONTROL +]**.
-8. Nell'elenco a **[!UICONTROL Extension]** discesa, selezionare **[!UICONTROL Mobile Core]** e nell'elenco a **[!UICONTROL Action Type]** discesa selezionare **[!UICONTROL Send Postback]**.
-9. In **[!UICONTROL URL]**, devi costruire l'endpoint delle posizioni di Campaign Standard.
+1. Nella **[!UICONTROL Actions]** sezione fare clic su **[!UICONTROL +]**.
+1. Nell'elenco a **[!UICONTROL Extension]** discesa, selezionare **[!UICONTROL Mobile Core]** e nell'elenco a **[!UICONTROL Action Type]** discesa selezionare **[!UICONTROL Send Postback]**.
+1. In **[!UICONTROL URL]**, devi costruire l'endpoint delle posizioni di Campaign Standard.
 
    L’URL deve essere simile a `https:///rest/head/mobileAppV5//locations/`.
 Assicurati di utilizzare gli elementi di dati corretti creati in precedenza per il server Campaign e per pKey.
 
-10. Fate clic sulla casella per aggiungere un corpo del post e inviare quanto segue:
+1. Fate clic sulla casella per aggiungere un corpo del post e inviare quanto segue:
 
    ```
    {
@@ -81,9 +81,9 @@ Assicurati di utilizzare gli elementi di dati corretti creati in precedenza per 
    }
    ```
 
-11. Assicurarsi di utilizzare gli elementi dati creati nella sezione precedente.
-12. In **[!UICONTROL Content Type]**, digitare **[!UICONTROL application/json]**.
-13. Fai clic su **[!UICONTROL Keep Changes]**.
+1. Assicurarsi di utilizzare gli elementi dati creati nella sezione precedente.
+1. In **[!UICONTROL Content Type]**, digitare **[!UICONTROL application/json]**.
+1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 >[!IMPORTANT]
 >
@@ -98,16 +98,16 @@ Assicurati di utilizzare gli elementi di dati corretti creati in precedenza per 
 Ora che abbiamo i dati sulla posizione popolati in Campaign, possiamo usare i POI come strumento per il segmento di pubblico.
 
 1. Nell'istanza di Adobe Campaign Standard, fai clic su **[!UICONTROL Create Push Notification]**.
-2. Per il tipo di notifica push, selezionate **[!UICONTROL Send push to Campaign profiles]**.
-3. Fare clic **[!UICONTROL Next]** e digitare i dettagli generali.
-4. Nella schermata Pubblico, fate clic **[!UICONTROL Count]** per determinare a quanti utenti stimati verrà inviata la notifica push.
+1. Per il tipo di notifica push, selezionate **[!UICONTROL Send push to Campaign profiles]**.
+1. Fare clic **[!UICONTROL Next]** e digitare i dettagli generali.
+1. Nella schermata Pubblico, fate clic **[!UICONTROL Count]** per determinare a quanti utenti stimati verrà inviata la notifica push.
 
    >[!TIP]
    >
    >In questo esempio, il conteggio sarà 3, perché ci sono tre dispositivi installati su cui l'applicazione viene testata.
 
-5. Nel riquadro a sinistra, espandete la **[!UICONTROL Profile]** scheda e trascinate il **[!UICONTROL POI location]** filtro nell’area principale.
-6. Nella finestra del filtro POI, inserite il nome esatto del POI di destinazione.
+1. Nel riquadro a sinistra, espandete la **[!UICONTROL Profile]** scheda e trascinate il **[!UICONTROL POI location]** filtro nell’area principale.
+1. Nella finestra del filtro POI, inserite il nome esatto del POI di destinazione.
 
    >[!TIP]
    >
@@ -115,12 +115,12 @@ Ora che abbiamo i dati sulla posizione popolati in Campaign, possiamo usare i PO
 
    !["Push messaging 2 in ACS"](/help/assets/ACS_push2.png)
 
-7. Fai clic su **[!UICONTROL Confirm]**.
-8. Eseguite nuovamente il conteggio nella parte superiore per vedere il cambiamento delle dimensioni del pubblico.
+1. Fai clic su **[!UICONTROL Confirm]**.
+1. Eseguite nuovamente il conteggio nella parte superiore per vedere il cambiamento delle dimensioni del pubblico.
 
    Se non visualizzi l’aggiornamento del conteggio, potresti aver inserito un nome POI per il quale nessuna voce è stata attivata da un dispositivo. La presenza del gancio per la rete Slack diventa preziosa in questa situazione, perché potete vedere un elenco di voci POI da vari dispositivi di prova.
-9. Potete trascinare altri filtri di posizione POI per includere più POI nel messaggio.
-10. Fate clic **[!UICONTROL Next]** per completare la creazione della notifica push per la consegna.
+1. Potete trascinare altri filtri di posizione POI per includere più POI nel messaggio.
+1. Fate clic **[!UICONTROL Next]** per completare la creazione della notifica push per la consegna.
 
    !["Messaggi push 3 in ACS"](/help/assets/ACS_push3.html)
 
