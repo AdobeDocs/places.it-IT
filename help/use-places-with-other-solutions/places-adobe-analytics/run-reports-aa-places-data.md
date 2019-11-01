@@ -4,7 +4,7 @@ seo-title: Eseguire rapporti in Adobe Analytics che includono i dati Luoghi
 description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
 seo-description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
 translation-type: tm+mt
-source-git-commit: 7ca51580a4cfa9c00431ad3972bd10e2a12dfbd1
+source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 ---
 
@@ -31,11 +31,11 @@ Dopo che Places invia gli eventi di entrata e uscita, puoi creare regole in Expe
 
    In questo esempio, la regola viene denominata **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
 
-2. Nella **[!UICONTROL Events]** sezione fare clic su **[!UICONTROL Add]**.
+1. Nella **[!UICONTROL Events]** sezione fare clic su **[!UICONTROL Add]**.
 
-3. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
+1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
 
-4. Dall’elenco a **[!UICONTROL Event Type]** discesa, selezionate **[!UICONTROL Track Action]**.
+1. Dall’elenco a **[!UICONTROL Event Type]** discesa, selezionate **[!UICONTROL Track Action]**.
 
 Ora puoi determinare quali attivatori includere per questa regola. In questo esempio, il trigger è basato su tutte le `TrackAction` chiamate. Dopo aver configurato l’evento, fate clic su **[!UICONTROL Keep Changes]**.
 
@@ -52,13 +52,13 @@ In questo esempio, viene creata una condizione che determina l'attivazione della
 
 1. Nella **[!UICONTROL Conditions]** sezione fare clic su **[!UICONTROL Add]**.
 
-2. Dall'elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTORL Mobile Core]**.
+1. Dall'elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTORL Mobile Core]**.
 
-3. Dall’elenco a **[!UICONTROL Condition Type]** discesa, selezionate **[!UICONTROL Carrier Name]**.
+1. Dall’elenco a **[!UICONTROL Condition Type]** discesa, selezionate **[!UICONTROL Carrier Name]**.
 
-4. Nella finestra a destra, selezionate la **[!UICONTROL AT&T]** casella di controllo.
+1. Nella finestra a destra, selezionate la **[!UICONTROL AT&T]** casella di controllo.
 
-5. Fai clic su **[!UICONTROL Keep Changes]**.
+1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 !["create una condizione"](/help/assets/pt-setCondition.png)
 
@@ -66,13 +66,13 @@ In questo esempio, viene creata una condizione che determina l'attivazione della
 
 1. Nella **[!UICONTROL Actions]** sezione fare clic su **[!UICONTROL Add]**.
 
-2. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
+1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
 
-3. Dall’elenco a **[!UICONTROL Action Type]** discesa, selezionate **[!UICONTROL Attach Data]**.
+1. Dall’elenco a **[!UICONTROL Action Type]** discesa, selezionate **[!UICONTROL Attach Data]**.
 
-4. Nel riquadro di destra, nel **[!UICONTROL JSON Payload]** campo, digitare i dati che verranno aggiunti a questo evento.
+1. Nel riquadro di destra, nel **[!UICONTROL JSON Payload]** campo, digitare i dati che verranno aggiunti a questo evento.
 
-5. Fai clic su **[!UICONTROL Keep Changes]**.
+1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 Nel riquadro a destra, puoi aggiungere un payload JSON a forma libera che aggiunge dati a un evento SDK prima che un'estensione in ascolto di questo evento possa sentire l'evento. In questo esempio, alcuni dati contestuali vengono aggiunti a questo evento prima che l'estensione Analytics lo elabori. I dati contestuali aggiunti ora si trovano nell'hit Analytics in uscita.
 
@@ -88,4 +88,4 @@ Dopo aver completato la configurazione, verifica che la regola abbia l'aspetto s
 
 1. Fai clic su **[!UICONTROL Save]**
 
-2. Generate di nuovo la proprietà Launch e distribuitela nell'ambiente corretto.
+1. Generate di nuovo la proprietà Launch e distribuitela nell'ambiente corretto.
