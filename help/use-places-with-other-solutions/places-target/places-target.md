@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
 seo-description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: d12dae0e30fab8639260c2c55accb4b79096382d
 
 ---
 
@@ -58,7 +58,7 @@ Nell'esempio seguente, viene creata una condizione che determina l'attivazione d
 
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
-![aggiungere un evento](/help/assets/ad-setCondition_target.png)
+![aggiungere una condizione](/help/assets/ad-setCondition_target.png)
 
 ## 4. Definire l'azione
 
@@ -82,7 +82,7 @@ Nell'esempio seguente, `poiCity` e `poiName` i valori vengono aggiunti alla **[!
 >
 >La notazione di `request[*]` può essere letta a voce alta come _per ogni oggetto dell'`request`array_.
 
-![aggiungere un evento](/help/assets/ad-setAction_target.png)
+![definire l'azione](/help/assets/ad-setAction_target.png)
 
 ## 5. Salvate la regola e ricreate la proprietà
 
