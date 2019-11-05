@@ -4,7 +4,7 @@ seo-title: Eseguire rapporti in Adobe Analytics che includono i dati Luoghi
 description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
 seo-description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -39,7 +39,7 @@ Dopo che Places invia gli eventi di entrata e uscita, puoi creare regole in Expe
 
 Ora puoi determinare quali attivatori includere per questa regola. In questo esempio, il trigger è basato su tutte le `TrackAction` chiamate. Dopo aver configurato l’evento, fate clic su **[!UICONTROL Keep Changes]**.
 
-!["create a event"](/help/assets/pt-selectEvent.png)
+!["create a event"](/help/assets/ad-setEvent_use-analytics-data.png)
 
 
 ## 3. Aggiungi condizioni
@@ -60,7 +60,7 @@ In questo esempio, viene creata una condizione che determina l'attivazione della
 
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
-!["create una condizione"](/help/assets/pt-setCondition.png)
+!["create una condizione"](/help/assets/ad-setCondition_use-analytics-data.png)
 
 ## 4. Definire l'azione
 
@@ -78,13 +78,13 @@ Nel riquadro a destra, puoi aggiungere un payload JSON a forma libera che aggiun
 
 Nell'esempio seguente, `poi.city` e `poi.name` i valori vengono aggiunti ai dati contestuali dell'evento Analytics. I valori delle nuove chiavi sono determinati dinamicamente dall'SDK quando questo evento viene elaborato.
 
-!["create un'azione"](/help/assets/pt-setAction.png)
+!["create un'azione"](/help/assets/ad-setAction_use-analytics-data.png)
 
 ## 5. Salvare la regola e ricreare la proprietà
 
 Dopo aver completato la configurazione, verifica che la regola abbia l'aspetto seguente:
 
-!["la regola è completa."](/help/assets/pt-ruleComplete.png)
+!["la regola è completa."](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
 1. Fai clic su **[!UICONTROL Save]**
 
