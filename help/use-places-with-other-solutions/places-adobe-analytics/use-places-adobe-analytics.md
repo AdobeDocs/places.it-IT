@@ -2,9 +2,9 @@
 title: Invia dati Luoghi ad Adobe Analytics
 seo-title: Invia dati Luoghi ad Adobe Analytics
 description: Questa sezione fornisce informazioni su come inviare i dati Luoghi ad Analytics.
-seo-description: 'Questa sezione fornisce informazioni su come inviare i dati Luoghi ad Analytics. '
+seo-description: Questa sezione fornisce informazioni su come inviare i dati Luoghi ad Analytics.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -41,7 +41,7 @@ Dopo che Places invia gli eventi di entrata e uscita, puoi creare delle regole i
 
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
-   !["select a event"](/help/assets/ad-setEvent_use-analytics-data.png)
+   !["select a event"](/help/assets/pt-selectEvent.png)
 
 
 ## 3. Aggiungi condizioni
@@ -62,7 +62,7 @@ In questo esempio, viene creata una condizione che determina l’attivazione del
 
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
-   !["imposta una condizione"](/help/assets/ad-setCondition_use-analytics-data.png)
+   !["imposta una condizione"](/help/assets/pt-setCondition.png)
 
 
 ## 4. Definire l'azione
@@ -81,15 +81,14 @@ In questo esempio, viene creata una condizione che determina l’attivazione del
 
    Nell’esempio seguente, una `TrackAction` chiamata viene inviata ad Analytics con dati di contesto aggiuntivi `poi.name` uguali al nome del POI che ha attivato questo evento di voce:
 
-   !["imposta un'azione"](/help/assets/ad-setAction_use-analytics-data.png)
+   !["imposta un'azione"](/help/assets/pt-setAction.png)
 
 ## 5. Salvare la regola e ricreare la proprietà
 
 Dopo aver completato la configurazione, verifica che la regola abbia l'aspetto seguente:
 
-!["rule is created"](/help/assets/ad-ruleComplete_use-analytics-data.png)
+!["rule is created"](/help/assets/pt-ruleComplete.png)
 
 1. Fai clic su **[!UICONTROL Save]**
 
 1. Generate di nuovo la proprietà Launch e distribuitela nell'ambiente corretto.
-
