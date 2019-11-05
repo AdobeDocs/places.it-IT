@@ -2,9 +2,9 @@
 title: Adobe Target
 seo-title: Adobe Target
 description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
-seo-description: 'Questa sezione fornisce informazioni sull''utilizzo di Location Service con Adobe Target. '
+seo-description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
 
 ---
 
@@ -54,7 +54,7 @@ Nell'esempio seguente, viene creata una condizione che determina l'attivazione d
 
 1. Dall’elenco a **[!UICONTROL Condition Type]** discesa, selezionate **[!UICONTROL Launches]**.
 
-1. Nel riquadro a destra, modificate l'elenco a discesa e i controlli numerici in modo che la condizione **[!UICONTROL User ha avviato l'app più o meno 5 volte**.
+1. Nel riquadro di destra, modificare l'elenco a discesa e i controlli numerici in modo che la condizione sia letta **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
 
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
@@ -76,11 +76,11 @@ Nel riquadro a destra, puoi aggiungere un payload JSON a forma libera che aggiun
 
 Nell'esempio seguente, `poiCity` e `poiName` i valori vengono aggiunti alla **[!UICONTROL mboxparameters]** per ogni richiesta elaborata nell'evento Target. I valori delle nuove chiavi sono determinati dinamicamente dall'SDK al momento dell'elaborazione dell'evento.
 
->[!TIP
->]
+>[!TIP]
+>
 >Questo payload JSON utilizza una notazione speciale per l' `request` oggetto. Nell'evento originale, `request` è un array di oggetti anonimi. Quando si associano dati a tutti gli oggetti di una matrice utilizzando l'opzione Allega dati, la `[*]` notazione di una chiave che contiene una matrice determina l'applicazione del payload a tutti gli oggetti della matrice.
 >
->La notazione di `request[*]` può essere letta a voce alta come _per ogni oggetto dell' `request` array.
+>La notazione di `request[*]` può essere letta a voce alta come _per ogni oggetto dell'`request`array_.
 
 ![aggiungere un evento](/help/assets/ad-setAction_target.png)
 
