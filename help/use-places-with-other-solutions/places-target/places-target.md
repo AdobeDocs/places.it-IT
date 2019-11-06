@@ -4,7 +4,7 @@ seo-title: Adobe Target
 description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
 seo-description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
 translation-type: tm+mt
-source-git-commit: d12dae0e30fab8639260c2c55accb4b79096382d
+source-git-commit: 2169bcdc5957c2542dd11875223ea96c3d10b0bc
 
 ---
 
@@ -88,7 +88,7 @@ Nell'esempio seguente, `poiCity` e `poiName` i valori vengono aggiunti alla **[!
 
 Dopo aver completato la configurazione, verifica che la regola abbia l'aspetto seguente:
 
-![regola completata](/help/assets/ad-ruleComplete_target.png)
+![regola completata](/help/assets/ad-ruleComplete-target.png)
 
 1. Fai clic su **[!UICONTROL Save]**
 
