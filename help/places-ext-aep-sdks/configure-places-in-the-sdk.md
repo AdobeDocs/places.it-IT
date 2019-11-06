@@ -4,14 +4,14 @@ seo-title: Configurare l’SDK con l’estensione Luoghi
 description: 'Puoi configurare l’SDK con l’estensione Luoghi per abilitare la localizzazione nell’app mobile. '
 seo-description: 'Puoi configurare l’SDK con l’estensione Luoghi per abilitare la localizzazione nell’app mobile. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 61256ee0f01775bf09a3aee06b6e7253527fc383
 
 ---
 
 
 # Configurare l’SDK con l’estensione Luoghi {#configure-sdk-places-extension}
 
-Per abilitare la localizzazione nell’app mobile, configura l’SDK con le estensioni Luoghi e, facoltativamente, con l’estensione Monitoraggio luoghi. Per ulteriori informazioni, inclusa la configurazione dell’SDK, vedi [Estensione]Luoghi (Beta) (sdk/places-extension/places-extension.md).
+Per abilitare la localizzazione nell’app mobile, configura l’SDK con le estensioni Luoghi e, facoltativamente, con l’estensione di monitoraggio dei Luoghi. For more information including SDK configuration, see [Places (Beta) extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 ## Configurazione dell’estensione Luoghi
 
