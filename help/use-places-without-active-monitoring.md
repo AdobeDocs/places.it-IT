@@ -1,10 +1,10 @@
 ---
-title: 'Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva '
-seo-title: 'Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva '
+title: Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva
+seo-title: Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva
 description: Questa sezione fornisce informazioni su come utilizzare Location ServicePlaces senza monitoraggio delle aree attive.
 seo-description: Questa sezione fornisce informazioni su come utilizzare Location Service senza il monitoraggio delle aree attive.
 translation-type: tm+mt
-source-git-commit: 84b23934a6e9f9fd61c068693bae3daca24de253
+source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
 
 ---
 
@@ -69,17 +69,18 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
         // ask the Places SDK for the 10 nearest Points of Interest based on the user's location
         Places.getNearbyPointsOfInterest(currentLocation, 10,
-                new AdobeCallback<List<PlacesPOI>>() {
-                    @Override
-                    public void call(List<PlacesPOI> pois) {
-                        // pois is the 10 nearest POIs based on the location
-                    }
-                }, new AdobeCallback<PlacesRequestError>() {
-                    @Override
-                    public void call(PlacesRequestError placesRequestError) {
-                        // Look for the placesRequestError and handle the error accordingly
-                    }
-                });
+            new AdobeCallback<List<PlacesPOI>>() {
+                @Override
+                public void call(List<PlacesPOI> pois) {
+                    // pois is the 10 nearest POIs based on the location
+                }
+            }, new AdobeCallback<PlacesRequestError>() {
+                @Override
+                public void call(PlacesRequestError placesRequestError) {
+                    // Look for the placesRequestError and handle the error accordingly
+                }
+            }
+        );
     }
 }
 ```
@@ -123,8 +124,8 @@ L’SDK restituisce un elenco di POI vicini, specificando se l’utente si trova
 >[!IMPORTANT]
 >
 >Per impedire che l'app attivi più eventi di partecipazione in una visita, tieni un elenco delle aree in cui sai che l'utente ha immesso. Quando elabora la risposta dei POI vicini dall’SDK, attiva un evento di voce solo quando la regione non è nell’elenco.
-
-Nel seguente esempio di codice, vengono utilizzati `NSUserDefaults` (iOS) e `SharedPreferences` (Android):
+>
+>Nell'esempio di codice seguente, `NSUserDefaults` (iOS) e `SharedPreferences` (Android) vengono utilizzati per gestire l'elenco di aree:
 
 ### Android
 
@@ -266,18 +267,19 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
         // ask the Places SDK for the 10 nearest Points of Interest based on the user's location
         Places.getNearbyPointsOfInterest(currentLocation, 10,
-                new AdobeCallback<List<PlacesPOI>>() {
-                    @Override
-                    public void call(List<PlacesPOI> pois) {
-                        // pois is the 10 nearest POIs based on the location
-                        handleUpdatedPOIs(pois);
-                    }
-                }, new AdobeCallback<PlacesRequestError>() {
-                    @Override
-                    public void call(PlacesRequestError placesRequestError) {
-                        // Look for the placesRequestError and handle the error accordingly
-                    }
-                });
+            new AdobeCallback<List<PlacesPOI>>() {
+                @Override
+                public void call(List<PlacesPOI> pois) {
+                    // pois is the 10 nearest POIs based on the location
+                    handleUpdatedPOIs(pois);
+                }
+            }, new AdobeCallback<PlacesRequestError>() {
+                @Override
+                public void call(PlacesRequestError placesRequestError) {
+                    // Look for the placesRequestError and handle the error accordingly
+                }
+            }
+        );
     }
 
     void handleUpdatedPOIs(final List<PlacesPOI> nearbyPois) {
