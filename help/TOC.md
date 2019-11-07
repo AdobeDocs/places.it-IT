@@ -1,9 +1,9 @@
 ---
 product: Adobe Experience Platform Location Service
-audience: utente finale
+audience: end-user
 user-guide-title: Adobe Experience Platform Location Service
 translation-type: tm+mt
-source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
+source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
 
 ---
 
@@ -64,8 +64,8 @@ source-git-commit: 95c29df19f61e7854e39b47e39471f7f1e94b736
    + [Creare regole di entrata e uscita](use-places-launch-workflow/create-rule-places-property.md)
 + Utilizzo del servizio di localizzazione con altre soluzioni Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
-      + [Invia dati del servizio di localizzazione ad Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
-      + [Eseguire rapporti in Adobe Analytics che includono i dati del servizio di localizzazione](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+      + [Inviare dati di entrata e uscita POI ad Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
+      + [Aggiunta di un contesto di posizione alle richieste di Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
    + Adobe Mobile Services {#places-mobile-svcs-messaging}
       + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [Notifiche push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
