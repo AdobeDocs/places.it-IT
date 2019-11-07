@@ -2,9 +2,9 @@
 title: Utilizzo dell’estensione Monitor luoghi
 seo-title: Utilizzo dell’estensione Monitor luoghi
 description: Informazioni su come installare, configurare e utilizzare l’estensione Places Monitor.
-seo-description: 'Informazioni su come installare, configurare e utilizzare l’estensione Places Monitor. '
+seo-description: Informazioni su come installare, configurare e utilizzare l’estensione Places Monitor.
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
 
 ---
 
@@ -15,7 +15,7 @@ Per utilizzare l'estensione Luoghi monitor, completare le seguenti operazioni:
 
 ## Installare l’estensione Places Monitor in Experience Platform Launch
 
-1. In Experience Platform Launch, fai clic sulla **[!UICONTROL Extensions]** scheda.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. Nella **[!UICONTROL Catalog]** scheda, individuate l’ **[!UICONTROL Places Monitor]** estensione e fate clic su **Installa**.
 1. Fai clic su **[!UICONTROL Save]**.
 1. Segui il processo di pubblicazione per aggiornare la configurazione SDK.
@@ -107,7 +107,9 @@ public class MobileApp extends Application {
 }
 ```
 
-**** Importante:Il monitoraggio dei luoghi dipende dall'estensione Luoghi. Quando installate manualmente l’estensione Places Monitor, accertatevi di aggiungere anche la `places.aar` libreria al progetto.
+>[!IMPORTANT]
+>
+>Il monitoraggio dei luoghi dipende dall'estensione Luoghi. Quando installi manualmente l’estensione Monitor Luoghi, accertati di aggiungere anche la libreria `places.aar` al progetto.
 
 ## iOS
 
@@ -125,7 +127,7 @@ Nell'app iOS`application:didFinishLaunchingWithOptions`, registrati `PlacesMonit
         [ACPPlacesMonitor start];
     }];
 
-    return YES; 
+    return YES;
 }
 ```
 
@@ -140,7 +142,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
         // do other initialization required for the SDK
         ACPPlacesMonitor.start()
     })
-    
+
     // Override point for customization after application launch.        
     return true
 }
@@ -148,7 +150,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 >[!IMPORTANT]
 >
->Il monitoraggio dei luoghi dipende dall'estensione Luoghi. Quando installate manualmente l’estensione Places Monitor, accertatevi di aggiungere anche la `libACPPlaces_iOS.a` libreria al progetto.
+>Il monitoraggio dei luoghi dipende dall'estensione Luoghi. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
 
 
 ## Aggiungere autorizzazioni al manifesto
@@ -163,7 +165,7 @@ Per tutte le versioni di Android, per dichiarare che la tua app richiede l'autor
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adobe.placesapp">
   <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     // Only for Android apps targeting API level 29 and above
-  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" /> 
+  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
   <application>        
     ...    
   </application>
@@ -189,4 +191,3 @@ Nel `Info.plist` file dell'app devono essere incluse le seguenti chiavi:
 >Se l'app supporta iOS 10 e versioni precedenti, è necessaria anche la `NSLocationAlwaysUsageDescription` chiave.
 
 ![](/help/assets/using-the-places-monitor_2.png)
-
