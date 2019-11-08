@@ -1,15 +1,15 @@
 ---
-title: Invia dati Luoghi ad Adobe Analytics
-seo-title: Invia dati Luoghi ad Adobe Analytics
-description: Questa sezione fornisce informazioni su come inviare i dati Luoghi ad Analytics.
-seo-description: Questa sezione fornisce informazioni su come inviare i dati Luoghi ad Analytics.
+title: Inviare dati di entrata e uscita POI ad Analytics
+seo-title: Inviare dati di entrata e uscita POI ad Analytics
+description: Questa sezione fornisce informazioni su come inviare i dati di entrata e uscita dal POI ad Analytics.
+seo-description: Questa sezione fornisce informazioni su come inviare i dati di entrata e uscita dal POI ad Analytics.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
 
-# Invia dati Luoghi ad Adobe Analytics {#places-data-analytics}
+# Inviare dati di entrata e uscita POI ad Analytics {#places-data-analytics}
 
 
 >[!IMPORTANT]
