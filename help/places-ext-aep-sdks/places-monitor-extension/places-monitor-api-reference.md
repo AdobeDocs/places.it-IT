@@ -1,10 +1,10 @@
 ---
 title: Riferimento API di Monitoraggio luoghi
 seo-title: Riferimento API di Monitoraggio luoghi
-description: 'Un elenco delle API per il Monitor posizioni. '
+description: Un elenco delle API per il Monitor posizioni.
 seo-description: 'Un elenco delle API per il Monitor posizioni.  '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
@@ -313,7 +313,7 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW
 
 Questa API imposta il tipo di richiesta di autorizzazione di posizione per il quale verrà richiesto all'utente.
 
-Per impostare la richiesta di autorizzazione appropriata da visualizzare all'utente, chiamate `SetRequestAuthorizationLevel` prima di chiamare `[ACPPlacesMonitor start]`. Per impostare il prompt di autorizzazione appropriato da mostrare all'utente, chiamate questa API prima del `[ACPPlacesMonitor start]`. Se si richiama questo metodo durante il monitoraggio attivo, il livello di autorizzazione della posizione verrà aggiornato al valore di autorizzazione richiesto. Se il livello di autorizzazione richiesto è già fornito o rifiutato dall'utente dell'applicazione o se esiste un downgrade dell'autorizzazione da `ACPPlacesRequestAuthorizationLevelAlways` a `ACPPlacesRequestAuthorizationLevelWhenInUse` autorizzazione, questo metodo non ha effetto.
+Per impostare il prompt di autorizzazione appropriato da visualizzare all'utente, chiamate `SetRequestAuthorizationLevel` prima di chiamare `[ACPPlacesMonitor start]`. Per impostare il prompt di autorizzazione appropriato da mostrare all'utente, chiamate questa API prima del `[ACPPlacesMonitor start]`. Se si richiama questo metodo durante il monitoraggio attivo, il livello di autorizzazione della posizione verrà aggiornato al valore di autorizzazione richiesto. Se il livello di autorizzazione richiesto è già fornito o rifiutato dall'utente dell'applicazione o se esiste un downgrade dell'autorizzazione da `ACPPlacesRequestAuthorizationLevelAlways` a `ACPPlacesRequestAuthorizationLevelWhenInUse` autorizzazione, questo metodo non ha effetto.
 
 Il livello di autorizzazione può essere impostato su uno dei seguenti valori:
 
@@ -323,7 +323,7 @@ Il livello di autorizzazione può essere impostato su uno dei seguenti valori:
 
 * `ACPPlacesRequestMonitorAuthorizationLevelAlways`
 
-   Utilizzate questo enum per richiedere servizi di localizzazione anche quando l'app è in background. Devi avere le chiavi `NSLocationAlwaysUsageDescription` e nella `NSLocationWhenInUseUsageDescription` lista Info.plist dell'app. Queste chiavi definiscono il testo che verrà visualizzato durante il prompt dell'utente. Per ulteriori informazioni, consultate la documentazione [Apple su requestalwayspermissions](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
+   Utilizzate questo enum per richiedere servizi di localizzazione anche quando l'app è in background. Devi avere le chiavi `NSLocationAlwaysUsageDescription` e nella `NSLocationWhenInUseUsageDescription` lista Info.plist dell'app. Queste chiavi definiscono il testo che verrà visualizzato durante il prompt dell'utente. Per ulteriori informazioni, consulta la documentazione [Apple su requestAlwaysAuthorization](https://developer.apple.com/documentation/corelocation/cllocationmanager/1620551-requestalwaysauthorization).
 
 `ACPPlacesRequestAuthorizationLevelAlways` è il valore predefinito di autorizzazione della richiesta.
 
@@ -336,7 +336,7 @@ Di seguito sono riportati la sintassi e il codice di esempio per questa API:
 #### Sintassi
 
 ```objective-c
-+ (void) setRequestAuthorizationLevel: (ACPPlacesRequestAuthorizationLevel) requestAuthorizationLevel
++ (void) setRequestAuthorizationLevel: (ACPPlacesRequestAuthorizationLevel) requestAuthorizationLevel;
 ```
 
 #### Esempio
@@ -354,7 +354,7 @@ Per eseguire l'aggiornamento all' `ACPPlacesRequestAuthorizationLevelAlways` aut
 
 ```objective-c
 // set the request authorization level
-[ACPPlacesMonitor setRequestAuthorizationLevel: ACPPlacesRequestAuthorizationLevelAlways]
+[ACPPlacesMonitor setRequestAuthorizationLevel: ACPPlacesRequestAuthorizationLevelAlways];
 ```
 
 ## Modalità di monitoraggio (solo iOS)
