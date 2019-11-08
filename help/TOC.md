@@ -3,7 +3,7 @@ product: Adobe Experience Platform Location Service
 audience: end-user
 user-guide-title: Adobe Experience Platform Location Service
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
@@ -66,6 +66,7 @@ source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
    + Adobe Analytics {#places-adobe-analytics}
       + [Inviare dati di entrata e uscita POI ad Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
       + [Aggiunta di un contesto di posizione alle richieste di Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+      + [Report sui dati sulla posizione in Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
    + Adobe Mobile Services {#places-mobile-svcs-messaging}
       + [Adobe Mobile Services](use-places-with-other-solutions/places-mobile-svcs-for-messaging/use-places-mobie-svcs-messaging.md)
       + [Notifiche push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
