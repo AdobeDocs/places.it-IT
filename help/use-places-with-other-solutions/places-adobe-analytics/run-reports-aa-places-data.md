@@ -1,15 +1,15 @@
 ---
-title: Eseguire rapporti in Adobe Analytics che includono i dati Luoghi
-seo-title: Eseguire rapporti in Adobe Analytics che includono i dati Luoghi
-description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
-seo-description: Questa sezione fornisce informazioni su come eseguire i report in Analytics che includono i dati Luoghi.
+title: Aggiunta di un contesto di posizione alle richieste di Analytics
+seo-title: Aggiunta di un contesto di posizione alle richieste di Analytics
+description: Questa sezione fornisce informazioni su come aggiungere il contesto della posizione alle richieste di Analytics.
+seo-description: Questa sezione fornisce informazioni su come aggiungere il contesto della posizione alle richieste di Analytics.
 translation-type: tm+mt
-source-git-commit: 95dd010db8a860ebf489d04c7a70ec9cda8b3fb1
+source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
 
 ---
 
 
-# Eseguire rapporti in Adobe Analytics che includono i dati Luoghi {#run-reports-aa-locserv-data}
+# Aggiunta di un contesto di posizione alle richieste di Analytics {#run-reports-aa-locserv-data}
 
 >[!IMPORTANT]
 >
