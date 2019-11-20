@@ -4,7 +4,7 @@ seo-title: POI di caricamento in blocco
 description: Questa sezione fornisce informazioni su come caricare in massa i POI.
 seo-description: Questa sezione fornisce informazioni su come caricare in massa i POI.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: 3e2bf2ce011f9770209af08bd0abf0b16f84fbc0
 
 ---
 
@@ -45,7 +45,7 @@ Elenco delle colonne e dei valori da utilizzare:
 
 * `radius`
 
-   Un valore compreso tra 10 e 2000.
+   Un valore compreso tra 10 e 20.000.
 
 ### Valori colonna
 
@@ -91,7 +91,7 @@ I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente del
    * `api_key`
 
       Si tratta della chiave API REST di Places ottenuta dall'integrazione Adobe I/O Places. Per informazioni su come ottenere la chiave API, consultate *Prerequisiti per l'accesso* utente in Panoramica dell' [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
-   b.Salvare le modifiche.
+   b. Salvare le modifiche.
 
 1. In una finestra terminale, andate alla `…/places-scripts/import/` directory.
 1. Inserite `python ./places_import.py` e premete il **[!UICONTROL enter]** (**[!UICONTROL return]**) tasto.
