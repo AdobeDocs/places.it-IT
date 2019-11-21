@@ -4,12 +4,12 @@ seo-title: Gestire i POI esistenti
 description: Nell’interfaccia utente del servizio di localizzazione potete modificare, eliminare o filtrare i POI esistenti.
 seo-description: Nell’interfaccia utente del servizio di localizzazione potete modificare, eliminare o filtrare i POI esistenti.
 translation-type: tm+mt
-source-git-commit: 32c670773421406591ba85a628760553ce6ad840
+source-git-commit: 8d6b796326c5fbb3f2af996766fc9c05046ec653
 
 ---
 
 
-# Gestire i POI esistenti
+# Gestire i POI esistenti {#managing-existing-pois}
 
 I POI e le librerie vengono creati e gestiti nel database Luoghi utilizzando l’interfaccia utente Luoghi.
 
