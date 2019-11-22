@@ -4,12 +4,21 @@ seo-title: Note sulla versione
 description: Note sulla versione di Adobe Experience Platform Location Service.
 seo-description: Note sulla versione di Adobe Experience Platform Location Service.
 translation-type: tm+mt
-source-git-commit: a5e5d5792d1a0368936f5f54e86a7ce9726a9122
+source-git-commit: 7fd44ab0135ec77f4b235cc65b943b40d535717c
 
 ---
 
 
 # Note sulla versione {#release-notes}
+
+## 22 novembre 2019
+
+* **LuoghiMonitor 2.1.1**
+
+   * **Android**
+
+      * Il monitor ora riconosce l'avvio di un dispositivo Android e, se necessario, registra nuovamente le aree geografiche con il sistema operativo in base alla posizione corrente del dispositivo.
+      * È stata risolta una condizione di gara che talvolta causava l'eliminazione degli eventi di entrata/uscita.
 
 ## 9 ottobre 2019
 
@@ -210,7 +219,7 @@ Nell'estensione Luoghi:
 * Eventi regola che si attivano all’entrata o all’uscita del POI.
 * Crea elementi dati che puntano al POI corrente dell’utente.
 
-Per ulteriori informazioni sull'estensione Luoghi, vedere Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
+For more information about the Places extension, see [Places extension](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 #### API Places
 
