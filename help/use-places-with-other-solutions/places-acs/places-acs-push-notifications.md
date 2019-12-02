@@ -4,16 +4,16 @@ seo-title: Notifiche push
 description: Questa sezione fornisce informazioni sull'utilizzo di Luoghi con notifiche push in Campaign Standard.
 seo-description: 'Questa sezione fornisce informazioni sull''utilizzo di Luoghi con notifiche push in Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Notifiche push con il servizio di localizzazione della piattaforma Experience {#push-notifications}
+# Notifiche push con il servizio di localizzazione {#push-notifications}
 
 In questa guida verrà illustrato come utilizzare le informazioni di geolocalizzazione storiche per eseguire il targeting delle notifiche push distribuite tramite Adobe Campaign Standard.
 
-## Prerequisiti
+## Prerequisiti 
 
 Prima di iniziare, effettuate le seguenti operazioni:
 
@@ -42,7 +42,7 @@ Per creare un elemento dati:
 
    !["Messaggi push in Campaign Standard"](/help/assets/ACS_Push1.png)
 
-1. Ripetete i passaggi da 1 a 4 e create gli elementi di dati per l’ *ultima latitudine* POI inserita, l’ *ultima longitudine* POI inserita e l’ *ultimo raggio* POI inserito.
+1. Repeat the steps 1-4 above and create data elements for *Last Entered POI Latitude*, *Last Entered POI Longitude*, and *Last Entered POI Radius*.
 
 Oltre agli elementi di dati per il servizio Location, accertati di creare elementi di dati Mobile Core per l'ID ** app e l'ID ** Experience Cloud.
 
@@ -120,7 +120,7 @@ Ora che abbiamo i dati sulla posizione popolati in Campaign, possiamo usare i PO
 
    Se non visualizzi l’aggiornamento del conteggio, potresti aver inserito un nome POI per il quale nessuna voce è stata attivata da un dispositivo. La presenza del gancio per la rete Slack diventa preziosa in questa situazione, perché potete vedere un elenco di voci POI da vari dispositivi di prova.
 1. Potete trascinare altri filtri di posizione POI per includere più POI nel messaggio.
-1. Fate clic **[!UICONTROL Next]** per completare la creazione della notifica push per la consegna.
+1. Click **[!UICONTROL Next]** to finish creating the push notification for delivery.
 
    !["Messaggi push 3 in ACS"](/help/assets/ACS_push3.html)
 
