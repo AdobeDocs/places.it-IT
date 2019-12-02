@@ -4,12 +4,12 @@ seo-title: Adobe Target
 description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
 seo-description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
 translation-type: tm+mt
-source-git-commit: 27f4e5397caf14e24bcbc4a2d276647e72a6d115
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Adobe Target {#places-target}
+# Utilizzo di Location Service con Adobe Target {#places-target}
 
 In questo documento si presuppone che l'estensione Luoghi sia stata implementata nell'applicazione. Per assistenza nell'implementazione dell'estensione Luoghi, vedere Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
