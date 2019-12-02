@@ -4,16 +4,16 @@ seo-title: Report sui dati sulla posizione in Analytics Workspace
 description: Questa sezione fornisce informazioni su come creare rapporti sui dati sulla posizione in Analytics Workspace.
 seo-description: Questa sezione fornisce informazioni su come creare rapporti sui dati sulla posizione in Analytics Workspace.
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
 
 ---
 
 
-# Report sui dati sulla posizione in Analytics Workspace {#places-in-workspace}
+# Report sui dati sulla posizione nell'area di lavoro di Analytics {#places-in-workspace}
 
-Questo documento mostra un esempio di come creare rapporti sui dati della posizione in Analytics Workspace. Ogni passaggio conterrà un riepilogo di alto livello, con i dettagli forniti facendo riferimento ad altre pagine della documentazione.
+Questo documento mostra un esempio di come creare rapporti sui dati della posizione nell’area di lavoro di Analytics. Ogni passaggio conterrà un riepilogo di alto livello con i dettagli forniti facendo riferimento ad altre pagine della documentazione.
 
-## Prerequisiti
+## Prerequisiti 
 
 Questo documento prevede quanto segue:
 
