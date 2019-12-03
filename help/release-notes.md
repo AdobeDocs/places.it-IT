@@ -4,12 +4,20 @@ seo-title: Note sulla versione
 description: Note sulla versione di Adobe Experience Platform Location Service.
 seo-description: Note sulla versione di Adobe Experience Platform Location Service.
 translation-type: tm+mt
-source-git-commit: 7fd44ab0135ec77f4b235cc65b943b40d535717c
+source-git-commit: ef129b7b168444edaf58ef55331efdf2f55a993f
 
 ---
 
 
 # Note sulla versione {#release-notes}
+
+## 3 dicembre 2019
+
+* **ACPPlaces 1.3.0**
+
+   * **iOS**
+
+      * È stata aggiunta una nuova API `setAuthorizationStatus`per impostare lo stato di autorizzazione del dispositivo per i servizi di posizione. Il valore viene memorizzato e utilizzato nello stato Condiviso Luoghi.
 
 ## 22 novembre 2019
 
@@ -223,13 +231,13 @@ For more information about the Places extension, see [Places extension](/help/pl
 
 #### API Places
 
-Puoi utilizzare le API Places per effettuare le seguenti operazioni:
+Potete utilizzare le API Places per effettuare le seguenti operazioni:
 
 * Consente agli sviluppatori di compilare e aggiornare l’elenco dei punti di interesse.
 * Create una vostra interfaccia utente o integrate con un database POI esistente.
 * Utilizzate gli endpoint batch API Places per effettuare un’importazione in massa di POI.
 
-   Viene fornita un'utility python con le API.
+   È possibile utilizzare l'utility Python fornita per completare l'importazione in massa.
 
 Per ulteriori informazioni sulle API Places, vedi API [del servizio](/help/web-service-api/places-web-services.md)Web.
 
@@ -238,4 +246,3 @@ Per ulteriori informazioni sulle API Places, vedi API [del servizio](/help/web-s
 #### Integrazione di Analytics
 
 L'estensione Analytics viene aggiornata per aggiungere automaticamente i dati contestuali della posizione dal database Luoghi a tutte le chiamate Analytics in uscita quando un utente si trova all'interno di un POI (chiamate passive). Questo aggiornamento consentirà anche di creare regole per attivare le chiamate di tracciamento di Analytics direttamente alla voce POI o alla uscita (chiamate attive).
-
