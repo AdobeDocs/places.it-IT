@@ -4,7 +4,7 @@ seo-title: Riferimento API Places
 description: Informazioni sui riferimenti API in Places.
 seo-description: Informazioni sui riferimenti API in Places.
 translation-type: tm+mt
-source-git-commit: 5d4974a341f6d0009ad93a9eea2f940ac9d8e871
+source-git-commit: 379278f7677d7d3cdc697d78c54693d0a3c62e02
 
 ---
 
@@ -357,7 +357,7 @@ Disponibile a breve
 
 ### setAuthorizationStatus (iOS)
 
-*[Disponibile a partire da ACPPlaces v1.3.0]*
+*Disponibile a partire da ACPPlaces v1.3.0*
 
 Imposta lo stato dell'autorizzazione nell'estensione Luoghi.
 
