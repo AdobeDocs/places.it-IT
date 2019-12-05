@@ -1,10 +1,8 @@
 ---
 title: Estensione Luoghi monitor
-seo-title: Estensione Luoghi monitor
 description: L’estensione Places Monitor gestisce le interazioni con il sistema operativo per registrare e monitorare i POI più vicini all’utente.
-seo-description: 'L’estensione Places Monitor gestisce le interazioni con il sistema operativo per registrare e monitorare i POI più vicini all’utente. '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
