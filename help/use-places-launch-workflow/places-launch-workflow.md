@@ -1,10 +1,8 @@
 ---
 title: Utilizzo di Location Service come parte del flusso di lavoro Launch della piattaforma Experience
-seo-title: Utilizzo di Location Service come parte del flusso di lavoro Launch della piattaforma Experience
 description: Questa sezione fornisce informazioni su come definire gli elementi di dati e creare regole di entrata e uscita in Experience Platform Launch che possono essere utilizzate con Location Service.
-seo-description: Questa sezione fornisce informazioni su come definire gli elementi di dati e creare regole di entrata e uscita in Experience Platform Launch che possono essere utilizzate con Location Service
 translation-type: tm+mt
-source-git-commit: 02616ae6fe046fb6f4905283734f72d670b72ec0
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
