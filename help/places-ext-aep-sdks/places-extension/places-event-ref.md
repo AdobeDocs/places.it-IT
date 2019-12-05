@@ -1,10 +1,8 @@
 ---
 title: Riferimento evento Luoghi
-seo-title: Riferimento evento Luoghi
 description: 'Un elenco degli eventi gestiti dall''estensione Luoghi. '
-seo-description: 'Un elenco degli eventi gestiti dall''estensione Luoghi.  '
 translation-type: tm+mt
-source-git-commit: ef720c112bc0de386e070094629c5bab69938e76
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -45,7 +43,7 @@ Questo evento è una richiesta per ottenere i POI vicini tenendo conto della pos
 
 | Chiave | Tipo di valore | Obbligatorio | Valore predefinito | Descrizione |
 | :--- | :--- | :--- | :--- | :--- |
-| latitudine | double | true | n/d | Contiene il valore di latitudine per il centro della ricerca di POI vicini. |
+|  latitudine | double | true | n/d | Contiene il valore di latitudine per il centro della ricerca di POI vicini. |
 | longitudine | double | true | n/d | Contiene il valore di longitudine per il centro della ricerca di POI vicini. |
 | radius | integer | false | n/d | Raggio, in metri, utilizzato dalla ricerca di POI vicini. |
 | count | integer | false | 10 | Numero massimo di POI da restituire nell’evento di risposta risultante. |
