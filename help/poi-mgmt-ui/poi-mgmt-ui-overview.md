@@ -1,10 +1,8 @@
 ---
 title: Panoramica dell’interfaccia di gestione dei punti di interesse
-seo-title: Panoramica dell’interfaccia di gestione dei punti di interesse
 description: Questa sezione fornisce informazioni su come creare e gestire librerie e POI tramite l’interfaccia utente del servizio di localizzazione.
-seo-description: Questa sezione fornisce informazioni su come creare e gestire librerie e POI tramite l’interfaccia utente del servizio di localizzazione.
 translation-type: tm+mt
-source-git-commit: 8d6b796326c5fbb3f2af996766fc9c05046ec653
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
