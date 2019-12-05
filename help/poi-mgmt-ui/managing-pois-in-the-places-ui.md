@@ -1,10 +1,8 @@
 ---
 title: Gestire i POI esistenti
-seo-title: Gestire i POI esistenti
 description: Nell’interfaccia utente del servizio di localizzazione potete modificare, eliminare o filtrare i POI esistenti.
-seo-description: Nell’interfaccia utente del servizio di localizzazione potete modificare, eliminare o filtrare i POI esistenti.
 translation-type: tm+mt
-source-git-commit: 8d6b796326c5fbb3f2af996766fc9c05046ec653
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
