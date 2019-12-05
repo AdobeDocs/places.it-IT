@@ -1,10 +1,8 @@
 ---
 title: Aggiunta di un contesto di posizione alle richieste di Analytics
-seo-title: Aggiunta di un contesto di posizione alle richieste di Analytics
 description: Questa sezione fornisce informazioni su come aggiungere il contesto della posizione alle richieste di Analytics.
-seo-description: Questa sezione fornisce informazioni su come aggiungere il contesto della posizione alle richieste di Analytics.
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
