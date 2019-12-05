@@ -1,8 +1,14 @@
 ---
-source-git-commit: 9b5ed11499da580e48ae27affda238ce6d91f435
+title: Accesso ad Adobe Experience Platform Location Service
+seo-title: Accesso ad Adobe Experience Platform Location Service
+description: Questa sezione fornisce informazioni su come aggiungere un utente a Location Service e Experience Platform Launch, in modo che l'utente possa accedere a Location Service.
+seo-description: Questa sezione fornisce informazioni su come aggiungere un utente a Location Service e Experience Platform Launch, in modo che l'utente possa accedere a Location Service.
 translation-type: tm+mt
+source-git-commit: 1b4482c8e4cf825c0182421fe00f8b86b411c11b
 
 ---
+
+
 # Accesso ad Adobe Experience Platform Location Service {#adding-user-launch-places}
 
 Puoi accedere al servizio Posizione piattaforma dal menu di accesso rapido nella home [di](https://experience.adobe.com)Adobe Experience Cloud.
