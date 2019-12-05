@@ -1,10 +1,8 @@
 ---
 title: Definizione degli elementi di dati
-seo-title: Definizione degli elementi di dati
 description: Questa sezione fornisce informazioni su come creare, utilizzare e pubblicare elementi di dati in Experience Platform Launch for Places.
-seo-description: 'Questa sezione fornisce informazioni su come creare, utilizzare e pubblicare elementi di dati in Experience Platform Launch for Places. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
