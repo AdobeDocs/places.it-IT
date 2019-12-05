@@ -1,10 +1,8 @@
 ---
 title: Utilizzo dell’estensione Monitor luoghi
-seo-title: Utilizzo dell’estensione Monitor luoghi
 description: Informazioni su come installare, configurare e utilizzare l’estensione Places Monitor.
-seo-description: Informazioni su come installare, configurare e utilizzare l’estensione Places Monitor.
 translation-type: tm+mt
-source-git-commit: 7609711db8b53dfbf0a387632c47133e9b9d0f07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
