@@ -1,10 +1,8 @@
 ---
 title: 'Panoramica API dei servizi Web '
-seo-title: 'Panoramica API dei servizi Web '
 description: Luoghi è l'insieme di servizi che semplifica l'idratazione da parte dei clienti Adobe delle soluzioni Adobe Experience Cloud e Adobe Experience Platform con i dati sulla posizione e l'esperienza giusta per la persona giusta al momento giusto e nel posto giusto.
-seo-description: Luoghi è l'insieme di servizi che semplifica l'idratazione da parte dei clienti Adobe delle soluzioni Adobe Experience Cloud e Adobe Experience Platform con i dati sulla posizione e l'esperienza giusta per la persona giusta al momento giusto e nel posto giusto.
 translation-type: tm+mt
-source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
