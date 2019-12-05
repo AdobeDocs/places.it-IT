@@ -1,10 +1,8 @@
 ---
 title: Messaggi in-app con Location Service
-seo-title: Messaggi in-app con Location Service
 description: Questa sezione fornisce informazioni sull'utilizzo dei messaggi push in Campaign Standard con messaggi in-app in Campaign Standard.
-seo-description: 'Questa sezione fornisce informazioni sull''utilizzo dei messaggi push in Campaign Standard con i messaggi in-app in Campaign Standard. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -13,7 +11,7 @@ source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
 
 Queste informazioni sono utili per comprendere come utilizzare le informazioni del servizio di localizzazione Adobe Experience Platform per inviare messaggi in-app o notifiche locali.
 
-## Prerequisiti
+## Prerequisiti 
 
 Prima di iniziare, effettuate le seguenti operazioni:
 
@@ -39,7 +37,7 @@ Prima di iniziare, effettuate le seguenti operazioni:
 
    !["Metadati Luoghi messaggio in-app"](/help/assets/last-entered-vacation.png)
 
-1. Fai clic su per **[!UICONTROL Next]** terminare la creazione del messaggio in-app da consegnare.
+1. Click the **[!UICONTROL Next]** to finish creating the In-app message for delivery.
 
    !["create a event"](/help/assets/prepare-ACS.png)
 
