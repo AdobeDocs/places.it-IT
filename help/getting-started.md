@@ -4,7 +4,7 @@ seo-title: Guida introduttiva
 description: Guida introduttiva a Location Service.
 seo-description: Guida introduttiva a Location Service.
 translation-type: tm+mt
-source-git-commit: 1c5a63b6f7eb56be2240756c31d6ca03a0bfb0da
+source-git-commit: 879c367ea24d8bd0e1f5595a88a97bb1ff47c6da
 
 ---
 
@@ -25,7 +25,7 @@ Il contesto del prodotto Location Service è disponibile per tutte le organizzaz
 
 * Verifica di essere elencato come utente nei contesti di prodotti Location Service e Experience Platform Launch nell’Admin Console.
 
-   Per ulteriori informazioni, consulta *Aggiunta di un utente a Experience Platform Launch and Location Service* in Accesso [facilitato a Location Service](/help/places-gain-access.md).
+   Per ulteriori informazioni, consulta *Aggiunta di un utente a Experience Platform Launch and Location Service* in [Domande](/help/places-gain-access.md)frequenti.
 
 
 ### 2. Creare i POI
