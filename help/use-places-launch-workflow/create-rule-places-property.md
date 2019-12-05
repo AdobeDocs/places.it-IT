@@ -1,10 +1,8 @@
 ---
 title: Creazione di una regola per la proprietà Luoghi
-seo-title: Creazione di una regola per la proprietà Luoghi
 description: 'L’SDK Luoghi tiene traccia della posizione corrente, monitora i POI configurati intorno alla posizione corrente e tiene traccia degli eventi di entrata e uscita per tali POI. '
-seo-description: 'L’SDK Luoghi tiene traccia della posizione corrente, monitora i POI configurati intorno alla posizione corrente e tiene traccia degli eventi di entrata e uscita per tali POI. '
 translation-type: tm+mt
-source-git-commit: a2e30282789d9834e5c65502e28ddb25f3c55dfa
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -54,14 +52,14 @@ Le azioni definiscono le operazioni che l'app eseguirà in risposta alla condizi
 
 >[!CAUTION]
 >
->Questo esempio presuppone che sia stata creata una libreria POI di tutti i coffee shop degli Stati Uniti. Per ulteriori informazioni sulla creazione di POI e librerie, consultate [Creare un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Creare una libreria* in [Gestione di più librerie](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>Con questo esempio si presuppone che sia stata creata una libreria POI di tutti i coffee shop degli Stati Uniti. For more information about creating POIs and libraries, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md) and *Create a Library* in [Manage multiple libraries](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 La procedura seguente è un esempio di come creare una regola che invia un post a Slack quando si entra in un coffee shop a San Francisco.
 
 L’evento, la condizione e l’azione sono definiti nei seguenti modi:
 
 * **Evento**: Posiziona l'evento di immissione.
-* **Condizione**: Città per il POI **attuale** è San Francisco
+* **Condizione**: la città per il **POI attuale** è San Francisco
 * **Azione**: Invia un postback a Slack il nome del coffee shop immesso dal cliente.
 
 ### Prerequisito
@@ -74,7 +72,7 @@ Per creare un elemento dati in Experience Platform Launch:
 1. Fare clic su **Aggiungi elemento** dati.
 1. Digitare un nome, ad esempio **Nome** caffetteria corrente.
 1. Nell’elenco a discesa **Estensione** , selezionate **Luoghi - Beta**.
-1. In Elemento **** dati, selezionare **Città**.
+1. In **Elemento dati**, seleziona **Città**.
 1. Nel riquadro a destra, selezionare **POI** correnti.
 1. Fai clic su **Salva**.
 
@@ -82,7 +80,7 @@ Per creare un elemento dati in Experience Platform Launch:
 
 ![creazione di una regola](/help/assets/placesrule.png)
 
-1. In Experience Platform Launch, fai clic sulla **[!UICONTROL Rules]** scheda.
+1. In Experience Platform Launch, click the **[!UICONTROL Rules]** tab.
 1. Fai clic su **[!UICONTROL Add Rule]**.
 1. Digitare un nome per la regola, ad esempio **[!UICONTROL Track entry for coffee shop in SF]**.
 
@@ -97,11 +95,11 @@ Per creare un elemento dati in Experience Platform Launch:
 ### Crea una condizione
 
 1. Nella sezione Condizioni, fate clic su **[!UICONTROL +Add]**. Le condizioni determinano quali criteri devono essere soddisfatti per l'azione da intraprendere.
-1. In **[!UICONTROL Logic Type]**, selezionate Regolare, che consente l'esecuzione di azioni se la condizione è soddisfatta.
+1. In **[!UICONTROL Logic Type]** (Tipo di logica), seleziona Regular (Normale), che consente l’esecuzione delle azioni se la condizione viene soddisfatta.
 1. Nell'elenco a **[!UICONTROL Extension]** discesa, selezionare **[!UICONTROL Places – Beta]**.
 1. In **[!UICONTROL Condition Type]**, selezionate **[!UICONTROL City]**.
 1. Type a condition name, for example, **[!UICONTROL Coffee shop in SF]**.
-1. Nel riquadro a destra, fare clic su **[!UICONTROL Current POI]** e, nell’elenco a discesa, selezionare **[!UICONTROL San Francisco]** una delle città.
+1. In the right pane, click **[!UICONTROL Current POI]**, and in the drop-down list, select **[!UICONTROL San Francisco]** as one of your cities.
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 ### Crea un'azione
@@ -118,7 +116,8 @@ Per creare un elemento dati in Experience Platform Launch:
 
    c. Digitate un tipo di contenuto, ad esempio **[!UICONTROL application/json]**.
 
-   d. Selezionate un valore di timeout, ad esempio **[!UICONTROL 5]**.
+   
+d. Selezionate un valore di timeout, ad esempio **[!UICONTROL 5]**.
 
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
