@@ -1,10 +1,8 @@
 ---
 title: Verifica e convalida dei luoghi
-seo-title: Verifica e convalida dei luoghi
 description: Questa sezione fornisce informazioni su come verificare e convalidare i luoghi.
-seo-description: Questa sezione fornisce informazioni su come verificare e convalidare i luoghi.
 translation-type: tm+mt
-source-git-commit: 181185d441a6a4740b2e8770adcb71e81e2e816e
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
