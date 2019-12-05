@@ -1,10 +1,8 @@
 ---
 title: Elementi di dati di avvio della piattaforma Experience con i dati Luoghi
-seo-title: Elementi di dati di avvio della piattaforma Experience con i dati Luoghi
 description: 'Gli elementi dati sono i blocchi costitutivi per il dizionario dati (o mappa dati). '
-seo-description: 'Gli elementi dati sono i blocchi costitutivi per il dizionario dati (o mappa dati). '
 translation-type: tm+mt
-source-git-commit: ef3d77eba407013e1f701ed001ef9ab7b3818e07
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
