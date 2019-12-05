@@ -4,12 +4,14 @@ seo-title: Adobe Experience Platform Location Service
 description: 'Location Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
 seo-description: 'Location Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
 translation-type: tm+mt
-source-git-commit: 9fd6c1fdd740a021d7612aa33693c392bff53994
+source-git-commit: ecb059400d9203884faab6fd2f627251eeaeea38
 
 ---
 
 
 # Panoramica di Adobe Experience Platform Location Service {#home}
+
+!["Adobe Experience Platform Location Service"](/help/assets/LocationHeader.png)
 
 La posizione è un contesto importante per comprendere e coinvolgere gli utenti dei dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell'app e renderla un'esperienza più personalizzata e coinvolgente.
 
@@ -72,17 +74,17 @@ Di seguito sono riportati alcuni termini comuni utilizzati nella documentazione:
 
    Questo tipo di POI è un dispositivo fisico che rappresenta una posizione emettendo un segnale Bluetooth a bassa potenza. Il supporto dei beacon verrà rilasciato in una versione futura.
 
-* Una **libreria** è una raccolta di POI, raggruppati per allegare facilmente le regole a un set invece di un POI.
+* Una **libreria** è una raccolta di POI, raggruppati per associare facilmente le regole a un set invece di un POI.
 
 * Un’ **estensione** è l’estensione Experience Platform Launch necessaria per integrare l’SDK Places nelle app mobili.
 
    L’estensione utilizzata con gli altri SDK per dispositivi mobili per aggiungere contesto di posizione alle esperienze.
 
-* Un' **organizzazione** è l'entità Adobe che identifica la tua società in Adobe Experience Cloud.
+* Un’**organizzazione** è l’entità Adobe che identifica la società dell’utente in Adobe Experience Cloud.
 
    In genere, un'organizzazione è il vostro nome società. Tuttavia, un'azienda può avere più di un'organizzazione. L’amministratore dell’organizzazione può configurare gruppi e utenti e configurare la funzionalità di Single Sign-On.
 
-* L’ **orgID** è l’ID che rappresenta la tua organizzazione in Adobe Experience Platform.
+* L’**orgID** è l’ID che rappresenta l’organizzazione dell’utente in Adobe Experience Platform.
 
    Per ulteriori informazioni, vedi [Ricerca del tuo orgID](https://forums.adobe.com/thread/2339895).
 
