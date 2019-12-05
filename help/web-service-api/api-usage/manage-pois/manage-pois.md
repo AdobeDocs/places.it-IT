@@ -1,10 +1,8 @@
 ---
 title: Panoramica sulla gestione dei POI
-seo-title: Panoramica sulla gestione dei POI
 description: 'Comprendere e utilizzare i punti di interesse. '
-seo-description: 'Comprendere e utilizzare i punti di interesse. '
 translation-type: tm+mt
-source-git-commit: e204958ac3acbf5fb45d2347987f35557be70e43
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
