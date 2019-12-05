@@ -1,10 +1,8 @@
 ---
 title: POI di caricamento in blocco
-seo-title: POI di caricamento in blocco
 description: Questa sezione fornisce informazioni su come caricare in massa i POI.
-seo-description: Questa sezione fornisce informazioni su come caricare in massa i POI.
 translation-type: tm+mt
-source-git-commit: 3e2bf2ce011f9770209af08bd0abf0b16f84fbc0
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -57,7 +55,7 @@ I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente del
 
       I valori corrispondono a blu (#3E76D0), viola (#AA99E8), fuschia (#DC2ABA), arancione (#FC685B), arancione chiaro (#FC962E), giallo (#F6C436), verde chiaro (#BECE5D), verde (#61B 56B) e blu chiaro (#3DC8DE), rispettivamente.
 
-* che viene utilizzata come icona sul perno che rappresenta la posizione del POI sulla mappa dell’interfaccia utente del servizio di posizione
+* , che viene utilizzata come icona sul perno che rappresenta la posizione del POI sulla mappa dell’interfaccia utente del servizio di posizione
 
    * I valori validi sono "", negozio, alberghiero, auto, aeroplano, treno, nave, stadio, amusementpark, ancora, beaker, campana, bid, libro, box, valigetta, briefcase, browsing, pennello, edificio, calcolatore, macchina, orologio, istruzione, torcia, follow, gioco, femmina, maschio, regalo, martello, cuore, casa, chiave, lancio, lampadario, cassetta postale, promozionale, promozionale, nastro, shoppingCart, stella, target, teiera, thumbDown, thumbUp, trap, trofeo, chiave inglese.
 
@@ -91,7 +89,7 @@ I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente del
    * `api_key`
 
       Si tratta della chiave API REST di Places ottenuta dall'integrazione Adobe I/O Places. Per informazioni su come ottenere la chiave API, consultate *Prerequisiti per l'accesso* utente in Panoramica dell' [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
-   b. Salvare le modifiche.
+   b.Salvare le modifiche.
 
 1. In una finestra terminale, andate alla `…/places-scripts/import/` directory.
 1. Inserite `python ./places_import.py` e premete il **[!UICONTROL enter]** (**[!UICONTROL return]**) tasto.
