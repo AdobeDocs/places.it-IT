@@ -4,7 +4,7 @@ seo-title: Guida introduttiva
 description: Guida introduttiva a Location Service.
 seo-description: Guida introduttiva a Location Service.
 translation-type: tm+mt
-source-git-commit: accfa6ba009ad3419481d9bd3b498143228099fc
+source-git-commit: 66472aa1800bcf36fb1d7f7129da70a573f355ab
 
 ---
 
@@ -26,10 +26,6 @@ Il contesto del prodotto Location Service è disponibile per tutte le organizzaz
 * Verifica di essere elencato come utente nei contesti di prodotti Location Service e Experience Platform Launch nell’Admin Console.
 
    Per ulteriori informazioni, consulta *Aggiunta di un utente a Experience Platform Launch and Location Service* in [Domande](/help/places-faqs.md)frequenti.
-
-* Accertati che l’estensione Luoghi sia installata nella proprietà dell’app mobile in Experience Platform Launch.
-
-   Per utilizzare il monitoraggio regionale fornito da Adobe per le vostre recinzioni geografiche, installate l'estensione Places Monitor. Per ulteriori informazioni, vedere Estensione [del monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Luoghi.
 
 
 ### 2. Creare i POI
