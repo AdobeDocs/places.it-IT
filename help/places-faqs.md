@@ -1,10 +1,8 @@
 ---
 title: Domande frequenti
-seo-title: Domande frequenti
 description: Questo argomento fornisce ulteriori informazioni su alcune domande frequenti.
-seo-description: Questo argomento fornisce ulteriori informazioni su alcune domande frequenti.
 translation-type: tm+mt
-source-git-commit: f4b8bccc154df346e67ef17295d7c6b42c68b26d
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
