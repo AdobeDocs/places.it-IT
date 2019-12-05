@@ -1,10 +1,8 @@
 ---
 title: Report sui dati sulla posizione in Analytics Workspace
-seo-title: Report sui dati sulla posizione in Analytics Workspace
 description: Questa sezione fornisce informazioni su come creare rapporti sui dati sulla posizione in Analytics Workspace.
-seo-description: Questa sezione fornisce informazioni su come creare rapporti sui dati sulla posizione in Analytics Workspace.
 translation-type: tm+mt
-source-git-commit: 4ee8adb73f6dec15030a160c27edbeca71d3507b
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
