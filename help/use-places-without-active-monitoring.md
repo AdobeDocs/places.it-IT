@@ -1,10 +1,8 @@
 ---
 title: Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva
-seo-title: Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva
 description: Questa sezione fornisce informazioni su come utilizzare Location ServicePlaces senza monitoraggio delle aree attive.
-seo-description: Questa sezione fornisce informazioni su come utilizzare Location Service senza il monitoraggio delle aree attive.
 translation-type: tm+mt
-source-git-commit: 419df41a0abeac1ac2a77f32bfa818b4edf3baeb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -16,7 +14,6 @@ I casi di utilizzo dell'applicazione potrebbero non richiedere il monitoraggio d
 In questa sezione viene illustrato come completare un controllo dell’iscrizione a un POI solo al momento della raccolta della posizione dell’utente (latitudine e longitudine).
 
 ## Prerequisito
-
 
 Lo sviluppatore raccoglierà la posizione del dispositivo utilizzando le API fornite dal sistema operativo della piattaforma di destinazione.
 
@@ -236,8 +233,7 @@ Gli esempi di codice riportati di seguito mostrano come recuperare la posizione 
 
 >[!IMPORTANT]
 >
->
-Questi snippet sono **solo** esempi. Gli sviluppatori devono determinare in che modo intendono implementare la funzionalità, e la decisione deve prendere in considerazione le best practice consigliate dal sistema operativo di destinazione.
+>Questi snippet sono **solo** esempi. Gli sviluppatori devono determinare in che modo intendono implementare la funzionalità, e la decisione deve prendere in considerazione le best practice consigliate dal sistema operativo di destinazione.
 
 ### Android
 
