@@ -1,10 +1,8 @@
 ---
 title: Leggere tutti i POI in una libreria
-seo-title: Leggere tutti i POI in una libreria
 description: Leggete tutti i POI in una libreria utilizzando le API REST di Luoghi.
-seo-description: Leggete tutti i POI in una libreria utilizzando le API REST di Luoghi.
 translation-type: tm+mt
-source-git-commit: 6ae0c8d90cad4c437e1db7f562a0bc9c6b072ce6
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
