@@ -1,10 +1,8 @@
 ---
 title: Utilizzo dei metadati con i POI
-seo-title: Utilizzo dei metadati con i POI
 description: Questa sezione fornisce informazioni e strategie sull’utilizzo dei metadati con i POI.
-seo-description: 'Questa sezione fornisce informazioni e strategie sull’utilizzo dei metadati con i POI. '
 translation-type: tm+mt
-source-git-commit: 6a01c7c2c573baf572fdc27f47f8fc62322cfd02
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
