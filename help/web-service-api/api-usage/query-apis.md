@@ -1,10 +1,8 @@
 ---
 title: Panoramica
-seo-title: API di query
 description: Informazioni e utilizzo delle API di query.
-seo-description: Informazioni e utilizzo delle API di query.
 translation-type: tm+mt
-source-git-commit: e2070c629b5a4e4bcf3a364023e0f87b526ed4cb
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
