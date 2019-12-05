@@ -1,10 +1,8 @@
 ---
 title: Notifiche in-app
-seo-title: Notifiche in-app
 description: In questa sezione viene illustrato come utilizzare i Luoghi con i messaggi in-app.
-seo-description: In questa sezione viene illustrato come utilizzare i Luoghi con i messaggi in-app.
 translation-type: tm+mt
-source-git-commit: a76e91775efd92ce56f2dc5cbdcc65786855b5c3
+source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 ---
 
@@ -31,7 +29,7 @@ Elenco dei tipi di messaggi in-app disponibili:
 
 Questi tipi sono messaggi in-app perché sono attivati dall'SDK. Le notifiche locali appaiono come notifiche push perché vengono visualizzate quando l'app è in background. Queste notifiche forniscono anche notifiche in tempo reale quando gli utenti immettono o chiudono i POI mentre l’app è in background. Per ulteriori informazioni, consultate Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)posizioni.
 
-### Prerequisiti
+### Prerequisiti 
 
 Prima di iniziare, scopri come inviare e creare un messaggio in-app in Mobile Services e come funzionano i trigger. Per ulteriori informazioni, consulta [Creare un messaggio in-app.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
 
@@ -62,7 +60,7 @@ Ad esempio, potete selezionare `poiname` come chiave e `{%%Last Entered POI Name
 
 >[!TIP]
 >
->È possibile impostare le regole di elaborazione di Analytics per recuperare i dati contestuali. For more information, see [Processing Rules](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Nell’esempio in *Creazione di un’azione*, l’azione invierà l’evento `poiname` come contesto per descrivere l’evento POI inviato ad Analytics.
+>È possibile impostare le regole di elaborazione di Analytics per recuperare i dati contestuali. Per ulteriori informazioni, consulta [Regole di elaborazione](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Nell’esempio in *Creazione di un’azione*, l’azione invierà l’evento `poiname` come contesto per descrivere l’evento POI inviato ad Analytics.
 
 ![creazione di un'azione](/help/assets/configure-action.png)
 
