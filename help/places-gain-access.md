@@ -132,9 +132,8 @@ Per aggiungere un utente ai profili di avvio di Location Service e Experience Pl
 d. Immettete l’Adobe ID dell’utente.
 
    e. Completa uno dei seguenti passaggi:
-
-   * Se state aggiungendo un nuovo utente, fate clic **[!UICONTROL New user]** e immettete il nome e il cognome dell’utente.
-   * Se state aggiungendo un utente esistente, fate clic sul nome dell’utente visualizzato.
+    * Se state aggiungendo un nuovo utente, fate clic **[!UICONTROL New user]** e immettete il nome e il cognome dell’utente.
+    * Se state aggiungendo un utente esistente, fate clic sul nome dell’utente visualizzato.
    f. Nell’elenco a **[!UICONTROL Please select a profile for this product]** discesa, selezionate il profilo modificato in precedenza.
 
    g.Fate clic **[!UICONTROL Save]**.
@@ -154,10 +153,9 @@ d. Immettete l’Adobe ID dell’utente.
    c. Immettete l’Adobe ID dell’utente.
 
    
-d. Completa uno dei seguenti passaggi:
-
-   * Se state aggiungendo un nuovo utente, fate clic **[!UICONTROL New user]** e immettete il nome e il cognome dell’utente.
-   * Se state aggiungendo un utente esistente, fate clic sul nome dell’utente visualizzato.
+  d. Completa uno dei seguenti passaggi:
+    * Se state aggiungendo un nuovo utente, fate clic **[!UICONTROL New user]** e immettete il nome e il cognome dell’utente.
+    * Se state aggiungendo un utente esistente, fate clic sul nome dell’utente visualizzato.
    e. Nell'elenco a **[!UICONTROL Please select a profile for this product]** discesa, selezionare il profilo Luoghi.
 
    f.Fate clic **[!UICONTROL Save]**.
