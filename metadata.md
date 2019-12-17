@@ -1,6 +1,6 @@
 ---
 cloud: experience-cloud
-product: place
+product: adobe experience platform
 solution-title: Informazioni e supporto
 solution-hub-url: https://helpx.adobe.com/it/support/experience-cloud.html
 getting-started-title: Introduzione
@@ -10,7 +10,7 @@ tutorials-url: https://experienceleague.adobe.com/
 git-repo: https://git.corp.adobe.com/AdobeDocs/places.en
 index: true
 translation-type: tm+mt
-source-git-commit: 8b9b84a12c40e93ecd1aea1cee5d44c37dc439e8
+source-git-commit: 48dcc14ee9b98ba1ffb5c6dab4e9be2e245bd308
 
 ---
 
