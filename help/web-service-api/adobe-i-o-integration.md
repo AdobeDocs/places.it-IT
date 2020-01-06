@@ -7,16 +7,16 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 ---
 
 
-# Panoramica dell'integrazione e prerequisiti {#integration-prereqs}
+# Panoramica dell&#39;integrazione e prerequisiti {#integration-prereqs}
 
-Queste informazioni mostrano come creare un'integrazione di Adobe I/O e Luoghi.
+Queste informazioni mostrano come creare un&#39;integrazione di Adobe I/O e Luoghi.
 
 ## Prerequisiti per l’accesso degli utenti
 
-Verifica con l'amministratore di sistema della tua organizzazione che siano state completate le seguenti attività:
+Verifica con l&#39;amministratore di sistema della tua organizzazione che siano state completate le seguenti attività:
 
-* Il servizio di base posizioni viene visualizzato nella console di amministrazione dell'azienda.
-* È stato aggiunto all'organizzazione.
+* Il servizio di base posizioni viene visualizzato nella console di amministrazione dell&#39;azienda.
+* È stato aggiunto all&#39;organizzazione.
 * È stato aggiunto come utente al servizio di base Luoghi della tua organizzazione.
 
    Per ulteriori informazioni, consulta *Aggiungere un utente o uno sviluppatore ai profili* di avvio del servizio di localizzazione e della piattaforma esperienza in [Domande](/help/places-faqs.md)frequenti.
@@ -29,33 +29,33 @@ Verifica con l'amministratore di sistema della tua organizzazione che siano stat
 
 ### Richieste REST API
 
-Ogni richiesta all'API REST di Places richiede i seguenti elementi:
+Ogni richiesta all&#39;API REST di Places richiede i seguenti elementi:
 
 * Un ID organizzazione
 * Una chiave API
 * Token portatore
 
-Un'integrazione con Adobe I/O fornisce questi elementi e un modo per richiedere il token del portatore utilizzando un JSON Web Token (JWT).
+Un&#39;integrazione con Adobe I/O fornisce questi elementi e un modo per richiedere il token del portatore utilizzando un JSON Web Token (JWT).
 
 * Per ulteriori informazioni sui JWT, vedere [Introduzione ai Token](https://jwt.io/introduction/)Web JSON.
-* Per creare un'integrazione per Luoghi, consultate la sezione *Creazione di un'integrazione* per Luoghi di seguito.
-* Per comprendere l'integrazione delle chiavi API, la generazione di un JWT e di certificati di chiave pubblica, vedi Panoramica [sull'autenticazione dell'I/O di](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html)Adobe.
+* Per creare un&#39;integrazione per Luoghi, consultate la sezione *Creazione di un&#39;integrazione* per Luoghi di seguito.
+* Per comprendere l&#39;integrazione delle chiavi API, la generazione di un JWT e di certificati di chiave pubblica, vedi Panoramica [sull&#39;autenticazione dell&#39;I/O di](https://www.adobe.io/apis/cloudplatform/console/authentication/gettingstarted.html)Adobe.
 
 >[!IMPORTANT]
 >
->Se non è possibile accedere alla console Adobe I/O o se Experience Platform Location Service non è un'opzione disponibile nella pagina ** Crea integrazioni, consultare la sezione Requisiti ** dell'organizzazione nella panoramica [API dei servizi](/help/web-service-api/places-web-services.md)Web.
+>Se non è possibile accedere alla console Adobe I/O o se Experience Platform Location Service non è un&#39;opzione disponibile nella pagina ** Crea integrazioni, consultare la sezione Requisiti ** dell&#39;organizzazione nella panoramica [API dei servizi](/help/web-service-api/places-web-services.md)Web.
 
-## Creare un'integrazione Luoghi
+## Creare un&#39;integrazione Luoghi
 
-Per creare un'integrazione Luoghi, completa le seguenti attività:
+Per creare un&#39;integrazione Luoghi, completa le seguenti attività:
 
 ### Generazione di una coppia di chiavi pubblica e privata
 
-Per creare un'integrazione Luoghi, è necessario disporre di una coppia di chiavi pubblica e privata. Queste coppie possono essere acquistate, oppure è possibile generare chiavi autofirmate.
+Per creare un&#39;integrazione Luoghi, è necessario disporre di una coppia di chiavi pubblica e privata. Queste coppie possono essere acquistate, oppure è possibile generare chiavi autofirmate.
 
 Per generare le chiavi autofirmate:
 
-1. In una finestra terminale, copiate e incollate ciascuna delle seguenti righe e premete **[!UICONTROL Enter]** dopo aver incollato ciascuna riga:
+1. In una finestra terminale, copiate e incollate ciascuna delle seguenti righe e premete **[!UICONTROL Enter]**dopo aver incollato ciascuna riga:
 
    ```text
       mkdir keys
@@ -87,27 +87,27 @@ Per generare le chiavi autofirmate:
 
 1. Andate alla directory in cui si trovano i `.key` file e `.crt` i file.
 
-   Ad esempio, in iOS, andate a **[!UICONTROL Macintosh HD]** &gt; **[!UICONTROL users]** &gt; **[!UICONTROL (your user name)]** &gt; **[!UICONTROL Keys]**.
+   Ad esempio, in iOS, andate a **[!UICONTROL Macintosh HD]**>**[!UICONTROL users]** > **[!UICONTROL (your user name)]**>**[!UICONTROL Keys]**.
 
 Il seguente video illustra il processo di generazione della coppia di chiavi:
 
 ![video di integrazione](/help/assets/places_integration_video.gif)
 
-### Creare un'integrazione Luoghi nella console Adobe I/O
+### Creare un&#39;integrazione Luoghi nella console Adobe I/O
 
-Per creare un'integrazione Luoghi:
+Per creare un&#39;integrazione Luoghi:
 
-1. Andate a [https://console.adobe.io](https://console.adobe.io) ed effettuate l'accesso con il vostro Adobe ID.
+1. Andate a [https://console.adobe.io](https://console.adobe.io) ed effettuate l&#39;accesso con il vostro Adobe ID.
 1. Nella sezione **Avvio** rapido, fate clic su **Crea integrazione**.
-1. Selezionate **[!UICONTROL Access an API]** e fate clic su **[!UICONTROL Continue]**.
+1. Selezionate **[!UICONTROL Access an API]**e fate clic su**[!UICONTROL Continue]**.
 
-   **[!UICONTROL Access an API]** è il percorso predefinito.
+   **[!UICONTROL Access an API]**è il percorso predefinito.
 
 1. Se hai accesso a più organizzazioni Experience Cloud, seleziona l’organizzazione dall’elenco a discesa in alto a destra.
-1. Under **[!UICONTROL Experience Cloud]**, select **[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
-1. Selezionate **[!UICONTROL New integration]** e fate clic su **[!UICONTROL Continue]**.
+1. Under **[!UICONTROL Experience Cloud]**, select**[!UICONTROL Places]** as the Adobe service to which you want to integrate and click **[!UICONTROL Continue]**.
+1. Selezionate **[!UICONTROL New integration]**e fate clic su**[!UICONTROL Continue]**.
 1. Nella schermata Crea una nuova integrazione, immettete un nome e una descrizione.
-1. Trascinare il `xxxx_public.crt` file creato sopra nella zona di **[!UICONTROL Public keys certificates]** rilascio.
+1. Trascinare il `xxxx_public.crt` file creato sopra nella zona di **[!UICONTROL Public keys certificates]**rilascio.
 1. Selezionate un profilo di prodotto.
 
    Se non sai quale profilo selezionare, contatta l’amministratore di sistema.
@@ -118,12 +118,12 @@ Per creare un'integrazione Luoghi:
 
 1. Viene visualizzata la pagina dei dettagli dell’integrazione con il nome dell’integrazione nella parte superiore.
 
-   La **[!UICONTROL Overview]** scheda viene visualizzata per impostazione predefinita e contiene la chiave API, l'ID organizzazione, l'ID account tecnico e altri dettagli sulle integrazioni.
+   La **[!UICONTROL Overview]**scheda viene visualizzata per impostazione predefinita e contiene la chiave API, l&#39;ID organizzazione, l&#39;ID account tecnico e altri dettagli sulle integrazioni.
 
-### Registrazione dell'ID organizzazione e della chiave API
+### Registrazione dell&#39;ID organizzazione e della chiave API
 
-1. Nella pagina dei dettagli dell'integrazione, fate clic sulla **[!UICONTROL Services]** scheda e confermate che **[!UICONTROL Places]** sia visualizzata in **[!UICONTROL Configured Services]**.
-1. Nella **[!UICONTROL Overview]** scheda, individua e registra la chiave API (ID client) e l'ID organizzazione.
+1. Nella pagina dei dettagli dell&#39;integrazione, fate clic sulla **[!UICONTROL Services]**scheda e confermate che**[!UICONTROL Places]** sia visualizzata in **[!UICONTROL Configured Services]**.
+1. Nella **[!UICONTROL Overview]**scheda, individua e registra la chiave API (ID client) e l&#39;ID organizzazione.
 
    Questi ID sono necessari per ogni richiesta REST API di Places.
 
@@ -131,15 +131,15 @@ Per creare un'integrazione Luoghi:
 
 ### Generazione di un token JWT
 
-Nella pagina dei dettagli dell'integrazione, fate clic sulla **[!UICONTROL JWT]** scheda per verificare l'integrazione generando un JWT e fornendo l'URL di scambio.
+Nella pagina dei dettagli dell&#39;integrazione, fate clic sulla **[!UICONTROL JWT]**scheda per verificare l&#39;integrazione generando un JWT e fornendo l&#39;URL di scambio.
 
 Per generare un token JWT:
 
 1. In un editor di testo, aprite il `private.key` file creato precedentemente.
-1. On the **[!UICONTROL JWT]** tab, copy the contents of the key and paste it in the **[!UICONTROL Paste private key]** field.
+1. On the **[!UICONTROL JWT]**tab, copy the contents of the key and paste it in the**[!UICONTROL Paste private key]** field.
 1. Fai clic su **[!UICONTROL Generate JWT]**.
-1. In the **[!UICONTROL Sample CURL command]** section, click **[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
-1. Eseguire il comando premendo **[!UICONTROL Enter]** sulla tastiera.
+1. In the **[!UICONTROL Sample CURL command]**section, click**[!UICONTROL Copy]** and paste the contents in your command prompt or terminal window.
+1. Eseguire il comando premendo **[!UICONTROL Enter]**sulla tastiera.
 1. Individuare il `"token_type": "bearer"` valore e il `"access_token"` valore.
 
    Il valore del token di accesso del portatore è il valore che verrà utilizzato nelle richieste API Places.
