@@ -13,7 +13,7 @@ Informazioni sui riferimenti API in Luoghi:
 
 ## Elaborazione di un evento regione
 
-Quando un dispositivo attraversa uno dei limiti dell'area Places predefiniti dell'app, l'area e il tipo di evento vengono passati all'SDK per l'elaborazione.
+Quando un dispositivo attraversa uno dei limiti dell&#39;area Places predefiniti dell&#39;app, l&#39;area e il tipo di evento vengono passati all&#39;SDK per l&#39;elaborazione.
 
 ### ProcessGeofence (Android)
 
@@ -252,11 +252,11 @@ Di seguito è riportato un esempio di codice per questo metodo:
 
 ## Ottenere la posizione del dispositivo
 
-Richiede la posizione del dispositivo, come precedentemente noto, dall'estensione Luoghi.
+Richiede la posizione del dispositivo, come precedentemente noto, dall&#39;estensione Luoghi.
 
 >[!TIP]
 >
->L'estensione Luoghi è a conoscenza solo delle posizioni che gli sono state fornite tramite chiamate a `GetNearbyPointsOfInterest`.
+>L&#39;estensione Luoghi è a conoscenza solo delle posizioni che gli sono state fornite tramite chiamate a `GetNearbyPointsOfInterest`.
 
 
 ### GetLastKnownLocation (Android)
@@ -357,12 +357,12 @@ Disponibile a breve
 
 *Disponibile a partire da ACPPlaces v1.3.0*
 
-Imposta lo stato dell'autorizzazione nell'estensione Luoghi.
+Imposta lo stato dell&#39;autorizzazione nell&#39;estensione Luoghi.
 
 Lo stato fornito è memorizzato nello stato Condiviso Luoghi e lo è solo per riferimento.
-La chiamata di questo metodo non influisce sullo stato effettivo dell'autorizzazione di posizione per il dispositivo.
+La chiamata di questo metodo non influisce sullo stato effettivo dell&#39;autorizzazione di posizione per il dispositivo.
 
-Quando lo stato dell'autorizzazione del dispositivo cambia, viene richiamato il `locationManager:didChangeAuthorizationStatus:` metodo del `CLLocationManagerDelegate` dispositivo. Dall'interno di questo metodo, è necessario trasmettere il nuovo `CLAuthorizationStatus` valore all' `setAuthorizationStatus:` API ACPPlaces.
+Quando lo stato dell&#39;autorizzazione del dispositivo cambia, viene richiamato il `locationManager:didChangeAuthorizationStatus:` metodo del `CLLocationManagerDelegate` dispositivo. Dall&#39;interno di questo metodo, è necessario trasmettere il nuovo `CLAuthorizationStatus` valore all&#39; `setAuthorizationStatus:` API ACPPlaces.
 
 **Sintassi**
 
