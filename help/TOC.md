@@ -23,9 +23,9 @@ source-git-commit: c88c8f8e7e3bb9ea3af85948e682e75e894ad782
    + [Gestire più librerie](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
 + API servizio Web {#web-service-api}
    + [Panoramica API del servizio Web](web-service-api/places-web-services.md)
-   + [Prerequisiti per l'integrazione](web-service-api/adobe-i-o-integration.md)
+   + [Prerequisiti per l&#39;integrazione](web-service-api/adobe-i-o-integration.md)
    + Utilizzo API {#api-usage}
-      + [Panoramica dell'utilizzo API](web-service-api/api-usage/api-usage-overview.md)
+      + [Panoramica dell&#39;utilizzo API](web-service-api/api-usage/api-usage-overview.md)
       + [Intestazioni e parametri](web-service-api/api-usage/headers-and-parameters.md)
       + Manage libraries {#manage-libraries}
          + [Panoramica sulla gestione delle librerie](web-service-api/api-usage/manage-libraries/manage-libraries.md)
