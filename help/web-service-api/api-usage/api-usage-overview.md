@@ -7,7 +7,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 ---
 
 
-# Panoramica dell'utilizzo API {#api-usage-overview}
+# Panoramica dell&#39;utilizzo API {#api-usage-overview}
 
 Per utilizzare l’API REST Luoghi per gestire i POI e le librerie, consulta le sezioni seguenti:
 
