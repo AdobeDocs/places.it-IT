@@ -157,7 +157,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>/pois
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare l'API:
+Utilizzate il seguente comando CURL per testare l&#39;API:
 
 ```text
 curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>/pois' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
@@ -165,5 +165,5 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Sostituire '', `<API KEY>`, `<TOKEN>`, e `<ORGID>` con valori effettivi.
+>Sostituire &#39;&#39;, `<API KEY>`, `<TOKEN>`, e `<ORGID>` con valori effettivi.
 
