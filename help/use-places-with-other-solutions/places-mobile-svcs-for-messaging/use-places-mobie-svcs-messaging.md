@@ -9,9 +9,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 # Adobe Mobile Services {#places-mobile-services}
 
-Prima di poter utilizzare l'estensione Mobile Services per la messaggistica, verifica i seguenti prerequisiti:
+Prima di poter utilizzare l&#39;estensione Mobile Services per la messaggistica, verifica i seguenti prerequisiti:
 
-* I punti di interesse sono stati creati in Location Service. Se necessario, consultare la documentazione. (collegamento alla creazione di un POI)Nota: Il servizio Location include un nuovo e migliorato database dei punti di interesse per l'organizzazione esistente al di fuori dell'interfaccia AMS legacy. Qualsiasi POI trovato nella navigazione "Gestisci luoghi" di AMS funzionerà solo per la versione 4 dell’SDK.
+* I punti di interesse sono stati creati in Location Service. Se necessario, consultare la documentazione. (collegamento alla creazione di un POI)Nota: Il servizio Location include un nuovo e migliorato database dei punti di interesse per l&#39;organizzazione esistente al di fuori dell&#39;interfaccia AMS legacy. Qualsiasi POI trovato nella navigazione &quot;Gestisci luoghi&quot; di AMS funzionerà solo per la versione 4 dell’SDK.
    * Di seguito è riportata l’interfaccia legacy di gestione dei POI di Luoghi in AMS per le versioni precedenti dell’SDK:
 
       ![Interfaccia utente precedente](/help/assets/legacy-location-v4-ui.png)
