@@ -9,9 +9,9 @@ source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
 
 # Panoramica di Adobe Experience Platform Location Service {#home}
 
-!["Adobe Experience Platform Location Service"](/help/assets/LocationHeader.png)
+![&quot;Adobe Experience Platform Location Service&quot;](/help/assets/LocationHeader.png)
 
-La posizione è un contesto importante per comprendere e coinvolgere gli utenti dei dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell'app e renderla un'esperienza più personalizzata e coinvolgente.
+La posizione è un contesto importante per comprendere e coinvolgere gli utenti dei dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell&#39;app e renderla un&#39;esperienza più personalizzata e coinvolgente.
 
 Adobe Experience Platform Location Service (Location Service) è un servizio di geolocalizzazione che consente alle app mobili con consapevolezza della posizione di comprendere il contesto della posizione mediante l’uso di interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI).
 
@@ -21,16 +21,16 @@ Location Service consente di ottenere quanto segue:
 * Allegate metadati personalizzati ai POI per renderli più ricchi e significativi specificando attributi aggiuntivi.
 * Visualizzate i POI su una mappa per comprendere facilmente il contesto spaziale e aggiungere/modificare gli attributi dei metadati.
 * Configura l’SDK in Adobe Experience Platform Launch per definire le regole attivate dalla posizione e le condizioni basate sui metadati.
-* Ridurre il codice da scrivere per monitorare la posizione di un dispositivo e utilizzare l'estensione Luoghi per attivare automaticamente le regole specifiche per la posizione.
+* Ridurre il codice da scrivere per monitorare la posizione di un dispositivo e utilizzare l&#39;estensione Luoghi per attivare automaticamente le regole specifiche per la posizione.
 
-In questo modo potrete eseguire azioni dai segnali di posizione in tempo reale, quando e dove sono importanti. Il contesto giusto offre un'esperienza di coinvolgimento mobile più arricchente.
+In questo modo potrete eseguire azioni dai segnali di posizione in tempo reale, quando e dove sono importanti. Il contesto giusto offre un&#39;esperienza di coinvolgimento mobile più arricchente.
 
 Di seguito sono riportati alcuni modi per utilizzare i Luoghi:
 
-* Invia una notifica in tempo reale quando qualcuno entra in un POI, *"Hey.benvenuto allo stadio."*
+* Invia una notifica in tempo reale quando qualcuno entra in un POI, *&quot;Hey.benvenuto allo stadio.&quot;*
 * Analizzare il traffico di pedoni tra i negozi e i negozi concorrenti.
-* Segmentate un'audience in base al comportamento offline utilizzando i profili di audience con contesto della posizione.
-* Esegue il targeting di un utente con un'esperienza in-store quando pertinente.
+* Segmentate un&#39;audience in base al comportamento offline utilizzando i profili di audience con contesto della posizione.
+* Esegue il targeting di un utente con un&#39;esperienza in-store quando pertinente.
 
 ## Componenti di Location Service
 
@@ -46,11 +46,11 @@ Il servizio di localizzazione comprende i seguenti componenti:
 
 * **Estensione Luoghi**
 
-   L'interfaccia API mobile multipiattaforma per integrare il contesto della posizione nelle app mobili. Per ulteriori informazioni sugli SDK, vedi Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
+   L&#39;interfaccia API mobile multipiattaforma per integrare il contesto della posizione nelle app mobili. Per ulteriori informazioni sugli SDK, vedi Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
 * **Regole di avvio**
 
-   Regole di Launch geo-intelligenti che consentono di attivare azioni con eventi di entrata e uscita. Le regole consentono inoltre di utilizzare gli attributi geografici in condizioni per personalizzare l'esperienza.
+   Regole di Launch geo-intelligenti che consentono di attivare azioni con eventi di entrata e uscita. Le regole consentono inoltre di utilizzare gli attributi geografici in condizioni per personalizzare l&#39;esperienza.
 
 * **Estensione Luoghi monitor**
 
@@ -80,7 +80,7 @@ Di seguito sono riportati alcuni termini comuni utilizzati nella documentazione:
 
 * Un’**organizzazione** è l’entità Adobe che identifica la società dell’utente in Adobe Experience Cloud.
 
-   In genere, un'organizzazione è il vostro nome società. Tuttavia, un'azienda può avere più di un'organizzazione. L’amministratore dell’organizzazione può configurare gruppi e utenti e configurare la funzionalità di Single Sign-On.
+   In genere, un&#39;organizzazione è il vostro nome società. Tuttavia, un&#39;azienda può avere più di un&#39;organizzazione. L’amministratore dell’organizzazione può configurare gruppi e utenti e configurare la funzionalità di Single Sign-On.
 
 * L’**orgID** è l’ID che rappresenta l’organizzazione dell’utente in Adobe Experience Platform.
 
