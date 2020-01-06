@@ -17,7 +17,7 @@ I POI e le librerie vengono creati e gestiti nel database Luoghi utilizzando l�
 1. Accedi al servizio Places utilizzando il tuo Adobe ID.
 1. In alto a destra, fate clic sull’icona che ha l’aspetto di un elenco puntato.
 1. Individuate il POI da modificare.
-1. Fate clic **[!UICONTROL ...]** e selezionate **[!UICONTROL View Details]**.
+1. Fate clic **[!UICONTROL ...]**e selezionate**[!UICONTROL View Details]**.
 1. Aggiornate le informazioni e fate clic **[!UICONTROL Save]**.
 
 ## Eliminare un POI
@@ -26,14 +26,14 @@ I POI e le librerie vengono creati e gestiti nel database Luoghi utilizzando l�
 1. Accedi al servizio Places utilizzando il tuo Adobe ID.
 1. In alto a destra, fate clic sull’icona che ha l’aspetto di un elenco puntato.
 1. Individuate il POI da eliminare.
-1. Fate clic **[!UICONTROL ...]** e selezionate **[!UICONTROL Delete]**.
+1. Fate clic **[!UICONTROL ...]**e selezionate**[!UICONTROL Delete]**.
 
 ## Filtrare i POI per città, stato, Paese o metadati
 
 ![filtrare un POI](/help/assets/filter_poi.png)
 
 1. Accedi all’interfaccia utente del servizio di localizzazione utilizzando il tuo Adobe ID.
-1. In alto a destra, fate clic sull'icona di filtro.
+1. In alto a destra, fate clic sull&#39;icona di filtro.
 1. Potete filtrare i POI in uno dei seguenti modi:
 
    * Per libreria:
@@ -42,11 +42,11 @@ I POI e le librerie vengono creati e gestiti nel database Luoghi utilizzando l�
 
    * Per proprietà:
 
-      a. Nell'elenco a discesa Proprietà, selezionate **[!UICONTROL Country]**, **[!UICONTROL State]** o **[!UICONTROL City]**.
+      a. Nell&#39;elenco a discesa Proprietà, selezionate **[!UICONTROL Country]**,**[!UICONTROL State]** o **[!UICONTROL City]**.
 
       b. Nella riga successiva, immettete un valore.
 
-      Ad esempio, potete selezionare **[!UICONTROL State]** e digitare **[!UICONTROL California]**.
+      Ad esempio, potete selezionare **[!UICONTROL State]**e digitare**[!UICONTROL California]**.
 
    * Con i metadati:
 
