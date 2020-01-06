@@ -9,7 +9,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 # Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva {#use-places-without-active-monitoring}
 
-I casi di utilizzo dell'applicazione potrebbero non richiedere il monitoraggio dell'area attiva. Adobe Places può ancora essere utilizzato per integrare i dati sulla posizione degli utenti con altri prodotti Experience Platform.
+I casi di utilizzo dell&#39;applicazione potrebbero non richiedere il monitoraggio dell&#39;area attiva. Adobe Places può ancora essere utilizzato per integrare i dati sulla posizione degli utenti con altri prodotti Experience Platform.
 
 In questa sezione viene illustrato come completare un controllo dell’iscrizione a un POI solo al momento della raccolta della posizione dell’utente (latitudine e longitudine).
 
@@ -19,11 +19,11 @@ Lo sviluppatore raccoglierà la posizione del dispositivo utilizzando le API for
 
 >[!TIP]
 >
->Se i casi di utilizzo dell'app richiedono il monitoraggio dell'area attiva, leggi [utilizzando l'estensione](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)del monitor dei luoghi.
+>Se i casi di utilizzo dell&#39;app richiedono il monitoraggio dell&#39;area attiva, leggi [utilizzando l&#39;estensione](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)del monitor dei luoghi.
 
 Per utilizzare Luoghi senza monitoraggio area attiva:
 
-## 1. Raccogli il percorso dell'utente
+## 1. Raccogli il percorso dell&#39;utente
 
 Lo sviluppatore di app deve raccogliere la posizione corrente del dispositivo utilizzando `CoreLocation.framework` (iOS) o le `Location` API fornite da Google Play Services (Android).
 
@@ -120,9 +120,9 @@ L’SDK restituisce un elenco di POI vicini, specificando se l’utente si trova
 
 >[!IMPORTANT]
 >
->Per impedire che l'app attivi più eventi di partecipazione in una visita, tieni un elenco delle aree in cui sai che l'utente ha immesso. Quando elabora la risposta dei POI vicini dall’SDK, attiva un evento di voce solo quando la regione non è nell’elenco.
+>Per impedire che l&#39;app attivi più eventi di partecipazione in una visita, tieni un elenco delle aree in cui sai che l&#39;utente ha immesso. Quando elabora la risposta dei POI vicini dall’SDK, attiva un evento di voce solo quando la regione non è nell’elenco.
 >
->Nell'esempio di codice seguente, `NSUserDefaults` (iOS) e `SharedPreferences` (Android) vengono utilizzati per gestire l'elenco di aree:
+>Nell&#39;esempio di codice seguente, `NSUserDefaults` (iOS) e `SharedPreferences` (Android) vengono utilizzati per gestire l&#39;elenco di aree:
 
 ### Android
 
@@ -396,6 +396,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Oltre ad attivare gli eventi di immissione Luoghi nell’SDK, a causa degli eventi di immissione attivanti, tutti i dati che definiscono i tuoi POI possono essere utilizzati dal resto dell’SDK tramite `data elements` Launch. Con Launch `rules`, puoi allegare dinamicamente i dati Luoghi agli eventi in arrivo elaborati dall'SDK. Ad esempio, puoi allegare i metadati di un POI in cui l’utente si trova e inviare i dati ad Analytics come dati contestuali.
+Oltre ad attivare gli eventi di immissione Luoghi nell’SDK, a causa degli eventi di immissione attivanti, tutti i dati che definiscono i tuoi POI possono essere utilizzati dal resto dell’SDK tramite `data elements` Launch. Con Launch `rules`, puoi allegare dinamicamente i dati Luoghi agli eventi in arrivo elaborati dall&#39;SDK. Ad esempio, puoi allegare i metadati di un POI in cui l’utente si trova e inviare i dati ad Analytics come dati contestuali.
 
 Per ulteriori informazioni, consultate [Utilizzo di Luoghi con altre soluzioni](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)Adobe.
