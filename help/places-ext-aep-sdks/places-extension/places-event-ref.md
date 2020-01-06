@@ -9,7 +9,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 # Riferimento evento Luoghi {#places-event-reference}
 
-Elenco degli eventi gestiti dall'estensione Luoghi.
+Elenco degli eventi gestiti dall&#39;estensione Luoghi.
 
 ## GetCurrentPointsOfInterest
 
@@ -43,7 +43,7 @@ Questo evento è una richiesta per ottenere i POI vicini tenendo conto della pos
 
 | Chiave | Tipo di valore | Obbligatorio | Valore predefinito | Descrizione |
 | :--- | :--- | :--- | :--- | :--- |
-|  latitudine | double | true | n/d | Contiene il valore di latitudine per il centro della ricerca di POI vicini. |
+| latitudine | double | true | n/d | Contiene il valore di latitudine per il centro della ricerca di POI vicini. |
 | longitudine | double | true | n/d | Contiene il valore di longitudine per il centro della ricerca di POI vicini. |
 | radius | integer | false | n/d | Raggio, in metri, utilizzato dalla ricerca di POI vicini. |
 | count | integer | false | 10 | Numero massimo di POI da restituire nell’evento di risposta risultante. |
@@ -58,16 +58,16 @@ Questo evento è una richiesta per ottenere i POI vicini tenendo conto della pos
 
 **Descrizione evento**
 
-Questo evento causa l'elaborazione da parte dell'estensione Luoghi di un evento geofence entry o exit.
+Questo evento causa l&#39;elaborazione da parte dell&#39;estensione Luoghi di un evento geofence entry o exit.
 
 **Definizione del carico utile dei dati**
 
 | Chiave | Tipo di valore | Obbligatorio | Descrizione |
 | :--- | :--- | :--- | :--- |
 | regionid | string | true | ID della regione che genera l’evento. |
-| regioneventtype | int | true | Tipo di evento regione da generare. 1 per l'ingresso e 2 per l'uscita. |
+| regioneventtype | int | true | Tipo di evento regione da generare. 1 per l&#39;ingresso e 2 per l&#39;uscita. |
 
-## Eventi inviati dall'estensione Luoghi
+## Eventi inviati dall&#39;estensione Luoghi
 
 Informazioni in corso.
 
