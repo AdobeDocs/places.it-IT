@@ -13,7 +13,7 @@ Per abilitare la localizzazione nell’app mobile, configura l’SDK con le este
 
 ## Configurazione dell’estensione Luoghi
 
-Per configurare l'estensione Luoghi:
+Per configurare l&#39;estensione Luoghi:
 
 1. Configurare l’estensione Luoghi in Launch.
 
@@ -23,7 +23,7 @@ Per configurare l'estensione Luoghi:
 
    Per ulteriori informazioni, consulta *Aggiungere l’estensione Luoghi all’app* in Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
-1. Registra i luoghi con l'estensione Mobile Core.
+1. Registra i luoghi con l&#39;estensione Mobile Core.
 
    Per ulteriori informazioni, consulta *Registrazione di luoghi con core* Mobile nell’estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
@@ -37,7 +37,7 @@ Per configurare l’estensione Monitor luoghi in Launch:
 
 1. Aggiungete l’estensione Places Monitor all’app mobile.
 
-   Per ulteriori informazioni, consultate *Aggiungere l'estensione Places Monitor all'app*.
+   Per ulteriori informazioni, consultate *Aggiungere l&#39;estensione Places Monitor all&#39;app*.
 
 1. Registra il monitor Luoghi con l’estensione Mobile Core.
 
