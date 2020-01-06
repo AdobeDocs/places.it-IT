@@ -13,4 +13,4 @@ Utilizzando Location Service con Adobe Analytics, puoi completare le seguenti at
 
 * [Inviare dati di entrata e uscita POI tramite Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
 * [Aggiunta di un contesto di posizione alle richieste di Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
-* [Report sui dati sulla posizione nell'area di lavoro di Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
+* [Report sui dati sulla posizione nell&#39;area di lavoro di Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
