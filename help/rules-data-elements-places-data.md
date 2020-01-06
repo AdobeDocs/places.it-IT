@@ -17,7 +17,7 @@ Experience Platform Launch è un sistema basato su regole e cerca l’interazion
 
 Gli elementi dati sono gli elementi costitutivi del dizionario dati o della mappa dati. Puoi utilizzare gli elementi di dati per raccogliere, organizzare e distribuire i dati attraverso marketing e tecnologie pubblicitarie.
 
-Un elemento dati è una variabile e il valore di questa variabile può essere mappato su stringhe di query, URL, valori di cookie, variabili JavaScript e così via. In Experience Platform Launch puoi fare riferimento a questo valore in base al nome della variabile. La raccolta di elementi di dati diventa il dizionario di dati definiti che puoi utilizzare per creare le tue regole (eventi, condizioni e azioni), e il dizionario dati è condiviso tra Experience Platform Launch e può essere utilizzato con l'estensione Places.
+Un elemento dati è una variabile e il valore di questa variabile può essere mappato su stringhe di query, URL, valori di cookie, variabili JavaScript e così via. In Experience Platform Launch puoi fare riferimento a questo valore in base al nome della variabile. La raccolta di elementi di dati diventa il dizionario di dati definiti che puoi utilizzare per creare le tue regole (eventi, condizioni e azioni), e il dizionario dati è condiviso tra Experience Platform Launch e può essere utilizzato con l&#39;estensione Places.
 
 Per ulteriori informazioni sugli elementi di dati, vedi [Elementi dati](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html) e [Creare un elemento dati](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/data-elements.html#create-a-data-element).
 
