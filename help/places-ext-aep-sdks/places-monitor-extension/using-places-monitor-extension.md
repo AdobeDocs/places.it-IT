@@ -9,12 +9,12 @@ source-git-commit: ac1d410a676557064d5390f8392f402541754478
 
 # Utilizzo dell’estensione Monitor luoghi {#using-places-monitor-extension}
 
-Per utilizzare l'estensione Luoghi monitor, completare le seguenti operazioni:
+Per utilizzare l&#39;estensione Luoghi monitor, completare le seguenti operazioni:
 
 ## Installare l’estensione Places Monitor in Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-1. Nella **[!UICONTROL Catalog]** scheda, individuate l’ **[!UICONTROL Places Monitor]** estensione e fate clic su **Installa**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
+1. Nella **[!UICONTROL Catalog]**scheda, individuate l’**[!UICONTROL Places Monitor]** estensione e fate clic su **Installa**.
 1. Fai clic su **[!UICONTROL Save]**.
 1. Segui il processo di pubblicazione per aggiornare la configurazione SDK.
 
@@ -24,9 +24,9 @@ Non esistono attività di configurazione per l’estensione Monitor luoghi.
 
 ![configurare il ‌ di monitoraggio](/help/assets/configure_places_monitor.png)Luoghi
 
-## Aggiungere l'estensione Luoghi Monitor all'app {#add-monitor-extension-to-app}
+## Aggiungere l&#39;estensione Luoghi Monitor all&#39;app {#add-monitor-extension-to-app}
 
-Dovete aggiungere l'estensione Places Monitor all'app Android o iOS.
+Dovete aggiungere l&#39;estensione Places Monitor all&#39;app Android o iOS.
 
 ### Android
 
@@ -34,7 +34,7 @@ In Android, completa i seguenti passaggi:
 
 #### Java
 
-1. Aggiungi l'estensione Places Monitor e l'estensione Places al progetto utilizzando il file gradle dell'app.
+1. Aggiungi l&#39;estensione Places Monitor e l&#39;estensione Places al progetto utilizzando il file gradle dell&#39;app.
 
 1. Includete anche i servizi Google Location più recenti nel file gradle.
 
@@ -108,11 +108,11 @@ public class MobileApp extends Application {
 
 >[!IMPORTANT]
 >
->Il monitoraggio dei luoghi dipende dall'estensione Luoghi. Quando installi manualmente l’estensione Monitor Luoghi, accertati di aggiungere anche la libreria `places.aar` al progetto.
+>Il monitoraggio dei luoghi dipende dall&#39;estensione Luoghi. Quando installi manualmente l’estensione Monitor Luoghi, accertati di aggiungere anche la libreria `places.aar` al progetto.
 
 ## iOS
 
-Nell'app iOS`application:didFinishLaunchingWithOptions`, registrati `PlacesMonitor` e posizioni con Mobile Core:
+Nell&#39;app iOS`application:didFinishLaunchingWithOptions`, registrati `PlacesMonitor` e posizioni con Mobile Core:
 
 ### Objective-C
 
@@ -149,7 +149,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 >[!IMPORTANT]
 >
->Il monitoraggio dei luoghi dipende dall'estensione Luoghi. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
+>Il monitoraggio dei luoghi dipende dall&#39;estensione Luoghi. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
 
 
 ## Aggiungere autorizzazioni al manifesto
@@ -158,7 +158,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 **Java**
 
-Per tutte le versioni di Android, per dichiarare che la tua app richiede l'autorizzazione di posizione, aggiungi un `<uses-permission>` elemento nel manifesto dell'app, come figlio dell' `<manifest>` elemento di livello principale. Per le applicazioni Android che hanno come destinazione API di livello 29 e superiore, per consentire all'app di accedere alla posizione in background, includete l'autorizzazione ACCESS_BACKGROUND_LOCATION.
+Per tutte le versioni di Android, per dichiarare che la tua app richiede l&#39;autorizzazione di posizione, aggiungi un `<uses-permission>` elemento nel manifesto dell&#39;app, come figlio dell&#39; `<manifest>` elemento di livello principale. Per le applicazioni Android che hanno come destinazione API di livello 29 e superiore, per consentire all&#39;app di accedere alla posizione in background, includete l&#39;autorizzazione ACCESS_BACKGROUND_LOCATION.
 
 ```java
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.adobe.placesapp">
@@ -180,13 +180,13 @@ iOS supporta la distribuzione di eventi di posizione alle app che vengono sospes
 
 ## Configurazione delle chiavi plist
 
-Nel `Info.plist` file dell'app devono essere incluse le seguenti chiavi:
+Nel `Info.plist` file dell&#39;app devono essere incluse le seguenti chiavi:
 
-* `NSLocationWhenInUseUsageDescription` - il testo deve descrivere il motivo per cui l'app richiede l'accesso alle informazioni sulla posizione dell'utente durante l'esecuzione in primo piano.
-* `NSLocationAlwaysAndWhenInUseUsageDescription` - il testo deve descrivere il motivo per cui l'app richiede l'accesso alle informazioni sulla posizione dell'utente in qualsiasi momento.
+* `NSLocationWhenInUseUsageDescription` - il testo deve descrivere il motivo per cui l&#39;app richiede l&#39;accesso alle informazioni sulla posizione dell&#39;utente durante l&#39;esecuzione in primo piano.
+* `NSLocationAlwaysAndWhenInUseUsageDescription` - il testo deve descrivere il motivo per cui l&#39;app richiede l&#39;accesso alle informazioni sulla posizione dell&#39;utente in qualsiasi momento.
 
 >[!TIP]
 >
->Se l'app supporta iOS 10 e versioni precedenti, è necessaria anche la `NSLocationAlwaysUsageDescription` chiave.
+>Se l&#39;app supporta iOS 10 e versioni precedenti, è necessaria anche la `NSLocationAlwaysUsageDescription` chiave.
 
 ![](/help/assets/using-the-places-monitor_2.png)
