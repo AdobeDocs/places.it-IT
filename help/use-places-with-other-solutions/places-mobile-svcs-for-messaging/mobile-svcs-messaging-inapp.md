@@ -17,7 +17,7 @@ Le informazioni seguenti mostrano come configurare i messaggi in-app da attivare
 
 ## Messaggio in-app
 
-Mobile Services consente di utilizzare i dati della posizione che vengono inviati ad Analytics come evento o condizione di attivazione per un messaggio in-app. Se i messaggi in-app vengono attivati dall'SDK e non è necessario attendere che i dati vengano elaborati da Analytics, i messaggi possono essere visualizzati in tempo reale non appena si verifica l'attivazione.
+Mobile Services consente di utilizzare i dati della posizione che vengono inviati ad Analytics come evento o condizione di attivazione per un messaggio in-app. Se i messaggi in-app vengono attivati dall&#39;SDK e non è necessario attendere che i dati vengano elaborati da Analytics, i messaggi possono essere visualizzati in tempo reale non appena si verifica l&#39;attivazione.
 
 ### Notifiche locali
 
@@ -27,7 +27,7 @@ Elenco dei tipi di messaggi in-app disponibili:
 * Avviso
 * Notifiche locali
 
-Questi tipi sono messaggi in-app perché sono attivati dall'SDK. Le notifiche locali appaiono come notifiche push perché vengono visualizzate quando l'app è in background. Queste notifiche forniscono anche notifiche in tempo reale quando gli utenti immettono o chiudono i POI mentre l’app è in background. Per ulteriori informazioni, consultate Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)posizioni.
+Questi tipi sono messaggi in-app perché sono attivati dall&#39;SDK. Le notifiche locali appaiono come notifiche push perché vengono visualizzate quando l&#39;app è in background. Queste notifiche forniscono anche notifiche in tempo reale quando gli utenti immettono o chiudono i POI mentre l’app è in background. Per ulteriori informazioni, consultate Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)posizioni.
 
 ### Prerequisiti 
 
@@ -45,15 +45,15 @@ Puoi creare regole di Launch che inviano ad Analytics i dati che desideri usare 
 
    Ad esempio, se avete creato un tag di metadati personalizzato nel servizio Posizione per il tempo in diversi POI, potete utilizzare tali metadati come parametro per la condizione Regola. Anche se potete utilizzare questa condizione con un evento POI descritto in precedenza, potete anche utilizzare la condizione come contesto per qualsiasi evento.
 
-Una volta impostata la regola con i parametri di evento e condizione corretti, completa la configurazione della regola configurando l'azione per l'invio di dati ad Analytics.
+Una volta impostata la regola con i parametri di evento e condizione corretti, completa la configurazione della regola configurando l&#39;azione per l&#39;invio di dati ad Analytics.
 
-## Crea un'azione
+## Crea un&#39;azione
 
-Per creare un'azione:
+Per creare un&#39;azione:
 
-1. Seleziona l'estensione **.[!UICONTROL Adobe Analytics]**
-1. Nell'elenco a **[!UICONTROL Action type]** discesa, seleziona **[!UICONTROL Track.]**
-1. Digitare un nome per l'azione.
+1. Seleziona l&#39;estensione **[!UICONTROL Adobe Analytics]**.
+1. Nell&#39;elenco a **[!UICONTROL Action type]**discesa, seleziona**[!UICONTROL Track.]**
+1. Digitare un nome per l&#39;azione.
 1. Nel riquadro a destra, in **[!UICONTROL Context Data]**, selezionate la coppia chiave-valore per impostare i dati contestuali che verranno inviati ad Analytics.
 
 Ad esempio, potete selezionare `poiname` come chiave e `{%%Last Entered POI Name}` come valore.
@@ -62,7 +62,7 @@ Ad esempio, potete selezionare `poiname` come chiave e `{%%Last Entered POI Name
 >
 >È possibile impostare le regole di elaborazione di Analytics per recuperare i dati contestuali. Per ulteriori informazioni, consulta [Regole di elaborazione](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Nell’esempio in *Creazione di un’azione*, l’azione invierà l’evento `poiname` come contesto per descrivere l’evento POI inviato ad Analytics.
 
-![creazione di un'azione](/help/assets/configure-action.png)
+![creazione di un&#39;azione](/help/assets/configure-action.png)
 
 Esempio della regola completa:
 
@@ -72,12 +72,12 @@ Esempio della regola completa:
 
 Come parte dei parametri di Trigger, puoi creare il pubblico per il messaggio con i dati provenienti da Location Service in uno dei modi seguenti:
 
-* Utilizzo di azioni specifiche per la posizione, ad esempio una voce o un'uscita.
+* Utilizzo di azioni specifiche per la posizione, ad esempio una voce o un&#39;uscita.
 * Utilizzo di metadati POI inviati come dati contestuali per limitare la destinazione del pubblico.
 
-   Questa opzione può essere utilizzata con un'azione specifica per una posizione, ad esempio una voce, o può essere utilizzata come contesto per un altro evento, ad esempio un avvio o un clic di pulsante.
+   Questa opzione può essere utilizzata con un&#39;azione specifica per una posizione, ad esempio una voce, o può essere utilizzata come contesto per un altro evento, ad esempio un avvio o un clic di pulsante.
 
-   Di seguito è riportato un esempio di come configurare un messaggio in-app per accogliere gli utenti che immettono un POI con **[!UICONTROL Adobe]** il nome:
+   Di seguito è riportato un esempio di come configurare un messaggio in-app per accogliere gli utenti che immettono un POI con **[!UICONTROL Adobe]**il nome:
 
    ![parametri di attivazione](/help/assets/trigger-parameters.png)
 
