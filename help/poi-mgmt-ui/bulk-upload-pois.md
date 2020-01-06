@@ -11,7 +11,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 È stato creato un set di script Python per semplificare l’importazione batch di POI da un file .csv in un database POI utilizzando le API dei servizi Web. Questi script possono essere scaricati da questo [git repo](https://github.com/adobe/places-scripts)open source.
 
-Prima di eseguire questi script, per accedere alle API dei servizi Web, vedere *Prerequisiti per l'accesso* dell'utente in Panoramica dell' [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
+Prima di eseguire questi script, per accedere alle API dei servizi Web, vedere *Prerequisiti per l&#39;accesso* dell&#39;utente in Panoramica dell&#39; [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 
 Seguono alcune informazioni sugli script:
 
@@ -31,7 +31,7 @@ Elenco delle colonne e dei valori da utilizzare:
 
 * `type`
 
-   Il punto è attualmente l'unico valore valido.
+   Il punto è attualmente l&#39;unico valore valido.
 
 * `longitude`
 
@@ -50,16 +50,16 @@ Elenco delle colonne e dei valori da utilizzare:
 I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente del servizio di localizzazione:
 
 * color, usato come colore del pin che rappresenta la posizione del POI nella mappa dell’interfaccia utente del servizio di posizione.
-   * I valori validi sono "", #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B e #3DC8DE e "".
+   * I valori validi sono &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B e #3DC8DE e &quot;&quot;.
    * Se il valore viene lasciato vuoto, l’interfaccia utente del servizio posizione utilizza il blu come colore predefinito.
 
       I valori corrispondono a blu (#3E76D0), viola (#AA99E8), fuschia (#DC2ABA), arancione (#FC685B), arancione chiaro (#FC962E), giallo (#F6C436), verde chiaro (#BECE5D), verde (#61B 56B) e blu chiaro (#3DC8DE), rispettivamente.
 
-* , che viene utilizzata come icona sul perno che rappresenta la posizione del POI sulla mappa dell’interfaccia utente del servizio di posizione
+* che viene utilizzata come icona sul perno che rappresenta la posizione del POI sulla mappa dell’interfaccia utente del servizio di posizione
 
-   * I valori validi sono "", negozio, alberghiero, auto, aeroplano, treno, nave, stadio, amusementpark, ancora, beaker, campana, bid, libro, box, valigetta, briefcase, browsing, pennello, edificio, calcolatore, macchina, orologio, istruzione, torcia, follow, gioco, femmina, maschio, regalo, martello, cuore, casa, chiave, lancio, lampadario, cassetta postale, promozionale, promozionale, nastro, shoppingCart, stella, target, teiera, thumbDown, thumbUp, trap, trofeo, chiave inglese.
+   * I valori validi sono &quot;&quot;, negozio, alberghiero, auto, aeroplano, treno, nave, stadio, amusementpark, ancora, beaker, campana, bid, libro, box, valigetta, briefcase, browsing, pennello, edificio, calcolatore, macchina, orologio, istruzione, torcia, follow, gioco, femmina, maschio, regalo, martello, cuore, casa, chiave, lancio, lampadario, cassetta postale, promozionale, promozionale, nastro, shoppingCart, stella, target, teiera, thumbDown, thumbUp, trap, trofeo, chiave inglese.
 
-      I valori delle icone sono elencati nell'ordine in cui appaiono nell'illustrazione seguente:
+      I valori delle icone sono elencati nell&#39;ordine in cui appaiono nell&#39;illustrazione seguente:
 
       ![icone nell’interfaccia](/help/assets/UI_icons.png)
 
@@ -80,7 +80,7 @@ I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente del
 
    * `access_code`
 
-      Questo è il codice di accesso ottenuto dalla chiamata ad Adobe IMS. Per informazioni su come ottenere questo codice di accesso, consultate *Prerequisiti per l'accesso* utente in Panoramica dell' [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
+      Questo è il codice di accesso ottenuto dalla chiamata ad Adobe IMS. Per informazioni su come ottenere questo codice di accesso, consultate *Prerequisiti per l&#39;accesso* utente in Panoramica dell&#39; [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 
    * `org_id`
 
@@ -88,11 +88,11 @@ I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente del
 
    * `api_key`
 
-      Si tratta della chiave API REST di Places ottenuta dall'integrazione Adobe I/O Places. Per informazioni su come ottenere la chiave API, consultate *Prerequisiti per l'accesso* utente in Panoramica dell' [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
-   b.Salvare le modifiche.
+      Si tratta della chiave API REST di Places ottenuta dall&#39;integrazione Adobe I/O Places. Per informazioni su come ottenere la chiave API, consultate *Prerequisiti per l&#39;accesso* utente in Panoramica dell&#39; [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
+   b. Salvare le modifiche.
 
 1. In una finestra terminale, andate alla `…/places-scripts/import/` directory.
-1. Inserite `python ./places_import.py` e premete il **[!UICONTROL enter]** (**[!UICONTROL return]**) tasto.
+1. Inserite `python ./places_import.py` e premete il **[!UICONTROL enter]**(**[!UICONTROL return]**) tasto.
 
 
 ## Controlli CSV pre-importazione
