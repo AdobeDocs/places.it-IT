@@ -9,7 +9,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 # Leggere tutte le librerie nella tua organizzazione
 
-Un metodo GET che restituisce i dettagli per tutte le librerie dell'organizzazione.
+Un metodo GET che restituisce i dettagli per tutte le librerie dell&#39;organizzazione.
 
 ## Richiesta
 
