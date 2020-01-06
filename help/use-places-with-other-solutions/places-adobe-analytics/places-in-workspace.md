@@ -7,7 +7,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 ---
 
 
-# Report sui dati sulla posizione nell'area di lavoro di Analytics {#places-in-workspace}
+# Report sui dati sulla posizione nell&#39;area di lavoro di Analytics {#places-in-workspace}
 
 Questo documento mostra un esempio di come creare rapporti sui dati della posizione nell’area di lavoro di Analytics. Ogni passaggio conterrà un riepilogo di alto livello con i dettagli forniti facendo riferimento ad altre pagine della documentazione.
 
@@ -15,9 +15,9 @@ Questo documento mostra un esempio di come creare rapporti sui dati della posizi
 
 Questo documento prevede quanto segue:
 
-1. L'estensione Adobe Places è implementata nell'applicazione. Per ulteriori informazioni sull'implementazione di Adobe Places, consultate Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
+1. L&#39;estensione Adobe Places è implementata nell&#39;applicazione. Per ulteriori informazioni sull&#39;implementazione di Adobe Places, consultate Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
-1. L'utente Adobe Analytics è un amministratore e ha accesso alle regole di elaborazione. Per ulteriori informazioni sulle regole di elaborazione, consulta [Panoramica sulle regole di elaborazione](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+1. L&#39;utente Adobe Analytics è un amministratore e ha accesso alle regole di elaborazione. Per ulteriori informazioni sulle regole di elaborazione, consulta [Panoramica sulle regole di elaborazione](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
 1. Nella proprietà Launch sono stati creati elementi di dati per le variabili Location Service desiderate. Per ulteriori informazioni sugli elementi dati in Launch, vedere [Definire un elemento](/help/use-places-launch-workflow/define-data-elements.md)dati.
 
@@ -26,29 +26,29 @@ Questo documento prevede quanto segue:
 
 Crea una regola che farà in modo che l’SDK invii dati ad Analytics quando il dispositivo entra in un POI. La creazione di questo tipo di regola è descritta nella pagina [Invia dati di entrata e uscita POI ad Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md) .
 
-In questo esempio, l'azione della regola ha i seguenti valori definiti per la richiesta Analytics:
+In questo esempio, l&#39;azione della regola ha i seguenti valori definiti per la richiesta Analytics:
 
-* **[!UICONTROL Action]** viene fornito un valore di **[!UICONTROL Places Entry]**.
+* **[!UICONTROL Action]**viene fornito un valore di**[!UICONTROL Places Entry]**.
 
-* La chiave dati contestuali **[!UICONTROL poi.name]** è impostata sul valore dell'elemento dati **[!UICONTROL {%%POI Name%%}]**.
+* La chiave dati contestuali **[!UICONTROL poi.name]**è impostata sul valore dell&#39;elemento dati**[!UICONTROL {%%POI Name%%}]**.
 
-!["imposta un'azione"](/help/assets/pt-setAction.png)
+![&quot;imposta un&#39;azione&quot;](/help/assets/pt-setAction.png)
 
 ## 2. Creare variabili Analytics
 
 Per mappare i dati contestuali (inviati nel passaggio 1), le variabili devono prima essere create per la suite di rapporti di Analytics. Per ulteriori informazioni sulla creazione di variabili in Analytics, consultate Variabili di [conversione \(eVars\)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
 
-In questo esempio, è stata creata una variabile di conversione **[!UICONTROL Evar2]** con nome **[!UICONTROL Places POI Name]**. Dovranno essere create ulteriori variabili per ogni variabile di posizione che desideri esporre nel reporting.
+In questo esempio, è stata creata una variabile di conversione **[!UICONTROL Evar2]**con nome**[!UICONTROL Places POI Name]**. Dovranno essere create ulteriori variabili per ogni variabile di posizione che desideri esporre nel reporting.
 
-!["create una variabile di analisi"](/help/assets/aa-evar.png)
+![&quot;create una variabile di analisi&quot;](/help/assets/aa-evar.png)
 
 ## 3. Creare regole di elaborazione
 
 Questo passaggio è necessario per mappare i dati contestuali (passaggio 1) alle variabili di Analytics (passaggio 2). For more information on creating processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-In questo esempio, è stata creata una regola di elaborazione per mappare il valore dei dati contestuali **[!UICONTROL poi.name]** in **[!UICONTROL Places POI Name \(eVar2\)]**. Saranno necessarie ulteriori regole di elaborazione per ogni variabile di posizione creata.
+In questo esempio, è stata creata una regola di elaborazione per mappare il valore dei dati contestuali **[!UICONTROL poi.name]**in**[!UICONTROL Places POI Name \(eVar2\)]**. Saranno necessarie ulteriori regole di elaborazione per ogni variabile di posizione creata.
 
-!["create una regola di elaborazione"](/help/assets/aa-processing-rule.png)
+![&quot;create una regola di elaborazione&quot;](/help/assets/aa-processing-rule.png)
 
 ## 4. Generazione di un rapporto in Workspace
 
@@ -56,10 +56,10 @@ Questo passaggio mostra un rapporto di base in Analytics Workspace per visualizz
 
 In questo esempio, il rapporto ha le seguenti impostazioni:
 
-* Metric - **[!UICONTROL Occurrences]**
+* Metrica - **[!UICONTROL Occurrences]**
 
-* Dimension - **[!UICONTROL Action Name]**
+* Dimensione - **[!UICONTROL Action Name]**
 
    * Suddivisione per dimensione - **[!UICONTROL Places POI Name]**
 
-!["create a report in workspace"](/help/assets/aa-workspace.png)
+![&quot;create a report in workspace&quot;](/help/assets/aa-workspace.png)
