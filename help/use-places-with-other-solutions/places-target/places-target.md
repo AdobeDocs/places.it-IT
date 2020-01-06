@@ -9,13 +9,13 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 # Utilizzo di Location Service con Adobe Target {#places-target}
 
-In questo documento si presuppone che l'estensione Luoghi sia stata implementata nell'applicazione. Per assistenza nell'implementazione dell'estensione Luoghi, vedere Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
+In questo documento si presuppone che l&#39;estensione Luoghi sia stata implementata nell&#39;applicazione. Per assistenza nell&#39;implementazione dell&#39;estensione Luoghi, vedere Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
-Dopo che l'estensione Luoghi invia eventi per voci ed uscite, puoi utilizzare Regole in Launch per allegare i dati Luoghi agli eventi SDK di Adobe Target. Con la proprietà desiderata selezionata in Lancio, potete creare questo tipo di regola completando le seguenti attività:
+Dopo che l&#39;estensione Luoghi invia eventi per voci ed uscite, puoi utilizzare Regole in Launch per allegare i dati Luoghi agli eventi SDK di Adobe Target. Con la proprietà desiderata selezionata in Lancio, potete creare questo tipo di regola completando le seguenti attività:
 
 ## 1. Creare una regola
 
-1. Nella **[!UICONTROL Rules]** scheda fare clic su **[!UICONTROL Create New Rule]**.
+1. Nella **[!UICONTROL Rules]**scheda fare clic su**[!UICONTROL Create New Rule]**.
 
    Considerazioni da ricordare:
 
@@ -24,15 +24,15 @@ Dopo che l'estensione Luoghi invia eventi per voci ed uscite, puoi utilizzare Re
 
 ## 2. Selezionare un evento
 
-1. Attribuite alla regola un nome significativo in modo che possa essere facilmente riconoscibile nell'elenco delle regole.
+1. Attribuite alla regola un nome significativo in modo che possa essere facilmente riconoscibile nell&#39;elenco delle regole.
 
    In questo esempio, la regola viene denominata **[!UICONTROL Attach Places Data to Target Content Requested]**.
 
-1. Nella **[!UICONTROL Events]** sezione fare clic su **[!UICONTROL Add]**.
+1. Nella **[!UICONTROL Events]**sezione fare clic su**[!UICONTROL Add]**.
 
-1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Adobe Target]**.
+1. Dall’elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTROL Adobe Target]**.
 
-1. Dall’elenco a **[!UICONTROL Event Type]** discesa, selezionate **[!UICONTROL Content Requested]**.
+1. Dall’elenco a **[!UICONTROL Event Type]**discesa, selezionate**[!UICONTROL Content Requested]**.
 
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
@@ -44,50 +44,50 @@ Dopo che l'estensione Luoghi invia eventi per voci ed uscite, puoi utilizzare Re
 >
 >Completa questo passaggio se desideri aggiungere Condizioni alla regola. In caso contrario, passare a *Definisci azione* .
 
-Nell'esempio seguente, viene creata una condizione che determina l'attivazione della regola solo per gli utenti che hanno avviato l'app cinque o più volte.
+Nell&#39;esempio seguente, viene creata una condizione che determina l&#39;attivazione della regola solo per gli utenti che hanno avviato l&#39;app cinque o più volte.
 
-1. Nella **[!UICONTROL Conditions]** sezione fare clic su **[!UICONTROL Add]**.
+1. Nella **[!UICONTROL Conditions]**sezione fare clic su**[!UICONTROL Add]**.
 
-1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
+1. Dall’elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTROL Mobile Core]**.
 
-1. Dall’elenco a **[!UICONTROL Condition Type]** discesa, selezionate **[!UICONTROL Launches]**.
+1. Dall’elenco a **[!UICONTROL Condition Type]**discesa, selezionate**[!UICONTROL Launches]**.
 
-1. Nel riquadro di destra, modificare l'elenco a discesa e i controlli numerici in modo che la condizione sia letta **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
+1. Nel riquadro di destra, modificare l&#39;elenco a discesa e i controlli numerici in modo che la condizione sia letta **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
 
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 ![aggiungere una condizione](/help/assets/ad-setCondition_target.png)
 
-## 4. Definire l'azione
+## 4. Definire l&#39;azione
 
-1. Nella **[!UICONTROL Actions]** sezione fare clic su **[!UICONTROL Add]**.
+1. Nella **[!UICONTROL Actions]**sezione fare clic su**[!UICONTROL Add]**.
 
-1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
+1. Dall’elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTROL Mobile Core]**.
 
-1. Dall’elenco a **[!UICONTROL Action Type]** discesa, selezionate **[!UICONTROL Attach Data]**.
+1. Dall’elenco a **[!UICONTROL Action Type]**discesa, selezionate**[!UICONTROL Attach Data]**.
 
-1. Nel riquadro di destra, nel **[!UICONTROL JSON Payload]** campo, digitare i dati che verranno aggiunti a questo evento.
+1. Nel riquadro di destra, nel **[!UICONTROL JSON Payload]**campo, digitare i dati che verranno aggiunti a questo evento.
 
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
-Nel riquadro a destra, puoi aggiungere un payload JSON a forma libera che aggiunge dati a un evento SDK prima che le estensioni ascoltino l'evento.
+Nel riquadro a destra, puoi aggiungere un payload JSON a forma libera che aggiunge dati a un evento SDK prima che le estensioni ascoltino l&#39;evento.
 
-Nell'esempio seguente, `poiCity` e `poiName` i valori vengono aggiunti alla **[!UICONTROL mboxparameters]** per ogni richiesta elaborata nell'evento Target. I valori delle nuove chiavi sono determinati dinamicamente dall'SDK al momento dell'elaborazione dell'evento.
+Nell&#39;esempio seguente, `poiCity` e `poiName` i valori vengono aggiunti alla **[!UICONTROL mboxparameters]**per ogni richiesta elaborata nell&#39;evento Target. I valori delle nuove chiavi sono determinati dinamicamente dall&#39;SDK al momento dell&#39;elaborazione dell&#39;evento.
 
 >[!TIP]
 >
->Questo payload JSON utilizza una notazione speciale per l' `request` oggetto. Nell'evento originale, `request` è un array di oggetti anonimi. Quando si associano dati a tutti gli oggetti di una matrice utilizzando l'opzione Allega dati, la `[*]` notazione di una chiave che contiene una matrice determina l'applicazione del payload a tutti gli oggetti della matrice.
+>Questo payload JSON utilizza una notazione speciale per l&#39; `request` oggetto. Nell&#39;evento originale, `request` è un array di oggetti anonimi. Quando si associano dati a tutti gli oggetti di una matrice utilizzando l&#39;opzione Allega dati, la `[*]` notazione di una chiave che contiene una matrice determina l&#39;applicazione del payload a tutti gli oggetti della matrice.
 >
->La notazione di `request[*]` può essere letta a voce alta come _per ogni oggetto dell'`request`array_.
+>La notazione di `request[*]` può essere letta a voce alta come _per ogni oggetto dell&#39;`request`array_.
 
-![definire l'azione](/help/assets/ad-setAction-target.png)
+![definire l&#39;azione](/help/assets/ad-setAction-target.png)
 
 ## 5. Salvate la regola e ricreate la proprietà
 
-Dopo aver completato la configurazione, verifica che la regola abbia l'aspetto seguente:
+Dopo aver completato la configurazione, verifica che la regola abbia l&#39;aspetto seguente:
 
 ![regola completata](/help/assets/ad-ruleComplete-target.png)
 
 1. Fai clic su **[!UICONTROL Save]**
 
-1. Generate di nuovo la proprietà Launch e distribuitela nell'ambiente corretto.
+1. Generate di nuovo la proprietà Launch e distribuitela nell&#39;ambiente corretto.
