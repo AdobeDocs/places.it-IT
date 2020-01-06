@@ -9,12 +9,12 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 # Estensione Luoghi {#places-extension}
 
-L’estensione Luoghi consente di agire in base alla posizione degli utenti. Questa estensione è l'interfaccia per le API del servizio Query Places. Ascoltando gli eventi che contengono le coordinate GPS e gli eventi dell'area geografica, questa estensione invia nuovi eventi elaborati dal motore delle regole. L’estensione Luoghi inoltre recupera e fornisce un elenco del POI più vicino per i dati dell’app che recuperano dalle API. Le aree restituite dalle API vengono memorizzate nella cache e nella persistenza, il che consente un'elaborazione offline limitata.
+L’estensione Luoghi consente di agire in base alla posizione degli utenti. Questa estensione è l&#39;interfaccia per le API del servizio Query Places. Ascoltando gli eventi che contengono le coordinate GPS e gli eventi dell&#39;area geografica, questa estensione invia nuovi eventi elaborati dal motore delle regole. L’estensione Luoghi inoltre recupera e fornisce un elenco del POI più vicino per i dati dell’app che recuperano dalle API. Le aree restituite dalle API vengono memorizzate nella cache e nella persistenza, il che consente un&#39;elaborazione offline limitata.
 
 ## Installa l’estensione Places in Adobe Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
-1. Nella **[!UICONTROL Catalog]** scheda, individuare l’ **[!UICONTROL Places]** estensione e fare clic su **[!UICONTROL Install]**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
+1. Nella **[!UICONTROL Catalog]**scheda, individuare l’**[!UICONTROL Places]** estensione e fare clic su **[!UICONTROL Install]**.
 1. Selezionare le librerie Luoghi da utilizzare in questa proprietà. Queste sono le librerie che saranno accessibili nella tua app.
 1. Fai clic su **[!UICONTROL Save]**.
 
@@ -28,22 +28,22 @@ L’estensione Luoghi consente di agire in base alla posizione degli utenti. Que
 
 ![](//help/assets/places-extension.png)
 
-## Aggiungere l'estensione Luoghi all'app {#add-places-to-app}
+## Aggiungere l&#39;estensione Luoghi all&#39;app {#add-places-to-app}
 
-Potete aggiungere l'estensione Luoghi alle app Android e iOS.
+Potete aggiungere l&#39;estensione Luoghi alle app Android e iOS.
 
 ### Android
 
-Per aggiungere l'estensione Luoghi all'app utilizzando Java:
+Per aggiungere l&#39;estensione Luoghi all&#39;app utilizzando Java:
 
-1. Aggiungi l'estensione Luoghi al progetto utilizzando il file gradle dell'app.
+1. Aggiungi l&#39;estensione Luoghi al progetto utilizzando il file gradle dell&#39;app.
 
    ```java
    implementation 'com.adobe.marketing.mobile:places:1.+'
    implementation 'com.adobe.marketing.mobile:sdk-core:1.+'
    ```
 
-1. Importa l'estensione Luoghi nell'attività principale dell'applicazione.
+1. Importa l&#39;estensione Luoghi nell&#39;attività principale dell&#39;applicazione.
 
    ```java
    import com.adobe.marketing.mobile.Places;
@@ -52,7 +52,7 @@ Per aggiungere l'estensione Luoghi all'app utilizzando Java:
 
 ### iOS
 
-Per aggiungere l'estensione Luoghi all'app utilizzando Objective-C o Swift:
+Per aggiungere l&#39;estensione Luoghi all&#39;app utilizzando Objective-C o Swift:
 
 1. Aggiungi al progetto le librerie Luoghi e [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) . Dovrete aggiungere i seguenti contenitori `Podfile`:
 
@@ -141,6 +141,6 @@ Per aggiornare la configurazione SDK a livello di programmazione in fase di esec
 
 | Chiave | Obbligatorio | Descrizione |
 | :--- | :--- | :--- |
-| `places.libraries` | Sì | Inserisce le librerie per l'app mobile. Specifica l'ID libreria e il nome della libreria supportata dall'app mobile. |
+| `places.libraries` | Sì | Inserisce le librerie per l&#39;app mobile. Specifica l&#39;ID libreria e il nome della libreria supportata dall&#39;app mobile. |
 | `places.endpoint` | Sì | L’endpoint predefinito del servizio Query posizione della piattaforma esperienza, utilizzato per ottenere informazioni sulle librerie e sui POI. |
 
