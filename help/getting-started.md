@@ -17,7 +17,7 @@ Di seguito è disponibile un utile video per una panoramica dei servizi di local
 
 Per utilizzare Location Service, completa le seguenti attività:
 
-### 1. Verifica che sia stato eseguito il provisioning dell'utente per utilizzare il servizio di localizzazione
+### 1. Verifica che sia stato eseguito il provisioning dell&#39;utente per utilizzare il servizio di localizzazione
 
 Il contesto del prodotto Location Service è disponibile per tutte le organizzazioni Experience Cloud.
 
@@ -41,7 +41,7 @@ I punti di interesse (POI) sono i geofence creati per le organizzazioni e potete
 
 ### 3. Configurare l’estensione Luoghi e l’estensione Monitor Luoghi
 
-Per ulteriori informazioni sulla configurazione dell'estensione Luoghi e dell'estensione Monitor, consultate le seguenti informazioni:
+Per ulteriori informazioni sulla configurazione dell&#39;estensione Luoghi e dell&#39;estensione Monitor, consultate le seguenti informazioni:
 
 * [Estensione Luoghi](/help/places-ext-aep-sdks/places-extension/places-extension.md)
 * [Posiziona l’estensione](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Monitor.
