@@ -13,11 +13,11 @@ Le seguenti informazioni sono utili per comprendere gli elementi di dati e come 
 
 ## Informazioni sugli elementi dati
 
-Gli elementi dati sono gli elementi costitutivi del dizionario dati dell'applicazione e sono utilizzati per raccogliere, organizzare e distribuire dati attraverso marketing e tecnologie pubblicitarie.
+Gli elementi dati sono gli elementi costitutivi del dizionario dati dell&#39;applicazione e sono utilizzati per raccogliere, organizzare e distribuire dati attraverso marketing e tecnologie pubblicitarie.
 
 Un elemento dati è una variabile in cui il valore può essere mappato su un ID visitatore, un Nome gestore, un ID pubblicitario, un ID push e così via. In Experience Platform Launch puoi fare riferimento a questo valore in base al nome della variabile. Questa raccolta di elementi di dati diventa il dizionario di dati definiti che puoi utilizzare per creare le tue regole (eventi, condizioni e azioni) e questo dizionario è condiviso tra Experience Platform Launch, dove può essere utilizzato con qualsiasi estensione nella tua proprietà.
 
-Con l'estensione Luoghi, potete fare riferimento ai valori delle seguenti destinazioni:
+Con l&#39;estensione Luoghi, potete fare riferimento ai valori delle seguenti destinazioni:
 
 * POI correnti, che si riferisce al POI in cui il cliente si trova attualmente.
 
@@ -33,38 +33,38 @@ Ciascun POI contiene i seguenti riferimenti di dati:
 * **[!UICONTROL Latitude]**: latitudine del POI
 * **[!UICONTROL Longitude]**: longitudine del POI
 * **[!UICONTROL Metadata]**: metadati personalizzati del POI
-* **[!UICONTROL Name]**: regione dell'OPA
+* **[!UICONTROL Name]**: regione dell&#39;OPA
 * **[!UICONTROL Radius]**: raggio del POI
 * **[!UICONTROL Region ID]**: ID del POI
-* **[!UICONTROL Region/State]**: regione, provincia o stato dell'OPA
+* **[!UICONTROL Region/State]**: regione, provincia o stato dell&#39;OPA
 
 ### Creare un elemento dati
 
-1. Nella pagina Proprietà dell'app, fai clic sulla **[!UICONTROL Data Elements]** scheda.
+1. Nella pagina Proprietà dell&#39;app, fai clic sulla **[!UICONTROL Data Elements]**scheda.
 
 1. Fai clic su **[!UICONTROL Create New Data Element]**.
 
-1. Nell'elenco delle estensioni installate, trovate **[!UICONTROL Places]**.
+1. Nell&#39;elenco delle estensioni installate, trovate **[!UICONTROL Places]**.
 
-1. Nell'elenco a **[!UICONTROL Data Element Type]** discesa, selezionare un riferimento dati per questo elemento dati.
+1. Nell&#39;elenco a **[!UICONTROL Data Element Type]**discesa, selezionare un riferimento dati per questo elemento dati.
 
 1. Selezionate una destinazione POI.
 
 1. Se questo elemento dati è un riferimento di metadati personalizzato, selezionate una chiave di metadati.
 
-1. Digitare un nome per l'elemento dati e fare clic **[!UICONTROL Save]**.
+1. Digitare un nome per l&#39;elemento dati e fare clic **[!UICONTROL Save]**.
 
    ![Crea elemento dati](/help/assets/create-de-7-v3.png)
 
 
 ## Uso di un elemento dati
 
-Dopo la creazione di un elemento dati, se è presente un selettore di elementi dati, puoi utilizzare l'elemento dati da qualsiasi componente regola.
+Dopo la creazione di un elemento dati, se è presente un selettore di elementi dati, puoi utilizzare l&#39;elemento dati da qualsiasi componente regola.
 
-![Utilizzare l'elemento dati](/help/assets/use-de-v2.png)
+![Utilizzare l&#39;elemento dati](/help/assets/use-de-v2.png)
 
-Se nel componente regola non è presente un selettore di elementi di dati, potete utilizzare l'elemento di dati racchiudendo il nome dell'elemento di dati con i **[!UICONTROL %%]** token.
-Ad esempio, se il nome dell'elemento dati è **[!UICONTROL Last POI City]**, è possibile aggiungere **[!UICONTROL LAST POI City]** a un input di testo.
+Se nel componente regola non è presente un selettore di elementi di dati, potete utilizzare l&#39;elemento di dati racchiudendo il nome dell&#39;elemento di dati con i **[!UICONTROL %%]**token.
+Ad esempio, se il nome dell&#39;elemento dati è**[!UICONTROL Last POI City]**, è possibile aggiungere **[!UICONTROL LAST POI City]**a un input di testo.
 
 
 ## Pubblicare gli elementi di dati
