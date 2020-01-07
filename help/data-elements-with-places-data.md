@@ -13,7 +13,7 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 Gli elementi dati sono gli elementi costitutivi del dizionario dati o della mappa dati. Puoi utilizzare gli elementi di dati per raccogliere, organizzare e distribuire i dati attraverso marketing e tecnologie pubblicitarie.
 
-Un elemento dati è una variabile il cui valore può essere mappato a stringhe di query, URL, valori di cookie, variabili JavaScript e così via. In Experience Platform Launch puoi fare riferimento a questo valore in base al nome della variabile. La raccolta di elementi di dati diventa il dizionario di dati definiti che puoi utilizzare per creare le tue regole (eventi, condizioni e azioni), e il dizionario dati è condiviso tra Experience Platform Launch e può essere utilizzato con l'estensione Places.
+Un elemento dati è una variabile il cui valore può essere mappato a stringhe di query, URL, valori di cookie, variabili JavaScript e così via. In Experience Platform Launch puoi fare riferimento a questo valore in base al nome della variabile. La raccolta di elementi di dati diventa il dizionario di dati definiti che puoi utilizzare per creare le tue regole (eventi, condizioni e azioni), e il dizionario dati è condiviso tra Experience Platform Launch e può essere utilizzato con l&#39;estensione Places.
 
 Per ulteriori informazioni sugli elementi dati, vedere [Elementi](https://docs.adobelaunch.com/launch-reference/managing-resources/data-elements) dati .
 
