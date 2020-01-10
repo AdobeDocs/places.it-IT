@@ -2,12 +2,21 @@
 title: Note sulla versione
 description: Note sulla versione di Adobe Experience Platform Location Service.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 585bcde256c79b9178a04ff66aa04c92f093c432
 
 ---
 
 
 # Note sulla versione {#release-notes}
+
+## 9 gennaio 2020
+
+* **ACPPlaces 1.4.0**
+
+   * **Android**
+
+      * È stata aggiunta una nuova API `setAuthorizationStatus`per impostare lo stato di autorizzazione del dispositivo per i servizi di posizione. Il valore viene memorizzato e utilizzato nello stato Condiviso Luoghi.
+
 
 ## 3 dicembre 2019
 
