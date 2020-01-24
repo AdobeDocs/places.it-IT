@@ -1,8 +1,8 @@
 ---
-title: Gestione delle librerie nell'interfaccia utente Luoghi
-description: Gestire le librerie utilizzando l'interfaccia utente Luoghi.
+title: Gestione delle librerie nell'interfaccia utente del servizio Luoghi
+description: Gestire le librerie utilizzando l'interfaccia utente del servizio Luoghi.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -19,7 +19,7 @@ Le librerie sono definite dalle seguenti:
 | :--- | :--- |
 | ID | un identificatore univoco assegnato alla libreria al momento della creazione |
 | Nome | un nome descrittivo assegnato a una libreria |
-| Preferenza | Queste classificazioni possono essere ignorate se nell’organizzazione non sono presenti aree geografiche sovrapposte. In presenza di punti di interesse sovrapposti, consigliamo di inserire ciascuno dei recinti geografici in librerie separate, in modo che possano essere ponderati gli uni rispetto gli altri. Un utente può trovarsi in un solo recinto geografico alla volta. <br><br>La classificazione più alta dei recinti geografici in cui si trova un utente determina la sua attuale appartenenza al recinto geografico. In presenza di recinti geografici con la stessa classificazione della libreria, quello minore è rappresentata dal recinto geografico attuale dell’utente. <br><br>L’SDK è inoltre a conoscenza dei punti di interesse *Last entered* (Ultimo in entrata) e *Last exited* (Ultimo in uscita), per cui hai il controllo completo sulle modalità con cui attivare le regole in base all’interazione dell’utente con i punti di interesse. |
+| Preferenza | Queste classificazioni possono essere ignorate se nell’organizzazione non sono presenti aree geografiche sovrapposte. In presenza di punti di interesse sovrapposti, consigliamo di inserire ciascuno dei recinti geografici in librerie separate, in modo che possano essere ponderati gli uni rispetto gli altri. Un utente può trovarsi in un solo recinto geografico alla volta. <br><br>La classificazione più alta dei recinti geografici in cui si trova un utente determina la sua attuale appartenenza al recinto geografico. Se esistono aree geografiche con la stessa classificazione della libreria, la distanza minima è quella corrente dell&#39;utente. <br><br>L’SDK riconosce inoltre i punti di interesse *Last entered* (Ultimo in entrata) e *Last exited* (Ultimo in uscita), per cui hai il controllo completo sulle modalità con cui attivare le regole in base all’interazione dell’utente con i punti di interesse. |
 
 ## Creare una libreria
 
