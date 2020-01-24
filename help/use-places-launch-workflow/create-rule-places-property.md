@@ -1,15 +1,15 @@
 ---
-title: Creazione di una regola per la proprietà Luoghi
+title: Creazione di una regola per la proprietà Places Service
 description: 'L’SDK Luoghi tiene traccia della posizione corrente, monitora i POI configurati intorno alla posizione corrente e tiene traccia degli eventi di entrata e uscita per tali POI. '
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
 
 # Creare regole di entrata e uscita {#create-entry-exit-rules}
 
-Con le estensioni Places e Places Monitor installate nell’applicazione per dispositivi mobili, puoi creare regole in Adobe Experience Platform Launch che vengono attivate o condizionate per i dati della posizione, inclusi gli eventi di ingresso e uscita dalla posizione.
+Con le estensioni Places e Places Monitor installate nell’applicazione mobile, puoi creare regole in Adobe Experience Platform Launch che vengono attivate o condizionate per i dati della posizione, inclusi gli eventi di ingresso e uscita dalla posizione.
 
 ## Regole
 
@@ -19,14 +19,14 @@ Con le estensioni Places e Places Monitor installate nell’applicazione per dis
 * (Facoltativo) condizioni
 * Una o più azioni
 
-### Eventi Luoghi
+### Eventi di servizio Luoghi
 
-Luoghi offre i seguenti eventi in cui è possibile eseguire una regola:
+Il servizio Luoghi offre i seguenti eventi in cui è possibile eseguire una regola:
 
 * **Inserisci un POI**, attivato dall’SDK di Places quando il cliente accede al POI configurato dall’utente.
 * **Esci dal POI**, attivato dall’SDK di Places quando il cliente esce dal POI configurato.
 
-### Condizioni del luogo
+### Posizioni Condizioni di servizio
 
 Le condizioni definiscono i criteri che i dati associati all&#39;evento, o lo stato condiviso di un&#39;estensione in tale istanza, devono soddisfare affinché l&#39;azione venga eseguita. Ad esempio, è possibile impostare una condizione per attivare un&#39;azione su una voce di un coffee shop solo nella città di San Francisco.
 
@@ -39,7 +39,7 @@ L’SDK Luoghi mantiene gli stati seguenti:
 Ciascun POI contiene i seguenti elementi di dati:
 
 * ID
-* Nome:
+* Nome
 * Latitudine/longitudine
 * Raggio
 * Metadati quali città, paese, stato, categoria
@@ -76,7 +76,7 @@ Per creare un elemento dati in Experience Platform Launch:
 1. Nel riquadro a destra, selezionare **POI** correnti.
 1. Fai clic su **Salva**.
 
-### Creare una regola in Experience Platform Launch for Places
+### Creare una regola in Experience Platform Launch for Places Service
 
 ![creazione di una regola](/help/assets/placesrule.png)
 
@@ -122,10 +122,10 @@ Per creare un elemento dati in Experience Platform Launch:
 
 ### Pubblicare la regola
 
-1. Per attivare la regola, è necessario pubblicarla. Per ulteriori informazioni sulla pubblicazione della regola in Experience Platform Launch, consulta [Pubblicazione](https://docs.adobelaunch.com/launch-reference/publishing).
+1. Per attivare la regola, è necessario pubblicarla. Per ulteriori informazioni sulla pubblicazione della regola in Experience Platform Launch, consulta [Pubblicazione](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Pensare oltre le entrate e le uscite
 
-L&#39;utilizzo di voci ed uscite del servizio Location per attivare le regole in Experience Platform Launch è incredibilmente potente, ma puoi anche utilizzare i dati della posizione come condizione per attivare altri eventi. Ad esempio, potresti avere un attivatore di eventi di tracciamento core Mobile pronto per essere attivato in base a un particolare evento di chiamata trackAction all’interno dell’app. In base a questo evento, potete inserire condizioni di posizione aggiuntive per l&#39;evento prima che venga eseguita un&#39;azione. Ad esempio, aprite un sondaggio in-app quando si verifica un `trackAction` evento di acquisto, ma **solo** se la posizione corrente dell&#39;utente include metadati specifici del servizio di localizzazione.
+L&#39;utilizzo di voci ed uscite del servizio Places per attivare le regole in Experience Platform Launch è incredibilmente potente, ma puoi anche utilizzare i dati della posizione come condizione per attivare altri eventi. Ad esempio, potresti avere un attivatore di eventi di tracciamento core Mobile pronto per essere attivato in base a un particolare evento di chiamata trackAction all’interno dell’app. In base a questo evento, potete inserire condizioni di posizione aggiuntive per l&#39;evento prima che venga eseguita un&#39;azione. Ad esempio, aprite un sondaggio in-app quando si verifica un `trackAction` evento di acquisto, ma **solo** se la posizione corrente dell&#39;utente include metadati specifici del servizio Luoghi.
 
 ![creare una condizione](/help/assets/places-condition.png)
