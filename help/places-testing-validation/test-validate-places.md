@@ -1,25 +1,21 @@
 ---
-title: Verifica e convalida dei luoghi
-description: Questa sezione fornisce informazioni su come verificare e convalidare i luoghi.
+title: Test e convalida del servizio Places
+description: Questa sezione fornisce informazioni su come verificare e convalidare i Servizi Luoghi.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
 
-# Raccomandazioni per testare il servizio Location {#test-validate-loc-svc}
+# Consigli per testare i servizi Luoghi {#test-validate-loc-svc}
 
-Molti clienti e organizzazioni definiranno i POI in tutto il mondo, pertanto è importante avere un modo per simulare e verificare in che modo il servizio di localizzazione interagisce con la vostra applicazione.
+Molti clienti e organizzazioni definiranno i POI in tutto il mondo, pertanto è importante avere un modo per simulare e verificare in che modo i Servizi Luoghi interagiscono con la tua applicazione. Queste informazioni sono utili per verificare e convalidare le voci e le uscite del servizio Luoghi che vengono attivate correttamente in base ai POI definiti e alla posizione corrente di un utente.
 
-Queste informazioni sono utili per verificare e convalidare le voci e le uscite del servizio di localizzazione che vengono attivate correttamente in base ai POI definiti e alla posizione corrente di un utente.
-
-Poiché le variabili ambientali possono essere un fattore di segnalazione e precisione della posizione, è consigliabile stabilire i risultati della linea di base prima lavorando localmente con gli strumenti di sviluppo e le voci di posizione simulate. L&#39;obiettivo qui è convalidare il corretto funzionamento di tutti gli eventi di posizione.
-
-Una volta convalidati correttamente gli eventi di posizione, è possibile sottoporre a test le integrazioni della soluzione (ad esempio, Analytics, Target e Campaign). Per facilitare le attività di test, è necessario configurare i webhook di Slack con un postback e caricare i file GPX nel singolo ambiente di sviluppo.
+Poiché le variabili ambientali possono essere un fattore di segnalazione e precisione della posizione, è consigliabile stabilire i risultati della linea di base prima lavorando localmente con gli strumenti di sviluppo e le voci di posizione simulate. L&#39;obiettivo è convalidare il corretto funzionamento di tutti gli eventi di posizione. Una volta convalidati correttamente gli eventi di posizione, è possibile sottoporre a test le integrazioni della soluzione (ad esempio, Analytics, Target e Campaign). Per facilitare le attività di test, è necessario configurare i webhook di Slack con un postback e caricare i file GPX nel singolo ambiente di sviluppo.
 
 >[!IMPORTANT]
 >
->Questo piano presuppone che siano stati creati dei POI nell’interfaccia utente [di gestione del servizio di](https://places.adobe.com) localizzazione e che le versioni più recenti dell’estensione Places e del monitor Luoghi siano installate e configurate correttamente.
+>Questo piano presuppone che siano stati creati dei punti di interesse nell’interfaccia utente [](https://places.adobe.com) del servizio Luoghi e che le versioni più recenti dell’estensione Luoghi e Monitor Luoghi siano state installate e configurate correttamente. Per ulteriori informazioni, consultate Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md) Luoghi e [Estensione](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Monitor luoghi.
 
 | Passaggio | Descrizione | Risultato previsto |
 |--- |--- |--- |
@@ -42,10 +38,10 @@ Una volta convalidati correttamente gli eventi di posizione, è possibile sottop
 | 10f | Assicurati di pubblicare tutte le modifiche apportate ai nuovi elementi dati e alle regole in Launch. (selezionare una libreria di sviluppo funzionante in alto a destra dell&#39;interfaccia Launch). |  |
 | 11 | Avviate e verificate di nuovo l&#39;applicazione capovolgendo le posizioni della GPX nell&#39;IDE sviluppatore. | A questo punto, le notifiche relative alla barra laterale mostrano le voci per ciascun POI quando si selezionano diverse posizioni nell’ambiente di sviluppo. |
 |  | **RAPIDO**<br> PUNTO RIEPILOGO: tutti i test possono essere condotti localmente senza dover recarsi in una posizione POI specifica. I test di convalida consentono di garantire che l&#39;applicazione sia configurata correttamente e che abbia ricevuto le autorizzazioni corrette per il percorso. <br><br>Questa convalida garantisce inoltre che i POI definiti funzionino correttamente con l’estensione Places Monitor.  Dopo questo passaggio, inizieremo a testare i messaggi in Campaign per verificare se i messaggi corretti vengono visualizzati in base alle voci e alle uscite del POI. |  |
-|  | **Verifica dei messaggi in-app standard di Adobe Campaign con il servizio di localizzazione.** |  |
+|  | **Verifica dei messaggi in-app standard di Adobe Campaign con il servizio Places.** |  |
 | 12 | Nel dashboard principale della campagna configurate un nuovo messaggio in-app (tipo = trasmesso) |  |
 | 12a | Negli attivatori, selezionare Tipo di evento **Luoghi - Immissione come attivatore**. |  |
-| 12b | Selezionate **[UICONTROL Posiziona metadati]** personalizzati come filtro aggiuntivo. Utilizzate il tipo POI = Ultimo POI immesso.<br>Usiamo **[!UICONTROL Last Entered]** come tipo POI perché nella maggior parte dei casi, **[!UICONTROL Last Entered]** sarà lo stesso di **[!UICONTROL Current POI]**. <br><br> **[!UICONTROL Current POI]** devono essere utilizzati solo nei casi in cui vi sono aree geografiche POI sovrapposte. In questo caso, questi POI devono essere CLASSIFICATI e quindi **[!UICONTROL Current POI]** verrà visualizzato il POI di primo livello tra le 2 o 3 aree geografiche in cui un utente potrebbe trovarsi attualmente. |  |
+| 12b | Selezionate **[UICONTROL Posiziona metadati]**personalizzati come filtro aggiuntivo. Utilizzate il tipo POI = Ultimo POI immesso.<br>Usiamo**[!UICONTROL Last Entered]** come tipo POI perché nella maggior parte dei casi, **[!UICONTROL Last Entered]**sarà lo stesso di**[!UICONTROL Current POI]**. <br><br>**[!UICONTROL Current POI]** devono essere utilizzati solo nei casi in cui vi sono aree geografiche POI sovrapposte. In questo caso, questi POI devono essere CLASSIFICATI e quindi **[!UICONTROL Current POI]**verrà visualizzato il POI di primo livello tra le 2 o 3 aree geografiche in cui un utente potrebbe trovarsi attualmente. |  |
 | 12c | Selezionate una chiave di metadati personalizzata che vi aiuterà a limitare l’ambito del POI a cui verrà inviato un messaggio. |  |
 | 12d | Per la frequenza e la durata, mantenete uno o due giorni, in modo che, se non vi piacciono i criteri, possiate scadere il trigger in un periodo di tempo più breve. |  |
 | 12e | Per il click-through Always/Once o Fino a, selezionate *SEMPRE* in modo da poter eseguire il test in più posizioni. | Un messaggio in-app viene visualizzato SEMPRE quando simulate una modifica di posizione che soddisfa i criteri di metadati appropriati. |
@@ -55,15 +51,15 @@ Una volta convalidati correttamente gli eventi di posizione, è possibile sottop
 | 14 | Nell&#39;applicazione di sviluppo, cambiare posizione utilizzando i file GPX creati in precedenza. | Dovresti visualizzare il messaggio in-app in base ai criteri precedenti impostati. |
 | 15 | Per il test successivo, essenzialmente copieremo gli stessi passaggi di prima, ma questa volta testeremo la NOTIFICA LOCALE. | Il risultato previsto è che le notifiche locali vengono visualizzate ogni volta che vengono soddisfatti i criteri di corrispondenza. |
 | 16 | Configura un nuovo messaggio in-app (tipo = trasmissione). |  |
-| 16a | Nei trigger, selezionare **[!UICONTROL Places event type]** - **[!UICONTROL Entry as the trigger]**. |  |
-| 16b | Selezionate i metadati Personalizzato luoghi come filtro aggiuntivo - utilizzate **[!UICONTROL POI type]** = **[!UICONTROL Last Entered POI]**. |  |
+| 16a | Nei trigger, selezionare **[!UICONTROL Places event type]**-**[!UICONTROL Entry as the trigger]**. |  |
+| 16b | Selezionate i metadati Personalizzato luoghi come filtro aggiuntivo - utilizzate **[!UICONTROL POI type]**=**[!UICONTROL Last Entered POI]**. |  |
 | 16c | Selezionate una chiave di metadati personalizzata che vi aiuterà a limitare l’ambito del POI a cui verrà inviato un messaggio. |  |
 | 16d | Per la frequenza e la durata, mantenete solo uno o due giorni, in modo che, se non vi piacciono i criteri, possiate scadere il trigger in un periodo di tempo più breve. |  |
 | 16e | Per il click-through Always/Once o Fino a **[!UICONTROL ALWAYS]**. |  |
 | 16f | Per il tipo di visualizzazione, selezionare **[!UICONTROL Local Notification]**. |  |
 | 16g | Prepara/conferma e distribuisci il messaggio in-app. |  |
-| 17 | Nell&#39;ambiente di sviluppo, collegate il dispositivo e premete **[!UICONTROL Play]** sulla build. Dopo aver stabilito che la posizione funziona, eseguite in background l&#39;applicazione e continuate a cambiare posizione in Xcode o Android Studio. Dovreste comunque vedere i layout della console che indicano la modifica della posizione e le notifiche locali visualizzate in base ai criteri impostati nel trigger. (potrebbe verificarsi un ritardo di 1-2 secondi). | Il risultato previsto è che le notifiche locali vengono visualizzate ogni volta che i criteri corrispondenti vengono soddisfatti. |
-|  | **SINTESI PUNTO** <br>A questo punto, dovremmo vedere i POI nel nostro ambiente locale. Dovremmo inoltre visualizzare messaggi da Campaign basati sul lavoro POI. Se si verificano degli errori, controllate se una notifica di tipo Slack non è uscita. Se non è presente un messaggio di tipo Sfumatura, controllate la console dell’applicazione perché potrebbe non essere stata registrata una nuova voce di posizione. Se i risultati sono positivi, possiamo essere certi che l&#39;applicazione funziona correttamente e che anche il servizio di messaggistica Location Service e Campaign funziona correttamente. |  |
+| 17 | Nell&#39;ambiente di sviluppo, collegate il dispositivo e premete **[!UICONTROL Play]**sulla build. Dopo aver stabilito che la posizione funziona, eseguite in background l&#39;applicazione e continuate a cambiare posizione in Xcode o Android Studio. Dovreste comunque vedere i layout della console che indicano la modifica della posizione e le notifiche locali visualizzate in base ai criteri impostati nel trigger. (potrebbe verificarsi un ritardo di 1-2 secondi). | Il risultato previsto è che le notifiche locali vengono visualizzate ogni volta che i criteri corrispondenti vengono soddisfatti. |
+|  | **SINTESI PUNTO** <br>A questo punto, dovremmo vedere i POI nel nostro ambiente locale. Dovremmo inoltre visualizzare messaggi da Campaign basati sul lavoro POI. Se si verificano degli errori, controllate se una notifica di tipo Slack non è uscita. Se non è presente un messaggio di tipo Sfumatura, controllate la console dell’applicazione perché potrebbe non essere stata registrata una nuova voce di posizione. Se i risultati sono positivi, possiamo essere certi che l&#39;applicazione funziona correttamente e che anche il servizio di messaggistica Places Service e Campaign funziona correttamente. |  |
 |  | **TEST** IN SITO <br>Non è necessario modificare molto durante il test sul posto. Mantenere attivo il postback di rallentamento dovrebbe facilitare la comprensione se il dispositivo sta ottenendo una voce e un&#39;uscita per la posizione. |  |
 | 18 | Effettuare test con dispositivi che iniziano con wifi e cellulare disabilitato e quindi attivano una volta nella regione POI. | Se si verifica un errore, tenete presente se ottenete una voce di geotrecinto e una notifica in Slack. Qual è la marca temporale della notifica Slack? |
 | 19 | Eseguire il test con solo cellulare abilitato e con il wifi spento. |  |
@@ -72,7 +68,7 @@ Una volta convalidati correttamente gli eventi di posizione, è possibile sottop
 
 ## Esempi di registro
 
-**Passaggio 8:** Registri iOS e Android previsti durante un aggiornamento della posizione
+**** Passaggio 8: Registri iOS e Android previsti durante un aggiornamento della posizione
 
 **iOS**
 
@@ -100,7 +96,7 @@ PlacesMonitor - Attempting to Monitor POI with id <poi id> name <poi name> latit
 PlacesMonitor - Successfully added n fences for monitoring
 ```
 
-**Passaggio 9:** Registri iOS e Android previsti durante un evento
+**** Passaggio 9: Registri iOS e Android previsti durante un evento
 
 **iOS**
 
