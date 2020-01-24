@@ -2,7 +2,7 @@
 title: Estensione Luoghi
 description: L’estensione Luoghi consente di agire in base alla posizione degli utenti.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -22,7 +22,7 @@ L’estensione Luoghi consente di agire in base alla posizione degli utenti. Que
 
 1. Completa il processo di pubblicazione per aggiornare la configurazione SDK.
 
-   Per ulteriori informazioni sulla pubblicazione in Experience Platform Launch, consultate [Pubblicazione](https://docs.adobelaunch.com/launch-reference/publishing).
+   Per ulteriori informazioni sulla pubblicazione in Experience Platform Launch, consultate [Pubblicazione](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
@@ -61,7 +61,7 @@ Per aggiungere l&#39;estensione Luoghi all&#39;app utilizzando Objective-C o Swi
    pod 'ACPCore', '~> 2.0'    # minimum Core version for Places is 2.0.3
    ```
 
-   In alternativa, se non utilizzate i cococoapodi, potete includere manualmente le librerie Mobile Core e Luoghi dalla pagina [delle](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) versioni di Github.
+   In alternativa, se non utilizzate i cococoapodi, potete includere manualmente le librerie Mobile Core e Luoghi dalla pagina [](https://github.com/Adobe-Marketing-Cloud/acp-sdks/releases/) delleversioni di Github.
 
 1. Aggiornate i cocopodi:
 
@@ -85,13 +85,13 @@ Per aggiungere l&#39;estensione Luoghi all&#39;app utilizzando Objective-C o Swi
    import ACPPlaces
    ```
 
-### Registra luoghi con core mobile {#register-places-mobile-core}
+### Registra l’estensione Luoghi con Mobile Core {#register-places-mobile-core}
 
-Devi registrare Luoghi con Mobile Core in Android e iOS.
+Devi registrare l&#39;estensione Luoghi con Mobile Core in Android e iOS.
 
 #### Android
 
-Nel metodo della tua app `OnCreate` registrati le estensioni Location Services:
+Nel metodo dell&#39;app `OnCreate` registrate le estensioni Luoghi:
 
 ```java
 public class PlacesTestApp extends Application {
@@ -137,10 +137,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 
 ## Chiavi di configurazione
 
-Per aggiornare la configurazione SDK a livello di programmazione in fase di esecuzione, usa le informazioni seguenti per modificare i valori di configurazione di Places. Per ulteriori informazioni, consultate [Riferimento](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)API di configurazione.
+Per aggiornare la configurazione SDK a livello di programmazione in fase di esecuzione, usa le informazioni seguenti per modificare i valori di configurazione dell&#39;estensione Places. Per ulteriori informazioni, consultate [Riferimento](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/configuration/configuration-api-reference)API di configurazione.
 
 | Chiave | Obbligatorio | Descrizione |
 | :--- | :--- | :--- |
-| `places.libraries` | Sì | Inserisce le librerie per l&#39;app mobile. Specifica l&#39;ID libreria e il nome della libreria supportata dall&#39;app mobile. |
-| `places.endpoint` | Sì | L’endpoint predefinito del servizio Query posizione della piattaforma esperienza, utilizzato per ottenere informazioni sulle librerie e sui POI. |
+| `places.libraries` | Sì | Le librerie delle estensioni Luoghi per l&#39;app mobile. Specifica l&#39;ID libreria e il nome della libreria supportata dall&#39;app mobile. |
+| `places.endpoint` | Sì | L’endpoint predefinito del servizio query Luoghi, utilizzato per ottenere informazioni sulle librerie e sui POI. |
 
