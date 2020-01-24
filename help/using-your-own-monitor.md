@@ -1,15 +1,15 @@
 ---
 title: Utilizzo del monitor
-description: Puoi anche utilizzare i tuoi servizi di monitoraggio e integrarli con Places utilizzando le API delle estensioni Places.
+description: Puoi anche utilizzare i tuoi servizi di monitoraggio e integrarli con i servizi Luoghi utilizzando le API delle estensioni dei Servizi Luoghi.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Utilizzo del monitor {#using-your-monitor}
 
-Puoi anche utilizzare i tuoi servizi di monitoraggio e integrarli con Places utilizzando le API delle estensioni Places.
+Puoi anche utilizzare i tuoi servizi di monitoraggio e integrarli con i servizi Places utilizzando le API delle estensioni Places.
 
 ## Registrazione delle aree geografiche
 
