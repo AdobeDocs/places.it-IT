@@ -1,17 +1,17 @@
 ---
 title: Adobe Target
-description: Questa sezione fornisce informazioni sull'utilizzo di Location Service con Adobe Target.
+description: Questa sezione fornisce informazioni sull'utilizzo di Places Service con Adobe Target.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
-# Utilizzo di Location Service con Adobe Target {#places-target}
+# Utilizzo del servizio Luoghi con Adobe Target {#places-target}
 
 In questo documento si presuppone che l&#39;estensione Luoghi sia stata implementata nell&#39;applicazione. Per assistenza nell&#39;implementazione dell&#39;estensione Luoghi, vedere Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
-Dopo che l&#39;estensione Luoghi invia eventi per voci ed uscite, puoi utilizzare Regole in Launch per allegare i dati Luoghi agli eventi SDK di Adobe Target. Con la proprietà desiderata selezionata in Lancio, potete creare questo tipo di regola completando le seguenti attività:
+Dopo che l&#39;estensione Luoghi ha inviato eventi per voci ed uscite, puoi utilizzare Regole in Launch per allegare i dati del Servizio Luoghi agli eventi SDK di Adobe Target. Con la proprietà desiderata selezionata in Lancio, potete creare questo tipo di regola completando le seguenti attività:
 
 ## 1. Creare una regola
 
@@ -26,7 +26,7 @@ Dopo che l&#39;estensione Luoghi invia eventi per voci ed uscite, puoi utilizzar
 
 1. Attribuite alla regola un nome significativo in modo che possa essere facilmente riconoscibile nell&#39;elenco delle regole.
 
-   In questo esempio, la regola viene denominata **[!UICONTROL Attach Places Data to Target Content Requested]**.
+   In questo esempio, la regola viene denominata **[!UICONTROL Attach Places Service Data to Target Content Requested]**.
 
 1. Nella **[!UICONTROL Events]**sezione fare clic su**[!UICONTROL Add]**.
 
