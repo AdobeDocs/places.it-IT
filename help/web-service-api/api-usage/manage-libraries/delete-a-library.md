@@ -2,12 +2,12 @@
 title: Eliminare una libreria
 description: Eliminate una libreria utilizzando le API REST Luoghi.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Eliminare una libreria
+# Eliminare una libreria {#delete-a-library}
 
 Un metodo DELETE che consente di eliminare una libreria.
 
