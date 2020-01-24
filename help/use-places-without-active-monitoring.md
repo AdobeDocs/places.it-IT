@@ -1,15 +1,15 @@
 ---
-title: Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva
-description: Questa sezione fornisce informazioni su come utilizzare Location ServicePlaces senza monitoraggio delle aree attive.
+title: Usa servizio Luoghi senza monitoraggio area attiva
+description: Questa sezione fornisce informazioni sull'utilizzo di Places Service senza monitoraggio delle aree attive.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
 
-# Utilizzo del servizio di localizzazione senza monitoraggio della regione attiva {#use-places-without-active-monitoring}
+# Usa servizio Luoghi senza monitoraggio area attiva {#use-places-without-active-monitoring}
 
-I casi di utilizzo dell&#39;applicazione potrebbero non richiedere il monitoraggio dell&#39;area attiva. Adobe Places può ancora essere utilizzato per integrare i dati sulla posizione degli utenti con altri prodotti Experience Platform.
+I casi di utilizzo dell&#39;applicazione potrebbero non richiedere il monitoraggio dell&#39;area attiva. Il servizio Luoghi può essere ancora utilizzato per integrare i dati sulla posizione degli utenti con altri prodotti Experience Platform.
 
 In questa sezione viene illustrato come completare un controllo dell’iscrizione a un POI solo al momento della raccolta della posizione dell’utente (latitudine e longitudine).
 
@@ -19,9 +19,9 @@ Lo sviluppatore raccoglierà la posizione del dispositivo utilizzando le API for
 
 >[!TIP]
 >
->Se i casi di utilizzo dell&#39;app richiedono il monitoraggio dell&#39;area attiva, leggi [utilizzando l&#39;estensione](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)del monitor dei luoghi.
+>Se i casi di utilizzo dell&#39;app richiedono il monitoraggio attivo dell&#39;area, consulta [Utilizzo dell&#39;estensione](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)Monitor luoghi.
 
-Per utilizzare Luoghi senza monitoraggio area attiva:
+Per utilizzare il servizio Luoghi senza monitoraggio area attiva:
 
 ## 1. Raccogli il percorso dell&#39;utente
 
@@ -396,6 +396,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Oltre ad attivare gli eventi di immissione Luoghi nell’SDK, a causa degli eventi di immissione attivanti, tutti i dati che definiscono i tuoi POI possono essere utilizzati dal resto dell’SDK tramite `data elements` Launch. Con Launch `rules`, puoi allegare dinamicamente i dati Luoghi agli eventi in arrivo elaborati dall&#39;SDK. Ad esempio, puoi allegare i metadati di un POI in cui l’utente si trova e inviare i dati ad Analytics come dati contestuali.
+Oltre ad attivare gli eventi per l’immissione del servizio Places nell’SDK, a causa degli eventi di accesso attivati, tutti i dati che definiscono i POI possono essere utilizzati dal resto dell’SDK tramite `data elements` in Experience Platform Launch. Con Experience Platform Launch `rules`, puoi allegare dinamicamente i dati del servizio Luoghi agli eventi in arrivo elaborati dall’SDK. Ad esempio, puoi allegare i metadati di un POI in cui l’utente si trova e inviare i dati ad Analytics come dati contestuali.
 
-Per ulteriori informazioni, consultate [Utilizzo di Luoghi con altre soluzioni](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)Adobe.
+Per ulteriori informazioni, consulta [Utilizzo di Places Service con altre soluzioni](/help/use-places-with-other-solutions/use-places-with-other-solutions.md)Adobe.
