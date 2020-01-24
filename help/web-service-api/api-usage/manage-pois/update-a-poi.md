@@ -2,12 +2,12 @@
 title: Aggiornare un POI
 description: Aggiornate un POI utilizzando le API REST Luoghi.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Aggiornare un POI
+# Aggiornare un POI {#update-a-poi}
 
 Metodo PUT che consente di aggiornare un POI.
 
