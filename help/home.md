@@ -1,21 +1,21 @@
 ---
-title: Adobe Experience Platform Location Service
-description: 'Location Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
+title: Servizio Luoghi
+description: 'Places Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
 translation-type: tm+mt
-source-git-commit: c20e720d23121970bb2fa1c63a2fd1e81c84b977
+source-git-commit: 3b78f68d8c5eb79ccf842b629510cc60f4ac52d2
 
 ---
 
 
-# Panoramica di Adobe Experience Platform Location Service {#home}
+# Servizio Luoghi {#home}
 
-![&quot;Adobe Experience Platform Location Service&quot;](/help/assets/LocationHeader.png)
+![&quot;Servizio Luoghi&quot;](/help/assets/LocationHeader.png)
 
 La posizione è un contesto importante per comprendere e coinvolgere gli utenti dei dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell&#39;app e renderla un&#39;esperienza più personalizzata e coinvolgente.
 
-Adobe Experience Platform Location Service (Location Service) è un servizio di geolocalizzazione che consente alle app mobili con consapevolezza della posizione di comprendere il contesto della posizione mediante l’uso di interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI).
+Places Service, precedentemente noto come Adobe Experience Platform Location Service, è un servizio di geolocalizzazione che consente alle app mobili con consapevolezza della posizione di comprendere il contesto della posizione utilizzando interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI).
 
-Location Service consente di ottenere quanto segue:
+Places Service consente di ottenere quanto segue:
 
 * Crea e gestisci un database di POI che puoi sfruttare con altre soluzioni Adobe Experience Cloud.
 * Allegate metadati personalizzati ai POI per renderli più ricchi e significativi specificando attributi aggiuntivi.
@@ -32,9 +32,9 @@ Di seguito sono riportati alcuni modi per utilizzare i Luoghi:
 * Segmentate un&#39;audience in base al comportamento offline utilizzando i profili di audience con contesto della posizione.
 * Esegue il targeting di un utente con un&#39;esperienza in-store quando pertinente.
 
-## Componenti di Location Service
+## Posiziona componenti di Servizio
 
-Il servizio di localizzazione comprende i seguenti componenti:
+Places Service è costituito dai seguenti componenti:
 
 * **Servizio Web**
 
