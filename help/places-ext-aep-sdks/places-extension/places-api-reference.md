@@ -2,18 +2,18 @@
 title: Riferimento API Places
 description: Informazioni sui riferimenti API in Places.
 translation-type: tm+mt
-source-git-commit: 23437e28bdfb12f664481d22f9f6df0ba6c30329
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Riferimento API Places {#places-api-reference}
 
-Informazioni sui riferimenti API in Luoghi:
+Informazioni sui riferimenti API nell&#39;estensione Luoghi:
 
 ## Elaborazione di un evento regione
 
-Quando un dispositivo attraversa uno dei limiti dell&#39;area Places predefiniti dell&#39;app, l&#39;area e il tipo di evento vengono passati all&#39;SDK per l&#39;elaborazione.
+Quando un dispositivo attraversa uno dei limiti dell&#39;area del servizio Luoghi predefinita dell&#39;app, l&#39;area e il tipo di evento vengono passati all&#39;SDK per l&#39;elaborazione.
 
 ### ProcessGeofence (Android)
 
@@ -309,7 +309,7 @@ Di seguito è riportato un esempio di codice per questo metodo:
 
 ### Cancella (Android)
 
-Elimina i dati lato client per i Luoghi in stato condiviso, archiviazione locale e memoria.
+Elimina i dati lato client per l&#39;estensione Luoghi nello stato condiviso, nella memorizzazione locale e nella memoria.
 
 **Sintassi**
 
@@ -329,7 +329,7 @@ Places.clear();
 
 ### clear (iOS)
 
-Elimina i dati lato client per i Luoghi in stato condiviso, archiviazione locale e memoria.
+Elimina i dati lato client per l&#39;estensione Luoghi in stato condiviso, archiviazione locale e memoria.
 
 **Sintassi**
 
