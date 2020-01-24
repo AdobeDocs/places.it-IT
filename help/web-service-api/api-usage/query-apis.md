@@ -2,7 +2,7 @@
 title: Panoramica
 description: Informazioni e utilizzo delle API di query.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -20,7 +20,7 @@ GET https://query.places.adobe.com/placesedgequery
 
 Con il seguente input, il servizio restituisce un elenco dei POI più vicini al chiamante:
 
-* Posizione del chiamante \(latitudine, longitudine\).
+* Posizione del chiamante (latitudine, longitudine).
 * ID delle librerie POI da includere nella ricerca.
 * Il numero massimo di POI da restituire.  Il valore predefinito è 100.
 
