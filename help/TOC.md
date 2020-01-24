@@ -1,16 +1,16 @@
 ---
-product: Places Service, powered by Adobe Experience Platform
+product: Places Service
 audience: end-user
-user-guide-title: Places Service, powered by Adobe Experience Platform
+user-guide-title: Places Service
 translation-type: tm+mt
-source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
 
 ---
 
 
-# Servizio Places, basato sulla guida di Adobe Experience Platform {#using}
+# Servizio Luoghi {#using}
 
-+ [Places Service, basato sulla panoramica di Adobe Experience Platform](home.md)
++ [Panoramica del servizio Luoghi](home.md)
 + [Note sulla versione](release-notes.md)
 + [Introduzione](getting-started.md)
 + [Accesso ai servizi Places](places-gain-access.md)
