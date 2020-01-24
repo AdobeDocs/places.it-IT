@@ -2,12 +2,12 @@
 title: Leggere tutte le librerie nella tua organizzazione
 description: Leggete tutte le librerie nella vostra organizzazione utilizzando l'API REST di Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
-# Leggere tutte le librerie nella tua organizzazione
+# Leggere tutte le librerie nella tua organizzazione {#read-all-lib-in-org}
 
 Un metodo GET che restituisce i dettagli per tutte le librerie dell&#39;organizzazione.
 
