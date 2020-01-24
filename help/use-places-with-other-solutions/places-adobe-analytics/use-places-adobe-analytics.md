@@ -2,7 +2,7 @@
 title: Inviare dati di entrata e uscita POI ad Analytics
 description: Questa sezione fornisce informazioni su come inviare i dati di entrata e uscita dal POI ad Analytics.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -12,9 +12,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 >[!IMPORTANT]
 >
->Questa sezione presuppone che nell&#39;applicazione siano implementate le posizioni. Per ulteriori informazioni sull&#39;implementazione di Luoghi, vedere Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
+>Questa sezione presuppone che nell&#39;applicazione sia implementato il servizio Luoghi. Per ulteriori informazioni sull&#39;implementazione di Places Service, vedere [Estensioni](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
-Dopo che Places invia gli eventi di entrata e uscita, puoi creare delle regole in Experience Platform Launch per inviare i dati Luoghi ad Adobe Analytics. Per creare questo tipo di regola, selezionate la proprietà in Lancio e completate i seguenti passaggi:
+Dopo che il servizio Luoghi invia gli eventi di entrata e uscita, puoi creare delle regole in Experience Platform Launch per inviare i dati del servizio Luoghi ad Adobe Analytics. Per creare questo tipo di regola, selezionate la proprietà in Lancio e completate i seguenti passaggi:
 
 ## 1. Creare una regola
 
@@ -33,7 +33,7 @@ Dopo che Places invia gli eventi di entrata e uscita, puoi creare delle regole i
 
 1. In the **[!UICONTROL Events]**section, click**[!UICONTROL Add]**.
 
-1. Dall’elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTROL Places]**.
+1. Dall’elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTROL Places Service]**.
 
 1. Dall’elenco a **[!UICONTROL Event Type]**discesa, selezionate**[!UICONTROL Enter POI]**.
 
@@ -52,7 +52,7 @@ In questo esempio, viene creata una condizione che determina l’attivazione del
 
 1. Nella **[!UICONTROL Conditions]**sezione fare clic su**[!UICONTROL Add]**.
 
-1. Dall’elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTROL Places]**.
+1. Dall’elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTROL Places Service]**.
 
 1. Dall’elenco a **[!UICONTROL Condition Type]**discesa, selezionate**[!UICONTROL Name]**.
 
