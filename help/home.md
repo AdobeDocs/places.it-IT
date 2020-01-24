@@ -2,7 +2,7 @@
 title: Servizio Luoghi
 description: 'Places Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
 translation-type: tm+mt
-source-git-commit: 3b78f68d8c5eb79ccf842b629510cc60f4ac52d2
+source-git-commit: 0341e1c818bf61bee01e02c91a67f184c7778c0d
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 3b78f68d8c5eb79ccf842b629510cc60f4ac52d2
 
 ![&quot;Servizio Luoghi&quot;](/help/assets/LocationHeader.png)
 
-La posizione è un contesto importante per comprendere e coinvolgere gli utenti dei dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell&#39;app e renderla un&#39;esperienza più personalizzata e coinvolgente.
+La posizione è un contesto importante per comprendere e interagire con gli utenti dei dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell&#39;app e renderla un&#39;esperienza più personalizzata e coinvolgente.
 
 Places Service, precedentemente noto come Adobe Experience Platform Location Service, è un servizio di geolocalizzazione che consente alle app mobili con consapevolezza della posizione di comprendere il contesto della posizione utilizzando interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI).
 
