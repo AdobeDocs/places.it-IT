@@ -2,7 +2,7 @@
 title: Report sui dati sulla posizione in Analytics Workspace
 description: Questa sezione fornisce informazioni su come creare rapporti sui dati sulla posizione in Analytics Workspace.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -15,11 +15,17 @@ Questo documento mostra un esempio di come creare rapporti sui dati della posizi
 
 Questo documento prevede quanto segue:
 
-1. L&#39;estensione Adobe Places è implementata nell&#39;applicazione. Per ulteriori informazioni sull&#39;implementazione di Adobe Places, consultate Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
+1. L&#39;estensione Luoghi è implementata nell&#39;applicazione.
 
-1. L&#39;utente Adobe Analytics è un amministratore e ha accesso alle regole di elaborazione. Per ulteriori informazioni sulle regole di elaborazione, consulta [Panoramica sulle regole di elaborazione](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+   Per ulteriori informazioni sull&#39;implementazione dell&#39;estensione Luoghi, vedere Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
-1. Nella proprietà Launch sono stati creati elementi di dati per le variabili Location Service desiderate. Per ulteriori informazioni sugli elementi dati in Launch, vedere [Definire un elemento](/help/use-places-launch-workflow/define-data-elements.md)dati.
+1. L&#39;utente Adobe Analytics è un amministratore e ha accesso alle regole di elaborazione.
+
+   Per ulteriori informazioni sulle regole di elaborazione, consulta [Panoramica sulle regole di elaborazione](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+
+1. Nella proprietà Launch sono stati creati elementi di dati per le variabili del servizio Places desiderate.
+
+   Per ulteriori informazioni sugli elementi dati in Launch, vedere [Definire un elemento](/help/use-places-launch-workflow/define-data-elements.md)dati.
 
 
 ## 1. Creare una regola di avvio
@@ -36,7 +42,7 @@ In questo esempio, l&#39;azione della regola ha i seguenti valori definiti per l
 
 ## 2. Creare variabili Analytics
 
-Per mappare i dati contestuali (inviati nel passaggio 1), le variabili devono prima essere create per la suite di rapporti di Analytics. Per ulteriori informazioni sulla creazione di variabili in Analytics, consultate Variabili di [conversione \(eVars\)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
+Per mappare i dati contestuali (inviati nel passaggio 1), le variabili devono prima essere create per la suite di rapporti di Analytics. Per ulteriori informazioni sulla creazione di variabili in Analytics, vedi Variabili di [conversione (eVar)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
 
 In questo esempio, è stata creata una variabile di conversione **[!UICONTROL Evar2]**con nome**[!UICONTROL Places POI Name]**. Dovranno essere create ulteriori variabili per ogni variabile di posizione che desideri esporre nel reporting.
 
@@ -46,7 +52,7 @@ In questo esempio, è stata creata una variabile di conversione **[!UICONTROL Ev
 
 Questo passaggio è necessario per mappare i dati contestuali (passaggio 1) alle variabili di Analytics (passaggio 2). For more information on creating processing rules, see [Processing rules overview](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/processing-rules/processing-rules.html).
 
-In questo esempio, è stata creata una regola di elaborazione per mappare il valore dei dati contestuali **[!UICONTROL poi.name]**in**[!UICONTROL Places POI Name \(eVar2\)]**. Saranno necessarie ulteriori regole di elaborazione per ogni variabile di posizione creata.
+In questo esempio, è stata creata una regola di elaborazione per mappare il valore dei dati contestuali **[!UICONTROL poi.name]**in**[!UICONTROL Places POI Name (eVar2)]**. Saranno necessarie ulteriori regole di elaborazione per ogni variabile di posizione creata.
 
 ![&quot;create una regola di elaborazione&quot;](/help/assets/aa-processing-rule.png)
 
