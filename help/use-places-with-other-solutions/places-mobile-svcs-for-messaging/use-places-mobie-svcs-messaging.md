@@ -1,8 +1,8 @@
 ---
-title: Utilizzo di Luoghi con Mobile Services per la messaggistica
-description: In questa sezione viene illustrato come utilizzare Places con Mobile Services per la messaggistica.
+title: Utilizzo di Places Service con Mobile Services per la messaggistica
+description: In questa sezione viene illustrato come utilizzare Places Service con Mobile Services per la messaggistica.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -11,33 +11,49 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 Prima di poter utilizzare l&#39;estensione Mobile Services per la messaggistica, verifica i seguenti prerequisiti:
 
-* I punti di interesse sono stati creati in Location Service. Se necessario, consultare la documentazione. (collegamento alla creazione di un POI)Nota: Il servizio Location include un nuovo e migliorato database dei punti di interesse per l&#39;organizzazione esistente al di fuori dell&#39;interfaccia AMS legacy. Qualsiasi POI trovato nella navigazione &quot;Gestisci luoghi&quot; di AMS funzionerà solo per la versione 4 dell’SDK.
-   * Di seguito è riportata l’interfaccia legacy di gestione dei POI di Luoghi in AMS per le versioni precedenti dell’SDK:
+* I punti di interesse sono stati creati in Places Service. For more information, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
 
-      ![Interfaccia utente precedente](/help/assets/legacy-location-v4-ui.png)
+   >[!IMPORTANT]
+   >
+   >Il servizio Places include un nuovo database POI migliorato per la tua organizzazione che esiste al di fuori dell’interfaccia utente di Mobile Services legacy. I POI che si trovano nella navigazione della pagina *Gestisci posizionamenti* di Mobile Service funzionano solo per la versione 4 dell’SDK.
 
-   * Interfaccia di gestione di Location Service POI:
+* Di seguito è riportata la pagina di gestione *Manage Places* POI (Gestisci punti di interesse) dell&#39;interfaccia utente di Mobile Services precedente per le versioni precedenti dell&#39;SDK:
 
-      ![Interfaccia utente di gestione POI del servizio Posizione](/help/assets/places-ui.png)
+   ![Interfaccia utente precedente](/help/assets/legacy-location-v4-ui.png)
 
-* L’SDK ACP è configurato correttamente con le estensioni Places e/o Places Monitor. Ciò significa che i dati sono disponibili come eventi e/o condizioni nel motore delle regole di Launch per la tua app mobile. Se necessario, consulta la documentazione. (https://aep-sdks.gitbook.io/docs/beta/adobe-places)
+* Interfaccia utente del servizio Luoghi:
 
-* Scopri come creare e pubblicare le regole di Launch nell’SDK ACP nella tua app mobile. Se necessario, consulta la documentazione. (https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine)
+   ![Interfaccia utente di gestione dei punti di servizio](/help/assets/places-ui.png)
 
-* Launch Data Elements viene creato dai dati di estensione SDK Places che verranno utilizzati nelle regole. Consultate la documentazione (https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements)
+* L’SDK ACP è configurato correttamente con le estensioni Places Service e/o Places Monitor.
+
+   Ciò significa che i dati sono disponibili come eventi e/o condizioni nel motore delle regole Experience Platform Launch per la tua app mobile. Per ulteriori informazioni, consultate Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md) Luoghi o Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)Luoghi.
+
+* Acquisisci familiarità con la creazione e la pubblicazione di regole Experience Platform Launch nell’SDK ACP nella tua app mobile.
+
+   For more information, see [Rules engine](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
+
+* Gli elementi di dati di avvio della piattaforma esperienza vengono creati dai dati di estensione Luoghi che verranno utilizzati nel motore Regole.
+
+   For more information, see [Data elements](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
 
 ## Reporting
 
 Prima di poter utilizzare il reporting, è necessario soddisfare i seguenti prerequisiti:
 
-* Invio dei dati del servizio di localizzazione alla suite di rapporti di Adobe Analytics riuscito. Se necessario, visita la documentazione di Adobe Analytics (collegamento ai documenti di Steve).
-* Familiare con i report AMS. Se necessario, visitate la documentazione (https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html)
+* Invio dei dati del servizio Luoghi alla suite di rapporti di Adobe Analytics completato.
+
+   Per ulteriori informazioni, consulta [Utilizzare i servizi Luoghi con Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
+
+* Acquisisci familiarità con i rapporti di Mobile Services.
+
+   For more information, see [Reports](https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html).
 
 ## Visualizzazione rapporti
 
-Puoi eseguire i rapporti AMS utilizzando i dati del servizio di localizzazione inviati ad Adobe Analytics. Ad esempio, ho inviato degli eventi quando gli utenti dispongono di voci in uno dei miei POI. In questo rapporto ho aggiunto un filtro per l’evento POI sopra al mio rapporto utente out-of-the-box:
+Puoi eseguire i rapporti di Mobile Services utilizzando i dati di Places Service inviati ad Adobe Analytics. Nell’esempio seguente, gli eventi vengono inviati quando gli utenti dispongono di voci in uno dei POI. In questo rapporto è stato aggiunto un filtro dell’evento POI nel rapporto sugli utenti out-of-the-box:
 
 ![Visualizzazione report](/help/assets/report-visualize.png)
 
-Ulteriori flessibilità nella visualizzazione dei dati del servizio di localizzazione sono disponibili nelle interfacce di Adobe Analytics.
+Ulteriori flessibilità nella visualizzazione dei dati del servizio Places sono disponibili nelle interfacce Adobe Analytics.
 
