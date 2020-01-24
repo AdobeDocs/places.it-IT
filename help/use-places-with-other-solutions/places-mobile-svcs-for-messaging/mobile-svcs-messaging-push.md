@@ -1,21 +1,21 @@
 ---
 title: Notifiche push
-description: In questa sezione viene illustrato come utilizzare Luoghi con le notifiche push.
+description: In questa sezione viene illustrato come utilizzare il servizio Luoghi con le notifiche push.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Notifiche push
 
-Mobile Services consente di inviare notifiche push ai segmenti di Adobe Analytics. In Location Service, puoi segmentare il pubblico per il messaggio push utilizzando le loro interazioni storiche con i tuoi POI. Ad esempio, puoi inviare un messaggio agli utenti che si sono trovati in uno dei tuoi negozi negli ultimi 30 giorni.
+Mobile Services consente di inviare notifiche push ai segmenti di Adobe Analytics. In Places Service, puoi segmentare il pubblico del messaggio push utilizzando le relative interazioni storiche con i tuoi POI. Ad esempio, puoi inviare un messaggio agli utenti che si sono trovati in uno dei tuoi negozi negli ultimi 30 giorni.
 
 Prima di iniziare, accertarsi di aver completato le seguenti attività:
 
-* I dati del servizio di localizzazione sono stati elaborati da Adobe Analytics.
+* I dati del servizio Luoghi sono stati elaborati da Adobe Analytics.
 
-   Ciò significa che l’app mobile ha inviato correttamente i dati Location Service in una suite di rapporti e che i dati sono disponibili per la segmentazione.
+   Ciò significa che l&#39;app mobile ha inviato correttamente i dati del servizio Luoghi in una suite di rapporti e che i dati sono disponibili per la segmentazione.
 
 * Il canale di notifica push in Mobile Services è configurato.
 
@@ -27,10 +27,10 @@ Prima di iniziare, accertarsi di aver completato le seguenti attività:
 
 ## Invio di una notifica
 
-Nella **[!UICONTROL Audience]** scheda del flusso di lavoro *Crea notifica* push, puoi creare il pubblico per questo messaggio in uno dei modi seguenti:
+Nella **[!UICONTROL Audience]**scheda del flusso di lavoro *Crea notifica*push, puoi creare il pubblico per questo messaggio in uno dei modi seguenti:
 
-* Nell'elenco a **[!UICONTROL Analytics Segments]** discesa, seleziona un segmento di Adobe Analytics creato in precedenza.
+* Nell&#39;elenco a **[!UICONTROL Analytics Segments]**discesa, seleziona un segmento di Adobe Analytics creato in precedenza.
 
-* Nella **[!UICONTROL Custom Segment]** sezione, crea un'audience utilizzando i parametri di segmento personalizzati disponibili.
+* Nella **[!UICONTROL Custom Segment]**sezione, crea un&#39;audience utilizzando i parametri di segmento personalizzati disponibili.
 
 ![impostazione di un messaggio push](/help/assets/push-set-up.png)
