@@ -1,15 +1,15 @@
 ---
 title: Notifiche in-app
-description: In questa sezione viene illustrato come utilizzare i Luoghi con i messaggi in-app.
+description: Questa sezione mostra come utilizzare il servizio Luoghi con i messaggi in-app.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
-# Notifiche in-app (#place-push-messaging)
+# Notifiche in-app {#places-push-messaging}
 
-Le informazioni seguenti mostrano come configurare i messaggi in-app da attivare dagli eventi Luoghi.
+Le informazioni seguenti mostrano come configurare i messaggi in-app per l&#39;attivazione dagli eventi del servizio Luoghi.
 
 >[!IMPORTANT]
 >
@@ -35,7 +35,7 @@ Prima di iniziare, scopri come inviare e creare un messaggio in-app in Mobile Se
 
 ## Regole in Experience Platform Launch
 
-Puoi creare regole di Launch che inviano ad Analytics i dati che desideri usare come parte delle regole di attivazione messaggi in-app. Puoi utilizzare i dati delle estensioni Luoghi nelle regole di Launch come eventi e/o condizioni a seconda del caso d’uso.
+Puoi creare regole di avvio della piattaforma Experience che inviano ad Analytics i dati che desideri usare come parte delle regole di attivazione dei messaggi in-app. Puoi utilizzare i dati delle estensioni Places nelle regole Experience Platform Launch come eventi e/o condizioni a seconda del caso d’uso.
 
 * Utilizzo dei dati sulla posizione come evento di attivazione.
 
@@ -43,7 +43,7 @@ Puoi creare regole di Launch che inviano ad Analytics i dati che desideri usare 
 
 * Utilizzo dei dati della posizione come condizione per un evento di attivazione.
 
-   Ad esempio, se avete creato un tag di metadati personalizzato nel servizio Posizione per il tempo in diversi POI, potete utilizzare tali metadati come parametro per la condizione Regola. Anche se potete utilizzare questa condizione con un evento POI descritto in precedenza, potete anche utilizzare la condizione come contesto per qualsiasi evento.
+   Ad esempio, se avete creato un tag di metadati personalizzato nel servizio Luoghi per il tempo in diversi POI, potete utilizzare tali metadati come parametro per la condizione Regola. Anche se potete utilizzare questa condizione con un evento POI descritto in precedenza, potete anche utilizzare la condizione come contesto per qualsiasi evento.
 
 Una volta impostata la regola con i parametri di evento e condizione corretti, completa la configurazione della regola configurando l&#39;azione per l&#39;invio di dati ad Analytics.
 
@@ -70,7 +70,7 @@ Esempio della regola completa:
 
 ## Creazione di un messaggio in-app in Mobile Services
 
-Come parte dei parametri di Trigger, puoi creare il pubblico per il messaggio con i dati provenienti da Location Service in uno dei modi seguenti:
+Come parte dei parametri Trigger, puoi creare il pubblico per il messaggio con i dati provenienti dal Servizio Luoghi in uno dei modi seguenti:
 
 * Utilizzo di azioni specifiche per la posizione, ad esempio una voce o un&#39;uscita.
 * Utilizzo di metadati POI inviati come dati contestuali per limitare la destinazione del pubblico.
@@ -81,6 +81,6 @@ Come parte dei parametri di Trigger, puoi creare il pubblico per il messaggio co
 
    ![parametri di attivazione](/help/assets/trigger-parameters.png)
 
-* I parametri nelle intestazioni Luoghi della pagina *Triggers e Caratteristiche* di Mobile Services non funzionano con i dati di Location Service.
+* I parametri nelle intestazioni Servizio Luoghi della pagina *Triggers e Caratteristiche* di Mobile Services non funzionano con i dati di Servizio Luoghi.
 
-   Questi parametri sono solo per il database legacy di Places creato in Mobile Services.
+   Questi parametri sono solo per il database legacy di Places Service creato in Mobile Services.
