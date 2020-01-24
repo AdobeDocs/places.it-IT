@@ -1,8 +1,8 @@
 ---
 title: Gestire i POI esistenti
-description: Nell’interfaccia utente del servizio di localizzazione potete modificare, eliminare o filtrare i POI esistenti.
+description: Nell’interfaccia utente del servizio Luoghi, potete modificare, eliminare o filtrare i POI esistenti.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
@@ -32,7 +32,7 @@ I POI e le librerie vengono creati e gestiti nel database Luoghi utilizzando l�
 
 ![filtrare un POI](/help/assets/filter_poi.png)
 
-1. Accedi all’interfaccia utente del servizio di localizzazione utilizzando il tuo Adobe ID.
+1. Accedi all&#39;interfaccia utente del servizio Luoghi utilizzando il tuo Adobe ID.
 1. In alto a destra, fate clic sull&#39;icona di filtro.
 1. Potete filtrare i POI in uno dei seguenti modi:
 
@@ -61,6 +61,7 @@ Le geofence sono un tipo di POI e sono definite nel database in base alle seguen
 | ID | Identificatore univoco assegnato a ciascun POI | Sì |
 | Nome | Nome gentile dato al POI. | Sì |
 | Libreria | A ciascun POI deve essere assegnata una libreria per l’organizzazione. | Sì |
+| Raggio | Raggio per il POI in metri. | Sì |
 | Icona | Assistenza nelle visualizzazioni dei punti di interesse. | Yes (predefinito assegnato) |
 | Colore | Assistenza nelle visualizzazioni dei punti di interesse. | Yes (predefinito assegnato) |
 | Categoria | Assegnate un framework comune di categorie comuni a tutti i POI di tutte le librerie. | No |
