@@ -2,7 +2,7 @@
 title: Aggiunta di un contesto di posizione alle richieste di Analytics
 description: Questa sezione fornisce informazioni su come aggiungere il contesto della posizione alle richieste di Analytics.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
@@ -11,9 +11,9 @@ source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 
 >[!IMPORTANT]
 >
->Questo documento presuppone che nell&#39;applicazione sia implementato Adobe Places. Per ulteriori informazioni sull&#39;implementazione di Adobe Places, consultate Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
+>Questo documento presuppone che nell&#39;applicazione sia implementato il servizio Luoghi. Per ulteriori informazioni sull&#39;implementazione di Places Service, vedere [Estensioni](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
 
-Dopo che Places invia gli eventi di entrata e uscita, puoi creare regole in Experience Platform Launch e allegare i dati di Places a tutti gli eventi di Adobe Analytics. Per creare questo tipo di regola, selezionate la proprietà in Lancio e completate i seguenti passaggi:
+Dopo che il servizio Luoghi invia gli eventi di entrata e uscita, puoi creare regole in Experience Platform Launch e allegare i dati del servizio Luoghi a tutti gli eventi di Adobe Analytics. Per creare questo tipo di regola, selezionate la proprietà in Lancio e completate i seguenti passaggi:
 
 ## 1. Creare una regola
 
@@ -27,7 +27,7 @@ Dopo che Places invia gli eventi di entrata e uscita, puoi creare regole in Expe
 
 1. Attribuite alla regola un nome significativo in modo che possa essere facilmente riconoscibile nell&#39;elenco delle regole.
 
-   In questo esempio, la regola viene denominata **[!UICONTROL Attach Places Data to Analytics Track Action Events]**.
+   In questo esempio, la regola viene denominata **[!UICONTROL Attach Places Service Data to Analytics Track Action Events]**.
 
 1. Nella **[!UICONTROL Events]**sezione fare clic su**[!UICONTROL Add]**.
 
@@ -50,7 +50,7 @@ In questo esempio, viene creata una condizione che determina l&#39;attivazione d
 
 1. Nella **[!UICONTROL Conditions]**sezione fare clic su**[!UICONTROL Add]**.
 
-1. Dall&#39;elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTORL  Mobile Core]**.
+1. Dall’elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTROL Mobile Core]**.
 
 1. Dall’elenco a **[!UICONTROL Condition Type]**discesa, selezionate**[!UICONTROL Carrier Name]**.
 
