@@ -1,15 +1,15 @@
 ---
-title: Notifiche push
-description: Questa sezione fornisce informazioni sull'utilizzo di Luoghi con notifiche push in Campaign Standard.
+title: Notifiche push con il servizio Luoghi
+description: Questa sezione fornisce informazioni sull'utilizzo di Places Service con le notifiche push in Campaign Standard.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
 
 ---
 
 
-# Notifiche push con il servizio di localizzazione {#push-notifications}
+# Notifiche push con il servizio Luoghi {#push-notifications}
 
-In questa guida verrà illustrato come utilizzare le informazioni di geolocalizzazione storiche per eseguire il targeting delle notifiche push distribuite tramite Adobe Campaign Standard.
+In questa sezione verrà illustrato come utilizzare le informazioni di geolocalizzazione storiche per eseguire il targeting delle notifiche push distribuite tramite Adobe Campaign Standard.
 
 ## Prerequisiti 
 
@@ -20,36 +20,36 @@ Prima di iniziare, effettuate le seguenti operazioni:
 * Integra l’SDK [](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) Adobe Experience Platform Mobile nell’app.
 * Aggiungi l&#39;estensione [](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) Adobe Campaign Standard alla configurazione dell&#39;app mobile.
 
-* [Create un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) nell’interfaccia di gestione POI Luoghi.
+* [Create un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) nell’interfaccia di gestione di POI di Servizio Luoghi.
 
 * Abilita e installa l’estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
 
 ## Creazione di elementi di dati in Experience Platform Launch
 
-Dopo aver verificato che le estensioni del servizio Places e Places Monitor for Location Service funzionino correttamente nell’applicazione, crea gli elementi dati in Experience Platform Launch. Gli elementi dati consentono di leggere le informazioni fornite dalle estensioni che arrivano tramite l&#39;hub eventi Mobile SDK e fungono da alias per recuperare i dati dall&#39;applicazione client. Per recuperare i dati dalle estensioni Luoghi e inviare le informazioni Luoghi a Campaign, devi creare alcuni elementi di dati.
+Dopo aver verificato che l’estensione Luoghi e Monitor Luoghi funzionino correttamente nell’applicazione, è necessario creare elementi di dati in Experience Platform Launch. Gli elementi dati consentono di leggere le informazioni fornite dalle estensioni che arrivano tramite l&#39;hub eventi Mobile SDK e fungono da alias per recuperare i dati dall&#39;applicazione client. Per recuperare i dati dalle estensioni Luoghi e inviare le informazioni sul Servizio Luoghi a Campaign, è necessario creare alcuni elementi di dati.
 
 Per creare un elemento dati:
 
 1. Nella proprietà mobile Launch della piattaforma Experience, fai clic sulla **[!UICONTROL Data Elements]**scheda e poi su**[!UICONTROLA Aggiungi elemento]**dati.
-1. Nell&#39;elenco a **[!UICONTROL Extension]**discesa, selezionare**[!UICONTROL Places]**.
+1. Nell&#39;elenco a **[!UICONTROL Extension]**discesa, selezionare**[!UICONTROL Places Service]**.
 1. Dall’elenco a **[!UICONTROL Data Element Type]**discesa, selezionate**[!UICONTROL Name]**.
 1. Nel riquadro a destra è possibile selezionare **[!UICONTROL Current POI]**il nome del POI in cui si trova l’utente.
 
-   **[!UICONTROL Last Entered]**recupera il nome del POI immesso per l’ultima volta dall’utente e**[!UICONTROL Last Exited]** fornisce il nome del POI che l’ultimo utente ha lasciato. In questo esempio, sarà selezionato **[!UICONTROL Last Entered]**e digitato un nome per l&#39;elemento dati, ad esempio**[!UICONTROL Last Entered POI Name]** e facendo clic su **[!UICONTROL Save]**.
+   **[!UICONTROL Last Entered]**recupera il nome del POI immesso per l’ultima volta dall’utente e**[!UICONTROL Last Exited]** fornisce il nome del POI che l’ultimo utente ha lasciato. In questo esempio, abbiamo selezionato **[!UICONTROL Last Entered]**e digitato un nome per l&#39;elemento dati, ad esempio**[!UICONTROL Last Entered POI Name]** e fatto clic su **[!UICONTROL Save]**.
 
    ![&quot;Messaggi push in Campaign Standard&quot;](/help/assets/ACS_Push1.png)
 
 1. Repeat the steps 1-4 above and create data elements for *Last Entered POI Latitude*, *Last Entered POI Longitude*, and *Last Entered POI Radius*.
 
-Oltre agli elementi di dati per il servizio Location, accertati di creare elementi di dati Mobile Core per l&#39;ID ** app e l&#39;ID ** Experience Cloud.
+Oltre agli elementi di dati per il servizio Luoghi, accertati di creare elementi di dati Mobile Core per l&#39;ID ** app e l&#39;ID ** Experience Cloud.
 
 ## Crea una regola per inviare i dati sulla posizione ad Adobe Campaign Standard
 
 Le regole in Experience Platform Launch consentono di creare flussi di lavoro complessi e con più soluzioni basati su attivatori di eventi. Con le regole, puoi creare nuove regole o modificarne quelle esistenti e distribuire dinamicamente gli aggiornamenti alle applicazioni mobili. Nell’esempio seguente, la regola viene attivata quando un utente immette un POI con geofrequenza. Dopo l&#39;attivazione della regola, viene inviato un aggiornamento a Campaign Standard per registrare una voce a un POI specifico per un utente specifico in base all&#39;Experience Cloud ID.
 
-1. Nella proprietà Launch Mobile, nella **[!UICONTROL Rules]**scheda fare clic su**[!UICONTROL Add Rule]**.
-1. Nella **[!UICONTROL Events]**sezione fare clic**[!UICONTROL +]** e selezionare **[!UICONTROL Places]**l&#39;estensione.
+1. Nella proprietà mobile Launch della piattaforma Experience, fai clic su **[!UICONTROL Rules]**nella**[!UICONTROL Add Rule]** scheda nella quale si trova la risorsa.
+1. Nella **[!UICONTROL Events]**sezione fare clic**[!UICONTROL +]** e selezionare **[!UICONTROL Places Service]**l&#39;estensione.
 1. For the **[!UICONTROL Event Type]**, select**[!UICONTROL Enter POI]**.
 1. Denominate la regola, ad esempio **Utente immesso POI**.
 1. Fai clic su **[!UICONTROL Keep Changes]**.
@@ -86,9 +86,7 @@ Assicurati di utilizzare gli elementi di dati corretti creati in precedenza per 
 >[!IMPORTANT]
 >
 >* Potrebbe essere utile impostare un gancio Web Slack come azione aggiuntiva per verificare che le voci vengano attivate e che i dati corretti vengano raccolti.
-
-
->* Ricorda di pubblicare le modifiche recenti all&#39;app per essere sicuro che la regola e tutti gli elementi di dati siano distribuiti come parte della configurazione. Dopo la pubblicazione, è necessario avviare nuovamente l&#39;applicazione mobile per ottenere gli aggiornamenti di configurazione più recenti.
+>* Ricorda di pubblicare le modifiche recenti all&#39;app per essere sicuro che la regola e tutti gli elementi di dati siano distribuiti come parte della configurazione. Dopo la pubblicazione, avviate nuovamente l’applicazione mobile per ottenere gli aggiornamenti di configurazione più recenti.
 
 
 ## Utilizza i dati della posizione per eseguire il targeting dei messaggi campagna
@@ -117,9 +115,10 @@ Ora che abbiamo i dati sulla posizione popolati in Campaign, possiamo usare i PO
 1. Eseguite nuovamente il conteggio nella parte superiore per vedere il cambiamento delle dimensioni del pubblico.
 
    Se non visualizzi l’aggiornamento del conteggio, potresti aver inserito un nome POI per il quale nessuna voce è stata attivata da un dispositivo. La presenza del gancio per la rete Slack diventa preziosa in questa situazione, perché potete vedere un elenco di voci POI da vari dispositivi di prova.
+
 1. Potete trascinare altri filtri di posizione POI per includere più POI nel messaggio.
 1. Click **[!UICONTROL Next]**to finish creating the push notification for delivery.
 
-   ![&quot;Messaggi push 3 in ACS&quot;](/help/assets/ACS_push3.html)
+   ![&quot;Messaggi push 3 in ACS&quot;](/help/assets/ACS_push3.png)
 
-L&#39;utilizzo di Location Service con Adobe Campaign Standard vi offre un potente strumento per segmentare e indirizzare i messaggi agli utenti in base a entrate ed uscite specifiche. Questa integrazione consente di creare casi di utilizzo più personalizzati e contestuali.
+L&#39;utilizzo di Places Service con Adobe Campaign Standard consente di segmentare e indirizzare i messaggi agli utenti in base alle entrate e alle uscite del campo geografico. Questa integrazione consente di creare casi di utilizzo più personalizzati e contestuali.
