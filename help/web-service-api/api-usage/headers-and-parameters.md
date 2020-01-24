@@ -1,15 +1,15 @@
 ---
 title: Intestazioni e parametri
-description: Intestazioni e parametri disponibili nelle API REST di Places.
+description: Intestazioni e parametri disponibili nelle API REST del servizio Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 ---
 
 
 # Intestazioni e parametri {#headers-and-parameters}
 
-Di seguito sono riportati i dettagli sulle intestazioni e i parametri disponibili nell&#39;API REST di Places:
+Di seguito sono riportati i dettagli sulle intestazioni e i parametri disponibili nell&#39;API REST di Servizio Luoghi:
 
 ## Intestazioni supportate
 
