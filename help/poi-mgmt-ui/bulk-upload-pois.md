@@ -2,7 +2,7 @@
 title: POI di caricamento in blocco
 description: Questa sezione fornisce informazioni su come caricare in massa i POI.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
@@ -47,15 +47,15 @@ Elenco delle colonne e dei valori da utilizzare:
 
 ### Valori colonna
 
-I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente del servizio di localizzazione:
+I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente di Places Service:
 
-* color, usato come colore del pin che rappresenta la posizione del POI nella mappa dell’interfaccia utente del servizio di posizione.
+* color, che viene usato come colore del pin che rappresenta la posizione del POI nella mappa dell’interfaccia utente del servizio Luoghi.
    * I valori validi sono &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B e #3DC8DE e &quot;&quot;.
-   * Se il valore viene lasciato vuoto, l’interfaccia utente del servizio posizione utilizza il blu come colore predefinito.
+   * Se il valore viene lasciato vuoto, l&#39;interfaccia utente del servizio Luoghi utilizza il blu come colore predefinito.
 
       I valori corrispondono a blu (#3E76D0), viola (#AA99E8), fuschia (#DC2ABA), arancione (#FC685B), arancione chiaro (#FC962E), giallo (#F6C436), verde chiaro (#BECE5D), verde (#61B 56B) e blu chiaro (#3DC8DE), rispettivamente.
 
-* che viene utilizzata come icona sul perno che rappresenta la posizione del POI sulla mappa dell’interfaccia utente del servizio di posizione
+* , che viene utilizzata come icona sul perno che rappresenta la posizione del POI sulla mappa dell’interfaccia utente del servizio Luoghi.
 
    * I valori validi sono &quot;&quot;, negozio, alberghiero, auto, aeroplano, treno, nave, stadio, amusementpark, ancora, beaker, campana, bid, libro, box, valigetta, briefcase, browsing, pennello, edificio, calcolatore, macchina, orologio, istruzione, torcia, follow, gioco, femmina, maschio, regalo, martello, cuore, casa, chiave, lancio, lampadario, cassetta postale, promozionale, promozionale, nastro, shoppingCart, stella, target, teiera, thumbDown, thumbUp, trap, trofeo, chiave inglese.
 
