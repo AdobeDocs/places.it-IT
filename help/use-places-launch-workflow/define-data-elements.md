@@ -2,7 +2,7 @@
 title: Definizione degli elementi di dati
 description: Questa sezione fornisce informazioni su come creare, utilizzare e pubblicare elementi di dati in Experience Platform Launch for Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
 
 ---
 
@@ -33,7 +33,7 @@ Ciascun POI contiene i seguenti riferimenti di dati:
 * **[!UICONTROL Latitude]**: latitudine del POI
 * **[!UICONTROL Longitude]**: longitudine del POI
 * **[!UICONTROL Metadata]**: metadati personalizzati del POI
-* **[!UICONTROL Name]**: regione dell&#39;OPA
+* **[!UICONTROL Name]**: nome del POI
 * **[!UICONTROL Radius]**: raggio del POI
 * **[!UICONTROL Region ID]**: ID del POI
 * **[!UICONTROL Region/State]**: regione, provincia o stato dell&#39;OPA
