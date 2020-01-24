@@ -2,13 +2,13 @@
 title: Lettura di una libreria
 description: Leggete una libreria utilizzando l'API REST di Places.
 translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
 
 ---
 
 
 
-# Lettura di una libreria
+# Lettura di una libreria {#read-a-library}
 
 Un metodo GET che restituisce i dettagli di una libreria.
 
@@ -81,7 +81,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare l'API:
+Utilizzate il seguente comando CURL per testare l&#39;API:
 
 ```text
 curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
