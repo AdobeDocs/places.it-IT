@@ -2,12 +2,21 @@
 title: Note sulla versione
 description: Note sulla versione del servizio Luoghi.
 translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+source-git-commit: 04644763a40898432c4b821ca24366c19dda0437
 
 ---
 
 
 # Note sulla versione {#release-notes}
+
+## 27 gennaio 2020
+
+* **LuoghiMonitor 2.2.0**
+
+   * **Android**
+
+      * Chiama la nuova API Luoghi per raccogliere lo stato dell&#39;autorizzazione di posizione quando l&#39;app viene avviata e quando l&#39;autorizzazione cambia mentre l&#39;app è in esecuzione.
+      * Sono state aggiunte l’API setRequestLocationPermission e l’API setLocationPermission obsoleta.
 
 ## 9 gennaio 2020
 
@@ -17,6 +26,13 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
       * È stata aggiunta una nuova API `setAuthorizationStatus`per impostare lo stato dell&#39;autorizzazione del dispositivo per i Servizi Luoghi. Il valore viene memorizzato e utilizzato nello stato Condiviso Luoghi.
 
+## 4 dicembre 2019
+
+* **LuoghiMonitor 2.1.2**
+
+   * **iOS**
+
+      * Chiama l’API Luoghi per raccogliere CLAuthorizationStatus dal dispositivo quando viene modificato.
 
 ## 3 dicembre 2019
 
@@ -25,6 +41,14 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
    * **iOS**
 
       * È stata aggiunta una nuova API `setAuthorizationStatus`per impostare lo stato dell&#39;autorizzazione del dispositivo per i Servizi Luoghi. Il valore viene memorizzato e utilizzato nello stato Condiviso Luoghi.
+
+## 25 novembre 2019
+
+* **LuoghiMonitor 2.1.1**
+
+   * **iOS**
+
+      * Sono state corrette le istruzioni di importazione per i progetti Cocoapods utilizzando l&#39;opzione di progetti contenitore multipli.
 
 ## 22 novembre 2019
 
