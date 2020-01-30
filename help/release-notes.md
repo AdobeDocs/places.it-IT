@@ -2,7 +2,7 @@
 title: Note sulla versione
 description: Note sulla versione del servizio Luoghi.
 translation-type: tm+mt
-source-git-commit: 04644763a40898432c4b821ca24366c19dda0437
+source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
 
 ---
 
@@ -170,7 +170,7 @@ In questa versione sono stati introdotti i seguenti aggiornamenti:
 * È stato risolto un problema che, dopo un primo avvio, talvolta causava la perdita di eventi Luoghi a causa di condizioni di rete errate.
 * È stato risolto un problema per il quale, durante l’elaborazione degli eventi di immissione POI in rapida successione, la sostituzione dei token tramite il modulo di gestione regole talvolta faceva riferimento a un POI non corretto.
 
-## 30 maggio 2019 (Luoghi)
+## 30 maggio 2019
 
 **Android Places Monitor 1.0.1**
 
@@ -185,7 +185,7 @@ Sono stati risolti i seguenti problemi nell’interfaccia utente Luoghi:
 * Raggio minimo consentito nell’interfaccia utente aumentato a 10 metri.
 * È stato risolto un problema per il quale, se si eliminavano tutti i numeri nel campo, il campo raggio veniva reimpostato a 20 metri.
 
-## 17 maggio 2019 (Luoghi)
+## 17 maggio 2019
 
 In questa versione sono stati introdotti i seguenti aggiornamenti:
 
