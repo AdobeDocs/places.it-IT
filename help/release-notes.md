@@ -2,12 +2,25 @@
 title: Note sulla versione
 description: Note sulla versione del servizio Luoghi.
 translation-type: tm+mt
-source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
+source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
 
 ---
 
 
 # Note sulla versione {#release-notes}
+
+## giovedì 20 febbraio 2020
+
+* **ACPPlaces 1.3.1 (iOS)**
+
+   * Le estensioni Luoghi ora riportano le informazioni sulla versione all&#39;hub eventi nell&#39;SDK di base.
+   * Le informazioni di iscrizione a Device POI ora hanno un tempo predefinito di un&#39;ora dal momento in cui viene raccolto. Per ulteriori informazioni, vedere [Modifica del tempo di iscrizione Luoghi](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+
+
+* **Luoghi 1.4.1 (Android)**
+
+   * Le estensioni Luoghi ora riportano le informazioni sulla versione all&#39;hub eventi nell&#39;SDK di base.
+   * Le informazioni di iscrizione a Device POI ora hanno un tempo predefinito di un&#39;ora dal momento in cui viene raccolto. Per ulteriori informazioni, vedere [Modifica del tempo di iscrizione Luoghi](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 ## 27 gennaio 2020
 
@@ -20,7 +33,7 @@ source-git-commit: 4038972cc56c144c0e7d702d0f80c7f76f275aa4
 
 ## 9 gennaio 2020
 
-* **ACPPlaces 1.4.0**
+* **Luoghi 1.4.0**
 
    * **Android**
 
