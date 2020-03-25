@@ -2,7 +2,7 @@
 title: Adobe Target
 description: Questa sezione fornisce informazioni sull'utilizzo di Places Service con Adobe Target.
 translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+source-git-commit: d33e4e2d798c7048bdd275cdf6c0aabf3434f789
 
 ---
 
@@ -15,7 +15,7 @@ Dopo che l&#39;estensione Luoghi ha inviato eventi per voci ed uscite, puoi util
 
 ## 1. Creare una regola
 
-1. Nella **[!UICONTROL Rules]**scheda fare clic su**[!UICONTROL Create New Rule]**.
+1. Nella scheda **[!UICONTROL Rules]** fai clic su **[!UICONTROL Create New Rule]**.
 
    Considerazioni da ricordare:
 
@@ -28,12 +28,9 @@ Dopo che l&#39;estensione Luoghi ha inviato eventi per voci ed uscite, puoi util
 
    In questo esempio, la regola viene denominata **[!UICONTROL Attach Places Service Data to Target Content Requested]**.
 
-1. Nella **[!UICONTROL Events]**sezione fare clic su**[!UICONTROL Add]**.
-
-1. Dall’elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTROL Adobe Target]**.
-
-1. Dall’elenco a **[!UICONTROL Event Type]**discesa, selezionate**[!UICONTROL Content Requested]**.
-
+1. Nella **[!UICONTROL Events]** sezione fare clic su **[!UICONTROL Add]**.
+1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Adobe Target]**.
+1. Dall’elenco a **[!UICONTROL Event Type]** discesa, selezionate **[!UICONTROL Content Requested]**.
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 ![aggiungere un evento](/help/assets/ad-setEvent_target.png)
@@ -46,33 +43,25 @@ Dopo che l&#39;estensione Luoghi ha inviato eventi per voci ed uscite, puoi util
 
 Nell&#39;esempio seguente, viene creata una condizione che determina l&#39;attivazione della regola solo per gli utenti che hanno avviato l&#39;app cinque o più volte.
 
-1. Nella **[!UICONTROL Conditions]**sezione fare clic su**[!UICONTROL Add]**.
-
-1. Dall’elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTROL Mobile Core]**.
-
-1. Dall’elenco a **[!UICONTROL Condition Type]**discesa, selezionate**[!UICONTROL Launches]**.
-
+1. Nella **[!UICONTROL Conditions]** sezione fare clic su **[!UICONTROL Add]**.
+1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
+1. Dall’elenco a **[!UICONTROL Condition Type]** discesa, selezionate **[!UICONTROL Launches]**.
 1. Nel riquadro di destra, modificare l&#39;elenco a discesa e i controlli numerici in modo che la condizione sia letta **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
-
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 ![aggiungere una condizione](/help/assets/ad-setCondition_target.png)
 
 ## 4. Definire l&#39;azione
 
-1. Nella **[!UICONTROL Actions]**sezione fare clic su**[!UICONTROL Add]**.
-
-1. Dall’elenco a **[!UICONTROL Extension]**discesa, selezionate**[!UICONTROL Mobile Core]**.
-
-1. Dall’elenco a **[!UICONTROL Action Type]**discesa, selezionate**[!UICONTROL Attach Data]**.
-
-1. Nel riquadro di destra, nel **[!UICONTROL JSON Payload]**campo, digitare i dati che verranno aggiunti a questo evento.
-
+1. Nella **[!UICONTROL Actions]** sezione fare clic su **[!UICONTROL Add]**.
+1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
+1. Dall’elenco a **[!UICONTROL Action Type]** discesa, selezionate **[!UICONTROL Attach Data]**.
+1. Nel riquadro di destra, nel **[!UICONTROL JSON Payload]** campo, digitare i dati che verranno aggiunti a questo evento.
 1. Fai clic su **[!UICONTROL Keep Changes]**.
 
 Nel riquadro a destra, puoi aggiungere un payload JSON a forma libera che aggiunge dati a un evento SDK prima che le estensioni ascoltino l&#39;evento.
 
-Nell&#39;esempio seguente, `poiCity` e `poiName` i valori vengono aggiunti alla **[!UICONTROL mboxparameters]**per ogni richiesta elaborata nell&#39;evento Target. I valori delle nuove chiavi sono determinati dinamicamente dall&#39;SDK al momento dell&#39;elaborazione dell&#39;evento.
+Nell&#39;esempio seguente, `poiCity` e `poiName` i valori vengono aggiunti alla **[!UICONTROL mboxparameters]** per ogni richiesta elaborata nell&#39;evento Target. I valori per le nuove chiavi sono determinati dinamicamente dall&#39;SDK al momento dell&#39;elaborazione dell&#39;evento.
 
 >[!TIP]
 >
@@ -88,6 +77,5 @@ Dopo aver completato la configurazione, verifica che la regola abbia l&#39;aspet
 
 ![regola completata](/help/assets/ad-ruleComplete-target.png)
 
-1. Fai clic su **[!UICONTROL Save]**
-
+1. Fai clic su **[!UICONTROL Save]**.
 1. Generate di nuovo la proprietà Launch e distribuitela nell&#39;ambiente corretto.
