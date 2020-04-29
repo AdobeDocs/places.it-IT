@@ -2,7 +2,7 @@
 title: Usa servizio Luoghi senza monitoraggio area attiva
 description: Questa sezione fornisce informazioni sull'utilizzo di Places Service senza monitoraggio delle aree attive.
 translation-type: tm+mt
-source-git-commit: d123d16c822c48d8727de3c0c22bff8ea7c66981
+source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
 
 ---
 
@@ -10,8 +10,6 @@ source-git-commit: d123d16c822c48d8727de3c0c22bff8ea7c66981
 # Usa servizio Luoghi senza monitoraggio area attiva {#use-places-without-active-monitoring}
 
 I casi di utilizzo per l&#39;applicazione potrebbero non richiedere il monitoraggio dell&#39;area attiva. Il servizio Luoghi può essere ancora utilizzato per integrare i dati sulla posizione degli utenti con altri prodotti Experience Platform.
-
-In questa sezione viene illustrato come completare un controllo dell’iscrizione a un POI solo al momento della raccolta della posizione dell’utente (latitudine e longitudine).
 
 ## Prerequisito
 
@@ -84,7 +82,7 @@ public class LocationBroadcastReceiver extends BroadcastReceiver {
 
 ### Objective-C
 
-Esempio di implementazione in iOS da un [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc) metodo [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc):
+Di seguito è riportato un esempio di implementazione per iOS. Il codice mostra l&#39;implementazione del [`locationManager:didUpdateLocations:`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager?language=objc) metodo nel [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager?language=objc):
 
 ```objectivec
 - (void) locationManager:(CLLocationManager*)manager didUpdateLocations:(NSArray<CLLocation*>*)locations {
@@ -100,7 +98,7 @@ Esempio di implementazione in iOS da un [`CLLocationManagerDelegate`](https://de
 
 ### Swift
 
-Esempio di implementazione in iOS da un [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager) metodo [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager):
+Di seguito è riportato un esempio di implementazione per iOS. Il codice mostra l&#39;implementazione del [`locationManager(_:didUpdateLocations:)`](https://developer.apple.com/documentation/corelocation/cllocationmanagerdelegate/1423615-locationmanager) metodo nel [`CLLocationManagerDelegate`](https://developer.apple.com/documentation/corelocation/cllocationmanager):
 
 ```swift
 func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
@@ -114,9 +112,21 @@ func locationManager(_ manager: CLLocationManager, didUpdateLocations locations:
 }
 ```
 
-## 3. Attiva gli eventi di voce quando l’utente si trova in un POI
+## 3. Allega dati Luoghi alle richieste di Analytics
 
-L’SDK restituisce un elenco di POI vicini, specificando se l’utente si trova attualmente all’interno di ciascun POI. Se l’utente si trova in un POI, l’SDK può attivare un evento di voce per tale area.
+Chiamando l’ `getNearbyPointsOfInterest` API, l’SDK Places renderà disponibili tutti i dati POI rilevanti per il dispositivo tramite gli elementi di dati in Launch. Utilizzando una regola [Allega dati](https://aep-sdks.gitbook.io/docs/resources/user-guides/attach-data) , i dati Luoghi possono essere aggiunti automaticamente alle richieste future ad Analytics. Questo elimina la necessità di una chiamata una tantum ad Analytics al momento della raccolta della posizione del dispositivo.
+
+Per ulteriori informazioni su questo argomento, consulta [Aggiungi contesto posizione alle richieste](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md) di Analytics.
+
+## Facoltativo - Attiva eventi di immissione quando l’utente si trova in un POI
+
+>[!TIP]
+>
+>Il metodo consigliato per acquisire i dati Luoghi consiste nell&#39; [allegare i dati Luoghi alle richieste](#attach-places-data-to-your-analytics-requests)di Analytics.
+>
+>Se il caso d’uso richiede che l’SDK attivi un evento [di immissione](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) regione, questo dovrà essere eseguito manualmente come indicato di seguito.
+
+L&#39;elenco restituito dall&#39; `getNearbyPointsOfInterest` API contiene oggetti [](places-ext-aep-sdks/places-extension/cust-places-objects.md) personalizzati che indicano se l&#39;utente si trova attualmente all&#39;interno di un POI. Se l’utente si trova in un POI, l’SDK può attivare un evento di voce per tale area.
 
 >[!IMPORTANT]
 >
@@ -229,7 +239,9 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 
 ## Implementazione completa dei campioni
 
-Gli esempi di codice riportati di seguito mostrano come recuperare la posizione corrente del dispositivo, attivare gli eventi necessari e assicurarsi di non ottenere più voci per la stessa posizione in una visita.
+Gli esempi di codice riportati di seguito mostrano come recuperare la posizione corrente del dispositivo, attivare gli eventi di immissione necessari e assicurarsi di non ottenere più voci per la stessa posizione in una visita.
+
+Questo esempio di codice include il passaggio facoltativo di [attivazione di eventi di immissione quando l’utente si trova in un POI](#trigger-entry-events-when-the-user-is-in-a-poi).
 
 >[!IMPORTANT]
 >
