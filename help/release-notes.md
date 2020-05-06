@@ -2,25 +2,45 @@
 title: Note sulla versione
 description: Note sulla versione del servizio Luoghi.
 translation-type: tm+mt
-source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
+source-git-commit: f5fa6005396e3c5b5b8eb92c7c920d2d0d974743
+workflow-type: tm+mt
+source-wordcount: '1419'
+ht-degree: 3%
 
 ---
 
 
 # Note sulla versione {#release-notes}
 
-## giovedì 20 febbraio 2020
+## 6 maggio 2020
+
+* **LuoghiMonitor 2.2.1**
+
+   * **Android**
+
+      * Registrazione migliorata
+
+## 5 maggio 2020
+
+
+* **LuoghiMonitor 2.1.3**
+
+   * **iOS**
+
+      * Registrazione migliorata
+
+## 20 febbraio 2020
 
 * **ACPPlaces 1.3.1 (iOS)**
 
    * Le estensioni Luoghi ora riportano le informazioni sulla versione all&#39;hub eventi nell&#39;SDK di base.
-   * Le informazioni di iscrizione a Device POI ora hanno un tempo predefinito di un&#39;ora dal momento in cui viene raccolto. Per ulteriori informazioni, vedere [Modifica del tempo di iscrizione Luoghi](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * Le informazioni di iscrizione a Device POI ora dispongono di un tempo predefinito di un&#39;ora dal momento in cui viene raccolto. Per ulteriori informazioni, vedere [Modifica del tempo di iscrizione Luoghi](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 
 * **Luoghi 1.4.1 (Android)**
 
    * Le estensioni Luoghi ora riportano le informazioni sulla versione all&#39;hub eventi nell&#39;SDK di base.
-   * Le informazioni di iscrizione a Device POI ora hanno un tempo predefinito di un&#39;ora dal momento in cui viene raccolto. Per ulteriori informazioni, vedere [Modifica del tempo di iscrizione Luoghi](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
+   * Le informazioni di iscrizione a Device POI ora dispongono di un tempo predefinito di un&#39;ora dal momento in cui viene raccolto. Per ulteriori informazioni, vedere [Modifica del tempo di iscrizione Luoghi](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 ## 27 gennaio 2020
 
@@ -99,7 +119,7 @@ Elenco degli aggiornamenti all’interfaccia utente Luoghi:
 * È stata aggiunta una nuova vista elenco in cui sono riportati i punti di interesse (POI) senza la mappa.
 * Sono state aggiunte opzioni di filtro POI per la città, lo stato, il paese e i metadati.
 * La prima libreria di un&#39;organizzazione viene creata automaticamente.
-* È stato aggiunto l’ordinamento POI alla vista Elenco.
+* È stato aggiunto l’ordinamento POI nella vista a elenco.
 
 #### Aggiornamenti interfaccia
 
@@ -129,7 +149,7 @@ In questa versione sono stati introdotti i seguenti aggiornamenti:
 
    API precedente: `public static void stop();`
 
-   Nuova API: `public static void stop (final boolean clearData);`
+   New API: `public static void stop (final boolean clearData);`
 
 * Aggiornamento dell&#39;utilizzo dell&#39; `getNearbyPointsOfInterest` API per gestire gli scenari di errore in modo più efficace.
 
@@ -152,7 +172,7 @@ In questa versione sono stati introdotti i seguenti aggiornamenti:
 ### Android Places 1.3.0
 
 * Aggiunta una nuova API che cancella tutti i dati relativi a Luoghi dallo stato condiviso, dalla memoria in-app e dalla preferenza condivisa.
-* È stato risolto un problema che impediva l&#39;aggiornamento dello stato condiviso durante l&#39;avvio dell&#39;applicazione.
+* È stato corretto un problema a causa del quale lo stato condiviso non veniva aggiornato durante l&#39;avvio dell&#39;applicazione.
 * È stato corretto un bug a causa del quale il `getNearbyPointsOfInterest` callback restituiva il codice di errore `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` su Internet.
 * `getNearbyPointsOfInterest` L&#39;API (senza errorCallback) avrà l&#39;elenco `successCallback` chiamato con un numero di secondi vuoto, in caso di errore nel recupero dei punti di interesse vicini.
 
@@ -193,7 +213,7 @@ In questa versione sono stati introdotti i seguenti aggiornamenti:
 
 Sono stati risolti i seguenti problemi nell’interfaccia utente Luoghi:
 
-* Aggiornato lo switcher della soluzione in Luoghi per allineare con il resto di Experience Cloud.
+* Aggiornato lo switcher della soluzione in Luoghi per allinearlo con il resto di Experience Cloud.
 * È stato corretto un problema a causa del quale il livello veniva salvato nelle istanze in cui non venivano apportate modifiche al livello.
 * Raggio minimo consentito nell’interfaccia utente aumentato a 10 metri.
 * È stato risolto un problema per il quale, se si eliminavano tutti i numeri nel campo, il campo raggio veniva reimpostato a 20 metri.
@@ -217,7 +237,7 @@ Per ulteriori informazioni sul monitor Luoghi, fate clic qui.
 
 ## 2 maggio 2019
 
-**Android Places 1.2.0**
+**Android Places 1.1.0**
 
 * È stata introdotta una nuova API per getNearByPlaces, che dispone di errorCallback e viene chiamata con un errorCode che indica il motivo dell&#39;errore.
 * L&#39;estensione Luoghi ora mette in coda gli eventi fino a ottenere una configurazione.
@@ -263,7 +283,7 @@ Abbiamo rilasciato un’interfaccia utente di gestione in cui puoi visualizzare 
 
 #### Estensione Luoghi
 
-Con l’estensione Luoghi potete aggiungere le vostre librerie dei Servizi Luoghi all’app mobile e agire sui loro POI. Utilizzando il generatore di regole in Experience Platform Launch, puoi attivare azioni da attivare quando gli utenti entrano ed escono dai POI.
+Con l’estensione Luoghi potete aggiungere le vostre librerie dei Servizi Luoghi all’app mobile e agire in base ai loro POI. Utilizzando il generatore di regole in Experience Platform Launch, puoi attivare azioni da attivare quando gli utenti entrano ed escono dai POI.
 
 Nell&#39;estensione Luoghi:
 
@@ -289,4 +309,4 @@ Per ulteriori informazioni sulle API Places, vedi API [del servizio](/help/web-s
 
 #### Integrazione di Analytics
 
-L&#39;estensione Analytics viene aggiornata per aggiungere automaticamente i dati contestuali della posizione dal database di Places Service a tutte le chiamate Analytics in uscita quando un utente si trova in un POI (chiamate passive). Questo aggiornamento consentirà anche di creare regole per attivare le chiamate di tracciamento di Analytics direttamente alla voce POI o alla uscita (chiamate attive).
+L&#39;estensione Analytics viene aggiornata per aggiungere automaticamente i dati contestuali della posizione dal database di Places Service a tutte le chiamate Analytics in uscita quando un utente si trova in un POI (chiamate passive). Questo aggiornamento consentirà anche di creare regole per attivare le chiamate di tracciamento di Analytics direttamente all’entrata o all’uscita POI (chiamate attive).
