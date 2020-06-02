@@ -2,13 +2,17 @@
 product: Places Service
 audience: end-user
 user-guide-title: Places Service
+user-guide-description: Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context.
 translation-type: tm+mt
-source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
+source-git-commit: 43b1eb0d384e2e75e444b737c0ab15798492d0a8
+workflow-type: tm+mt
+source-wordcount: '297'
+ht-degree: 14%
 
 ---
 
 
-# Servizio Luoghi {#using}
+# Places Service {#using}
 
 + [Panoramica del servizio Luoghi](home.md)
 + [Note sulla versione](release-notes.md)
@@ -16,7 +20,7 @@ source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
 + [Accesso ai servizi Places](places-gain-access.md)
 + Interfaccia utente del servizio Luoghi {#poi-mgmt-ui}
    + [Panoramica dell’interfaccia utente di Site Service](poi-mgmt-ui/poi-mgmt-ui-overview.md)
-   + [Crea un POI](poi-mgmt-ui/create-a-poi-ui.md)
+   + [Creare un POI](poi-mgmt-ui/create-a-poi-ui.md)
    + [Gestire i POI creati in precedenza](poi-mgmt-ui/managing-pois-in-the-places-ui.md)
    + [Strategie per utilizzare i metadati con i POI](poi-mgmt-ui/metadata-with-pois.md)
    + [Caricamento in blocco di POI](poi-mgmt-ui/bulk-upload-pois.md)
@@ -27,7 +31,7 @@ source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
    + Utilizzo API {#api-usage}
       + [Panoramica dell&#39;utilizzo API](web-service-api/api-usage/api-usage-overview.md)
       + [Intestazioni e parametri](web-service-api/api-usage/headers-and-parameters.md)
-      + Manage libraries {#manage-libraries}
+      + Gestire le librerie {#manage-libraries}
          + [Panoramica sulla gestione delle librerie](web-service-api/api-usage/manage-libraries/manage-libraries.md)
          + [Crea una libreria](web-service-api/api-usage/manage-libraries/create-a-library.md)
          + [Lettura di una libreria](web-service-api/api-usage/manage-libraries/read-a-library.md)
@@ -38,7 +42,7 @@ source-git-commit: b0b48dcc7179e603ae403449a0f7c5441c987767
          + [Ottenere il rango di una biblioteca](web-service-api/api-usage/manage-libraries/get-a-librarys-rank.md)
       + Gestire i punti di interesse {#manage-pois}
          + [Panoramica sulla gestione dei POI](web-service-api/api-usage/manage-pois/manage-pois.md)
-         + [Crea un POI](web-service-api/api-usage/manage-pois/create-a-poi.md)
+         + [Creare un POI](web-service-api/api-usage/manage-pois/create-a-poi.md)
          + [Leggi un POI](web-service-api/api-usage/manage-pois/read-a-poi.md)
          + [Aggiornare un POI](web-service-api/api-usage/manage-pois/update-a-poi.md)
          + [Eliminare un POI](web-service-api/api-usage/manage-pois/delete-a-poi.md)
