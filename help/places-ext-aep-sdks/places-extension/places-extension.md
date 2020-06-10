@@ -2,7 +2,10 @@
 title: Estensione Luoghi
 description: L’estensione Luoghi consente di agire in base alla posizione degli utenti.
 translation-type: tm+mt
-source-git-commit: 36ea8616aa05f5b825a2a4c791a00c5b3f332e9f
+source-git-commit: 0a9a4a713e7e7a49495d11cf26da8981e91b8ed2
+workflow-type: tm+mt
+source-wordcount: '676'
+ht-degree: 4%
 
 ---
 
@@ -20,9 +23,9 @@ L’estensione Luoghi consente di agire in base alla posizione degli utenti. Que
 
    Quando fai clic su **[!UICONTROL Save]**, l’SDK di Experience Platform cerca nei Servizi Luoghi i punti di interesse nelle librerie selezionate. I dati POI non vengono inclusi nel download della libreria al momento della creazione dell’app, ma un sottoinsieme di POI basato sulla posizione viene scaricato nel dispositivo dell’utente finale in fase di esecuzione e si basa sulle coordinate GPS dell’utente.
 
-1. Completa il processo di pubblicazione per aggiornare la configurazione SDK.
+1. Completa il processo di pubblicazione per aggiornare la configurazione dell’SDK.
 
-   Per ulteriori informazioni sulla pubblicazione in Experience Platform Launch, consultate [Pubblicazione](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
+   Per ulteriori informazioni sulla pubblicazione in Experience Platform Launch, consulta [Pubblicazione](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
@@ -30,7 +33,11 @@ L’estensione Luoghi consente di agire in base alla posizione degli utenti. Que
 
 ## Aggiungere l&#39;estensione Luoghi all&#39;app {#add-places-to-app}
 
-Potete aggiungere l&#39;estensione Luoghi alle app Android e iOS.
+Potete aggiungere l&#39;estensione Luoghi alle app Android e iOS. Di seguito sono riportati i passaggi per aggiungere Luoghi all&#39;applicazione iOS o Android. I luoghi sono disponibili anche per Cordova e React Native. Per aggiungere Luoghi all&#39;applicazione durante lo sviluppo con una delle seguenti piattaforme, vedere i collegamenti di accompagnamento:
+
+**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+
+**Reagisce ai cavi ACPPlaces** nativi: https://github.com/adobe/react-native-acpplaces/blob/master/README.md
 
 ### Android
 
@@ -69,7 +76,7 @@ Per aggiungere l&#39;estensione Luoghi all&#39;app utilizzando Objective-C o Swi
    pod update
    ```
 
-1. Apri Xcode e nella classe AppDelegate importa le intestazioni Core e Places:
+1. Aprite Xcode e, nella classe AppDelegate, importate le intestazioni Core e Places:
 
    **Objective-C**
 
@@ -135,7 +142,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 }
 ```
 
-### Modifica Tempo per la pubblicazione dei membri Luoghi {#places-ttl}
+### Modifica Tempo per la pubblicazione dell&#39;iscrizione Luoghi {#places-ttl}
 
 I dati sulla posizione possono diventare rapidamente obsoleti, soprattutto se il dispositivo non riceve aggiornamenti sulla posizione in background.
 
@@ -225,4 +232,4 @@ Per aggiornare la configurazione SDK a livello di programmazione in fase di esec
 | :--- | :--- | :--- |
 | `places.libraries` | Sì | Le librerie delle estensioni Luoghi per l&#39;app mobile. Specifica l&#39;ID libreria e il nome della libreria supportata dall&#39;app mobile. |
 | `places.endpoint` | Sì | L’endpoint predefinito del servizio query Luoghi, utilizzato per ottenere informazioni sulle librerie e sui POI. |
-| `places.membershipttl` | No | Valore predefinito 3600 (secondi in un&#39;ora). Indica per quanto tempo, in secondi, le informazioni di appartenenza Luoghi per il dispositivo rimarranno valide. |
+| `places.membershipttl` | No | Valore predefinito di 3600 (secondi in un&#39;ora). Indica per quanto tempo, in secondi, le informazioni di appartenenza Luoghi per il dispositivo rimarranno valide. |
