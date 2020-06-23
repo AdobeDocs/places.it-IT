@@ -2,9 +2,9 @@
 title: Estensione Luoghi
 description: L’estensione Luoghi consente di agire in base alla posizione degli utenti.
 translation-type: tm+mt
-source-git-commit: 0a9a4a713e7e7a49495d11cf26da8981e91b8ed2
+source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
 workflow-type: tm+mt
-source-wordcount: '676'
+source-wordcount: '678'
 ht-degree: 4%
 
 ---
@@ -14,18 +14,18 @@ ht-degree: 4%
 
 L’estensione Luoghi consente di agire in base alla posizione degli utenti. Questa estensione è l&#39;interfaccia per le API del servizio Query Places. Ascoltando gli eventi che contengono le coordinate GPS e gli eventi dell&#39;area geografica, questa estensione invia nuovi eventi elaborati dal motore delle regole. L’estensione Luoghi inoltre recupera e fornisce un elenco del POI più vicino per i dati dell’app che recuperano dalle API. Le aree restituite dalle API vengono memorizzate nella cache e nella persistenza, il che consente un&#39;elaborazione offline limitata.
 
-## Installa l’estensione Places in Adobe Experience Platform Launch
+## Installare l&#39;estensione Luoghi in  Adobe Experience Platform Launch
 
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. Nella **[!UICONTROL Catalog]** scheda, individuare l’ **[!UICONTROL Places]** estensione e fare clic su **[!UICONTROL Install]**.
 1. Selezionare le librerie Luoghi da utilizzare in questa proprietà. Queste sono le librerie che saranno accessibili nella tua app.
-1. Fai clic su **[!UICONTROL Save]**.
+1. Click **[!UICONTROL Save]**.
 
-   Quando fai clic su **[!UICONTROL Save]**, l’SDK di Experience Platform cerca nei Servizi Luoghi i punti di interesse nelle librerie selezionate. I dati POI non vengono inclusi nel download della libreria al momento della creazione dell’app, ma un sottoinsieme di POI basato sulla posizione viene scaricato nel dispositivo dell’utente finale in fase di esecuzione e si basa sulle coordinate GPS dell’utente.
+   Quando fai clic su **[!UICONTROL Save]**, l’SDK per Experience Platform  cerca nei Servizi Luoghi i punti di interesse nelle librerie selezionate. I dati POI non vengono inclusi nel download della libreria al momento della creazione dell’app, ma un sottoinsieme di POI basato sulla posizione viene scaricato nel dispositivo dell’utente finale in fase di esecuzione e si basa sulle coordinate GPS dell’utente.
 
 1. Completa il processo di pubblicazione per aggiornare la configurazione dell’SDK.
 
-   Per ulteriori informazioni sulla pubblicazione in Experience Platform Launch, consulta [Pubblicazione](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
+   Per ulteriori informazioni sulla pubblicazione in Experience Platform Launch, consultate [Pubblicazione](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
@@ -35,9 +35,9 @@ L’estensione Luoghi consente di agire in base alla posizione degli utenti. Que
 
 Potete aggiungere l&#39;estensione Luoghi alle app Android e iOS. Di seguito sono riportati i passaggi per aggiungere Luoghi all&#39;applicazione iOS o Android. I luoghi sono disponibili anche per Cordova e React Native. Per aggiungere Luoghi all&#39;applicazione durante lo sviluppo con una delle seguenti piattaforme, vedere i collegamenti di accompagnamento:
 
-**Cordova ACPPlaces**: https://github.com/adobe/cordova-acpplaces/blob/master/README.md
+**[Plug-in Luoghi Cordova](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
-**Reagisce ai cavi ACPPlaces** nativi: https://github.com/adobe/react-native-acpplaces/blob/master/README.md
+**[React Native Places Plugin](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
 
 ### Android
 
