@@ -2,12 +2,25 @@
 title: POI di caricamento in blocco
 description: Questa sezione fornisce informazioni su come caricare in massa i POI.
 translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+source-git-commit: 1ffc1f4237dfb872614a4bffd43d3fdaefc62fa9
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 0%
 
 ---
 
 
 # Caricamento in blocco di POI {#bulk-upload-pois}
+
+Il pulsante **Importa POIs** nel servizio Luoghi può essere utilizzato per caricare in massa nuovi POI utilizzando un file CSV. Viene fornito un modello di foglio di calcolo di esempio che mostra quali colonne di dati sono necessarie e come aggiungere metadati personalizzati facoltativi.
+
+![Schermata di importazione in blocco](/help/assets/Bulk-import.png)
+
+Di seguito è riportato un video che mostra il processo di importazione e modifica in blocco:
+
+>[!VIDEO](https://www.youtube.com/watch?v=75qVtirsXhg)
+
+## Script API Python
 
 È stato creato un set di script Python per semplificare l’importazione batch di POI da un file .csv in un database POI utilizzando le API dei servizi Web. Questi script possono essere scaricati da questo [git repo](https://github.com/adobe/places-scripts)open source.
 
@@ -76,7 +89,7 @@ I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente di 
 
    * `csv_file_path`
 
-      Percorso del `.csv` file.
+      Questo è il percorso del `.csv` file.
 
    * `access_code`
 
@@ -84,7 +97,7 @@ I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente di 
 
    * `org_id`
 
-      ID organizzazione Experience Cloud in cui importare i POI. Per informazioni su come ottenere l’ID organizzazione, consultate *Prerequisiti per l’accesso* utente in Panoramica dell’ [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
+      L’ID organizzazione Experience Cloud  in cui importare i POI. Per informazioni su come ottenere l’ID organizzazione, consultate *Prerequisiti per l’accesso* utente in Panoramica dell’ [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
@@ -92,7 +105,7 @@ I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente di 
    b. Salvare le modifiche.
 
 1. In una finestra terminale, andate alla `…/places-scripts/import/` directory.
-1. Inserite `python ./places_import.py` e premete il **[!UICONTROL enter]**(**[!UICONTROL return]**) tasto.
+1. Inserite `python ./places_import.py` e premete il **[!UICONTROL enter]** (**[!UICONTROL return]**) tasto.
 
 
 ## Controlli CSV pre-importazione
@@ -100,7 +113,7 @@ I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente di 
 Lo script completa inizialmente i seguenti controlli sul file .csv:
 
 * Specifica se è stato specificato un `.csv` file.
-* Se il percorso del file è valido.
+* Specifica se il percorso del file è valido.
 * Indica se le intestazioni di metadati riservate sono incluse.
 
    Le intestazioni di metadati riservate sono lib_id, nome, descrizione, tipo, longitudine, latitudine, raggio, paese, stato, città, strada, categoria, icona e colore.
