@@ -2,9 +2,9 @@
 title: Estensione Luoghi
 description: L’estensione Luoghi consente di agire in base alla posizione degli utenti.
 translation-type: tm+mt
-source-git-commit: 0ac139fce666540b36a8c82fe4c05974e12e987f
+source-git-commit: a7dddb78e1e00a0bde01ea668334932759a9dae8
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '694'
 ht-degree: 4%
 
 ---
@@ -19,7 +19,7 @@ L’estensione Luoghi consente di agire in base alla posizione degli utenti. Que
 1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
 1. Nella **[!UICONTROL Catalog]** scheda, individuare l’ **[!UICONTROL Places]** estensione e fare clic su **[!UICONTROL Install]**.
 1. Selezionare le librerie Luoghi da utilizzare in questa proprietà. Queste sono le librerie che saranno accessibili nella tua app.
-1. Click **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Save]**.
 
    Quando fai clic su **[!UICONTROL Save]**, l’SDK per Experience Platform  cerca nei Servizi Luoghi i punti di interesse nelle librerie selezionate. I dati POI non vengono inclusi nel download della libreria al momento della creazione dell’app, ma un sottoinsieme di POI basato sulla posizione viene scaricato nel dispositivo dell’utente finale in fase di esecuzione e si basa sulle coordinate GPS dell’utente.
 
@@ -33,11 +33,16 @@ L’estensione Luoghi consente di agire in base alla posizione degli utenti. Que
 
 ## Aggiungere l&#39;estensione Luoghi all&#39;app {#add-places-to-app}
 
-Potete aggiungere l&#39;estensione Luoghi alle app Android e iOS. Di seguito sono riportati i passaggi per aggiungere Luoghi all&#39;applicazione iOS o Android. I luoghi sono disponibili anche per Cordova e React Native. Per aggiungere Luoghi all&#39;applicazione durante lo sviluppo con una delle seguenti piattaforme, vedere i collegamenti di accompagnamento:
+Potete aggiungere l&#39;estensione Luoghi alle app Android e iOS. Di seguito sono riportati i passaggi per aggiungere Luoghi all&#39;applicazione iOS o Android. Le estensioni dei luoghi sono disponibili anche per le seguenti piattaforme. Per aggiungere Luoghi all&#39;applicazione durante lo sviluppo con una delle seguenti piattaforme, vedere i collegamenti di accompagnamento:
 
 **[Plug-in Luoghi Cordova](https://github.com/adobe/cordova-acpplaces/blob/master/README.md)**
 
 **[React Native Places Plugin](https://github.com/adobe/react-native-acpplaces/blob/master/README.md)**
+
+**[Plug-in Luoghi Sfarfallio](https://github.com/adobe/flutter-acpplaces_monitor)**
+
+**[Plug-in Luoghi Xamarin](https://github.com/adobe/xamarin-acpcore)**
+
 
 ### Android
 
