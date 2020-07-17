@@ -2,7 +2,10 @@
 title: Utilizzo dell’estensione Monitor luoghi
 description: Informazioni su come installare, configurare e utilizzare l’estensione Places Monitor.
 translation-type: tm+mt
-source-git-commit: ac1d410a676557064d5390f8392f402541754478
+source-git-commit: 7fdaace59886225b7fd9b0eba8cc6c2a139fa2d7
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 8%
 
 ---
 
@@ -11,10 +14,10 @@ source-git-commit: ac1d410a676557064d5390f8392f402541754478
 
 Per utilizzare l&#39;estensione Luoghi monitor, completare le seguenti operazioni:
 
-## Installare l’estensione Places Monitor in Experience Platform Launch
+## Installare l&#39;estensione Places Monitor nel Experience Platform Launch
 
-1. In Experience Platform Launch, click the **[!UICONTROL Extensions]**tab.
-1. Nella **[!UICONTROL Catalog]**scheda, individuate l’**[!UICONTROL Places Monitor]** estensione e fate clic su **Installa**.
+1. In Experience Platform Launch, click the **[!UICONTROL Extensions]** tab.
+1. Nella **[!UICONTROL Catalog]** scheda, individuate l’ **[!UICONTROL Places Monitor]** estensione e fate clic su **Installa**.
 1. Fai clic su **[!UICONTROL Save]**.
 1. Segui il processo di pubblicazione per aggiornare la configurazione SDK.
 
@@ -26,7 +29,15 @@ Non esistono attività di configurazione per l’estensione Monitor luoghi.
 
 ## Aggiungere l&#39;estensione Luoghi Monitor all&#39;app {#add-monitor-extension-to-app}
 
-Dovete aggiungere l&#39;estensione Places Monitor all&#39;app Android o iOS.
+Indicazioni sull&#39;aggiunta dell&#39;estensione Places Monitor all&#39;applicazione Android o iOS sono riportate di seguito.
+
+Il supporto della piattaforma per l&#39;estensione Places Monitor include:
+**[Cordova Places Monitor](https://github.com/adobe/cordova-acpplaces-monitor/blob/master/README.md)**
+
+**[Reazione del monitor Luoghi nativi](https://github.com/adobe/react-native-acpplaces-monitor/blob/master/README.md)**
+
+**[Monitor Luoghi Sfarfallio](https://github.com/adobe/flutter_acpplaces_monitor/blob/master/README.md)**
+
 
 ### Android
 
@@ -55,7 +66,7 @@ In Android, completa i seguenti passaggi:
 
 In iOS, completa i seguenti passaggi:
 
-1. Aggiungete la libreria al progetto tramite i cocoapodi `Podfile` aggiungendo `pod 'ACPPlacesMonitor'`.
+1. Aggiungi la libreria al progetto tramite il `Podfile` CocoaPods aggiungendo il `pod 'ACPPlacesMonitor'`.
 1. Importare le librerie di monitor Luoghi e Luoghi:
 
 #### Objective-C
@@ -152,7 +163,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 >Il monitoraggio dei luoghi dipende dall&#39;estensione Luoghi. When manually installing the Places Monitor extension, ensure that you also add the `libACPPlaces_iOS.a` library to your project.
 
 
-## Aggiungere autorizzazioni al manifesto
+## Aggiungere le autorizzazioni al manifesto
 
 ### Android
 
@@ -172,7 +183,7 @@ Per tutte le versioni di Android, per dichiarare che la tua app richiede l&#39;a
 ```
 
 
-## Abilitare gli aggiornamenti della posizione in background {#enable-location-updates-background}
+## Abilitare gli aggiornamenti della posizione in background  {#enable-location-updates-background}
 
 iOS supporta la distribuzione di eventi di posizione alle app che vengono sospese o che non sono più in esecuzione. Per ricevere gli aggiornamenti sulla posizione in background per l’estensione di Monitoraggio luoghi, configura la funzionalità di aggiornamento della posizione per l’app in `Xcode.background-location-updates`.
 
