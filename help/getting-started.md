@@ -1,17 +1,24 @@
 ---
-title: Guida introduttiva
-description: Guida introduttiva al servizio Luoghi.
+title: Introduzione
+description: Introduzione con il servizio Places.
 translation-type: tm+mt
-source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+source-git-commit: 30650c1e11a52f6bbc118d374b8ff6050b5d80ce
+workflow-type: tm+mt
+source-wordcount: '180'
+ht-degree: 4%
 
 ---
 
 
-# Guida introduttiva {#getting-started}
+# Introduzione {#getting-started}
 
 Di seguito è disponibile un utile video per ottenere una panoramica dei Servizi Luoghi:
 
->[!VIDEO](https://www.youtube.com/watch?v=aV6i_ayxWCw)
+<!--
+Test of different youtube link for exl
+-->
+
+>[!VIDEO](https://youtu.be/aV6i_ayxWCw)
 
 ## Utilizzo del servizio Luoghi
 
@@ -19,11 +26,11 @@ Per utilizzare il servizio Luoghi, completare le seguenti attività:
 
 ### 1. Verificare che sia stato eseguito il provisioning per l&#39;utente per utilizzare il servizio Luoghi
 
-Il contesto del prodotto Servizio Luoghi è disponibile per tutte le organizzazioni Experience Cloud.
+Il contesto del prodotto Servizio Luoghi è disponibile per tutte le organizzazioni  Experienci Cloud.
 
-* Assicurati di essere elencato come utente nei contesti di prodotti Servizio Luoghi e Lancio della Piattaforma Esperienza in Admin Console.
+* Accertati di essere elencato come utente nei contesti del servizio Luoghi e del prodotto Experience Platform Launch nel Admin Console .
 
-   Per ulteriori informazioni, consulta *Aggiunta di un utente al servizio* Lancio e Luoghi della piattaforma esperienza nelle domande [](/help/places-gain-access.md)frequenti.
+   Per ulteriori informazioni, consultate *Aggiunta di un utente al servizio* Experience Platform Launch e luoghi nelle domande [](/help/places-gain-access.md)frequenti.
 
 
 ### 2. Creare i POI
