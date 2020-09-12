@@ -1,13 +1,13 @@
 ---
 product: Places Service
 audience: end-user
-user-guide-title: Places Service
+user-guide-title: Guida ai servizi Luoghi
 user-guide-description: Places Service is a geo-location service that enables mobile apps with location awareness to understand the location context.
 translation-type: tm+mt
-source-git-commit: 43b1eb0d384e2e75e444b737c0ab15798492d0a8
+source-git-commit: f9215fa3871d91166ad109a0708105f79536213c
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 14%
+source-wordcount: '298'
+ht-degree: 13%
 
 ---
 
@@ -66,13 +66,13 @@ ht-degree: 14%
       + [Riferimento API di Monitoraggio luoghi](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [Utilizzo di Places Service con una propria soluzione di monitoraggio](using-your-own-monitor.md)
 + [Usa servizio Luoghi senza monitoraggio area attiva](use-places-without-active-monitoring.md)
-+ Utilizzo di Places Service come parte del flusso di lavoro di avvio della piattaforma Experience {#use-places-launch-workflow}
-   + [Utilizzo di Places Service come parte del flusso di lavoro di avvio della piattaforma Experience](use-places-launch-workflow/places-launch-workflow.md)
++ Utilizza il servizio Luoghi come parte del flusso di lavoro del Experience Platform Launch {#use-places-launch-workflow}
+   + [Utilizza il servizio Luoghi come parte del flusso di lavoro del Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Definizione degli elementi di dati](use-places-launch-workflow/define-data-elements.md)
    + [Creare regole di entrata e uscita](use-places-launch-workflow/create-rule-places-property.md)
-+ Utilizzo del servizio Luoghi con altre soluzioni Adobe {#use-places-with-other-solutions}
++ Utilizzo di Places Service con altre soluzioni  Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
-      + [Utilizzo del servizio Luoghi con Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
+      + [Utilizzo del servizio Luoghi con  Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Inviare dati di entrata e uscita POI ad Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
       + [Aggiunta di un contesto di posizione alle richieste di Analytics](use-places-with-other-solutions/places-adobe-analytics/run-reports-aa-places-data.md)
       + [Report sui dati sulla posizione in Analytics Workspace](use-places-with-other-solutions/places-adobe-analytics/places-in-workspace.md)
@@ -81,11 +81,11 @@ ht-degree: 14%
       + [Notifiche push](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-push.md)
       + [Notifiche in-app](use-places-with-other-solutions/places-mobile-svcs-for-messaging/mobile-svcs-messaging-inapp.md)
    + Adobe Campaign Standard {#places-acs}
-      + [Utilizzo del servizio Luoghi con Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
+      + [Utilizzo del servizio Luoghi con  Adobe Campaign Standard](use-places-with-other-solutions/places-acs/places-acs-overview.md)
       + [Notifiche push](use-places-with-other-solutions/places-acs/places-acs-push-notifications.md)
       + [Messaggi in-app](use-places-with-other-solutions/places-acs/places-acs-in-app-messages.md)
    + Adobe Target {#places-target}
-      + [Utilizzo del servizio Luoghi con Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
+      + [Utilizzo del servizio Luoghi con  Adobe Target](use-places-with-other-solutions/places-target/places-target.md)
 + Test e convalida {#places-testing-validation}
    + [Test e convalida del servizio Places](places-testing-validation/test-validate-places.md)
 + [Domande frequenti](places-faqs.md)
