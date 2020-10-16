@@ -2,9 +2,9 @@
 title: POI di caricamento in blocco
 description: Questa sezione fornisce informazioni su come caricare in massa i POI.
 translation-type: tm+mt
-source-git-commit: 1ffc1f4237dfb872614a4bffd43d3fdaefc62fa9
+source-git-commit: 462df20bb351795dc72009cc18d390cb45e262a8
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '859'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,11 @@ Il pulsante **Importa POIs** nel servizio Luoghi può essere utilizzato per cari
 
 ![Schermata di importazione in blocco](/help/assets/Bulk-import.png)
 
-Di seguito è riportato un video che mostra il processo di importazione e modifica in blocco:
+Guardate questo video che mostra il processo di importazione in massa e di modifica in blocco:
 
->[!VIDEO](https://www.youtube.com/watch?v=75qVtirsXhg)
+<!--I changed this embed to a link to pass validation. We should not link to youtube videos, so please upload this to MCP-->
+
+[Luoghi di importazione e modifica dei punti di interesse di massa dei servizi](https://www.youtube.com/watch?v=75qVtirsXhg)
 
 ## Script API Python
 
@@ -93,15 +95,15 @@ I valori delle colonne seguenti vengono utilizzati nell’interfaccia utente di 
 
    * `access_code`
 
-      Questo è il codice di accesso ottenuto dalla chiamata ad Adobe IMS. Per informazioni su come ottenere questo codice di accesso, consultate *Prerequisiti per l&#39;accesso* utente in Panoramica dell&#39; [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
+      Questo è il codice di accesso che è stato ottenuto dalla chiamata a  Adobe IMS. Per informazioni su come ottenere questo codice di accesso, consultate *Prerequisiti per l&#39;accesso* utente in Panoramica dell&#39; [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 
    * `org_id`
 
-      L’ID organizzazione Experience Cloud  in cui importare i POI. Per informazioni su come ottenere l’ID organizzazione, consultate *Prerequisiti per l’accesso* utente in Panoramica dell’ [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
+      ID organizzazione Experience Cloud  in cui importare i POI. Per informazioni su come ottenere l’ID organizzazione, consultate *Prerequisiti per l’accesso* utente in Panoramica dell’ [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 
-      Si tratta della chiave API REST di Places ottenuta dall&#39;integrazione Adobe I/O Places. Per informazioni su come ottenere la chiave API, consultate *Prerequisiti per l&#39;accesso* utente in Panoramica dell&#39; [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
+      Si tratta della chiave REST API di Places ottenuta dall&#39;integrazione di posizioni I/O del Adobe . Per informazioni su come ottenere la chiave API, consultate *Prerequisiti per l&#39;accesso* utente in Panoramica dell&#39; [integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
    b. Salvare le modifiche.
 
 1. In una finestra terminale, andate alla `…/places-scripts/import/` directory.
