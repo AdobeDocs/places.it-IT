@@ -3,13 +3,16 @@ title: Usa servizio Luoghi senza monitoraggio area attiva
 description: Questa sezione fornisce informazioni sull'utilizzo di Places Service senza monitoraggio delle aree attive.
 translation-type: tm+mt
 source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 1%
 
 ---
 
 
 # Usa servizio Luoghi senza monitoraggio area attiva {#use-places-without-active-monitoring}
 
-I casi di utilizzo per l&#39;applicazione potrebbero non richiedere il monitoraggio dell&#39;area attiva. Il servizio Luoghi può essere ancora utilizzato per integrare i dati sulla posizione degli utenti con altri prodotti Experience Platform.
+I casi di utilizzo per l&#39;applicazione potrebbero non richiedere il monitoraggio dell&#39;area attiva. Il servizio Luoghi può essere ancora utilizzato per integrare i dati sulla posizione degli utenti con altri prodotti  Experience Platform.
 
 ## Prerequisito
 
@@ -408,6 +411,6 @@ func handleUpdatedPOIs(_ nearbyPois:[ACPPlacesPoi]) {
 }
 ```
 
-Oltre ad attivare gli eventi per l’immissione del servizio Places nell’SDK, a causa degli eventi di accesso attivati, tutti i dati che definiscono i POI possono essere utilizzati dal resto dell’SDK tramite `data elements` in Experience Platform Launch. Con Experience Platform Launch `rules`, puoi allegare dinamicamente i dati del servizio Luoghi agli eventi in arrivo elaborati dall’SDK. Ad esempio, puoi allegare i metadati di un POI in cui l’utente si trova e inviare i dati ad Analytics come dati contestuali.
+Oltre ad attivare gli eventi per l’immissione del servizio Places nell’SDK, a causa degli eventi di immissione attivanti, tutti i dati che definiscono i POI possono essere utilizzati dal resto dell’SDK tramite `data elements` in Experience Platform Launch. Ad Experience Platform Launch, `rules`puoi allegare dinamicamente i dati del servizio Luoghi agli eventi in arrivo elaborati dall’SDK. Ad esempio, puoi allegare i metadati di un POI in cui l’utente si trova e inviare i dati ad Analytics come dati contestuali.
 
-Per ulteriori informazioni, consulta [Utilizzo di Places Service con altre soluzioni](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)Adobe.
+Per ulteriori informazioni, vedere [Utilizzo di Places Service con altre soluzioni](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md) Adobe.
