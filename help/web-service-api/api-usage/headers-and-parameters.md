@@ -3,21 +3,24 @@ title: Intestazioni e parametri
 description: Intestazioni e parametri disponibili nelle API REST del servizio Places.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 8%
 
 ---
 
 
-# Intestazioni e parametri {#headers-and-parameters}
+# Headers and parameters {#headers-and-parameters}
 
 Di seguito sono riportati i dettagli sulle intestazioni e i parametri disponibili nell&#39;API REST di Servizio Luoghi:
 
 ## Intestazioni supportate
 
-| Intestazione | Descrizione | Metodo | Esempio |
+| Header | Descrizione | Metodo | Esempio |
 | :--- | :--- | :--- | :--- |
-| `Authorization` | Il tuo token | Tutte |  |
-| `x-api-key` | La chiave API | Tutte | `19776964b4cde49e08d8f62e5824f777b` |
-| `x-gw-ims-org-id` | Il tuo ID organizzazione | Tutte | `18FB61145BAC2FFB0A494777@AdobeOrg` |
+| `Authorization` | Il tuo token | Tutto |  |
+| `x-api-key` | La tua chiave API | Tutto | `19776964b4cde49e08d8f62e5824f777b` |
+| `x-gw-ims-org-id` | Il tuo ID organizzazione | Tutto | `18FB61145BAC2FFB0A494777@AdobeOrg` |
 | `Content-Type` | Formato del contenuto inviato o ricevuto | PUT, POST | `application/json` |
 | `Accept-Language` | Lingua utilizzata per i messaggi di errore | Facoltativo | `en-US` |
 
