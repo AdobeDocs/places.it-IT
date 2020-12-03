@@ -1,13 +1,16 @@
 ---
-title: Domande frequenti
+title: 'Domande frequenti '
 description: Questo argomento fornisce ulteriori informazioni su alcune domande frequenti.
 translation-type: tm+mt
 source-git-commit: 5846577f10eb1d570465ad7f888feba6dd958ec9
+workflow-type: tm+mt
+source-wordcount: '552'
+ht-degree: 1%
 
 ---
 
 
-# Domande frequenti
+# Domande frequenti 
 
 Seguono alcune informazioni e domande frequenti su Places Service.
 
@@ -17,7 +20,7 @@ Se state eseguendo la migrazione dall’SDK v4 e state cercando di sostituire l�
 
 ## Dimensioni e affidabilità
 
-Importante da notare che tutte le aree geografiche utilizzate nel monitoraggio regionale da un&#39;app mobile indipendentemente dall&#39;utilizzo di Adobe o di altri servizi. I sistemi operativi consigliano alcuni parametri da tenere a mente durante la creazione di aree geografiche. Per la massima affidabilità, le aree geografiche devono avere un raggio di almeno 100 metri. È possibile creare aree geografiche più piccole, ma gli eventi di entrata e uscita potrebbero non essere generati o potrebbero essere generati dopo che l&#39;utente ha smesso di muoversi per un periodo.
+Importante da notare che tutte le aree geografiche utilizzate nel monitoraggio regionale da un&#39;app mobile, indipendentemente dall&#39;utilizzo  Adobe o altro servizio. I sistemi operativi consigliano alcuni parametri da tenere a mente durante la creazione di aree geografiche. Per la massima affidabilità, le aree geografiche devono avere un raggio di almeno 100 metri. È possibile creare aree geografiche più piccole, ma gli eventi di entrata e uscita potrebbero non essere generati o potrebbero essere generati dopo che l&#39;utente ha smesso di muoversi per un periodo.
 
 Inoltre, la precisione e l&#39;affidabilità possono essere ridotte in base a condizioni hardware come lo spegnimento o la mancata disponibilità del wi-fi, e anche in base alla posizione del dispositivo in relazione all&#39;impedimento dei segnali GPS. Ad esempio, le aree montane, le impostazioni urbane e le aree interne possono ridurre la precisione della posizione dai sistemi operativi iOS e Android.
 
