@@ -3,6 +3,9 @@ title: Utilizzo dei metadati con i POI
 description: Questa sezione fornisce informazioni e strategie sull’utilizzo dei metadati con i POI.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '293'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +18,7 @@ I metadati POI possono essere utilizzati in diversi modi. Dal punto di vista del
 
 ## Metadati del servizio Luoghi in Launch
 
-In Experience Platform Launch, puoi creare elementi di dati per ogni campo di metadati Servizio Places che sono importanti per il tracciamento o la messaggistica.
+Ad Experience Platform Launch, puoi creare elementi di dati per ciascun campo di metadati Servizio Luoghi che è importante ai fini del tracciamento o della messaggistica.
 
 ![elemento dati per la struttura della palestra](/help/assets/gymfacility.png)
 
@@ -23,8 +26,8 @@ Puoi quindi creare un’azione con l’estensione Analytics per creare un nuovo 
 
 ![azione per la palestra](/help/assets/Analytics-gym.png)
 
-## Messaggistica in-app in Adobe Campaign
+## Messaggistica in-app in  Adobe Campaign
 
-I metadati possono essere utilizzati come filtro per le notifiche locali e i messaggi in-app definiti in Adobe Campaign Standard. L&#39;utilizzo dei metadati come filtro consente di creare un messaggio più rilevante, contestuale alla posizione effettiva.
+I metadati possono essere utilizzati come filtro per le notifiche locali e i messaggi in-app definiti in  Adobe Campaign Standard. L&#39;utilizzo dei metadati come filtro consente di creare un messaggio più rilevante, contestuale alla posizione effettiva.
 
 ![filtro delle notifiche locali e dei messaggi in-app in ACS](/help/assets/ACS_gym_metadata.png)
