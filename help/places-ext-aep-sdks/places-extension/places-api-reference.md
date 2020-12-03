@@ -3,6 +3,9 @@ title: Riferimento API Places
 description: Informazioni sui riferimenti API in Places.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '583'
+ht-degree: 32%
 
 ---
 
@@ -17,9 +20,9 @@ Quando un dispositivo attraversa uno dei limiti dell&#39;area del servizio Luogh
 
 ### ProcessGeofence (Android)
 
-Elabora un evento `Geofence` regione per il provider `transitionType`.
+Elabora un evento `Geofence` regionale per il contenuto fornito `transitionType`.
 
-Passa la `transitionType` da `GeofencingEvent.getGeofenceTransition()`. Attualmente `Geofence.GEOFENCE_TRANSITION_ENTER` e `Geofence.GEOFENCE_TRANSITION_EXIT` sono supportati.
+Passate la `transitionType` da `GeofencingEvent.getGeofenceTransition()`. Attualmente `Geofence.GEOFENCE_TRANSITION_ENTER` e `Geofence.GEOFENCE_TRANSITION_EXIT` sono supportati.
 
 **Sintassi**
 
@@ -304,7 +307,7 @@ Di seguito è riportato un esempio di codice per questo metodo:
 }];
 ```
 
-## Cancella dati lato client
+## Cancellare i dati lato client
 
 
 ### Cancella (Android)
