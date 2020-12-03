@@ -3,6 +3,9 @@ title: Impostare un livello nelle librerie
 description: Impostate una classificazione nelle librerie utilizzando l'API REST Luoghi.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 5%
 
 ---
 
@@ -24,7 +27,7 @@ Metodo PUT che consente di impostare un ordine di classificazione per tutte le l
 -H 'Accept-Language: en-US'
 ```
 
-## Dati PUT
+## PUT, dati
 
 ```
 "library_rank_order": ["dfcc5270-1d6d-4bc9-9cd9-85ecd5ebc12b","ea45781f-26af-44b1-b4f8-43baf5f0fe28"]  
