@@ -1,13 +1,16 @@
 ---
-title: Crea un POI
+title: Creare un POI
 description: Create un POI utilizzando le API REST di Luoghi.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '47'
+ht-degree: 2%
 
 ---
 
 
-# Crea un POI {#create-a-poi}
+# Creare un POI {#create-a-poi}
 
 Metodo POST che consente di creare un POI.
 
