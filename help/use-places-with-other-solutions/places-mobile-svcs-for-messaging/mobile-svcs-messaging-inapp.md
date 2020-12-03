@@ -1,8 +1,11 @@
 ---
 title: Notifiche in-app
-description: Questa sezione mostra come utilizzare il servizio Luoghi con i messaggi in-app.
+description: In questa sezione viene illustrato come utilizzare il servizio Luoghi con i messaggi in-app.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '660'
+ht-degree: 5%
 
 ---
 
@@ -29,13 +32,13 @@ Elenco dei tipi di messaggi in-app disponibili:
 
 Questi tipi sono messaggi in-app perché sono attivati dall&#39;SDK. Le notifiche locali appaiono come notifiche push perché vengono visualizzate quando l&#39;app è in background. Queste notifiche forniscono anche notifiche in tempo reale quando gli utenti immettono o chiudono i POI mentre l’app è in background. Per ulteriori informazioni, consultate Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)posizioni.
 
-### Prerequisiti 
+### Prerequisiti  
 
 Prima di iniziare, scopri come inviare e creare un messaggio in-app in Mobile Services e come funzionano i trigger. Per ulteriori informazioni, consulta [Creare un messaggio in-app.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
 
 ## Regole in Experience Platform Launch
 
-Puoi creare regole di avvio della piattaforma Experience che inviano ad Analytics i dati che desideri usare come parte delle regole di attivazione dei messaggi in-app. Puoi utilizzare i dati delle estensioni Places nelle regole Experience Platform Launch come eventi e/o condizioni a seconda del caso d’uso.
+Puoi creare regole di Experience Platform Launch che inviano ad Analytics i dati che desideri usare come parte delle regole di attivazione messaggi in-app. È possibile utilizzare i dati delle estensioni Luoghi nelle regole del Experience Platform Launch come eventi e/o condizioni a seconda del caso d&#39;uso.
 
 * Utilizzo dei dati sulla posizione come evento di attivazione.
 
@@ -52,7 +55,7 @@ Una volta impostata la regola con i parametri di evento e condizione corretti, c
 Per creare un&#39;azione:
 
 1. Seleziona l&#39;estensione **[!UICONTROL Adobe Analytics]**.
-1. Nell&#39;elenco a **[!UICONTROL Action type]**discesa, seleziona**[!UICONTROL Track.]**
+1. Nell&#39;elenco a **[!UICONTROL Action type]** discesa, seleziona **[!UICONTROL Track.]**
 1. Digitare un nome per l&#39;azione.
 1. Nel riquadro a destra, in **[!UICONTROL Context Data]**, selezionate la coppia chiave-valore per impostare i dati contestuali che verranno inviati ad Analytics.
 
@@ -77,7 +80,7 @@ Come parte dei parametri Trigger, puoi creare il pubblico per il messaggio con i
 
    Questa opzione può essere utilizzata con un&#39;azione specifica per una posizione, ad esempio una voce, o può essere utilizzata come contesto per un altro evento, ad esempio un avvio o un clic di pulsante.
 
-   Di seguito è riportato un esempio di come configurare un messaggio in-app per accogliere gli utenti che immettono un POI con **[!UICONTROL Adobe]**il nome:
+   Di seguito è riportato un esempio di come configurare un messaggio in-app per accogliere gli utenti che immettono un POI con **[!UICONTROL Adobe]** il nome:
 
    ![parametri di attivazione](/help/assets/trigger-parameters.png)
 
