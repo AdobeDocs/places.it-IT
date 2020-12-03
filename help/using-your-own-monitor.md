@@ -3,6 +3,9 @@ title: Utilizzo del monitor
 description: Puoi anche utilizzare i tuoi servizi di monitoraggio e integrarli con i servizi Luoghi utilizzando le API delle estensioni dei Servizi Luoghi.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '264'
+ht-degree: 1%
 
 ---
 
