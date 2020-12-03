@@ -3,6 +3,9 @@ title: Riferimento evento Luoghi
 description: 'Un elenco degli eventi gestiti dall''estensione Luoghi. '
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 21%
 
 ---
 
@@ -69,5 +72,5 @@ Questo evento causa l&#39;elaborazione da parte dell&#39;estensione Luoghi di un
 
 ## Eventi inviati dall&#39;estensione Luoghi
 
-Informazioni in corso.
+Queste informazioni sono attualmente in corso.
 
