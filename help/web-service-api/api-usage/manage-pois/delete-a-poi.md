@@ -3,13 +3,16 @@ title: Eliminare un POI
 description: Eliminate un POI utilizzando le API REST Luoghi.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '44'
+ht-degree: 2%
 
 ---
 
 
 # Eliminare un POI {#delete-a-poi}
 
-Metodo DELETE che consente di eliminare un POI.
+Un metodo DELETE che consente di eliminare un POI.
 
 ## Richiesta
 
