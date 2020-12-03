@@ -3,6 +3,9 @@ title: Configurare l’SDK con l’estensione Luoghi
 description: 'Puoi configurare l’SDK con l’estensione Luoghi per abilitare la localizzazione nell’app mobile. '
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 9%
 
 ---
 
