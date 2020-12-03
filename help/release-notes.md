@@ -1,6 +1,6 @@
 ---
 title: Note sulla versione
-description: Note sulla versione del servizio Luoghi.
+description: Note sulla versione del servizio Places.
 translation-type: tm+mt
 source-git-commit: 3f986697179eb9c0af1d9b54daf67793a99b8491
 workflow-type: tm+mt
@@ -18,7 +18,7 @@ ht-degree: 3%
 
    * Le estensioni Luoghi e Luoghi Monitor sono state aggiunte per le applicazioni [React Native](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
    * Le estensioni Luoghi e Luoghi Monitor sono state aggiunte per le applicazioni [Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * Per ulteriori informazioni, consulta: [Utilizzo dell&#39;estensione Luoghi](https://docs.adobe.com/content/help/en/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   * Per ulteriori informazioni, vedi: [Utilizzo dell&#39;estensione Luoghi](https://docs.adobe.com/content/help/it-IT/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
 ## 12 maggio 2020
@@ -229,7 +229,7 @@ In questa versione sono stati introdotti i seguenti aggiornamenti:
 
 Sono stati risolti i seguenti problemi nell’interfaccia utente Luoghi:
 
-* Aggiornato lo switcher della soluzione in Luoghi per allinearlo con il resto dell&#39;Experience Cloud .
+* Aggiornato lo switcher della soluzione in Luoghi per allinearlo con il resto del Experience Cloud .
 * È stato corretto un problema a causa del quale il livello veniva salvato nelle istanze in cui non venivano apportate modifiche al livello.
 * Raggio minimo consentito nell’interfaccia utente aumentato a 10 metri.
 * È stato risolto un problema per il quale, se si eliminavano tutti i numeri nel campo, il campo raggio veniva reimpostato a 20 metri.
@@ -284,7 +284,7 @@ Places Monitor gestisce le API Location a livello di sistema operativo e comunic
 
 ### Versione Beta
 
-Questa è la prima release di Places Service, un set di strumenti che consente ai clienti di arricchire l&#39;esperienza degli utenti con dati reali sulla posizione. Per la prima versione, il nostro caso d’uso principale è quello di consentire alle app mobili di recuperare i dati della posizione personalizzata e di agire su tali dati tramite  lancio Adobe Experience Platform.
+Questa è la prima release di Places Service, un set di strumenti che consente ai clienti di arricchire l&#39;esperienza degli utenti con dati reali sulla posizione. Per la prima versione, il nostro caso d’uso principale è quello di consentire alle app mobili di recuperare i dati della posizione personalizzata e di agire su tali dati tramite  Adobe Experience Platform Launch.
 
 ### Funzioni chiave
 
@@ -325,4 +325,4 @@ Per ulteriori informazioni sulle API Places, vedi API [del servizio](/help/web-s
 
 #### Integrazione di Analytics
 
-L&#39;estensione Analytics  è in corso di aggiornamento per aggiungere automaticamente i dati contestuali della posizione dal database di Places Service a tutte  chiamate Analytics in uscita quando un utente si trova in un POI (chiamate passive). Questo aggiornamento consentirà inoltre di attivare  chiamate di tracciamento Analytics direttamente all’entrata o all’uscita del POI (chiamate attive).
+L&#39;estensione Analytics viene aggiornata per aggiungere automaticamente i dati contestuali della posizione dal database di Places Service a tutte le chiamate Analytics in uscita quando un utente si trova in un POI (chiamate passive). Questo aggiornamento consentirà anche di creare regole per attivare le chiamate di tracciamento di Analytics direttamente all’entrata o all’uscita POI (chiamate attive).
