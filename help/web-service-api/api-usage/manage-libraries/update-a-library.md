@@ -3,13 +3,16 @@ title: Aggiornare una libreria
 description: Aggiornate una libreria utilizzando l'API REST Luoghi.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '48'
+ht-degree: 2%
 
 ---
 
 
 # Aggiornare una libreria {#update-a-library}
 
-Metodo PUT che consente di aggiornare una libreria.
+Un metodo PUT che consente di aggiornare una libreria.
 
 ## Richiesta
 
