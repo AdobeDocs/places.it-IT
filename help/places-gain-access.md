@@ -11,7 +11,7 @@ ht-degree: 7%
 
 # Accesso ai servizi Places {#adding-user-launch-places}
 
-È possibile accedere al Servizio Luoghi dal menu di accesso rapido nella home [di](https://experience.adobe.com/it)Adobe Experience Cloud.
+È possibile accedere al Servizio Luoghi dal menu di accesso rapido nella home [di](https://experience.adobe.com)Adobe Experience Cloud.
 Se l’ID utente dispone dell’accesso, verrà visualizzata l’icona del servizio Luoghi come indicato di seguito:
 
 ![menu di accesso rapido](/help/assets/quickaccess.png)
@@ -27,7 +27,7 @@ Se il servizio Luoghi non è visualizzato in uno di questi menu, contattate un a
 Per consentire agli utenti di accedere all’interfaccia utente [del](https://launch.adobe.com)Experience Platform Launch, è necessario aggiungerli al servizio core Luoghi nel Admin Console  come utente. Per consentire agli utenti di accedere al Experience Platform Launch, configurare le proprietà dei dispositivi mobili e utilizzare Luoghi con l’SDK di Adobe Experience Platform, è necessario aggiungerli al Experience Platform Launch nel Admin Console  e ottenere le seguenti autorizzazioni, ad Experience Platform Launch:
 
 * Tutti i diritti di proprietà:
-   * Develop
+   * Sviluppa
    * Approva
    * Pubblica
    * Gestire le estensioni
