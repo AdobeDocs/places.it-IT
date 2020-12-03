@@ -3,6 +3,9 @@ title: Leggere tutti i POI in una libreria
 description: Leggete tutti i POI in una libreria utilizzando le API REST di Luoghi.
 translation-type: tm+mt
 source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+workflow-type: tm+mt
+source-wordcount: '54'
+ht-degree: 1%
 
 ---
 
