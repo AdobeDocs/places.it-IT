@@ -1,15 +1,18 @@
 ---
-title: Servizio Luoghi
+title: Places Service
 description: 'Places Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
 translation-type: tm+mt
 source-git-commit: 05b4d29aa7925f7a43e70c644e3cb88045cbe446
+workflow-type: tm+mt
+source-wordcount: '708'
+ht-degree: 10%
 
 ---
 
 
-# Servizio Luoghi {#home}
+# Places Service {#home}
 
-![&quot;Servizio Luoghi&quot;](/help/assets/places-service-header.png)
+![&quot;Places Service&quot;](/help/assets/places-service-header.png)
 
 La posizione è un contesto importante per comprendere e interagire con gli utenti dei dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell&#39;app e renderla un&#39;esperienza più personalizzata e coinvolgente.
 
@@ -17,10 +20,10 @@ Places Service, precedentemente noto come Adobe Experience Platform Location Ser
 
 Places Service consente di ottenere quanto segue:
 
-* Crea e gestisci un database di POI che puoi sfruttare con altre soluzioni Adobe Experience Cloud.
+* Crea e gestisci un database di POI che può essere utilizzato con altre soluzioni Adobe Experience Cloud.
 * Allegate metadati personalizzati ai POI per renderli più ricchi e significativi specificando attributi aggiuntivi.
 * Visualizzate i POI su una mappa per comprendere facilmente il contesto spaziale e aggiungere/modificare gli attributi dei metadati.
-* Configura l’SDK in Adobe Experience Platform Launch per definire le regole attivate dalla posizione e le condizioni basate sui metadati.
+* Configura l’SDK in  Adobe Experience Platform Launch per definire le regole attivate dalla posizione e le condizioni basate sui metadati.
 * Ridurre il codice da scrivere per monitorare la posizione di un dispositivo e utilizzare l&#39;estensione Luoghi per attivare automaticamente le regole specifiche per la posizione.
 
 In questo modo potrete eseguire azioni dai segnali di posizione in tempo reale, quando e dove sono importanti. Il contesto giusto offre un&#39;esperienza di coinvolgimento mobile più arricchente.
@@ -54,7 +57,7 @@ Places Service è costituito dai seguenti componenti:
 
 * **Estensione Luoghi monitor**
 
-   L’SDK per dispositivi mobili multipiattaforma che può essere incorporato nell’app mobile per monitorare automaticamente i cambiamenti di posizione dell’utente e attivare le regole di posizione. Per ulteriori informazioni, consultate Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)posizioni.
+   L’SDK per dispositivi mobili multipiattaforma che può essere incorporato nell’app mobile per monitorare automaticamente i cambiamenti di posizione dell’utente e attivare le regole di Luoghi. Per ulteriori informazioni, consultate Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)posizioni.
 
 ## Terminologia
 
@@ -74,7 +77,7 @@ Di seguito sono riportati alcuni termini comuni utilizzati nella documentazione:
 
 * Una **libreria** è una raccolta di POI, raggruppati per associare facilmente le regole a un set invece di un POI.
 
-* Un’ **estensione** è l’estensione Experience Platform Launch necessaria per integrare l’SDK Places nelle app mobili.
+* Un’ **estensione** è l’estensione di Experience Platform Launch necessaria per integrare l’SDK Places nelle app mobili.
 
    L’estensione utilizzata con gli altri SDK per dispositivi mobili per aggiungere contesto di posizione alle esperienze.
 
@@ -88,4 +91,4 @@ Di seguito sono riportati alcuni termini comuni utilizzati nella documentazione:
 
 * The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
 
-   For more information, see [Overview](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html).
+   Per maggiori informazioni, consulta [Panoramica](https://docs.adobe.com/content/help/it-IT/id-service/using/intro/overview.html).
