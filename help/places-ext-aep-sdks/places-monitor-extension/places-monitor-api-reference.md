@@ -3,6 +3,9 @@ title: Riferimento API di Monitoraggio luoghi
 description: Un elenco delle API per il Monitor posizioni.
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+workflow-type: tm+mt
+source-wordcount: '1090'
+ht-degree: 2%
 
 ---
 
@@ -27,7 +30,7 @@ public static void registerExtension();
 
 #### Esempio
 
-Chiama questo metodo nel `onCreate` metodo in cui inizializza il resto dell’SDK della piattaforma Experience.
+Chiama questo metodo nel `onCreate` metodo in cui inizializza il resto dell’SDK del Experience Platform .
 
 ```java
 public class MobileApp extends Application {
@@ -173,7 +176,7 @@ Avvio di Monitoraggio luoghi più tardi nell&#39;esecuzione dell&#39;app:
 [ACPPlacesMonitor start];
 ```
 
-## Arresta monitoraggio dispositivo
+## Arresta il monitoraggio del dispositivo
 
 Interrompe il tracciamento della posizione del dispositivo.
 
@@ -211,7 +214,7 @@ Di seguito sono riportati la sintassi e il codice di esempio per questa API:
 
 ## Aggiorna posizione
 
-Utilizzate questa API per un aggiornamento immediato sulla posizione del dispositivo. Quando chiamate questa API, il dispositivo tenta di determinare la posizione con il livello di precisione specificato. Questo processo aggiorna anche i POI vicini monitorati dall’estensione.
+Utilizzate questa API per un aggiornamento immediato sulla posizione del dispositivo. Quando si chiama questa API, il dispositivo tenta di determinare la posizione con il livello di precisione specificato. Questo processo aggiorna anche i POI vicini monitorati dall’estensione.
 
 ### UpdateLocation (Android)
 
@@ -311,7 +314,7 @@ PlacesMonitor.setLocationPermission(PlacesMonitorLocationPermission.ALWAYS_ALLOW
 
 Questa API imposta il tipo di richiesta di autorizzazione di posizione per il quale verrà richiesto all&#39;utente.
 
-Per impostare il prompt di autorizzazione appropriato da visualizzare all&#39;utente, chiamate `SetRequestAuthorizationLevel` prima di chiamare `[ACPPlacesMonitor start]`. Per impostare il prompt di autorizzazione appropriato da mostrare all&#39;utente, chiamate questa API prima del `[ACPPlacesMonitor start]`. Se si richiama questo metodo durante il monitoraggio attivo, il livello di autorizzazione della posizione verrà aggiornato al valore di autorizzazione richiesto. Se il livello di autorizzazione richiesto è già fornito o rifiutato dall&#39;utente dell&#39;applicazione o se esiste un downgrade dell&#39;autorizzazione da `ACPPlacesRequestAuthorizationLevelAlways` a `ACPPlacesRequestAuthorizationLevelWhenInUse` autorizzazione, questo metodo non ha effetto.
+Per impostare il prompt di autorizzazione appropriato da visualizzare all&#39;utente, chiamate `SetRequestAuthorizationLevel` prima di chiamare `[ACPPlacesMonitor start]`. Per impostare il prompt di autorizzazione appropriato da mostrare all&#39;utente, chiamate questa API prima del `[ACPPlacesMonitor start]`. Se si richiama questo metodo durante il monitoraggio attivo, il livello di autorizzazione della posizione verrà aggiornato al valore di autorizzazione richiesto. Se il livello di autorizzazione richiesto è già fornito o rifiutato dall&#39;utente dell&#39;applicazione o in presenza di un downgrade dell&#39;autorizzazione da `ACPPlacesRequestAuthorizationLevelAlways` a `ACPPlacesRequestAuthorizationLevelWhenInUse` un&#39;autorizzazione, questo metodo non ha alcun effetto.
 
 Il livello di autorizzazione può essere impostato su uno dei seguenti valori:
 
