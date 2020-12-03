@@ -3,6 +3,9 @@ title: Gestire i POI esistenti
 description: Nell’interfaccia utente del servizio Luoghi, potete modificare, eliminare o filtrare i POI esistenti.
 translation-type: tm+mt
 source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+workflow-type: tm+mt
+source-wordcount: '398'
+ht-degree: 6%
 
 ---
 
@@ -13,26 +16,26 @@ I POI e le librerie vengono creati e gestiti nel database Luoghi utilizzando l�
 
 ## Modificare un POI
 
-1. Accedi a Luoghi utilizzando il tuo Adobe ID.
-1. Accedi al servizio Places utilizzando il tuo Adobe ID.
+1. Accedi a Luoghi utilizzando il tuo Adobe ID .
+1. Accedi a Places Service tramite il tuo Adobe ID .
 1. In alto a destra, fate clic sull’icona che ha l’aspetto di un elenco puntato.
 1. Individuate il POI da modificare.
-1. Fate clic **[!UICONTROL ...]**e selezionate**[!UICONTROL View Details]**.
-1. Aggiornate le informazioni e fate clic **[!UICONTROL Save]**.
+1. Click **[!UICONTROL ...]** and select **[!UICONTROL View Details]**.
+1. Aggiornate le informazioni e fate clic su **[!UICONTROL Save]**.
 
 ## Eliminare un POI
 
-1. Accedi a Luoghi utilizzando il tuo Adobe ID.
-1. Accedi al servizio Places utilizzando il tuo Adobe ID.
+1. Accedi a Luoghi utilizzando il tuo Adobe ID .
+1. Accedi a Places Service tramite il tuo Adobe ID .
 1. In alto a destra, fate clic sull’icona che ha l’aspetto di un elenco puntato.
 1. Individuate il POI da eliminare.
-1. Fate clic **[!UICONTROL ...]**e selezionate**[!UICONTROL Delete]**.
+1. Click **[!UICONTROL ...]** and select **[!UICONTROL Delete]**.
 
 ## Filtrare i POI per città, stato, Paese o metadati
 
 ![filtrare un POI](/help/assets/filter_poi.png)
 
-1. Accedi all&#39;interfaccia utente del servizio Luoghi utilizzando il tuo Adobe ID.
+1. Accedete all&#39;interfaccia utente del servizio Luoghi utilizzando il vostro Adobe ID .
 1. In alto a destra, fate clic sull&#39;icona di filtro.
 1. Potete filtrare i POI in uno dei seguenti modi:
 
@@ -42,11 +45,11 @@ I POI e le librerie vengono creati e gestiti nel database Luoghi utilizzando l�
 
    * Per proprietà:
 
-      a. Nell&#39;elenco a discesa Proprietà, selezionate **[!UICONTROL Country]**,**[!UICONTROL State]** o **[!UICONTROL City]**.
+      a. Nell&#39;elenco a discesa Proprietà, selezionate **[!UICONTROL Country]**, **[!UICONTROL State]** o **[!UICONTROL City]**.
 
       b. Nella riga successiva, immettete un valore.
 
-      Ad esempio, potete selezionare **[!UICONTROL State]**e digitare**[!UICONTROL California]**.
+      Ad esempio, potete selezionare **[!UICONTROL State]** e digitare **[!UICONTROL California]**.
 
    * Con i metadati:
 
@@ -56,7 +59,7 @@ I POI e le librerie vengono creati e gestiti nel database Luoghi utilizzando l�
 
 Le geofence sono un tipo di POI e sono definite nel database in base alle seguenti chiavi:
 
-| Chiavi | Descrizione | Obbligatorio? |
+| Tasti | Descrizione | Obbligatorio? |
 | :--- | :--- | :--- |
 | ID | Identificatore univoco assegnato a ciascun POI | Sì |
 | Nome | Nome gentile dato al POI. | Sì |
