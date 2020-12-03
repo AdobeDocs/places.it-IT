@@ -3,6 +3,9 @@ title: Aggiornare più POI
 description: Utilizzate le API batch per aggiornare più POI.
 translation-type: tm+mt
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+workflow-type: tm+mt
+source-wordcount: '56'
+ht-degree: 1%
 
 ---
 
