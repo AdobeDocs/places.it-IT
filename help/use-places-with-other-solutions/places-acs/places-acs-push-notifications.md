@@ -14,7 +14,7 @@ ht-degree: 2%
 
 In questa sezione verrà illustrato come utilizzare le informazioni di geolocalizzazione storiche per eseguire il targeting delle notifiche push distribuite tramite  Adobe Campaign Standard.
 
-## Prerequisiti
+## Prerequisiti  
 
 Prima di iniziare, effettuate le seguenti operazioni:
 
@@ -60,7 +60,7 @@ Le regole del Experience Platform Launch consentono di creare flussi di lavoro c
 
    Questa sezione consente di filtrare o limitare il momento in cui questa regola deve essere attivata.
 
-1. Nella **[!UICONTROL Actions]** sezione fare clic su **[!UICONTROL +]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL +]**.
 1. Nell&#39;elenco a **[!UICONTROL Extension]** discesa, selezionare **[!UICONTROL Mobile Core]** e nell&#39;elenco a **[!UICONTROL Action Type]** discesa selezionare **[!UICONTROL Send Postback]**.
 1. In **[!UICONTROL URL]**, è necessario creare l&#39;endpoint delle posizioni Campaign Standard.
 
