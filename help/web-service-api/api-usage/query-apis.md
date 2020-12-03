@@ -3,6 +3,9 @@ title: Panoramica
 description: Informazioni e utilizzo delle API di query.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 4%
 
 ---
 
@@ -10,7 +13,7 @@ source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
 
 # API di query
 
-Un metodo GET che consente di interrogare i POI più vicini al chiamante.
+Un metodo di GET che consente di interrogare i POI più vicini al chiamante.
 
 ## Richiesta
 
