@@ -3,6 +3,9 @@ title: Panoramica del servizio Luoghi
 description: 'Questa sezione fornisce informazioni sulla creazione e l’utilizzo di punti di interesse (POI). '
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '53'
+ht-degree: 0%
 
 ---
 
