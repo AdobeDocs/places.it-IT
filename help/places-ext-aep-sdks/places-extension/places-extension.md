@@ -21,7 +21,7 @@ L’estensione Luoghi consente di agire in base alla posizione degli utenti. Que
 1. Selezionare le librerie Luoghi da utilizzare in questa proprietà. Queste sono le librerie che saranno accessibili nella tua app.
 1. Fai clic su **[!UICONTROL Save]**.
 
-   Quando fai clic su **[!UICONTROL Save]**, l’SDK per Experience Platform  cerca nei Servizi Luoghi i punti di interesse nelle librerie selezionate. I dati POI non vengono inclusi nel download della libreria al momento della creazione dell’app, ma un sottoinsieme di POI basato sulla posizione viene scaricato nel dispositivo dell’utente finale in fase di esecuzione e si basa sulle coordinate GPS dell’utente.
+   Quando fai clic su **[!UICONTROL Save]**, l’SDK del Experience Platform  cerca nei Servizi Luoghi i punti di interesse nelle librerie selezionate. I dati POI non vengono inclusi nel download della libreria al momento della creazione dell’app, ma un sottoinsieme di POI basato sulla posizione viene scaricato nel dispositivo dell’utente finale in fase di esecuzione e si basa sulle coordinate GPS dell’utente.
 
 1. Completa il processo di pubblicazione per aggiornare la configurazione dell’SDK.
 
