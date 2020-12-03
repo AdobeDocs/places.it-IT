@@ -3,6 +3,9 @@ title: Panoramica dell’interfaccia di gestione dei punti di interesse
 description: Questa sezione fornisce informazioni su come creare e gestire librerie e POI tramite l’interfaccia utente del servizio Luoghi.
 translation-type: tm+mt
 source-git-commit: c22efc36f2eac6b20fc555d998c3988d8c31169e
+workflow-type: tm+mt
+source-wordcount: '86'
+ht-degree: 0%
 
 ---
 
