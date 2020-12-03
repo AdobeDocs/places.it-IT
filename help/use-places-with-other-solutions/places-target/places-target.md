@@ -1,17 +1,20 @@
 ---
 title: Adobe Target
-description: Questa sezione fornisce informazioni sull'utilizzo di Places Service con Adobe Target.
+description: Questa sezione fornisce informazioni sull'utilizzo di Places Service con  Adobe Target.
 translation-type: tm+mt
 source-git-commit: d33e4e2d798c7048bdd275cdf6c0aabf3434f789
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 2%
 
 ---
 
 
-# Utilizzo del servizio Luoghi con Adobe Target {#places-target}
+# Utilizzo del servizio Luoghi con  Adobe Target {#places-target}
 
 In questo documento si presuppone che l&#39;estensione Luoghi sia stata implementata nell&#39;applicazione. Per assistenza nell&#39;implementazione dell&#39;estensione Luoghi, vedere Estensioni [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
 
-Dopo che l&#39;estensione Luoghi ha inviato eventi per voci ed uscite, puoi utilizzare Regole in Launch per allegare i dati del Servizio Luoghi agli eventi SDK di Adobe Target. Con la proprietà desiderata selezionata in Lancio, potete creare questo tipo di regola completando le seguenti attività:
+Dopo che l&#39;estensione Luoghi invia eventi per voci ed uscite, puoi utilizzare Regole in Launch per allegare i dati del Servizio Luoghi agli eventi dell&#39;SDK Adobe Target . Con la proprietà desiderata selezionata in Lancio, potete creare questo tipo di regola completando le seguenti attività:
 
 ## 1. Creare una regola
 
@@ -28,7 +31,7 @@ Dopo che l&#39;estensione Luoghi ha inviato eventi per voci ed uscite, puoi util
 
    In questo esempio, la regola viene denominata **[!UICONTROL Attach Places Service Data to Target Content Requested]**.
 
-1. Nella **[!UICONTROL Events]** sezione fare clic su **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
 1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Adobe Target]**.
 1. Dall’elenco a **[!UICONTROL Event Type]** discesa, selezionate **[!UICONTROL Content Requested]**.
 1. Fai clic su **[!UICONTROL Keep Changes]**.
@@ -43,7 +46,7 @@ Dopo che l&#39;estensione Luoghi ha inviato eventi per voci ed uscite, puoi util
 
 Nell&#39;esempio seguente, viene creata una condizione che determina l&#39;attivazione della regola solo per gli utenti che hanno avviato l&#39;app cinque o più volte.
 
-1. Nella **[!UICONTROL Conditions]** sezione fare clic su **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
 1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
 1. Dall’elenco a **[!UICONTROL Condition Type]** discesa, selezionate **[!UICONTROL Launches]**.
 1. Nel riquadro di destra, modificare l&#39;elenco a discesa e i controlli numerici in modo che la condizione sia letta **[!UICONTROL User has launched the app greater than or equal to 5 times]**.
@@ -53,7 +56,7 @@ Nell&#39;esempio seguente, viene creata una condizione che determina l&#39;attiv
 
 ## 4. Definire l&#39;azione
 
-1. Nella **[!UICONTROL Actions]** sezione fare clic su **[!UICONTROL Add]**.
+1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
 1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
 1. Dall’elenco a **[!UICONTROL Action Type]** discesa, selezionate **[!UICONTROL Attach Data]**.
 1. Nel riquadro di destra, nel **[!UICONTROL JSON Payload]** campo, digitare i dati che verranno aggiunti a questo evento.
@@ -67,7 +70,7 @@ Nell&#39;esempio seguente, `poiCity` e `poiName` i valori vengono aggiunti alla 
 >
 >Questo payload JSON utilizza una notazione speciale per l&#39; `request` oggetto. Nell&#39;evento originale, `request` è un array di oggetti anonimi. Quando si associano dati a tutti gli oggetti di una matrice utilizzando l&#39;opzione Allega dati, la `[*]` notazione di una chiave che contiene una matrice determina l&#39;applicazione del payload a tutti gli oggetti della matrice.
 >
->La notazione di `request[*]` può essere letta a voce alta come _per ogni oggetto dell&#39;`request`array_.
+>La notazione di `request[*]` può essere letta a voce alta come _per ogni oggetto dell&#39; `request` array_.
 
 ![definire l&#39;azione](/help/assets/ad-setAction-target.png)
 
