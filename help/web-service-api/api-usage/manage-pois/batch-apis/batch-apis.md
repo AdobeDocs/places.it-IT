@@ -3,6 +3,9 @@ title: API Batch
 description: Con le API batch potete creare, aggiornare ed eliminare più POI.
 translation-type: tm+mt
 source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+workflow-type: tm+mt
+source-wordcount: '104'
+ht-degree: 0%
 
 ---
 
