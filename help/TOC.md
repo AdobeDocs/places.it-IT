@@ -1,7 +1,7 @@
 ---
 product: Places Service
 audience: end-user
-user-guide-title: Guida a Places Service
+user-guide-title: Guida di Places Service
 user-guide-description: Places Service è un servizio di geolocalizzazione che consente alle app mobili che supportano la localizzazione di comprendere il contesto della posizione.
 translation-type: tm+mt
 source-git-commit: f9215fa3871d91166ad109a0708105f79536213c
@@ -48,7 +48,7 @@ ht-degree: 19%
          + [Eliminare un POI](web-service-api/api-usage/manage-pois/delete-a-poi.md)
          + [Leggere tutti i POI in una libreria](web-service-api/api-usage/manage-pois/read-all-pois-in-a-library.md)
          + [Leggi tutti i POI della tua organizzazione](web-service-api/api-usage/manage-pois/read-all-pois-in-your-organization.md)
-         + API Batch {#batch-apis}
+         + API batch {#batch-apis}
             + [Panoramica delle API batch](web-service-api/api-usage/manage-pois/batch-apis/batch-apis.md)
             + [Creare più POI](web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
             + [Aggiornare più POI](web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
@@ -60,17 +60,17 @@ ht-degree: 19%
       + [Riferimento API Places](places-ext-aep-sdks/places-extension/places-api-reference.md)
       + [Riferimento evento Luoghi](places-ext-aep-sdks/places-extension/places-event-ref.md)
       + [Posizionamenti personalizzati, oggetti](places-ext-aep-sdks/places-extension/cust-places-objects.md)
-   + Estensione Luoghi monitor {#places-monitor-extension}
+   + Estensione del monitor Luoghi {#places-monitor-extension}
       + [Estensione Luoghi monitor](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
       + [Utilizzo dell’estensione Monitor luoghi](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
       + [Riferimento API di Monitoraggio luoghi](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [Utilizzo di Places Service con una propria soluzione di monitoraggio](using-your-own-monitor.md)
 + [Usa servizio Luoghi senza monitoraggio area attiva](use-places-without-active-monitoring.md)
-+ Utilizza il servizio Luoghi come parte del flusso di lavoro del Experience Platform Launch {#use-places-launch-workflow}
++ Utilizza Places Service come parte del flusso di lavoro del Experience Platform Launch {#use-places-launch-workflow}
    + [Utilizza il servizio Luoghi come parte del flusso di lavoro del Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Definizione degli elementi di dati](use-places-launch-workflow/define-data-elements.md)
    + [Creare regole di entrata e uscita](use-places-launch-workflow/create-rule-places-property.md)
-+ Utilizzo di Places Service con altre soluzioni  Adobe {#use-places-with-other-solutions}
++ Utilizza il servizio Places con altre soluzioni  Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Utilizzo del servizio Luoghi con  Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Inviare dati di entrata e uscita POI ad Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)
