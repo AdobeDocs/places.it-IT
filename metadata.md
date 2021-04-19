@@ -1,8 +1,8 @@
 ---
 cloud: Experience Cloud
-product: adobe experience platform
+product: places service
 solution: Experience Platform, Data Collection
-type: Documentazione
+type: Documentation
 solution-title: Informazioni e supporto
 solution-hub-url: https://helpx.adobe.com/it/support/experience-cloud.html
 getting-started-title: Introduzione
@@ -12,9 +12,9 @@ tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experie
 git-repo: https://git.corp.adobe.com/AdobeDocs/places.it-IT
 index: true
 translation-type: tm+mt
-source-git-commit: b9ee84f7a1fa262611a8bf2b5ae0dd9be9341ce5
+source-git-commit: 12283d11829ee70a808bc11d2bc1241cb1770ac3
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '169'
 ht-degree: 87%
 
 ---
