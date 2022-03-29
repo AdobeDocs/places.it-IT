@@ -4,8 +4,8 @@ description: L’estensione Luoghi consente di agire in base alla posizione degl
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
 source-git-commit: 795808b38851d5afcedc03f58e9a1d6342830934
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ Per aggiungere l’estensione Luoghi all’app utilizzando Java:
 
 Per aggiungere l’estensione Luoghi all’app utilizzando Objective-C o Swift:
 
-1. Aggiungi Luoghi e [Core mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) librerie al tuo progetto. Dovrai aggiungere i seguenti pod al tuo `Podfile`:
+1. Aggiungi Luoghi e [Mobile Core](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core) librerie al tuo progetto. Dovrai aggiungere i seguenti pod al tuo `Podfile`:
 
    ```objective-c
    pod 'ACPPlaces', '~> 1.0'
