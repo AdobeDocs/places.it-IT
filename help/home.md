@@ -1,94 +1,91 @@
 ---
-title: Places Service
-description: 'Places Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell''app e renderla un''esperienza più personalizzata e coinvolgente. '
-translation-type: tm+mt
-source-git-commit: 05b4d29aa7925f7a43e70c644e3cb88045cbe446
+title: Servizio Places
+description: Places Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell’app e renderla un’esperienza più personalizzata e coinvolgente.
+exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
+source-git-commit: c13da9ea3dc0cd574f2f9a496405867f7d36eae0
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '706'
 ht-degree: 10%
 
 ---
 
+# Servizio Places {#home}
 
-# Places Service {#home}
+La posizione è un contesto importante per comprendere e interagire con gli utenti dei dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell’app e renderla un’esperienza più personalizzata e coinvolgente.
 
-![&quot;Places Service&quot;](/help/assets/places-service-header.png)
-
-La posizione è un contesto importante per comprendere e interagire con gli utenti dei dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell&#39;app e renderla un&#39;esperienza più personalizzata e coinvolgente.
-
-Places Service, precedentemente noto come Adobe Experience Platform Location Service, è un servizio di geolocalizzazione che consente alle app mobili con consapevolezza della posizione di comprendere il contesto della posizione utilizzando interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI).
+Places Service, precedentemente noto come Adobe Experience Platform Location Service, è un servizio di geolocalizzazione che consente alle app mobili dotate di awareness della posizione di contestualizzare quest&#39;ultima mediante l&#39;utilizzo di interfacce SDK avanzate e facili da usare, accompagnate da un database flessibile di punti di interesse (POI).
 
 Places Service consente di ottenere quanto segue:
 
 * Crea e gestisci un database di POI che può essere utilizzato con altre soluzioni Adobe Experience Cloud.
-* Allegate metadati personalizzati ai POI per renderli più ricchi e significativi specificando attributi aggiuntivi.
-* Visualizzate i POI su una mappa per comprendere facilmente il contesto spaziale e aggiungere/modificare gli attributi dei metadati.
-* Configura l’SDK in  Adobe Experience Platform Launch per definire le regole attivate dalla posizione e le condizioni basate sui metadati.
-* Ridurre il codice da scrivere per monitorare la posizione di un dispositivo e utilizzare l&#39;estensione Luoghi per attivare automaticamente le regole specifiche per la posizione.
+* Allega metadati personalizzati ai punti di interesse per renderli più ricchi e significativi specificando attributi aggiuntivi.
+* Visualizza i punti di interesse su una mappa per comprendere facilmente il contesto spaziale e aggiungere/modificare gli attributi dei metadati.
+* Configura l&#39;SDK in Adobe Experience Platform Launch per definire le regole attivate dalla posizione e le condizioni basate sui metadati.
+* Riduci il codice da scrivere per monitorare la posizione di un dispositivo e utilizza l’estensione Luoghi per attivare automaticamente le regole specifiche per la posizione.
 
-In questo modo potrete eseguire azioni dai segnali di posizione in tempo reale, quando e dove sono importanti. Il contesto giusto offre un&#39;esperienza di coinvolgimento mobile più arricchente.
+Questo ti consente di intraprendere azioni dai segnali di posizione in tempo reale, quando e dove conta. Il contesto giusto offre un’esperienza di coinvolgimento mobile più ricca.
 
-Di seguito sono riportati alcuni modi per utilizzare i Luoghi:
+Di seguito sono riportati alcuni modi per utilizzare Luoghi:
 
-* Invia una notifica in tempo reale quando qualcuno entra in un POI, *&quot;Hey.benvenuto allo stadio.&quot;*
-* Analizzare il traffico di pedoni tra i negozi e i negozi concorrenti.
-* Segmentate un&#39;audience in base al comportamento offline utilizzando i profili di audience con contesto della posizione.
-* Esegue il targeting di un utente con un&#39;esperienza in-store quando pertinente.
+* Invia una notifica in tempo reale quando qualcuno entra in un POI, *&quot;Ehi.benvenuto allo stadio.&quot;*
+* Analizza il traffico a piedi dei tuoi negozi rispetto ai tuoi negozi concorrenti.
+* Segmenta un pubblico in base al comportamento offline utilizzando i profili di pubblico con contesto di posizione.
+* Esegui il targeting di un utente con un&#39;esperienza in-store quando pertinente.
 
-## Posiziona componenti di Servizio
+## Componenti di Places Service
 
-Places Service è costituito dai seguenti componenti:
+Places Service comprende i seguenti componenti:
 
 * **Servizio Web**
 
-   Potete creare e gestire i POI utilizzando le API REST di Luoghi. Per ulteriori informazioni sulle API REST, consultate [Gestire le librerie](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [gestire i POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+   Puoi creare e gestire i punti di interesse utilizzando le API REST di Luoghi. Per ulteriori informazioni sulle API REST, vedi [Gestire le librerie](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [Gestire i POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **Interfaccia di gestione POI**
 
-   Visualizzare i POI su una mappa per comprendere il contesto spaziale e aggiungere o modificare i POI e i relativi metadati personalizzati.
+   Visualizza i punti di interesse su una mappa per comprendere il contesto spaziale e aggiungere/modificare i punti di interesse e i relativi metadati personalizzati.
 
 * **Estensione Luoghi**
 
-   L&#39;interfaccia API mobile multipiattaforma per integrare il contesto della posizione nelle app mobili. Per ulteriori informazioni sugli SDK, vedi Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md)Luoghi.
+   Interfaccia API mobile multipiattaforma per integrare il contesto della posizione nelle app mobili. Per ulteriori informazioni sugli SDK, vedi [Estensione Luoghi](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * **Regole di avvio**
 
-   Regole di Launch geo-intelligenti che consentono di attivare azioni con eventi di entrata e uscita. Le regole consentono inoltre di utilizzare gli attributi geografici in condizioni per personalizzare l&#39;esperienza.
+   Regole di Launch geo-intelligenti che consentono di attivare azioni con eventi di entrata e uscita. Le regole consentono inoltre di utilizzare gli attributi geografici nelle condizioni per personalizzare l’esperienza.
 
-* **Estensione Luoghi monitor**
+* **Estensione Monitor Luoghi**
 
-   L’SDK per dispositivi mobili multipiattaforma che può essere incorporato nell’app mobile per monitorare automaticamente i cambiamenti di posizione dell’utente e attivare le regole di Luoghi. Per ulteriori informazioni, consultate Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)posizioni.
+   L’SDK per dispositivi mobili multipiattaforma che può essere incorporato nell’app mobile per monitorare automaticamente le modifiche alla posizione dell’utente e attivare le regole di Places. Per ulteriori informazioni, consulta [Estensione Monitor Luoghi](/help/places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md).
 
 ## Terminologia
 
-Di seguito sono riportati alcuni termini comuni utilizzati nella documentazione:
+Di seguito sono riportati alcuni termini comuni utilizzati in questa documentazione:
 
-* Un **punto di interesse (POI)** è una geolocalità che interessa la tua organizzazione.
+* A **punto di interesse (POI)** è una geolocalizzazione di interesse per la tua organizzazione.
 
-   Potete definire i POI con attributi quali nome, raggio, indirizzo, categoria e tag di metadati.
+   Puoi definire punti di interesse con attributi quali nome, raggio, indirizzo, categoria e tag metadati.
 
-* Una **geofence** è un tipo di POI.
+* A **geofence** è un tipo di POI.
 
    Questo tipo di POI è un limite geografico virtuale definito dalle coordinate di latitudine e longitudine.
 
-* Un **beacon** è un tipo di POI.
+* A **beacon** è un tipo di POI.
 
    Questo tipo di POI è un dispositivo fisico che rappresenta una posizione emettendo un segnale Bluetooth a bassa potenza. Il supporto dei beacon verrà rilasciato in una versione futura.
 
 * Una **libreria** è una raccolta di POI, raggruppati per associare facilmente le regole a un set invece di un POI.
 
-* Un’ **estensione** è l’estensione di Experience Platform Launch necessaria per integrare l’SDK Places nelle app mobili.
+* Un **estensione** è l’estensione di Experience Platform Launch necessaria per integrare l’SDK di Places nelle app mobili.
 
-   L’estensione utilizzata con gli altri SDK per dispositivi mobili per aggiungere contesto di posizione alle esperienze.
+   Estensione utilizzata con gli altri SDK per dispositivi mobili per aggiungere contesto di posizione alle esperienze.
 
 * Un’**organizzazione** è l’entità Adobe che identifica la società dell’utente in Adobe Experience Cloud.
 
-   In genere, un&#39;organizzazione è il vostro nome società. Tuttavia, un&#39;azienda può avere più di un&#39;organizzazione. L’amministratore dell’organizzazione può configurare gruppi e utenti e configurare la funzionalità di Single Sign-On.
+   In genere, un&#39;organizzazione corrisponde al nome dell&#39;azienda. Tuttavia, un&#39;azienda può avere più di un&#39;organizzazione. L’amministratore dell’organizzazione può configurare gruppi e utenti e configurare la funzionalità single sign-on.
 
 * L’**orgID** è l’ID che rappresenta l’organizzazione dell’utente in Adobe Experience Platform.
 
-   Per ulteriori informazioni, vedi [Ricerca del tuo orgID](https://forums.adobe.com/thread/2339895).
+   Per ulteriori informazioni, consulta [Ricerca dell&#39;orgID](https://forums.adobe.com/thread/2339895).
 
-* The **Experience Cloud ID** service provides a universal, persistent ID that identifies your visitors across all the solutions in the Experience Cloud.
+* La **ID Experience Cloud** Il servizio fornisce un ID universale e costante che identifica i visitatori in tutte le soluzioni dell&#39;Experience Cloud.
 
    Per maggiori informazioni, consulta [Panoramica](https://docs.adobe.com/content/help/it-IT/id-service/using/intro/overview.html).
