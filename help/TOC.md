@@ -2,16 +2,15 @@
 audience: end-user
 user-guide-title: Guida di Places Service
 user-guide-description: Places Service è un servizio di geolocalizzazione che consente alle app mobili che supportano la localizzazione di comprendere il contesto della posizione.
-translation-type: tm+mt
-source-git-commit: 12283d11829ee70a808bc11d2bc1241cb1770ac3
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 19%
+source-wordcount: '301'
+ht-degree: 20%
 
 ---
 
 
-# Places Service {#using}
+# Servizio Places {#using}
 
 + [Panoramica di Places Service](home.md)
 + [Note sulla versione](release-notes.md)
@@ -32,7 +31,7 @@ ht-degree: 19%
       + [Intestazioni e parametri](web-service-api/api-usage/headers-and-parameters.md)
       + Gestire le librerie {#manage-libraries}
          + [Panoramica sulla gestione delle librerie](web-service-api/api-usage/manage-libraries/manage-libraries.md)
-         + [Crea una libreria](web-service-api/api-usage/manage-libraries/create-a-library.md)
+         + [Creare una libreria](web-service-api/api-usage/manage-libraries/create-a-library.md)
          + [Leggi una libreria](web-service-api/api-usage/manage-libraries/read-a-library.md)
          + [Aggiornare una libreria](web-service-api/api-usage/manage-libraries/update-a-library.md)
          + [Eliminare una libreria](web-service-api/api-usage/manage-libraries/delete-a-library.md)
@@ -59,13 +58,9 @@ ht-degree: 19%
       + [Riferimento API per Luoghi](places-ext-aep-sdks/places-extension/places-api-reference.md)
       + [Riferimento evento Luoghi](places-ext-aep-sdks/places-extension/places-event-ref.md)
       + [Oggetti Luoghi personalizzati](places-ext-aep-sdks/places-extension/cust-places-objects.md)
-   + Estensione Monitor Luoghi {#places-monitor-extension}
-      + [Estensione Monitor Luoghi](places-ext-aep-sdks/places-monitor-extension/places-monitor-extension.md)
-      + [Utilizzo dell’estensione Monitor Luoghi](places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)
-      + [Riferimento API di Monitor di Luoghi](places-ext-aep-sdks/places-monitor-extension/places-monitor-api-reference.md)
 + [Utilizzare Places Service con la propria soluzione di monitoraggio](using-your-own-monitor.md)
 + [Utilizzare il servizio Places senza monitoraggio dell&#39;area attiva](use-places-without-active-monitoring.md)
-+ Utilizza Places Service come parte del flusso di lavoro del Experience Platform Launch {#use-places-launch-workflow}
++ Utilizzare Places Service come parte del flusso di lavoro del Experience Platform Launch {#use-places-launch-workflow}
    + [Utilizzare Places Service come parte del flusso di lavoro del Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Definire gli elementi dati](use-places-launch-workflow/define-data-elements.md)
    + [Creare regole di entrata e di uscita](use-places-launch-workflow/create-rule-places-property.md)

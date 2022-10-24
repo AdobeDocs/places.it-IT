@@ -1,62 +1,60 @@
 ---
 title: Utilizzo di Places Service con Mobile Services per la messaggistica
-description: In questa sezione viene illustrato come utilizzare Places Service con Mobile Services per la messaggistica.
-translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+description: Questa sezione illustra come utilizzare Places Service con Mobile Services per la messaggistica.
+exl-id: dfa6b8bb-6bf2-44eb-8bfc-87294807ec3b
+source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '346'
 ht-degree: 1%
 
 ---
 
-
 # Adobe Mobile Services {#places-mobile-services}
 
-Prima di poter utilizzare l&#39;estensione Mobile Services per la messaggistica, verifica i seguenti prerequisiti:
+Prima di poter utilizzare l’estensione Mobile Services per la messaggistica, controlla i seguenti prerequisiti:
 
-* I punti di interesse sono stati creati in Places Service. For more information, see [Create a POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
+* I punti di interesse sono stati creati in Places Service. Per ulteriori informazioni, consulta [Creare un POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
 
    >[!IMPORTANT]
    >
-   >Il servizio Places include un database POI nuovo e migliorato per la tua organizzazione che esiste al di fuori dell&#39;interfaccia utente di Mobile Services legacy. I POI che si trovano nella navigazione della pagina *Gestisci posizionamenti* di Mobile Service funzionano solo per la versione 4 dell’SDK.
+   >Il servizio Places include un database POI nuovo e migliorato per la tua organizzazione che esiste al di fuori dell’interfaccia utente legacy di Mobile Services. POI che si trovano su Mobile Services *Gestisci posizioni* la navigazione tra le pagine funziona solo per la versione 4 dell’SDK.
 
-* Di seguito è riportata la pagina di gestione *Manage Places* POI (Gestisci punti di interesse) dell&#39;interfaccia utente di Mobile Services precedente per le versioni precedenti dell&#39;SDK:
+* Qui è *Gestire i luoghi* Pagina di gestione dei POI nell’interfaccia utente di Mobile Services legacy per le versioni precedenti dell’SDK:
 
-   ![Interfaccia utente precedente](/help/assets/legacy-location-v4-ui.png)
+   ![Interfaccia utente legacy](/help/assets/legacy-location-v4-ui.png)
 
-* Interfaccia utente del servizio Luoghi:
+* Interfaccia utente di Places Service:
 
-   ![Interfaccia utente di gestione dei punti di servizio](/help/assets/places-ui.png)
+   ![Interfaccia utente di gestione POI di Places Service](/help/assets/places-ui.png)
 
-* L’SDK ACP è configurato correttamente con le estensioni Places Service e/o Places Monitor.
+* L’SDK ACP è configurato correttamente con l’estensione Luoghi.
 
-   Ciò significa che i dati sono disponibili come eventi e/o condizioni nel motore delle regole di Experience Platform Launch per la tua app mobile. Per ulteriori informazioni, consultate Estensione [](/help/places-ext-aep-sdks/places-extension/places-extension.md) Luoghi o Estensione [Monitor](/help/places-ext-aep-sdks/places-monitor-extension/using-places-monitor-extension.md)Luoghi.
+   Ciò significa che i dati sono disponibili come eventi e/o condizioni nel motore delle regole di Experience Platform Launch per la tua app mobile. Per ulteriori informazioni, consulta [Estensione Luoghi](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-* Acquisisci familiarità con la creazione e la pubblicazione di regole di Experience Platform Launch nell’SDK ACP nella tua app mobile.
+* Acquisisci familiarità con la creazione e la pubblicazione delle regole del Experience Platform Launch nell’SDK ACP nella tua app mobile.
 
-   For more information, see [Rules engine](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
+   Per ulteriori informazioni, consulta [Motore a regole](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine).
 
-* Gli elementi dei dati di Experience Platform Launch vengono creati dai dati delle estensioni Luoghi che verranno utilizzati nel motore Regole.
+* Gli elementi dati di Experience Platform Launch vengono creati dai dati di estensione Luoghi che verranno utilizzati nel motore Regole.
 
-   For more information, see [Data elements](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
+   Per ulteriori informazioni, consulta [Elementi dati](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/mobile-core/rules-engine#data-elements).
 
-## Reporting
+## Generazione rapporti
 
-Prima di poter utilizzare il reporting, è necessario soddisfare i seguenti prerequisiti:
+Prima di poter utilizzare i rapporti, completa i seguenti prerequisiti:
 
-* Invio dei dati del servizio Luoghi  Suite di rapporti Adobe Analytics completato.
+* Invio dei dati del servizio Places alla suite di rapporti di Adobe Analytics completato.
 
-   Per ulteriori informazioni, vedere [Utilizzo del servizio Luoghi con  Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
+   Per ulteriori informazioni, consulta [Utilizzare il servizio Places con Adobe Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
 
 * Acquisisci familiarità con i rapporti di Mobile Services.
 
-   For more information, see [Reports](https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html).
+   Per ulteriori informazioni, consulta [Rapporti](https://docs.adobe.com/content/help/en/mobile-services/using/reports-ug/usage.html).
 
 ## Visualizzazione rapporti
 
-Puoi eseguire i rapporti di Mobile Services utilizzando i dati di Places Service inviati a  Adobe Analytics. Nell’esempio seguente, gli eventi vengono inviati quando gli utenti dispongono di voci in uno dei POI. In questo rapporto è stato aggiunto un filtro dell’evento POI nel rapporto sugli utenti out-of-the-box:
+Puoi eseguire i rapporti di Mobile Services utilizzando i dati di Places Service inviati ad Adobe Analytics. Nell’esempio seguente, gli eventi vengono inviati quando gli utenti hanno partecipazioni in uno dei POI. In questo rapporto è stato aggiunto un filtro dell’evento POI entry nel rapporto utente predefinito:
 
-![Visualizzazione report](/help/assets/report-visualize.png)
+![Visualizzazione dei rapporti](/help/assets/report-visualize.png)
 
-Ulteriori flessibilità nella visualizzazione dei dati di Places Service sono disponibili nelle interfacce Adobe Analytics .
-
+Nelle interfacce Adobe Analytics è disponibile un’ulteriore flessibilità nella visualizzazione dei dati di Places Service.
