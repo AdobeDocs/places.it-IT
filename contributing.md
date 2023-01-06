@@ -1,6 +1,8 @@
 ---
-source-git-commit: acbe79b1a66cb8a439f3cb223d3006128aaca457
-translation-type: tm+mt
+source-git-commit: c79135bed83932095df42869017ed2cc20be6e22
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 100%
 
 ---
 # Come contribuire
@@ -17,7 +19,7 @@ prevede il rispetto di tale codice. Segnala comportamenti inaccettabili all’in
 
 ## Documentazione della guida per i collaboratori
 
-Consulta la [Guida](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html)ai collaboratori.
+Consulta la [Guida per i collaboratori](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html?lang=it).
 
 ## Hai una domanda?
 
@@ -34,7 +36,7 @@ come parte del progetto. [Firma il Contratto di licenza da collaboratore](http:/
 
 Tutti gli invii devono pervenire sotto forma di richieste di pull e devono essere revisionati
 dai committenti del progetto. Per ulteriori informazioni sull’invio di richieste di pull,
-consulta la [Documentazione sulle richieste di pull di GitHub](https://help.github.com/articles/about-pull-requests/).
+consulta la [Documentazione sulle richieste di pull di GitHub](https://help.github.com/it/articles/about-pull-requests/).
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -50,4 +52,4 @@ rivolgiti ai committenti esistenti per parlarne con loro.
 
 ## Problemi di sicurezza
 
-I problemi di sicurezza non devono essere segnalati in questo registro di problemi, ma puoi [segnalare un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/security/alertus.html)
+I problemi di sicurezza non devono essere segnalati in questo registro di problemi, ma puoi [segnalare un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/it/security/alertus.html)
