@@ -1,16 +1,15 @@
 ---
-title: Utilizza il servizio Luoghi come parte del flusso di lavoro del Experience Platform Launch
-description: Questa sezione fornisce informazioni su come definire gli elementi di dati e creare regole di entrata e uscita nel Experience Platform Launch che possono essere utilizzati con il servizio Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Utilizzare Places Service come parte del flusso di lavoro del Experience Platform Launch
+description: In questa sezione vengono fornite informazioni su come definire gli elementi dati e creare regole di entrata e uscita nel Experience Platform Launch che possono essere utilizzate con Places Service.
+exl-id: 827416c5-afa3-4c89-a3f2-28f7dadd6924
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '69'
 ht-degree: 0%
 
 ---
 
+# Utilizzare Places Service come parte del flusso di lavoro del Experience Platform Launch {#loc-service-launch-workflow}
 
-# Utilizza il servizio Luoghi come parte del flusso di lavoro del Experience Platform Launch {#loc-service-launch-workflow}
-
-* Per definire gli elementi di dati, vedere [Definizione degli elementi](/help/use-places-launch-workflow/define-data-elements.md)di dati.
-* Per creare regole di entrata e uscita, vedere [Creare regole](/help/use-places-launch-workflow/create-rule-places-property.md)di entrata e uscita.
+* Per definire gli elementi dati, consulta [Definire gli elementi dati](/help/use-places-launch-workflow/define-data-elements.md).
+* Per creare regole di entrata e di uscita, vedere [Creare regole di entrata e di uscita](/help/use-places-launch-workflow/create-rule-places-property.md).

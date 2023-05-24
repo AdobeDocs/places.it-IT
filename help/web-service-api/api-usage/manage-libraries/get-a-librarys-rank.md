@@ -1,18 +1,17 @@
 ---
-title: Ottenere il rango di una biblioteca
-description: Ottenete il rango di una libreria utilizzando l'API REST di Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Ottieni il rango di una libreria
+description: Ottieni il rango di una libreria utilizzando l’API REST Places.
+exl-id: c0abedd0-5ff4-4a01-9f8d-e3d17ea53a97
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 7%
+ht-degree: 9%
 
 ---
 
+# Ottieni il rango di una libreria {#get-library-rank}
 
-# Ottenere il rango di una biblioteca {#get-library-rank}
-
-Un metodo GET che consente di classificare le librerie.
+Metodo di GET che consente di classificare le librerie.
 
 ## Richiesta
 
@@ -42,5 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/rank ' -H
 
 >[!IMPORTANT]
 >
->Sostituire variabili quali `<API KEY>`, `<TOKEN>`e `<ORGID>` con valori effettivi.
-
+>Sostituisci variabili come `<API KEY>`, `<TOKEN>`, e `<ORGID>` con i valori effettivi.

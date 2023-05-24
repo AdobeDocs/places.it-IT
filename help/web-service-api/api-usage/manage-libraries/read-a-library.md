@@ -1,19 +1,17 @@
 ---
-title: Lettura di una libreria
-description: Leggete una libreria utilizzando l'API REST di Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Leggere una libreria
+description: Leggi una libreria utilizzando l’API REST Places.
+exl-id: c9c5a862-beab-42a9-8e40-abf93da592ea
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
+# Leggere una libreria {#read-a-library}
 
-
-# Lettura di una libreria {#read-a-library}
-
-Un metodo GET che restituisce i dettagli di una libreria.
+Metodo GET che restituisce i dettagli di una libreria.
 
 ## Richiesta
 
@@ -84,7 +82,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare l&#39;API:
+Utilizza il seguente comando CURL per testare l’API:
 
 ```text
 curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
@@ -92,5 +90,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Sostituisci `<LIBRARYID>`, `<API KEY>`, `<TOKEN>`e `<ORGID>` con valori effettivi.
-
+>Sostituisci `<LIBRARYID>`, `<API KEY>`, `<TOKEN>`, e `<ORGID>` con i valori effettivi.

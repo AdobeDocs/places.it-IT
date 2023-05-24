@@ -1,18 +1,17 @@
 ---
-title: Leggere tutte le librerie nella tua organizzazione
-description: Leggete tutte le librerie nella vostra organizzazione utilizzando l'API REST di Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Leggi tutte le librerie della tua organizzazione
+description: Leggi tutte le librerie della tua organizzazione utilizzando l’API REST Places.
+exl-id: 3384e1f2-9626-498d-85f7-84569d869c2c
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '60'
-ht-degree: 1%
+ht-degree: 6%
 
 ---
 
+# Leggi tutte le librerie della tua organizzazione {#read-all-lib-in-org}
 
-# Leggere tutte le librerie nella tua organizzazione {#read-all-lib-in-org}
-
-Un metodo GET che restituisce i dettagli per tutte le librerie dell&#39;organizzazione.
+Un metodo GET che restituisce i dettagli di tutte le librerie dell’organizzazione.
 
 ## Richiesta
 
@@ -34,7 +33,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/libraries
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare questa API:
+Utilizza il seguente comando CURL per testare questa API:
 
 ```text
 curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
@@ -42,4 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-ap
 
 >[!IMPORTANT]
 >
->Sostituire variabili quali `<API KEY>`, `<TOKEN>,` e `<ORGID>` con valori effettivi.
+>Sostituisci variabili come `<API KEY>`, `<TOKEN>,` e `<ORGID>` con i valori effettivi.

@@ -1,14 +1,13 @@
 ---
 title: Aggiornare un POI
-description: Aggiornate un POI utilizzando le API REST Luoghi.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+description: Aggiorna un POI utilizzando le API REST Places.
+exl-id: f155d1d3-88a3-47bc-bffe-a35842a639e2
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
-
 
 # Aggiornare un POI {#update-a-poi}
 
@@ -40,7 +39,7 @@ PUT https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare questa API:
+Utilizza il seguente comando CURL per testare questa API:
 
 ```text
 curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>' -d '<SINGLEPOIDATA>' -H "Content-Type: application/json"
@@ -48,4 +47,4 @@ curl -X PUT 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Sostituisci `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>`e `<SINGLEPOIDATA>` con valori effettivi.
+>Sostituisci `<POIID>`, `<API KEY>`, `<TOKEN>`, `<ORGID>`, e `<SINGLEPOIDATA>` con i valori effettivi.

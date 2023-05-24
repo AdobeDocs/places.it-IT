@@ -1,23 +1,22 @@
 ---
-title: API Batch
-description: Con le API batch potete creare, aggiornare ed eliminare più POI.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+title: API batch
+description: Con le API batch, puoi creare, aggiornare ed eliminare più POI.
+exl-id: 8c77e5e3-2700-4684-a480-c638691994e5
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 0%
 
 ---
 
+# API batch {#batch-apis}
 
-# API Batch {#batch-apis}
+Le API batch ti consentono di creare, aggiornare o eliminare più punti di interesse contemporaneamente.
 
-Le API batch consentono di creare, aggiornare o eliminare più POI contemporaneamente.
+Per aiutarti a completare un’importazione batch dei tuoi POI da un `.csv` nel database Places della tua organizzazione, utilizza il set di script Python. Puoi scaricare il file zip di questi script [qui](https://github.com/adobe/places-scripts). Per istruzioni su come utilizzare gli script, vedi il file README nell’archivio.
 
-Per completare l’importazione batch dei POI da un `.csv` file al database Places dell’organizzazione, utilizzare il set di script Python. È possibile scaricare il file zip di questi script [qui](https://github.com/adobe/places-scripts). Per istruzioni sull&#39;utilizzo degli script, vedere il file README nel repo.
+Puoi utilizzare le API batch per completare le seguenti attività:
 
-Potete utilizzare le API batch per completare le seguenti attività:
-
-* [Creare più POI](/help/web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
-* [Aggiornare più POI](/help/web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
-* [Eliminare più POI](/help/web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)
+* [Creare più punti di interesse](/help/web-service-api/api-usage/manage-pois/batch-apis/create-multiple-pois.md)
+* [Aggiornare più punti di interesse](/help/web-service-api/api-usage/manage-pois/batch-apis/update-multiple-pois.md)
+* [Eliminare più punti di interesse](/help/web-service-api/api-usage/manage-pois/batch-apis/delete-multiple-pois.md)

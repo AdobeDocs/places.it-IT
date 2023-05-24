@@ -1,16 +1,15 @@
 ---
-title: Leggere tutti i POI in una libreria
-description: Leggete tutti i POI in una libreria utilizzando le API REST di Luoghi.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Leggi tutti i POI in una libreria
+description: Leggi tutti i POI in una libreria utilizzando le API REST Luoghi.
+exl-id: 08544909-661c-4a14-84e0-bacd0241a844
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-
-# Leggere tutti i POI in una libreria {#read-all-pois-library}
+# Leggi tutti i POI in una libreria {#read-all-pois-library}
 
 Un metodo GET che restituisce tutti i POI di una libreria.
 
@@ -160,7 +159,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>/pois
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare l&#39;API:
+Utilizza il seguente comando CURL per testare l’API:
 
 ```text
 curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>/pois' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
@@ -168,5 +167,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYI
 
 >[!IMPORTANT]
 >
->Sostituire &#39;&#39;, `<API KEY>`, `<TOKEN>`, e `<ORGID>` con valori effettivi.
-
+>Sostituisci &#39;&#39;, `<API KEY>`, `<TOKEN>`, e `<ORGID>` con i valori effettivi.

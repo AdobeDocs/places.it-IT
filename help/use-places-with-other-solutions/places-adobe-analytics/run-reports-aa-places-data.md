@@ -1,92 +1,91 @@
 ---
-title: Aggiunta di un contesto di posizione alle richieste di Analytics
-description: Questa sezione fornisce informazioni su come aggiungere il contesto della posizione alle richieste di Analytics.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+title: Aggiungere contesto di posizione alle richieste di Analytics
+description: Questa sezione fornisce informazioni su come aggiungere contesto di posizione alle richieste di Analytics.
+exl-id: bee7b6e3-a75b-4a07-b6e2-f93ce33aa042
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 2%
+source-wordcount: '501'
+ht-degree: 1%
 
 ---
 
-
-# Aggiunta di un contesto di posizione alle richieste di Analytics {#run-reports-aa-locserv-data}
+# Aggiungere contesto di posizione alle richieste di Analytics {#run-reports-aa-locserv-data}
 
 >[!IMPORTANT]
 >
->Questo documento presuppone che nell&#39;applicazione sia implementato il servizio Luoghi. Per ulteriori informazioni sull&#39;implementazione di Places Service, vedere [Estensioni](/help/places-ext-aep-sdks/places-extension/places-extension.md)Places.
+>In questo documento si presuppone che nell’applicazione sia stato implementato Places Service. Per ulteriori informazioni sull’implementazione di Places Service, consulta [Estensioni Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Dopo che il servizio Luoghi invia gli eventi di entrata e uscita, puoi creare le regole nel Experience Platform Launch e allegare i dati del servizio Luoghi a tutti  eventi Adobe Analytics. Per creare questo tipo di regola, selezionate la proprietà in Lancio e completate i seguenti passaggi:
+Dopo l’invio degli eventi di entrata e uscita da Places Service, puoi creare regole nel Experience Platform Launch e allegare i dati di Places Service a tutti gli eventi di Adobe Analytics. Per creare questo tipo di regola, seleziona la proprietà in Launch e completa i passaggi seguenti:
 
 ## 1. Creare una regola
 
-1. Nella scheda **[!UICONTROL Rules]** fai clic su **[!UICONTROL Create New Rule]**.
+1. Il giorno **[!UICONTROL Regole]** , fare clic su **[!UICONTROL Crea nuova regola]**.
 
    Considerazioni da ricordare:
-   * Se non sono presenti regole per questa proprietà, il **[!UICONTROL Create New Rule]** pulsante si trova al centro dello schermo.
-   * Se la proprietà dispone di regole, il **[!UICONTROL Create New Rule]** pulsante si trova in alto a destra nella schermata.
+   * Se non disponi di regole esistenti per questa proprietà, **[!UICONTROL Crea nuova regola]** al centro dello schermo.
+   * Se la proprietà dispone di regole, il **[!UICONTROL Crea nuova regola]** in alto a destra.
 
 ## 2.Selezionare un evento
 
-1. Attribuite alla regola un nome significativo in modo che possa essere facilmente riconoscibile nell&#39;elenco delle regole.
+1. Assegna alla regola un nome significativo in modo che sia facilmente riconoscibile nell’elenco delle regole.
 
-   In questo esempio, la regola viene denominata **[!UICONTROL Attach Places Service Data to Analytics Track Action Events]**.
+   In questo esempio, la regola è denominata **[!UICONTROL Allega dati del servizio Places agli eventi di tracciamento delle azioni di Analytics]**.
 
-1. Under the **[!UICONTROL Events]** section, click **[!UICONTROL Add]**.
+1. Sotto **[!UICONTROL Eventi]** , fare clic su **[!UICONTROL Aggiungi]**.
 
-1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
+1. Dalla sezione **[!UICONTROL Estensione]** elenco a discesa, seleziona **[!UICONTROL Core mobile]**.
 
-1. Dall’elenco a **[!UICONTROL Event Type]** discesa, selezionate **[!UICONTROL Track Action]**.
+1. Dalla sezione **[!UICONTROL Tipo di evento]** elenco a discesa, seleziona **[!UICONTROL Azione di tracciamento]**.
 
-Ora puoi determinare quali attivatori includere per questa regola. In questo esempio, il trigger è basato su tutte le `TrackAction` chiamate. Dopo aver configurato l’evento, fate clic su **[!UICONTROL Keep Changes]**.
+Ora puoi determinare i trigger da includere per questa regola. In questo esempio, il trigger si basa su tutti `TrackAction` chiamate. Dopo aver configurato l’evento, fai clic su **[!UICONTROL Mantieni modifiche]**.
 
-![&quot;create a event&quot;](/help/assets/ad-setEvent_use-analytics-data.png)
+![&quot;crea un evento&quot;](/help/assets/ad-setEvent_use-analytics-data.png)
 
 
-## 3. Aggiungi condizioni
+## 3. Aggiungere condizioni
 
 >[!IMPORTANT]
 >
->Completate questa procedura per aggiungere le condizioni alla regola. In caso contrario, passare alla sezione *Definisci azione* seguente.
+>Completa questa procedura per aggiungere Condizioni alla regola. In caso contrario, vai al *Definire l’azione* sezione successiva.
 
-In questo esempio, viene creata una condizione che determina l&#39;attivazione della regola solo per i clienti AT&amp;T.
+In questo esempio, viene creata una condizione per cui la regola viene attivata solo per i clienti AT&amp;T.
 
-1. Under the **[!UICONTROL Conditions]** section, click **[!UICONTROL Add]**.
+1. Sotto **[!UICONTROL Condizioni]** , fare clic su **[!UICONTROL Aggiungi]**.
 
-1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
+1. Dalla sezione **[!UICONTROL Estensione]** elenco a discesa, seleziona **[!UICONTROL Core mobile]**.
 
-1. Dall’elenco a **[!UICONTROL Condition Type]** discesa, selezionate **[!UICONTROL Carrier Name]**.
+1. Dalla sezione **[!UICONTROL Tipo di condizione]** elenco a discesa, seleziona **[!UICONTROL Nome gestore]**.
 
-1. Nella finestra a destra, selezionate la **[!UICONTROL AT&T]** casella di controllo.
+1. Nella finestra a destra, seleziona la **[!UICONTROL AT&amp;T]** casella di controllo.
 
-1. Fai clic su **[!UICONTROL Keep Changes]**.
+1. Clic **[!UICONTROL Mantieni modifiche]**.
 
-![&quot;create una condizione&quot;](/help/assets/ad-setCondition_use-analytics-data.png)
+![&quot;crea una condizione&quot;](/help/assets/ad-setCondition_use-analytics-data.png)
 
-## 4. Definire l&#39;azione
+## 4. Definire l’azione
 
-1. Under the **[!UICONTROL Actions]** section, click **[!UICONTROL Add]**.
+1. Sotto **[!UICONTROL Azioni]** , fare clic su **[!UICONTROL Aggiungi]**.
 
-1. Dall’elenco a **[!UICONTROL Extension]** discesa, selezionate **[!UICONTROL Mobile Core]**.
+1. Dalla sezione **[!UICONTROL Estensione]** elenco a discesa, seleziona **[!UICONTROL Core mobile]**.
 
-1. Dall’elenco a **[!UICONTROL Action Type]** discesa, selezionate **[!UICONTROL Attach Data]**.
+1. Dalla sezione **[!UICONTROL Tipo di azione]** elenco a discesa, seleziona **[!UICONTROL Allega dati]**.
 
-1. Nel riquadro di destra, nel **[!UICONTROL JSON Payload]** campo, digitare i dati che verranno aggiunti a questo evento.
+1. Nel riquadro di destra, nella **[!UICONTROL Payload JSON]** digitare i dati che verranno aggiunti a questo evento.
 
-1. Fai clic su **[!UICONTROL Keep Changes]**.
+1. Clic **[!UICONTROL Mantieni modifiche]**.
 
-Nel riquadro a destra, puoi aggiungere un payload JSON a forma libera che aggiunge dati a un evento SDK prima che un&#39;estensione in ascolto di questo evento possa sentire l&#39;evento. In questo esempio, alcuni dati contestuali vengono aggiunti a questo evento prima che l&#39;estensione Analytics lo elabori. I dati contestuali aggiunti ora si trovano nell&#39;hit Analytics in uscita.
+Nel riquadro a destra, puoi aggiungere un payload JSON a forma libera che aggiunge dati a un evento SDK prima che un’estensione che è in ascolto di questo evento possa sentire l’evento. In questo esempio, alcuni dati contestuali vengono aggiunti a questo evento prima che l’estensione Analytics lo elabori. I dati contestuali aggiunti ora si trovano nell’hit di Analytics in uscita.
 
-Nell&#39;esempio seguente, `poi.city` e `poi.name` i valori vengono aggiunti ai dati contestuali dell&#39;evento Analytics. I valori delle nuove chiavi sono determinati dinamicamente dall&#39;SDK quando questo evento viene elaborato.
+Nell&#39;esempio seguente, `poi.city` e `poi.name` I valori vengono aggiunti ai dati contestuali dell’evento Analytics. I valori per le nuove chiavi vengono determinati dinamicamente dall&#39;SDK quando questo evento viene elaborato.
 
-![&quot;create un&#39;azione&quot;](/help/assets/ad-setAction_use-analytics-data.png)
+![&quot;crea un’azione&quot;](/help/assets/ad-setAction_use-analytics-data.png)
 
 ## 5. Salvare la regola e ricreare la proprietà
 
-Dopo aver completato la configurazione, verifica che la regola abbia l&#39;aspetto seguente:
+Dopo aver completato la configurazione, verifica che la regola sia simile alla seguente immagine:
 
 ![&quot;la regola è completa.&quot;](/help/assets/ad-ruleComplete_use-analytics-data.png)
 
-1. Fai clic su **[!UICONTROL Save]**.
+1. Fai clic su **[!UICONTROL Salva]**
 
-1. Generate di nuovo la proprietà Launch e distribuitela nell&#39;ambiente corretto.
+1. Rigenera la proprietà Launch e distribuiscila nell’ambiente corretto.

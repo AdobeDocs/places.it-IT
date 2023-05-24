@@ -1,14 +1,13 @@
 ---
 title: Leggi un POI
-description: Leggete un POI utilizzando le API REST di Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+description: Leggi un POI utilizzando le API REST Places.
+exl-id: 19eb73c4-5101-47a9-8c79-bc4790ecf472
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
-
 
 # Leggi un POI {#read-a-poi}
 
@@ -62,7 +61,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare l&#39;API:
+Utilizza il seguente comando CURL per testare l’API:
 
 ```text
 curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
@@ -70,5 +69,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x
 
 >[!IMPORTANT]
 >
->Sostituisci `<POIID>`, `<API KEY>`, `<TOKEN>`e `<ORIGIN>` con valori effettivi.
-
+>Sostituisci `<POIID>`, `<API KEY>`, `<TOKEN>`, e `<ORIGIN>` con i valori effettivi.

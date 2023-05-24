@@ -1,18 +1,17 @@
 ---
 title: Eliminare una libreria
-description: Eliminate una libreria utilizzando le API REST Luoghi.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+description: Elimina una libreria utilizzando le API REST Places.
+exl-id: ad45ea38-9e12-43d7-b05f-17d3e40abaf5
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 2%
+ht-degree: 8%
 
 ---
 
-
 # Eliminare una libreria {#delete-a-library}
 
-Un metodo DELETE che consente di eliminare una libreria.
+Metodo DELETE che consente di eliminare una libreria.
 
 ## Richiesta
 
@@ -38,7 +37,7 @@ If successful a Status of "204 No Content" is returned.
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare questa API:
+Utilizza il seguente comando CURL per testare questa API:
 
 ```text
 curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRARYID>' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
@@ -46,5 +45,4 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/libraries/<LIBRA
 
 >[!IMPORTANT]
 >
->Sostituire variabili quali `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`e `<ORGID>`con valori effettivi.
-
+>Sostituisci variabili come `<lIBRARYID>`, `<API KEY>`, `<TOKEN>`, e `<ORGID>`con i valori effettivi.

@@ -1,16 +1,15 @@
 ---
-title: Leggi tutti i POI della tua organizzazione
-description: Leggi tutti i POI della tua organizzazione utilizzando le API REST di Places.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Leggi tutti i POI nell'organizzazione
+description: Leggi tutti i POI nell’organizzazione utilizzando le API REST Places.
+exl-id: 8068a2bc-ce1c-4f3b-8a0c-c38998c1c2e2
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 1%
+ht-degree: 7%
 
 ---
 
-
-# Leggi tutti i POI della tua organizzazione {#read-all-pois-org}
+# Leggi tutti i POI nell&#39;organizzazione {#read-all-pois-org}
 
 Un metodo GET che restituisce tutti i POI dell’organizzazione.
 
@@ -34,7 +33,7 @@ GET https://api-places.adobe.io/places/placesapi/v1/pois
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare questa API:
+Utilizza il seguente comando CURL per testare questa API:
 
 ```text
 curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
@@ -42,4 +41,4 @@ curl -X GET 'https://api-places.adobe.io/places/placesapi/v1/pois' -H 'x-api-key
 
 >[!IMPORTANT]
 >
->Sostituisci `<API KEY>`, `<TOKEN>`e `<ORGID>` con valori effettivi.
+>Sostituisci `<API KEY>`, `<TOKEN>`, e `<ORGID>` con i valori effettivi.

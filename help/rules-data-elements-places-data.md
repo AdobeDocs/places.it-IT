@@ -1,7 +1,6 @@
 ---
-title: Utilizzo di regole di Experience Platform Launch ed elementi di dati con i dati Luoghi.
-description: Informazioni su regole, elementi di dati e dati Luoghi.
-translation-type: tm+mt
+title: Utilizzo di regole di Experience Platform Launch ed elementi dati con i dati Places.
+description: Informazioni su regole ed elementi dati e dati Places.
 source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
 workflow-type: tm+mt
 source-wordcount: '267'
@@ -10,7 +9,7 @@ ht-degree: 47%
 ---
 
 
-# Utilizzo di regole di Experience Platform Launch ed elementi di dati con i dati Luoghi
+# Utilizzo di regole di Experience Platform Launch ed elementi dati con i dati Places
 
 ## Regole
 
@@ -18,9 +17,9 @@ Experience Platform Launch è un sistema basato su regole e cerca l’interazion
 
 ## Elementi dati
 
-Gli elementi dati sono gli elementi costitutivi del dizionario dati o della mappa dati. Puoi utilizzare gli elementi di dati per raccogliere, organizzare e distribuire i dati attraverso marketing e tecnologie pubblicitarie.
+Gli elementi dati sono i blocchi costitutivi del dizionario dati o della mappa dati. Puoi utilizzare gli elementi dati per raccogliere, organizzare e distribuire dati in tutta la tecnologia di marketing e annunci.
 
-Un elemento dati è una variabile e il valore di questa variabile può essere mappato su stringhe di query, URL, valori di cookie, variabili JavaScript e così via. Ad Experience Platform Launch, potete fare riferimento a questo valore in base al nome della variabile. La raccolta di elementi di dati diventa il dizionario di dati definiti che è possibile utilizzare per creare le regole (eventi, condizioni e azioni), e il dizionario dati è condiviso tra i diversi Experienci Platform Launch e può essere utilizzato con l&#39;estensione Luoghi.
+Un elemento dati è una variabile e il valore di questa variabile può essere mappato su stringhe di query, URL, valori di cookie, variabili JavaScript e così via. In Experience Platform Launch, puoi fare riferimento a questo valore per mezzo del suo nome variabile. La raccolta di elementi dati diventa il dizionario di dati definiti che puoi utilizzare per creare le regole (eventi, condizioni e azioni). Il dizionario dati viene condiviso tra i vari Experienci Platform Launch e può essere utilizzato con l’estensione Luoghi.
 
 Per ulteriori informazioni sugli elementi di dati, vedi [Elementi dati](https://docs.adobe.com/content/help/it-IT/launch/using/reference/manage-resources/data-elements.html) e [Creare un elemento dati](https://docs.adobe.com/content/help/it-IT/launch/using/reference/manage-resources/data-elements.html#create-a-data-element).
 

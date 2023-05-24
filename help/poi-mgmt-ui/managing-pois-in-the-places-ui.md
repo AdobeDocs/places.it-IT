@@ -1,77 +1,76 @@
 ---
-title: Gestire i POI esistenti
-description: Nell’interfaccia utente del servizio Luoghi, potete modificare, eliminare o filtrare i POI esistenti.
-translation-type: tm+mt
-source-git-commit: 5a21e734c0ef56c815389a9f08b445bedaae557a
+title: Gestisci punti di interesse esistenti
+description: Nell’interfaccia utente di Places Service puoi modificare, eliminare o filtrare i punti di interesse esistenti.
+exl-id: a4cf28ae-1e3c-4724-bca3-ac1d0cd6da09
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '407'
 ht-degree: 6%
 
 ---
 
+# Gestisci punti di interesse esistenti {#managing-existing-pois}
 
-# Gestire i POI esistenti {#managing-existing-pois}
-
-I POI e le librerie vengono creati e gestiti nel database Luoghi utilizzando l’interfaccia utente Luoghi.
+I POI e le librerie vengono creati e gestiti nel database Places utilizzando l’interfaccia utente di Places.
 
 ## Modificare un POI
 
-1. Accedi a Luoghi utilizzando il tuo Adobe ID .
-1. Accedi a Places Service tramite il tuo Adobe ID .
-1. In alto a destra, fate clic sull’icona che ha l’aspetto di un elenco puntato.
-1. Individuate il POI da modificare.
-1. Click **[!UICONTROL ...]** and select **[!UICONTROL View Details]**.
-1. Aggiornate le informazioni e fate clic su **[!UICONTROL Save]**.
+1. Accedi a Places utilizzando il tuo Adobe ID.
+1. Accedi a Places Service utilizzando il tuo Adobe ID.
+1. In alto a destra, fai clic sull’icona che sembra un elenco puntato.
+1. Individua il POI da modificare.
+1. Clic **[!UICONTROL ...]** e seleziona **[!UICONTROL Visualizza dettagli]**.
+1. Aggiorna le informazioni e fai clic su **[!UICONTROL Salva]**.
 
 ## Eliminare un POI
 
-1. Accedi a Luoghi utilizzando il tuo Adobe ID .
-1. Accedi a Places Service tramite il tuo Adobe ID .
-1. In alto a destra, fate clic sull’icona che ha l’aspetto di un elenco puntato.
-1. Individuate il POI da eliminare.
-1. Click **[!UICONTROL ...]** and select **[!UICONTROL Delete]**.
+1. Accedi a Places utilizzando il tuo Adobe ID.
+1. Accedi a Places Service utilizzando il tuo Adobe ID.
+1. In alto a destra, fai clic sull’icona che sembra un elenco puntato.
+1. Individua il POI da eliminare.
+1. Clic **[!UICONTROL ...]** e seleziona **[!UICONTROL Elimina]**.
 
-## Filtrare i POI per città, stato, Paese o metadati
+## Filtrare i punti di interesse per città, stato, paese o metadati
 
 ![filtrare un POI](/help/assets/filter_poi.png)
 
-1. Accedete all&#39;interfaccia utente del servizio Luoghi utilizzando il vostro Adobe ID .
-1. In alto a destra, fate clic sull&#39;icona di filtro.
-1. Potete filtrare i POI in uno dei seguenti modi:
+1. Accedi all’interfaccia utente di Places Service utilizzando il tuo Adobe ID.
+1. In alto a destra, fai clic sull’icona del filtro.
+1. Puoi filtrare i POI in uno dei seguenti modi:
 
    * Per libreria:
 
-      a. Selezionate una libreria.
+      a. Seleziona una libreria.
 
    * Per proprietà:
 
-      a. Nell&#39;elenco a discesa Proprietà, selezionate **[!UICONTROL Country]**, **[!UICONTROL State]** o **[!UICONTROL City]**.
+      a. Nell’elenco a discesa Proprietà, seleziona **[!UICONTROL Paese]**, **[!UICONTROL Stato]**, o **[!UICONTROL Città]**.
 
-      b. Nella riga successiva, immettete un valore.
+      b. Nella riga successiva, immettere un valore.
 
-      Ad esempio, potete selezionare **[!UICONTROL State]** e digitare **[!UICONTROL California]**.
+      Ad esempio, puoi selezionare **[!UICONTROL Stato]** e tipo **[!UICONTROL California]**.
 
-   * Con i metadati:
+   * Con metadati:
 
-      a. Immettere una chiave e un valore.
+      a. Inserire una chiave e un valore.
 
-## Definizione di un POI geografico
+## Definizione di un punto di interesse del recinto geografico
 
-Le geofence sono un tipo di POI e sono definite nel database in base alle seguenti chiavi:
+I recinti geografici sono un tipo di POI e sono definiti nel database in base alle seguenti chiavi:
 
-| Tasti | Descrizione | Obbligatorio? |
+| Chiavi | Descrizione | Obbligatorio? |
 | :--- | :--- | :--- |
 | ID | Identificatore univoco assegnato a ciascun POI | Sì |
-| Nome | Nome gentile dato al POI. | Sì |
-| Libreria | A ciascun POI deve essere assegnata una libreria per l’organizzazione. | Sì |
-| Raggio | Raggio per il POI in metri. | Sì |
-| Icona | Assistenza nelle visualizzazioni dei punti di interesse. | Yes (predefinito assegnato) |
-| Colore | Assistenza nelle visualizzazioni dei punti di interesse. | Yes (predefinito assegnato) |
-| Categoria | Assegnate un framework comune di categorie comuni a tutti i POI di tutte le librerie. | No |
-| Indirizzo | Indirizzo della strada. | No |
+| Nome | Nome intuitivo assegnato al punto di interesse. | Sì |
+| Libreria | A ogni punto di interesse deve essere assegnata una libreria per l’organizzazione. | Sì |
+| Raggio | Raggio del punto di interesse (POI) in metri. | Sì |
+| Icona | Fornisce assistenza per le visualizzazioni dei punti di interesse. | Sì (impostazione predefinita assegnata) |
+| Colore | Fornisce assistenza per le visualizzazioni dei punti di interesse. | Sì (impostazione predefinita assegnata) |
+| Categoria | Assegna un framework comune di categorie comuni a tutti i POI in tutte le librerie. | No |
+| Indirizzo | Indirizzo. | No |
 | Città | Città del POI. | No |
-| Stato/Regione | Stato o regione del POI. | No |
+| Stato/Regione | Stato o regione del punto di interesse (POI). | No |
 | Paese | Paese del POI. | No |
-| Latitudine | Coordinata latitudine per il centro del POI. | Sì |
-| Longitudine | Coordinata della longitudine per il centro del POI. | Sì |
-| Metadati | Coppie chiave e valore personalizzate che possono essere assegnate ai POI. Questi metadati semplificano i flussi di lavoro futuri consentendo di raggruppare i POI tra le librerie in modo che ciascuno possa utilizzare regole e filtri nei flussi di lavoro a valle, ad esempio inviare una notifica push quando un utente accede a un POI con Tipo = Concorrente. | No |
+| Latitudine | Coordinata della latitudine per il centro del punto di interesse (POI). | Sì |
+| Longitudine | Coordinata longitudine per il centro del punto di interesse (POI). | Sì |
+| Metadati | Coppie chiave-valore personalizzate che possono essere assegnate ai POI. Questi metadati semplificano i flussi di lavoro futuri consentendo di raggruppare i punti di interesse tra librerie per ciascuna di esse in modo da utilizzare regole e filtri nei flussi di lavoro a valle, ad esempio inviare una notifica push quando qualcuno entra in un punto di interesse con Tipo = Concorrente. | No |

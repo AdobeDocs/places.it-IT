@@ -1,8 +1,7 @@
 ---
-title: Oggetti Luoghi personalizzati
-description: Informazioni sulle classi native personalizzate utilizzate con le API di Places.
+title: Oggetti Places personalizzati
+description: Informazioni sulle classi native personalizzate utilizzate con le API Places.
 exl-id: deb16ba3-bd59-42b1-85ec-0f7de17f91f8
-translation-type: tm+mt
 source-git-commit: 2f666081fa01c11e832b94c83f2fe2c66eb51766
 workflow-type: tm+mt
 source-wordcount: '38'
@@ -10,15 +9,15 @@ ht-degree: 5%
 
 ---
 
-# Oggetti Luoghi personalizzati {#places-objects}
+# Oggetti Places personalizzati {#places-objects}
 
-Di seguito sono elencate le classi native personalizzate che verranno utilizzate con le API di Places:
+Di seguito sono elencate le classi native personalizzate che verranno utilizzate con le API Luoghi:
 
 ## iOS
 
 ### ACPPlacesPoi
 
-Ecco la definizione:
+Di seguito è riportata la definizione:
 
 ```text
 /**
@@ -41,7 +40,7 @@ Ecco la definizione:
 
 ## Android
 
-### LuoghiPOI
+### PlacesPOI
 
 ```java
 // only showing public methods available in the class

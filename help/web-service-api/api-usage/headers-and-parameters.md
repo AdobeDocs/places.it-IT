@@ -1,61 +1,59 @@
 ---
 title: Intestazioni e parametri
-description: Intestazioni e parametri disponibili nelle API REST del servizio Places.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+description: Intestazioni e parametri disponibili nelle API REST di Places Service.
+exl-id: 3c7e76de-f0ff-4966-a3ec-7f64d819c140
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '357'
-ht-degree: 8%
+ht-degree: 17%
 
 ---
 
+# Intestazioni e parametri {#headers-and-parameters}
 
-# Headers and parameters {#headers-and-parameters}
-
-Di seguito sono riportati i dettagli sulle intestazioni e i parametri disponibili nell&#39;API REST di Servizio Luoghi:
+Di seguito sono riportati i dettagli relativi alle intestazioni e ai parametri disponibili nell’API REST di Places Service:
 
 ## Intestazioni supportate
 
 | Header | Descrizione | Metodo | Esempio |
 | :--- | :--- | :--- | :--- |
-| `Authorization` | Il tuo token | Tutto |  |
-| `x-api-key` | La tua chiave API | Tutto | `19776964b4cde49e08d8f62e5824f777b` |
-| `x-gw-ims-org-id` | Il tuo ID organizzazione | Tutto | `18FB61145BAC2FFB0A494777@AdobeOrg` |
+| `Authorization` | Token bearer | Tutto |  |
+| `x-api-key` | Chiave API | Tutto | `19776964b4cde49e08d8f62e5824f777b` |
+| `x-gw-ims-org-id` | ID organizzazione | Tutto | `18FB61145BAC2FFB0A494777@AdobeOrg` |
 | `Content-Type` | Formato del contenuto inviato o ricevuto | PUT, POST | `application/json` |
 | `Accept-Language` | Lingua utilizzata per i messaggi di errore | Facoltativo | `en-US` |
 
-## Parametri della libreria
+## Parametri libreria
 
 | Parametro | Descrizione | Tipo | Limite | Richiesta o risposta | Esempio |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `id` | ID della libreria | assegnato | n/d | Risposta | `"id": "b2488788-2d2a-462b-b1a2-305272777dda"` |
-| `name` | Nome della libreria | string | 256 caratteri | entrambi, richiesti | `"name": "Amazing Places"` |
-| `orgID` | Experience Cloud orgID dell&#39;organizzazione | assegnato | n/d | Risposta | `"orgID": "777F20F55BACA09E0A495D8F@AdobeOrg"` |
-| `poiCount` | Numero di POI nella libreria | integer | 150.000 max | Risposta | `"poiCount": 25149` |
-| `metadataDescriptors` | Conteggio per ogni coppia di valori chiave di metadati POI univoca | misto | n/d | Risposta |  |
-| `poiCountInCities` | Conteggio per ogni valore di città POI univoco | misto | n/d | Risposta |  |
+| `id` | ID libreria | assegnato | n/d | Risposta | `"id": "b2488788-2d2a-462b-b1a2-305272777dda"` |
+| `name` | Nome della libreria | string | 256 caratteri | entrambi, obbligatorio nella richiesta | `"name": "Amazing Places"` |
+| `orgID` | ID organizzazione Experience Cloud dell’organizzazione | assegnato | n/d | Risposta | `"orgID": "777F20F55BACA09E0A495D8F@AdobeOrg"` |
+| `poiCount` | Numero di POI nella libreria | numero intero | massimo 150.000 | Risposta | `"poiCount": 25149` |
+| `metadataDescriptors` | Conteggio per ogni coppia di valori chiave di metadati POI univoci | misto | n/d | Risposta |  |
+| `poiCountInCities` | Conteggio per ogni valore univoco della città POI | misto | n/d | Risposta |  |
 
 ## Parametri POI
 
 | Parametro | Descrizione | Tipo | Limite | Richiesta o risposta | Esempio |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| `data` | Dati Poi | Matrice di dettagli POI | n/d | both |  |
-| `id` | ID POI | assegnato | n/d | response | `"id": "1455462b-7f9c-4220-9f42-5bbce777a0d1"` |
-| `name` | Nome del POI | string | 512 caratteri | both, optional\* | `"name": "My Favorite Place"` |
-| `description` | Descrizione del POI | string | 512 caratteri | both, optional\* | `"description": "This is a very good place."` |
-| `location` | Matrice di tipo e coordinate del POI | array (misto) | n/d | both | `"location": {"type": "Point", "coordinates": [-122.201007, 37.604713]` |
-| `type` | Tipo di POI | string | al momento è supportato solo &quot;Point&quot; | entrambi, richiesti | `"type": "Point"` |
-| `coordinates` | Matrice di longitudine e latitudine del POI | array (mobile) | longitudine: Da -180 a 180, latitudine da -85 a 85 | entrambi, richiesti | `"coordinates": [-122.201007, 37.604713]` |
-| `radius` | Dimensione del geofence circolare intorno al POI | float | 10 - 2000 metri | entrambi, richiesti | `"radius": 100` |
-| `country` | Paese per POI | string | 32 caratteri | both, optional* | `"country": "United States"` |
-| `state` | Stato per il POI | string | 32 caratteri | both, optional* | `"state": "California"` |
-| `city` | Città per POI | string | 32 caratteri | both, optional* | `"city": "San Jose"` |
-| `street` | Indirizzo della strada per il POI | string | 256 caratteri | both, optional* | `"street": "122 Woz Way"` |
-| `category` | Categoria per POI | string | 100 caratteri | both, optional* | `"category": "cafe"` |
-| `icon` | Icona per POI | string | 50 caratteri | both, optional* | `"icon": "star"` |
-| `color` | Colore per POI | string | 8 caratteri | both, optional* | `"color": "blue"` |
-| `metadata` | Matrice di coppie chiave/valore per il POI | array(string) | key: 256 caratteri, valore: 256 caratteri, massimo 10 coppie | both, optional* | `"metadata": {"region": "Equator"}` |
-| `lib_id` | ID della libreria in cui si trova il POI | n/d | n/d | entrambi, richiesti | `"lib_id": "ac7a0b25-c6c2-43ba-bbc6-2b1777b80fe9"` |
+| `data` | Dati POI | Array di dettagli POI | n/d | entrambi |  |
+| `id` | ID del punto di interesse | assegnato | n/d | risposta | `"id": "1455462b-7f9c-4220-9f42-5bbce777a0d1"` |
+| `name` | Nome del punto di interesse | string | 512 caratteri | entrambi, facoltativo\* | `"name": "My Favorite Place"` |
+| `description` | Descrizione del punto di interesse | string | 512 caratteri | entrambi, facoltativo\* | `"description": "This is a very good place."` |
+| `location` | Array del tipo e coordinate di POI | array (misto) | n/d | entrambi | `"location": {"type": "Point", "coordinates": [-122.201007, 37.604713]` |
+| `type` | Tipo di POI | string | attualmente supportato solo &quot;Point&quot; | entrambi, obbligatorio nella richiesta | `"type": "Point"` |
+| `coordinates` | Array di longitudine e latitudine del punto di interesse (POI) | array (in virgola mobile) | longitudine: da -180 a 180, latitudine da -85 a 85 | entrambi, obbligatorio nella richiesta | `"coordinates": [-122.201007, 37.604713]` |
+| `radius` | Dimensione del recinto geografico circolare attorno al punto di interesse (POI) | galleggiare | 10 - 2000 metri | entrambi, obbligatorio nella richiesta | `"radius": 100` |
+| `country` | Paese per il POI | string | 32 caratteri | entrambi, opzionali* | `"country": "United States"` |
+| `state` | Stato del POI | string | 32 caratteri | entrambi, opzionali* | `"state": "California"` |
+| `city` | Città per il POI | string | 32 caratteri | entrambi, opzionali* | `"city": "San Jose"` |
+| `street` | Indirizzo del POI | string | 256 caratteri | entrambi, opzionali* | `"street": "122 Woz Way"` |
+| `category` | Categoria per il POI | string | 100 caratteri | entrambi, opzionali* | `"category": "cafe"` |
+| `icon` | Icona per il punto di interesse | string | 50 caratteri | entrambi, opzionali* | `"icon": "star"` |
+| `color` | Colore per il punto di interesse | string | 8 caratteri | entrambi, opzionali* | `"color": "blue"` |
+| `metadata` | Array di coppie chiave/valore per il POI | array(string) | chiave: 256 caratteri, valore: 256 caratteri, massimo 10 coppie | entrambi, opzionali* | `"metadata": {"region": "Equator"}` |
+| `lib_id` | ID della libreria in cui si trova il punto di interesse | n/d | n/d | entrambi, obbligatorio | `"lib_id": "ac7a0b25-c6c2-43ba-bbc6-2b1777b80fe9"` |
 
-* Se il valore del parametro non è incluso, il valore è impostato su `empty` nel database. Se la coppia chiave/valore esistente non è inclusa, la coppia chiave/valore viene rimossa per quel POI nel database.
-
+* Se il valore del parametro non è incluso, viene impostato su `empty` nel database. Se la coppia chiave/valore esistente non è inclusa, la coppia chiave/valore viene rimossa per quel POI nel database.

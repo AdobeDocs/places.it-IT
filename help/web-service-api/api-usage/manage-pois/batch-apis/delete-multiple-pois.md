@@ -1,19 +1,17 @@
 ---
-title: Eliminare più POI
-description: Usate le API batch per eliminare più POI.
-translation-type: tm+mt
-source-git-commit: 5a0705f02c8ecd540506b628371aec45107df7b2
+title: Eliminare più punti di interesse
+description: Utilizza le API batch per eliminare più POI.
+exl-id: f170b722-e6f4-42a2-b3a6-1bf56965eb17
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 1%
+ht-degree: 8%
 
 ---
 
+# Eliminare più punti di interesse {#delete-multiple-pois}
 
-
-# Eliminare più POI {#delete-multiple-pois}
-
-Un metodo POST che consente di eliminare più POI.
+Metodo POST che consente di eliminare più punti di interesse.
 
 ## Richiesta
 
@@ -41,7 +39,7 @@ If successful a Status of "204 No Content" is returned.
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare questa API:
+Utilizza il seguente comando CURL per testare questa API:
 
 ```text
 curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois/batchDelete' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>' --data-binary "@<PATHTOBATCHDELETEJSONFILE>" -H "Content-Type: application/json"
@@ -49,11 +47,11 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/pois/batchDelete' 
 
 >[!IMPORTANT]
 >
->Sostituisci `<API KEY>`, `<TOKEN>`, `<ORGID>`e `<PATHTOBATCHDELETEJSONFILE>` con valori reali.
+>Sostituisci `<API KEY>`, `<TOKEN>`, `<ORGID>`, e `<PATHTOBATCHDELETEJSONFILE>` con valori reali.
 
-## Esempio di file JSON
+## File JSON di esempio
 
-Ecco il file JSON di esempio per l&#39; `batchDelete` API:
+Ecco il file JSON di esempio per `batchDelete` API:
 
 ```text
 {​"ids":["31a49d5c-c6ad-46ae-b88d-a6912a8a6b2f","6a78a729-7973-4373-9199-36da18cc5b8c","74eaa3da-2464-4298-9b6d-5376fa7ea00f"]​}

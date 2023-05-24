@@ -19,22 +19,22 @@ Test of different youtube link for exl
 
 >[!VIDEO](https://video.tv.adobe.com/v/41647)
 
-## Utilizzo del servizio Places
+## Utilizzo di Places Service
 
 Per utilizzare Places Service, completa le seguenti attività:
 
-### 1. Assicurati che l’utente disponga del provisioning per utilizzare Places Service
+### 1. Assicurati che l’utente disponga del provisioning necessario per utilizzare Places Service
 
-Il contesto di prodotto Servizio Places è disponibile con tutte le organizzazioni Experience Cloud.
+Il contesto del prodotto Places Service è disponibile con tutte le organizzazioni Experience Cloud.
 
-* Accertati di essere elencato come utente nei contesti di Places Service e Experience Platform Launch Product nell’Admin Console.
+* Assicurati di essere elencato come utente nei contesti di prodotto del servizio Places e del Experience Platform Launch nell’Admin Console.
 
    Per ulteriori informazioni, consulta *Aggiunta di un utente al servizio Experience Platform Launch e Places* in [Domande frequenti](/help/places-gain-access.md).
 
 
 ### 2. Creare i punti di interesse
 
-I punti di interesse (POI) sono recinti geografici creati per le organizzazioni e puoi creare punti di interesse in uno dei seguenti modi:
+I punti di interesse (POI) sono recinti geografici creati per le organizzazioni e puoi crearli in uno dei seguenti modi:
 
 * Utilizzo dell’interfaccia utente di Places Service.
 
@@ -42,19 +42,19 @@ I punti di interesse (POI) sono recinti geografici creati per le organizzazioni 
 
 * Utilizzo delle API dal servizio Web Places.
 
-   Per ulteriori informazioni, consulta [API del servizio Web](/help/web-service-api/places-web-services.md).
+   Per ulteriori informazioni, consulta [API servizio Web](/help/web-service-api/places-web-services.md).
 
 
-### 3. Configurare l’estensione Luoghi
+### 3. Configurare l’estensione Places
 
 Per ulteriori informazioni sulla configurazione dell’estensione Luoghi, consulta le seguenti informazioni:
 
 * [Estensione Luoghi](/help/places-ext-aep-sdks/places-extension/places-extension.md)
 
-### 4. (Facoltativo) Implementare una soluzione di monitoraggio regionale
+### 4. Implementare una soluzione di monitoraggio regionale (facoltativo)
 
-Se si prevede di eseguire il monitoraggio dell&#39;area attiva, sarà necessario implementare direttamente con il sistema operativo. Per ulteriori informazioni, consulta i seguenti documenti:
+Se si prevede di eseguire il monitoraggio delle aree attive, sarà necessario implementare direttamente con il sistema operativo. Per ulteriori informazioni, consulta i seguenti documenti:
 
-* iOS - [Documentazione CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
+* IOS - [Documentazione di CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions)
 
 * Android - [Documentazione sulla posizione](https://developer.android.com/training/location/geofencing)

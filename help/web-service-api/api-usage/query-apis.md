@@ -1,19 +1,17 @@
 ---
 title: Panoramica
-description: Informazioni e utilizzo delle API di query.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+description: Informazioni e utilizzo delle API Query.
+exl-id: cc61a49c-1cf2-407f-b81a-3d38fcb622cc
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
-
-
 # API di query
 
-Un metodo di GET che consente di interrogare i POI più vicini al chiamante.
+Metodo di GET che consente di eseguire query sui punti di interesse più vicini al chiamante.
 
 ## Richiesta
 
@@ -24,16 +22,16 @@ GET https://query.places.adobe.com/placesedgequery
 Con il seguente input, il servizio restituisce un elenco dei POI più vicini al chiamante:
 
 * Posizione del chiamante (latitudine, longitudine).
-* ID delle librerie POI da includere nella ricerca.
+* Gli ID delle librerie POI da includere nella ricerca.
 * Il numero massimo di POI da restituire.  Il valore predefinito è 100.
 
-   La distanza tra il chiamante e il POI è definita come la distanza tra il chiamante e il bordo della geofence del POI. Nella risposta, i POI che contengono il chiamante saranno contrassegnati come aventi il chiamante.
+   La distanza tra il chiamante e il punto di interesse (POI) è definita come la distanza tra il chiamante e il bordo del recinto geografico del POI. Nella risposta, i POI che contengono il chiamante saranno contrassegnati come aventi il chiamante.
 
-Gli argomenti vengono forniti come parametri di query seguenti:
+Gli argomenti vengono forniti come i seguenti parametri di query:
 
 * (**Obbligatorio**) `latitude`
 
-   Latitudine del chiamante, che deve essere compresa tra -85 e 85.
+   La latitudine del chiamante, che deve essere compresa tra -85 e 85.
 * (**Obbligatorio**) `longitude`
 
    La longitudine del chiamante, che deve essere compresa tra -180 e 180.
@@ -44,9 +42,9 @@ Gli argomenti vengono forniti come parametri di query seguenti:
 
 * (**Obbligatorio**) `library`
 
-   ID della libreria da interrogare. Per eseguire query su più librerie, accertatevi di includere più copie del parametro della libreria nella query.
+   ID della libreria su cui eseguire la query. Per eseguire query su più librerie, accertati di includere più copie del parametro libreria nella query.
 
-Di seguito è riportato un esempio del formato JSON restituito correttamente:
+Ecco un esempio del formato JSON restituito correttamente:
 
 ```markup
 {
@@ -109,11 +107,11 @@ Di seguito è riportato un esempio del formato JSON restituito correttamente:
 }
 ```
 
-I POI sotto `places.pois` sono ordinati per distanza dal chiamante al bordo dei POI. I POI sotto `places.userWithin` contengono il chiamante, e questi POI sono ordinati per rango e poi per raggio crescente.
+POI in `places.pois` sono ordinati in base alla distanza dal chiamante al bordo dei POI. POI in `places.userWithin` contiene il chiamante e questi POI sono ordinati per rango e poi per raggio crescente.
 
 ## Chiamata di esempio
 
-Esempio di chiamata:
+Ecco un esempio della chiamata:
 
 ```text
 GET https://query.places.adobe.com/placesedgequery?latitude=<userLatitude>&longitude=<userLongitude>&library=<libID1>&library=<libID2>&limit=20

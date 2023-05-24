@@ -1,18 +1,17 @@
 ---
 title: Eliminare un POI
-description: Eliminate un POI utilizzando le API REST Luoghi.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+description: Elimina un POI utilizzando le API REST Places.
+exl-id: 0325eb3b-f9b2-4b21-bed8-e318e8072a69
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 2%
+ht-degree: 9%
 
 ---
 
-
 # Eliminare un POI {#delete-a-poi}
 
-Un metodo DELETE che consente di eliminare un POI.
+Metodo DELETE che consente di eliminare un POI.
 
 ## Richiesta
 
@@ -38,7 +37,7 @@ If successful a Status of "204 No Content" is returned.
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare l&#39;API:
+Utilizza il seguente comando CURL per testare l’API:
 
 ```text
 curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>'
@@ -46,5 +45,4 @@ curl -X DELETE 'https://api-places.adobe.io/places/placesapi/v1/pois/<POIID>' -H
 
 >[!IMPORTANT]
 >
->Sostituisci `<POIID>`, `<API KEY>`, `<TOKEN>`e `<ORGID>` con valori effettivi.
-
+>Sostituisci `<POIID>`, `<API KEY>`, `<TOKEN>`, e `<ORGID>` con i valori effettivi.

@@ -1,18 +1,17 @@
 ---
-title: Impostare un livello nelle librerie
-description: Impostate una classificazione nelle librerie utilizzando l'API REST Luoghi.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+title: Impostare una classificazione nelle librerie
+description: Imposta una classificazione nelle librerie utilizzando l’API REST Luoghi.
+exl-id: c922bddc-1587-4da8-acb4-c2d69ce11808
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
+# Impostare una classificazione nelle librerie {#set-rank-on-libraries}
 
-# Impostare un livello nelle librerie {#set-rank-on-libraries}
-
-Metodo PUT che consente di impostare un ordine di classificazione per tutte le librerie.
+Metodo PUT che consente di impostare un ordine di classifica per tutte le librerie.
 
 ## Richiesta
 
@@ -27,7 +26,7 @@ Metodo PUT che consente di impostare un ordine di classificazione per tutte le l
 -H 'Accept-Language: en-US'
 ```
 
-## PUT, dati
+## Dati PUT
 
 ```
 "library_rank_order": ["dfcc5270-1d6d-4bc9-9cd9-85ecd5ebc12b","ea45781f-26af-44b1-b4f8-43baf5f0fe28"]  
@@ -48,5 +47,4 @@ curl -X PUT `'https://api-places.adobe.io/places/placesapi/v1/libraries/rank'` -
 
 >[!IMPORTANT]
 >
->Sostituire variabili quali `<API KEY>`, `<TOKEN>`e `<ORGID>` con valori effettivi.
-
+>Sostituisci variabili come `<API KEY>`, `<TOKEN>`, e `<ORGID>` con i valori effettivi.

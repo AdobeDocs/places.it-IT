@@ -1,30 +1,29 @@
 ---
-title: Utilizzo del monitor
-description: Puoi anche utilizzare i tuoi servizi di monitoraggio e integrarli con i servizi Luoghi utilizzando le API delle estensioni dei Servizi Luoghi.
-translation-type: tm+mt
-source-git-commit: 0ca2162f113fba6bfbd54443109068b1a506762b
+title: Utilizzo del proprio monitor
+description: Puoi anche utilizzare i servizi di monitoraggio e integrarli con Places Service utilizzando le API dell’estensione Places Service.
+exl-id: 8ca4d19b-0f23-4291-b335-af47f03179fa
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 1%
 
 ---
 
+# Utilizzo del proprio monitor {#using-your-monitor}
 
-# Utilizzo del monitor {#using-your-monitor}
+Puoi anche utilizzare i servizi di monitoraggio e integrarli con Places Service utilizzando le API dell’estensione Places.
 
-Puoi anche utilizzare i tuoi servizi di monitoraggio e integrarli con i servizi Places utilizzando le API delle estensioni Places.
+## Registrazione dei recinti geografici
 
-## Registrazione delle aree geografiche
-
-Se decidi di utilizzare i tuoi servizi di monitoraggio, registra le aree geografiche dei punti di interesse (POI) intorno alla posizione corrente completando i seguenti passaggi:
+Se decidi di utilizzare i servizi di monitoraggio, registra i recinti geografici dei POI intorno alla posizione corrente completando i passaggi seguenti:
 
 ### iOS
 
 In iOS, completa i seguenti passaggi:
 
-1. Passa gli aggiornamenti di posizione ottenuti dai servizi di posizione di base di iOS all&#39;estensione Luoghi.
+1. Passa all’estensione Places gli aggiornamenti sulla posizione ottenuti dai servizi di posizione core di iOS.
 
-1. Utilizzate l&#39;API dell&#39;estensione `getNearbyPointsOfInterest` Places per ottenere l&#39;array di `ACPPlacesPoi` oggetti intorno alla posizione corrente.
+1. Utilizza il `getNearbyPointsOfInterest` API dell’estensione Places per ottenere l’array di `ACPPlacesPoi` intorno alla posizione corrente.
 
    ```objective-c
    - (void) locationManager: (CLLocationManager*) manager didUpdateLocations: (NSArray<CLLocation*>*) locations {
@@ -34,7 +33,7 @@ In iOS, completa i seguenti passaggi:
    }
    ```
 
-1. Estrarre le informazioni dagli `ACPPlacesPOI` oggetti ottenuti e iniziare a monitorare tali POI.
+1. Estrarre le informazioni dal ottenuto `ACPPlacesPOI` e iniziare a monitorarli.
 
    ```objective-c
    - (void) startMonitoringGeoFences: (NSArray*) newGeoFences {
@@ -58,9 +57,9 @@ In iOS, completa i seguenti passaggi:
 
 ### Android
 
-1. Passa gli aggiornamenti di posizione ottenuti dai servizi Google Play o Android all’estensione Places.
+1. Passa all’estensione Places gli aggiornamenti sulla posizione ottenuti dai servizi Google Play o dai servizi di posizione Android.
 
-1. Utilizzate l&#39;API `getNearbyPointsOfInterest` Places Extension per ottenere l&#39;elenco di `PlacesPoi` oggetti intorno alla posizione corrente.
+1. Utilizza il `getNearbyPointsOfInterest` API di estensione Places per ottenere l’elenco di `PlacesPoi` intorno alla posizione corrente.
 
    ```java
    LocationCallback callback = new LocationCallback() {
@@ -78,7 +77,7 @@ In iOS, completa i seguenti passaggi:
    };
    ```
 
-1. Estrarre i dati dagli `PlacesPOI` oggetti ottenuti e iniziare a monitorare tali POI.
+1. Estrai i dati dal ottenuto `PlacesPOI` e iniziare a monitorarli.
 
    ```java
    private void startMonitoringFences(final List<PlacesPOI> nearByPOIs) {
@@ -103,17 +102,17 @@ In iOS, completa i seguenti passaggi:
    ```
 
 
-La chiamata dell&#39; `getNearbyPointsOfInterest` API genera una chiamata di rete che ottiene la posizione intorno alla posizione corrente.
+Chiamata di `getNearbyPointsOfInterest` L’API genera una chiamata di rete che ottiene la posizione intorno alla posizione corrente.
 
 >[!IMPORTANT]
 >
->È necessario chiamare l&#39;API in modo parsimonioso o solo in caso di cambiamento significativo della posizione dell&#39;utente.
+>È necessario chiamare l’API con moderazione o solo quando si verifica un cambiamento significativo della posizione dell’utente.
 
-## Registrazione di eventi geografici
+## Registrazione di eventi recinto geografico
 
 ### iOS
 
-In iOS, chiama l&#39;API `processGeofenceEvent` Places nel `CLLocationManager` delegato. Questa API vi notifica se l&#39;utente è entrato o uscito da un&#39;area specifica.
+In iOS, chiama il `processGeofenceEvent` Posiziona l’API in `CLLocationManager` delegato. Questa API indica se l’utente ha iniziato o chiuso l’accesso a un’area specifica.
 
 ```objective-c
 - (void) locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region {
@@ -127,7 +126,7 @@ In iOS, chiama l&#39;API `processGeofenceEvent` Places nel `CLLocationManager` d
 
 ### Android
 
-In Android, chiama il `processGeofence` metodo insieme all’evento di transizione appropriato nel ricevitore di trasmissione Geofence. È possibile curare l&#39;elenco delle aree geografiche ricevute per evitare voci/uscite duplicate.
+In Android, chiama il `processGeofence` insieme all’evento di transizione appropriato nel ricevitore di trasmissione Geofence. Puoi curare l’elenco dei recinti geografici ricevuti per evitare duplicati di entrate/uscite.
 
 ```java
 void onGeofenceReceived(final Intent intent) {

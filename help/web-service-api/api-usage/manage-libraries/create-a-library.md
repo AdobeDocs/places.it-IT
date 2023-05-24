@@ -1,18 +1,17 @@
 ---
 title: Creare una libreria
-description: Create una libreria utilizzando l'API REST Luoghi.
-translation-type: tm+mt
-source-git-commit: 8a84fe2dc5a0efe94ce3121e589524e3c7a80c5e
+description: Crea una libreria utilizzando l’API REST Places.
+exl-id: 155cc6e6-9254-4389-bb02-e526d15908f4
+source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 14%
+ht-degree: 22%
 
 ---
 
+# Creare una libreria {#create-a-library}
 
-# Crea una libreria {#create-a-library}
-
-Un metodo POST che consente di creare una libreria.
+Metodo POST che consente di creare una libreria.
 
 ## Richiesta
 
@@ -40,7 +39,7 @@ POST https://api-places.adobe.io/places/placesapi/v1/libraries
 
 ## CURL, comando
 
-Utilizzate il seguente comando CURL per testare questa API:
+Utilizza il seguente comando CURL per testare questa API:
 
 ```text
 curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-api-key: <API KEY>' -H 'Authorization: Bearer <TOKEN>' -H 'x-gw-ims-org-id: <ORGID>' -d '{"name":"New Library Name"}' -H "Content-Type: application/json"
@@ -48,5 +47,4 @@ curl -X POST 'https://api-places.adobe.io/places/placesapi/v1/libraries' -H 'x-a
 
 >[!IMPORTANT]
 >
->Sostituire variabili quali `<API KEY>`, `<TOKEN>`e `<ORGID>` con valori effettivi.
-
+>Sostituisci variabili come `<API KEY>`, `<TOKEN>`, e `<ORGID>` con i valori effettivi.
