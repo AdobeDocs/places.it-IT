@@ -2,10 +2,10 @@
 title: Creazione di una regola per la proprietà Places Service
 description: L’SDK Places tiene traccia della posizione corrente, monitora i POI configurati intorno alla posizione corrente e tiene traccia degli eventi di entrata e uscita per questi POI.
 exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 13%
+source-wordcount: '922'
+ht-degree: 14%
 
 ---
 
@@ -54,7 +54,7 @@ Le azioni definiscono ciò che l&#39;app farà in risposta alla condizione per c
 
 >[!CAUTION]
 >
->Con questo esempio si presuppone che sia stata creata una libreria POI di tutti i coffee shop degli Stati Uniti. Per ulteriori informazioni sulla creazione di POI e librerie, consulta [Creare un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Creare una libreria* in [Gestire più librerie](https://docs.adobe.com/content/help/en/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>Con questo esempio si presuppone che sia stata creata una libreria POI di tutti i coffee shop degli Stati Uniti. Per ulteriori informazioni sulla creazione di POI e librerie, consulta [Creare un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Creare una libreria* in [Gestire più librerie](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
 
 La procedura seguente illustra come creare una regola che invia un post allo Slack quando si entra in un coffee shop a San Francisco.
 
@@ -124,7 +124,7 @@ Per creare un elemento dati nel Experience Platform Launch:
 
 ### Pubblicare la regola
 
-1. Per attivare la regola, devi pubblicarla. Per ulteriori informazioni sulla pubblicazione della regola nel Experience Platform Launch, vedi [Pubblicazione](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
+1. Per attivare la regola, devi pubblicarla. Per ulteriori informazioni sulla pubblicazione della regola nel Experience Platform Launch, vedi [Pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it).
 
 ### Oltre le entrate e le uscite
 

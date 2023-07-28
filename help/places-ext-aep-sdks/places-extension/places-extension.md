@@ -2,10 +2,10 @@
 title: Estensione Luoghi
 description: L’estensione Luoghi consente di agire in base alla posizione degli utenti.
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
-source-git-commit: 795808b38851d5afcedc03f58e9a1d6342830934
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 4%
+source-wordcount: '697'
+ht-degree: 5%
 
 ---
 
@@ -20,11 +20,11 @@ L’estensione Luoghi consente di agire in base alla posizione degli utenti. Que
 1. Seleziona le librerie Places da utilizzare in questa proprietà. Queste sono le librerie che saranno accessibili nella tua app.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   Quando fai clic su **[!UICONTROL Salva]** L’SDK di Experience Platform cerca i POI in Places Services nelle librerie selezionate. I dati dei punti di interesse non vengono inclusi nel download della libreria quando si crea l’app, ma un sottoinsieme di punti di interesse basato sulla posizione viene scaricato sul dispositivo dell’utente finale in fase di esecuzione e si basa sulle coordinate GPS dell’utente.
+   Quando fai clic su **[!UICONTROL Salva]** L’SDK di Experienci Platform cerca i POI in Places Services nelle librerie selezionate. I dati dei punti di interesse non vengono inclusi nel download della libreria quando si crea l’app, ma un sottoinsieme di punti di interesse basato sulla posizione viene scaricato sul dispositivo dell’utente finale in fase di esecuzione e si basa sulle coordinate GPS dell’utente.
 
 1. Completa il processo di pubblicazione per aggiornare la configurazione dell’SDK.
 
-   Per ulteriori informazioni sulla pubblicazione in Experience Platform Launch, consulta [Pubblicazione](https://docs.adobe.com/content/help/en/launch/using/reference/publish/overview.html).
+   Per ulteriori informazioni sulla pubblicazione in Experienci Platform Launch, consulta [Pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it).
 
 ### Configurare l’estensione Places {#configure-places-extension}
 

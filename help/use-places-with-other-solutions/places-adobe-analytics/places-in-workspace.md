@@ -2,10 +2,10 @@
 title: Rapporto sui dati relativi alla posizione in Analytics Workspace
 description: Questa sezione fornisce informazioni su come creare rapporti sui dati relativi alla posizione in Analytics Workspace.
 exl-id: 45ca3c80-71b7-41de-9b00-645504061935
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 8%
+source-wordcount: '451'
+ht-degree: 5%
 
 ---
 
@@ -23,7 +23,7 @@ Il presente documento presuppone quanto segue:
 
 1. L’utente Adobe Analytics è un amministratore e ha accesso alle regole di elaborazione.
 
-   Per ulteriori informazioni sulle regole di elaborazione, consulta [Panoramica sulle regole di elaborazione](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+   Per ulteriori informazioni sulle regole di elaborazione, consulta [Panoramica sulle regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 1. Nella proprietà Launch, sono stati creati elementi dati per le variabili Places Service desiderate.
 
@@ -44,7 +44,7 @@ In questo esempio, per l’azione della regola sono definiti i seguenti valori p
 
 ## 2. Creare le variabili di Analytics
 
-Per mappare i dati contestuali (inviati nel passaggio 1), è necessario creare prima le variabili per la suite di rapporti di Analytics. Per ulteriori informazioni sulla creazione di variabili in Analytics, consulta [Variabili di conversione (eVars)](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-conversion-variables-evar.html).
+Per mappare i dati contestuali (inviati nel passaggio 1), è necessario creare prima le variabili per la suite di rapporti di Analytics. Per ulteriori informazioni sulla creazione di variabili in Analytics, consulta [Variabili di conversione (eVars)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html?lang=it).
 
 In questo esempio, una variabile di conversione, **[!UICONTROL Evar2]**, è stato creato e denominato **[!UICONTROL Nome POI Places]**. Dovranno essere create ulteriori variabili per ogni variabile di posizione che desideri esporre nel reporting.
 
@@ -52,7 +52,7 @@ In questo esempio, una variabile di conversione, **[!UICONTROL Evar2]**, è stat
 
 ## 3. Creare regole di elaborazione
 
-Questo passaggio è necessario per mappare i dati contestuali (passaggio 1) alle variabili di Analytics (passaggio 2). Per ulteriori informazioni sulla creazione di regole di elaborazione, consulta [Panoramica sulle regole di elaborazione](https://docs.adobe.com/content/help/it-IT/analytics/admin/admin-tools/processing-rules/processing-rules.html).
+Questo passaggio è necessario per mappare i dati contestuali (passaggio 1) alle variabili di Analytics (passaggio 2). Per ulteriori informazioni sulla creazione di regole di elaborazione, consulta [Panoramica sulle regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 In questo esempio, è stata creata una regola di elaborazione per mappare il valore dei dati contestuali **[!UICONTROL poi.name]** in **[!UICONTROL Nome POI Places (eVar 2)]**. Sarà necessario creare regole di elaborazione aggiuntive per ogni variabile di posizione creata.
 
@@ -60,7 +60,7 @@ In questo esempio, è stata creata una regola di elaborazione per mappare il val
 
 ## 4. Generare un rapporto in Workspace
 
-Questo passaggio mostra un rapporto di base in Analytics Workspace per visualizzare i dati raccolti nei passaggi 1-3. Per ulteriori informazioni sull’utilizzo di Analytics Workspace, consulta [Panoramica di Analytics Workspace](https://docs.adobe.com/content/help/it-IT/analytics/analyze/analysis-workspace/home.translate.html).
+Questo passaggio mostra un rapporto di base in Analytics Workspace per visualizzare i dati raccolti nei passaggi 1-3. Per ulteriori informazioni sull’utilizzo di Analytics Workspace, consulta [Panoramica di Analytics Workspace](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it).
 
 In questo esempio, il rapporto presenta le seguenti impostazioni:
 

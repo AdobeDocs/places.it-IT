@@ -2,9 +2,9 @@
 title: Notifiche in-app
 description: Questa sezione illustra come utilizzare Places Service con la messaggistica in-app.
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '659'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Questi tipi sono messaggi in-app perché sono attivati dall’SDK. Le notifiche 
 
 ### Prerequisiti
 
-Prima di iniziare, scopri come inviare e creare un messaggio in-app in Mobile Services e come funzionano i trigger. Per ulteriori informazioni, consulta [Creare un messaggio in-app.](https://docs.adobe.com/content/help/en/mobile-services/using/messaging-ug/inapp-messages/t-in-app-message.html)
+Prima di iniziare, scopri come inviare e creare un messaggio in-app in Mobile Services e come funzionano i trigger. Per ulteriori informazioni, consulta [Creare un messaggio in-app.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
 
 ## Regole in Experience Platform Launch
 
@@ -41,11 +41,11 @@ Puoi creare regole di Experience Platform Launch che inviano ad Analytics i dati
 
 * Utilizzo dei dati sulla posizione come evento che attiva.
 
-   Ad esempio, puoi inviare dati ad Analytics quando un utente entra in un POI.
+  Ad esempio, puoi inviare dati ad Analytics quando un utente entra in un POI.
 
 * Utilizzo dei dati sulla posizione come Condizione per un evento che si attiva.
 
-   Ad esempio, se hai creato un tag di metadati personalizzato nel servizio Places per il meteo in punti di interesse diversi, puoi utilizzarlo come parametro per la condizione della regola. Anche se è possibile utilizzare questa condizione con un evento di ingresso POI descritto in precedenza, è anche possibile utilizzarla come contesto per qualsiasi evento.
+  Ad esempio, se hai creato un tag di metadati personalizzato nel servizio Places per il meteo in punti di interesse diversi, puoi utilizzarlo come parametro per la condizione della regola. Anche se è possibile utilizzare questa condizione con un evento di ingresso POI descritto in precedenza, è anche possibile utilizzarla come contesto per qualsiasi evento.
 
 Dopo aver configurato la regola con i parametri evento e condizione corretti, completa la configurazione della regola configurando l’azione per inviare dati ad Analytics.
 
@@ -62,7 +62,7 @@ Ad esempio, puoi selezionare `poiname` come chiave e `{%%Last Entered POI Name}`
 
 >[!TIP]
 >
->Le regole di elaborazione di Analytics possono essere impostate per raccogliere questi dati contestuali. Per ulteriori informazioni, consulta [Regole di elaborazione](https://docs.adobe.com/content/help/en/analytics/implementation/analytics-basics/ref-processing-rules.html). Nell’esempio in *Creare un’azione*, l&#39;azione invierà `poiname` come contesto per descrivere l’evento di ingresso POI inviato ad Analytics.
+>Le regole di elaborazione di Analytics possono essere impostate per raccogliere questi dati contestuali. Per ulteriori informazioni, consulta [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). Nell’esempio in *Creare un’azione*, l&#39;azione invierà `poiname` come contesto per descrivere l’evento di ingresso POI inviato ad Analytics.
 
 ![creazione di un&#39;azione](/help/assets/configure-action.png)
 
@@ -77,12 +77,12 @@ Come parte dei parametri Trigger, puoi creare il pubblico per il messaggio con i
 * Utilizzo di azioni specifiche per la posizione, ad esempio una voce o un&#39;uscita.
 * Utilizzare i metadati dei punti di interesse inviati come dati contestuali per limitare il target del pubblico.
 
-   Questa opzione può essere utilizzata con un’azione specifica per la posizione, ad esempio una voce, oppure come contesto per un altro evento, ad esempio un lancio o un clic su un pulsante.
+  Questa opzione può essere utilizzata con un’azione specifica per la posizione, ad esempio una voce, oppure come contesto per un altro evento, ad esempio un lancio o un clic su un pulsante.
 
-   Ecco un esempio di come configurare un messaggio in-app per dare il benvenuto agli utenti che entrano in un POI che ha **[!UICONTROL Adobe]** nel nome:
+  Ecco un esempio di come configurare un messaggio in-app per dare il benvenuto agli utenti che entrano in un POI che ha **[!UICONTROL Adobe]** nel nome:
 
-   ![parametri trigger](/help/assets/trigger-parameters.png)
+  ![parametri trigger](/help/assets/trigger-parameters.png)
 
 * Parametri nelle intestazioni del servizio Places in *Trigger e caratteristiche* in Mobile Services non funziona con i dati del servizio Places.
 
-   Questi parametri valgono solo per il database legacy di Places Service creato in Mobile Services.
+  Questi parametri valgono solo per il database legacy di Places Service creato in Mobile Services.

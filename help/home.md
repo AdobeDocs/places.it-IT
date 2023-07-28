@@ -2,9 +2,9 @@
 title: Servizio Places
 description: Places Service è un contesto importante per comprendere il coinvolgimento degli utenti di dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell’app e renderla un’esperienza più personalizzata e coinvolgente.
 exl-id: 7369176f-c072-437a-9ee3-b463c5ff1d12
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 10%
 
 ---
@@ -38,19 +38,19 @@ Places Service include i seguenti componenti:
 
 * **Servizio web**
 
-   Puoi creare e gestire i punti di interesse utilizzando le API REST di Places. Per ulteriori informazioni sulle API REST, consulta [Gestione librerie](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [Gestire i POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+  Puoi creare e gestire i punti di interesse utilizzando le API REST di Places. Per ulteriori informazioni sulle API REST, consulta [Gestione librerie](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [Gestire i POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **Interfaccia di gestione POI**
 
-   Visualizza i POI su una mappa per comprendere il contesto spaziale e aggiungere/modificare i POI e i relativi metadati personalizzati.
+  Visualizza i POI su una mappa per comprendere il contesto spaziale e aggiungere/modificare i POI e i relativi metadati personalizzati.
 
 * **Estensione Luoghi**
 
-   L’interfaccia API mobile multipiattaforma per integrare il contesto della posizione nelle app mobili. Per ulteriori informazioni sugli SDK, consulta [Estensione Luoghi](/help/places-ext-aep-sdks/places-extension/places-extension.md).
+  L’interfaccia API mobile multipiattaforma per integrare il contesto della posizione nelle app mobili. Per ulteriori informazioni sugli SDK, consulta [Estensione Luoghi](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 * **Regole di avvio**
 
-   Le regole di Launch geo-intelligenti che consentono di attivare azioni con eventi di entrata e uscita. Le regole ti consentono inoltre di utilizzare gli attributi geografici in condizioni per personalizzare l’esperienza.
+  Le regole di Launch geo-intelligenti che consentono di attivare azioni con eventi di entrata e uscita. Le regole ti consentono inoltre di utilizzare gli attributi geografici in condizioni per personalizzare l’esperienza.
 
 ## Terminologia
 
@@ -58,30 +58,30 @@ Di seguito sono riportati alcuni termini comuni utilizzati in questa documentazi
 
 * A **punto di interesse (POI)** è una geolocalizzazione di tuo interesse.
 
-   Puoi definire punti di interesse con attributi quali nome, raggio, indirizzo, categoria e tag di metadati.
+  Puoi definire punti di interesse con attributi quali nome, raggio, indirizzo, categoria e tag di metadati.
 
 * A **recinto** è un tipo di POI.
 
-   Questo tipo di punto di interesse è un limite geografico virtuale definito dalle coordinate di latitudine e longitudine.
+  Questo tipo di punto di interesse è un limite geografico virtuale definito dalle coordinate di latitudine e longitudine.
 
 * A **beacon** è un tipo di POI.
 
-   Questo tipo di punto di interesse è un dispositivo fisico che rappresenta una posizione emettendo un segnale Bluetooth a basso consumo. Il supporto dei beacon sarà disponibile in una versione futura.
+  Questo tipo di punto di interesse è un dispositivo fisico che rappresenta una posizione emettendo un segnale Bluetooth a basso consumo. Il supporto dei beacon sarà disponibile in una versione futura.
 
 * Una **libreria** è una raccolta di POI, raggruppati per associare facilmente le regole a un set invece di un POI.
 
 * Un **estensione** è l’estensione di Experience Platform Launch necessaria per integrare l’SDK Luoghi nelle app mobili.
 
-   Estensione utilizzata con gli altri SDK per dispositivi mobili per aggiungere contesto di posizione alle esperienze.
+  Estensione utilizzata con gli altri SDK per dispositivi mobili per aggiungere contesto di posizione alle esperienze.
 
 * Un’**organizzazione** è l’entità Adobe che identifica la società dell’utente in Adobe Experience Cloud.
 
-   In genere, un’organizzazione è il nome della tua azienda. Tuttavia, un’azienda può avere più di un’organizzazione. L&#39;amministratore dell&#39;organizzazione può configurare gruppi e utenti e configurare la funzionalità Single Sign-On.
+  In genere, un’organizzazione è il nome della tua azienda. Tuttavia, un’azienda può avere più di un’organizzazione. L&#39;amministratore dell&#39;organizzazione può configurare gruppi e utenti e configurare la funzionalità Single Sign-On.
 
 * L’**orgID** è l’ID che rappresenta l’organizzazione dell’utente in Adobe Experience Platform.
 
-   Per ulteriori informazioni, consulta [Ricerca dell’orgID](https://forums.adobe.com/thread/2339895).
+  Per ulteriori informazioni, consulta [Ricerca dell’orgID](https://forums.adobe.com/thread/2339895).
 
 * Il **ID EXPERIENCE CLOUD** fornisce un ID universale e costante che identifica i visitatori in tutte le soluzioni dell’Experience Cloud.
 
-   Per maggiori informazioni, consulta [Panoramica](https://docs.adobe.com/content/help/it-IT/id-service/using/intro/overview.html).
+  Per maggiori informazioni, consulta [Panoramica](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it).

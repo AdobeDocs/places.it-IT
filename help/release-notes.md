@@ -2,10 +2,10 @@
 title: Note sulla versione
 description: Note sulla versione di Places Service.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
-source-git-commit: 2b5c53887c9ed0f2a672c377121a39537ee58f01
+source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 3%
+source-wordcount: '1490'
+ht-degree: 2%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 3%
 
    * Sono state aggiunte le estensioni Monitor luoghi e luoghi per [React - Applicazioni native](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#react-native)
    * Sono state aggiunte le estensioni Monitor luoghi e luoghi per [Applicazioni Cordova](https://aep-sdks.gitbook.io/docs/resources/upgrading-to-aep/current-sdk-versions#cordova)
-   * Per ulteriori informazioni, consulta: [Utilizzo dell’estensione Places](https://docs.adobe.com/content/help/it-IT/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
+   * Per ulteriori informazioni, consulta: [Utilizzo dell’estensione Places](https://experienceleague.adobe.com/docs/places/using/places-ext-aep-sdks/places-extension/places-extension.html)
 
 
 ## 12 maggio 2020
@@ -114,12 +114,12 @@ ht-degree: 3%
    * **iOS**
 
       * È stata aggiunta una nuova API, `setRequestAuthorizationLevel`, per impostare il tipo di richiesta di autorizzazione per la posizione per la quale verrà richiesto all&#39;utente.
+
+
    * **Android**
 
       * È stata aggiunta una nuova API, `setLocationPermission`, per impostare il tipo di richiesta di autorizzazione per la posizione per la quale verrà richiesto all&#39;utente.
       * Il Monitor Luoghi ora supporta Android 10.
-
-
 
 ## 8 agosto 2019
 
@@ -162,9 +162,9 @@ In questa versione sono stati apportati i seguenti aggiornamenti:
 * La gestione del callback, derivante da una richiesta di autorizzazione della posizione, non richiede più l’estensione di PlacesActivity.
 * È stata modificata un’API esistente che consente agli sviluppatori di cancellare tutti i dati di Places dal dispositivo:
 
-   Vecchia API: `public static void stop();`
+  Vecchia API: `public static void stop();`
 
-   Nuova API: `public static void stop (final boolean clearData);`
+  Nuova API: `public static void stop (final boolean clearData);`
 
 * È stato aggiornato l’utilizzo di `getNearbyPointsOfInterest` API per gestire gli scenari di errore in modo più efficace.
 
@@ -176,7 +176,7 @@ In questa versione sono stati apportati i seguenti aggiornamenti:
 
 * Per cancellare tutti i dati Places dal dispositivo:
 
-   in ACPPlacesMonitor, ha sostituito un’API esistente `+ (void) stop;` con`+ (void) stop: (BOOL) clearData;`.
+  in ACPPlacesMonitor, ha sostituito un’API esistente `+ (void) stop;` con`+ (void) stop: (BOOL) clearData;`.
 
 * È stato aggiornato l’utilizzo di ACPPlaces `getNearbyPointsOfInterest` API per gestire gli scenari di errore in modo più efficace.
 
@@ -298,7 +298,7 @@ Di seguito sono riportate le funzioni chiave di questa versione:
 
 #### Estensione Luoghi
 
-Utilizzando l’estensione Places, puoi aggiungere le librerie del servizio Places alla tua app mobile e agire in base ai loro POI. Utilizzando il generatore di regole in Experience Platform Launch, puoi attivare azioni quando gli utenti entrano ed escono dai POI.
+Utilizzando l’estensione Places, puoi aggiungere le librerie del servizio Places alla tua app mobile e agire in base ai loro POI. Utilizzando il generatore di regole in Experienci Platform Launch, puoi attivare azioni quando gli utenti entrano ed escono dai POI.
 
 Nell’estensione Luoghi:
 
@@ -316,7 +316,7 @@ Puoi utilizzare le API Places per effettuare le seguenti operazioni:
 * Crea una tua interfaccia utente o integra con un database POI esistente.
 * Utilizza gli endpoint batch dell’API Luoghi per effettuare un’importazione in blocco di POI.
 
-   È possibile utilizzare l&#39;utilità Python fornita per completare l&#39;importazione in blocco.
+  È possibile utilizzare l&#39;utilità Python fornita per completare l&#39;importazione in blocco.
 
 Per ulteriori informazioni sulle API Places, consulta [API servizio web](/help/web-service-api/places-web-services.md).
 
