@@ -2,7 +2,8 @@
 audience: end-user
 user-guide-title: Guida di Places Service
 user-guide-description: Places Service è un servizio di geolocalizzazione che consente alle app mobili che supportano la localizzazione di comprendere il contesto della posizione.
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+feature: Places
+source-git-commit: 30f083087936f54c692ff5aca245a7ee6b970b3a
 workflow-type: tm+mt
 source-wordcount: '301'
 ht-degree: 20%
