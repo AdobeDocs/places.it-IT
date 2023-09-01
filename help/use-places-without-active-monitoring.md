@@ -2,9 +2,9 @@
 title: Utilizza Places Service senza monitoraggio dell’area attiva
 description: In questa sezione vengono fornite informazioni sull'utilizzo di Places Service senza il monitoraggio delle aree attive.
 exl-id: 0ba7949a-447e-4754-9b45-945e58e29541
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+source-git-commit: 33cbef9b3226be3f013fe82d619b82e093a9752a
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
@@ -126,9 +126,9 @@ Consulta [Aggiungere contesto posizione alle richieste Analytics](use-places-wit
 >
 >Il modo consigliato per acquisire i dati di Places è quello di [Allegare dati di Places alle richieste di Analytics](#attach-places-data-to-your-analytics-requests).
 >
->Se il caso d’uso richiede una [evento di ingresso area](places-ext-aep-sdks/places-extension/places-event-ref.md#processregionevent) per essere attivato dall’SDK, deve essere eseguito manualmente come descritto di seguito.
+>Se il caso d’uso richiede una [evento di ingresso area](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#processregionevent) per essere attivato dall’SDK, deve essere eseguito manualmente come descritto di seguito.
 
-L’elenco restituito da `getNearbyPointsOfInterest` L’API contiene [oggetti personalizzati](places-ext-aep-sdks/places-extension/cust-places-objects.md) che indica se l’utente si trova attualmente all’interno di un POI. Se l&#39;utente si trova in un punto di interesse, l&#39;SDK può attivare un evento di ingresso per quell&#39;area.
+L’elenco restituito da `getNearbyPointsOfInterest` L’API contiene [oggetti personalizzati](https://developer.adobe.com/client-sdks/documentation/places/api-reference/#additional-classes-and-enums) che indica se l’utente si trova attualmente all’interno di un POI. Se l&#39;utente si trova in un punto di interesse, l&#39;SDK può attivare un evento di ingresso per quell&#39;area.
 
 >[!IMPORTANT]
 >
