@@ -4,8 +4,8 @@ description: Questa sezione illustra come utilizzare Places Service con la messa
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 4%
+source-wordcount: '644'
+ht-degree: 2%
 
 ---
 
@@ -33,9 +33,9 @@ Questi tipi sono messaggi in-app perché sono attivati dall’SDK. Le notifiche 
 
 ### Prerequisiti
 
-Prima di iniziare, scopri come inviare e creare un messaggio in-app in Mobile Services e come funzionano i trigger. Per ulteriori informazioni, consulta [Creare un messaggio in-app.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html)
+Prima di iniziare, scopri come inviare e creare un messaggio in-app in Mobile Services e come funzionano i trigger. Per ulteriori informazioni, vedere [Creare un messaggio in-app.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=it)
 
-## Regole in Experience Platform Launch
+## Regole nel Experience Platform Launch
 
 Puoi creare regole di Experience Platform Launch che inviano ad Analytics i dati che desideri possano essere utilizzati come parte delle regole del trigger dei messaggi in-app. Puoi utilizzare i dati delle estensioni Luoghi nelle regole del Experience Platform Launch come eventi e/o condizioni a seconda del caso d’uso.
 
@@ -53,16 +53,16 @@ Dopo aver configurato la regola con i parametri evento e condizione corretti, co
 
 Per creare un&#39;azione:
 
-1. Seleziona la **[!UICONTROL Adobe Analytics]** estensione.
-1. In **[!UICONTROL Tipo di azione]** elenco a discesa, seleziona **[!UICONTROL Traccia.]**
+1. Seleziona l&#39;estensione **[!UICONTROL Adobe Analytics]**.
+1. Nell&#39;elenco a discesa **[!UICONTROL Tipo azione]**, selezionare **[!UICONTROL Traccia.]**
 1. Digita un nome per l’azione.
-1. Nel riquadro di destra, in **[!UICONTROL Dati contestuali]**, seleziona la coppia chiave-valore per impostare i dati contestuali che verranno inviati ad Analytics.
+1. Nel riquadro di destra, in **[!UICONTROL Dati contestuali]**, selezionare la coppia chiave-valore per impostare i dati contestuali che verranno inviati ad Analytics.
 
-Ad esempio, puoi selezionare `poiname` come chiave e `{%%Last Entered POI Name}` come valore.
+Ad esempio, è possibile selezionare `poiname` come chiave e `{%%Last Entered POI Name}` come valore.
 
 >[!TIP]
 >
->Le regole di elaborazione di Analytics possono essere impostate per raccogliere questi dati contestuali. Per ulteriori informazioni, consulta [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). Nell’esempio in *Creare un’azione*, l&#39;azione invierà `poiname` come contesto per descrivere l’evento di ingresso POI inviato ad Analytics.
+>Le regole di elaborazione di Analytics possono essere impostate per raccogliere questi dati contestuali. Per ulteriori informazioni, vedere [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). Nell&#39;esempio in *Crea un&#39;azione*, l&#39;azione invierà `poiname` come contesto per descrivere l&#39;evento di ingresso POI inviato ad Analytics.
 
 ![creazione di un&#39;azione](/help/assets/configure-action.png)
 
@@ -79,10 +79,10 @@ Come parte dei parametri Trigger, puoi creare il pubblico per il messaggio con i
 
   Questa opzione può essere utilizzata con un’azione specifica per la posizione, ad esempio una voce, oppure come contesto per un altro evento, ad esempio un lancio o un clic su un pulsante.
 
-  Ecco un esempio di come configurare un messaggio in-app per dare il benvenuto agli utenti che entrano in un POI che ha **[!UICONTROL Adobe]** nel nome:
+  Di seguito è riportato un esempio di come configurare un messaggio in-app per accogliere gli utenti che immettono un POI il cui nome contiene **[!UICONTROL Adobe]**:
 
   ![parametri trigger](/help/assets/trigger-parameters.png)
 
-* Parametri nelle intestazioni del servizio Places in *Trigger e caratteristiche* in Mobile Services non funziona con i dati del servizio Places.
+* I parametri nelle intestazioni del servizio Places nella pagina *Triggers e caratteristiche* in Mobile Services non funzionano con i dati del servizio Places.
 
   Questi parametri valgono solo per il database legacy di Places Service creato in Mobile Services.

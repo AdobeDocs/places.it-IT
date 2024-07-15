@@ -27,7 +27,7 @@ Questo ti consentirà di intraprendere azioni dai segnali di posizione in tempo 
 
 Di seguito sono riportati alcuni dei modi in cui è possibile utilizzare Places:
 
-* Invia una notifica in tempo reale quando qualcuno entra in un POI, *&quot;Ehi!benvenuti allo stadio&quot;.*
+* Invia una notifica in tempo reale quando qualcuno entra in un punto di interesse, *&quot;Hey.benvenuto allo stadio.&quot;*
 * Analizza il traffico a piedi dei tuoi negozi rispetto a quelli della concorrenza.
 * Segmentare un pubblico in base al comportamento offline utilizzando profili di pubblico con contesto di posizione.
 * Se necessario, rivolgiti a un utente con un’esperienza in-store.
@@ -36,9 +36,9 @@ Di seguito sono riportati alcuni dei modi in cui è possibile utilizzare Places:
 
 Places Service include i seguenti componenti:
 
-* **Servizio web**
+* **Servizio Web**
 
-  Puoi creare e gestire i punti di interesse utilizzando le API REST di Places. Per ulteriori informazioni sulle API REST, consulta [Gestione librerie](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [Gestire i POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+  Puoi creare e gestire i punti di interesse utilizzando le API REST di Places. Per ulteriori informazioni sulle API REST, consulta [Gestire le librerie](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [Gestire i punti di interesse](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
 
 * **Interfaccia di gestione POI**
 
@@ -56,21 +56,21 @@ Places Service include i seguenti componenti:
 
 Di seguito sono riportati alcuni termini comuni utilizzati in questa documentazione:
 
-* A **punto di interesse (POI)** è una geolocalizzazione di tuo interesse.
+* Un **punto di interesse (POI)** è una geolocalizzazione di interesse per la tua organizzazione.
 
   Puoi definire punti di interesse con attributi quali nome, raggio, indirizzo, categoria e tag di metadati.
 
-* A **recinto** è un tipo di POI.
+* Un **recinto geografico** è un tipo di POI.
 
   Questo tipo di punto di interesse è un limite geografico virtuale definito dalle coordinate di latitudine e longitudine.
 
-* A **beacon** è un tipo di POI.
+* Un **beacon** è un tipo di POI.
 
   Questo tipo di punto di interesse è un dispositivo fisico che rappresenta una posizione emettendo un segnale Bluetooth a basso consumo. Il supporto dei beacon sarà disponibile in una versione futura.
 
 * Una **libreria** è una raccolta di POI, raggruppati per associare facilmente le regole a un set invece di un POI.
 
-* Un **estensione** è l’estensione di Experience Platform Launch necessaria per integrare l’SDK Luoghi nelle app mobili.
+* Un&#39;estensione **extension** è l&#39;estensione di Experience Platform Launch necessaria per integrare l&#39;SDK Places nelle app mobili.
 
   Estensione utilizzata con gli altri SDK per dispositivi mobili per aggiungere contesto di posizione alle esperienze.
 
@@ -80,9 +80,9 @@ Di seguito sono riportati alcuni termini comuni utilizzati in questa documentazi
 
 * L’**orgID** è l’ID che rappresenta l’organizzazione dell’utente in Adobe Experience Platform.
 
-  Per ulteriori informazioni, consulta [Ricerca dell’orgID](https://forums.adobe.com/thread/2339895).
+  Per ulteriori informazioni, consulta [Ricerca dell&#39;orgID](https://forums.adobe.com/thread/2339895).
 
-* Il **ID EXPERIENCE CLOUD** fornisce un ID universale e costante che identifica i visitatori in tutte le soluzioni dell’Experience Cloud.
+* Il servizio **ID Experience Cloud** fornisce un ID universale e costante che identifica i visitatori in tutte le soluzioni dell&#39;Experience Cloud.
 
   Per maggiori informazioni, consulta [Panoramica](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=it).
 

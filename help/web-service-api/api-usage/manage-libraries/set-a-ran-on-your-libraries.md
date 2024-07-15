@@ -5,7 +5,7 @@ exl-id: c922bddc-1587-4da8-acb4-c2d69ce11808
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '56'
-ht-degree: 7%
+ht-degree: 3%
 
 ---
 
@@ -47,4 +47,4 @@ curl -X PUT `'https://api-places.adobe.io/places/placesapi/v1/libraries/rank'` -
 
 >[!IMPORTANT]
 >
->Sostituisci variabili come `<API KEY>`, `<TOKEN>`, e `<ORGID>` con i valori effettivi.
+>Sostituire variabili quali `<API KEY>`, `<TOKEN>` e `<ORGID>` con valori effettivi.

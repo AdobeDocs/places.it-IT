@@ -18,11 +18,11 @@ Seguono informazioni sui riferimenti API nell’estensione Luoghi:
 
 Quando un dispositivo supera uno dei limiti predefiniti per l’area geografica dell’app, l’area geografica e il tipo di evento vengono passati all’SDK per l’elaborazione.
 
-### ProcessGeofence (Android)
+### RecintoProcesso (Android)
 
-Elabora un `Geofence` evento di regione per il fornito `transitionType`.
+Elabora un evento di area `Geofence` per il `transitionType` specificato.
 
-Passa il `transitionType` da `GeofencingEvent.getGeofenceTransition()`. Attualmente `Geofence.GEOFENCE_TRANSITION_ENTER` e `Geofence.GEOFENCE_TRANSITION_EXIT` sono supportati.
+Passa `transitionType` da `GeofencingEvent.getGeofenceTransition()`. Attualmente `Geofence.GEOFENCE_TRANSITION_ENTER` e `Geofence.GEOFENCE_TRANSITION_EXIT` sono supportati.
 
 **Sintassi**
 
@@ -34,7 +34,7 @@ public static void processGeofence(final Geofence geofence, final int transition
 
 **Esempio**
 
-Chiama questo metodo nel tuo `IntentService` che è registrato per la ricezione di eventi recinti geografici Android.
+Chiama questo metodo in `IntentService` registrato per la ricezione di eventi recinto geografico di Android.
 
 Di seguito è riportato un esempio di codice per questo metodo:
 
@@ -60,7 +60,7 @@ public class GeofenceTransitionsIntentService extends IntentService {
 
 ### ProcessRegionEvent (iOS)
 
-Questo metodo deve essere chiamato nel `CLLocationManager` delegate, che indica se l’utente è entrato o uscito da un’area specifica.
+Questo metodo deve essere chiamato nel delegato `CLLocationManager`, che indica se l&#39;utente è entrato o uscito da un&#39;area specifica.
 
 **Sintassi**
 
@@ -87,7 +87,7 @@ Di seguito è riportato un esempio di codice per questo metodo:
 
 ### ProcessGeofencingEvent (Android)
 
-Elabora tutto `Geofences` nel `GeofencingEvent` contemporaneamente.
+Elabora tutti i `Geofences` in `GeofencingEvent` contemporaneamente.
 
 **Sintassi**
 
@@ -97,7 +97,7 @@ public static void processGeofenceEvent(final GeofencingEvent geofencingEvent);
 
 **Esempio**
 
-Chiama questo metodo nel tuo `IntentService` che è registrato per la ricezione di eventi recinti geografici Android
+Chiama questo metodo in `IntentService` registrato per ricevere gli eventi recinto geografico di Android
 
 ```java
 public class GeofenceTransitionsIntentService extends IntentService {
@@ -259,7 +259,7 @@ Richiede la posizione del dispositivo, come precedentemente noto, dall’estensi
 
 >[!TIP]
 >
->L’estensione Places conosce solo le posizioni che le sono state fornite tramite chiamate a `GetNearbyPointsOfInterest`.
+>L&#39;estensione Places conosce solo le posizioni che le sono state fornite tramite chiamate a `GetNearbyPointsOfInterest`.
 
 
 ### GetLastKnownLocation (Android)
@@ -386,7 +386,7 @@ Imposta lo stato di autorizzazione nell’estensione Luoghi.
 Lo stato fornito viene memorizzato nello stato condiviso Luoghi ed è solo a scopo di riferimento.
 La chiamata di questo metodo non influisce sullo stato effettivo di autorizzazione della posizione per questo dispositivo.
 
-Quando lo stato di autorizzazione del dispositivo cambia, `locationManager:didChangeAuthorizationStatus:` metodo del tuo `CLLocationManagerDelegate` viene richiamato. All’interno di questo metodo, devi trasmettere il nuovo `CLAuthorizationStatus` valore per le posizioni ACPP `setAuthorizationStatus:` API.
+Quando lo stato di autorizzazione del dispositivo cambia, viene richiamato il metodo `locationManager:didChangeAuthorizationStatus:` di `CLLocationManagerDelegate`. All&#39;interno di questo metodo, devi passare il nuovo valore `CLAuthorizationStatus` all&#39;API ACPPlaces `setAuthorizationStatus:`.
 
 **Sintassi**
 

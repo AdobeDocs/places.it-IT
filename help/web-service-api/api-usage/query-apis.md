@@ -4,7 +4,7 @@ description: Informazioni e utilizzo delle API Query.
 exl-id: cc61a49c-1cf2-407f-b81a-3d38fcb622cc
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '222'
 ht-degree: 3%
 
 ---
@@ -25,24 +25,24 @@ Con il seguente input, il servizio restituisce un elenco dei POI più vicini al 
 * Gli ID delle librerie POI da includere nella ricerca.
 * Il numero massimo di POI da restituire.  Il valore predefinito è 100.
 
-   La distanza tra il chiamante e il punto di interesse (POI) è definita come la distanza tra il chiamante e il bordo del recinto geografico del POI. Nella risposta, i POI che contengono il chiamante saranno contrassegnati come aventi il chiamante.
+  La distanza tra il chiamante e il punto di interesse (POI) è definita come la distanza tra il chiamante e il bordo del recinto geografico del POI. Nella risposta, i POI che contengono il chiamante saranno contrassegnati come aventi il chiamante.
 
 Gli argomenti vengono forniti come i seguenti parametri di query:
 
 * (**Obbligatorio**) `latitude`
 
-   La latitudine del chiamante, che deve essere compresa tra -85 e 85.
+  La latitudine del chiamante, che deve essere compresa tra -85 e 85.
 * (**Obbligatorio**) `longitude`
 
-   La longitudine del chiamante, che deve essere compresa tra -180 e 180.
+  La longitudine del chiamante, che deve essere compresa tra -180 e 180.
 
 * (**Facoltativo**) `limit`
 
-   Il numero massimo di POI da restituire.
+  Il numero massimo di POI da restituire.
 
 * (**Obbligatorio**) `library`
 
-   ID della libreria su cui eseguire la query. Per eseguire query su più librerie, accertati di includere più copie del parametro libreria nella query.
+  ID della libreria su cui eseguire la query. Per eseguire query su più librerie, accertati di includere più copie del parametro libreria nella query.
 
 Ecco un esempio del formato JSON restituito correttamente:
 
@@ -107,7 +107,7 @@ Ecco un esempio del formato JSON restituito correttamente:
 }
 ```
 
-POI in `places.pois` sono ordinati in base alla distanza dal chiamante al bordo dei POI. POI in `places.userWithin` contiene il chiamante e questi POI sono ordinati per rango e poi per raggio crescente.
+I POI sotto `places.pois` sono ordinati in base alla distanza dal chiamante al bordo dei POI. I POI sotto `places.userWithin` contengono il chiamante e questi POI sono ordinati per rango e poi per raggio crescente.
 
 ## Chiamata di esempio
 

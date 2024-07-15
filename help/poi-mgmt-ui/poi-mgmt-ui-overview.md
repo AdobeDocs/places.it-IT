@@ -13,7 +13,7 @@ ht-degree: 0%
 
 I POI e le librerie vengono creati e gestiti nel database di Places Service utilizzando l’interfaccia utente di Places Service.
 
-* Per creare una libreria o gestire più librerie, consulta [Gestione librerie](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
+* Per creare una libreria o gestire più librerie, vedi [Gestione librerie](/help/poi-mgmt-ui/manage-libraries-in-the-places-ui.md).
 * Per creare un POI, vedi [Creare un POI](/help/poi-mgmt-ui/create-a-poi-ui.md).
-* Per gestire più punti di interesse, consulta [Gestire i POI creati in precedenza](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
-* Per eseguire un’importazione in blocco di POI, consulta [Importazione in blocco di POI](/help/poi-mgmt-ui/bulk-upload-pois.md).
+* Per gestire più punti di interesse, vedi [Gestione dei punti di interesse creati in precedenza](/help/poi-mgmt-ui/managing-pois-in-the-places-ui.md).
+* Per eseguire un&#39;importazione in blocco di POI, vedi [Importazione in blocco di POI](/help/poi-mgmt-ui/bulk-upload-pois.md).

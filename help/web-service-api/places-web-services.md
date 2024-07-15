@@ -23,19 +23,19 @@ Questa sezione fornisce informazioni su come utilizzare le API REST e il databas
 
 ## API REST
 
-L’API REST di Places Service consente di lavorare in modo programmatico con i POI dell’organizzazione. Queste API ti consentono di creare, aggiornare ed eliminare le librerie e i POI in esse contenuti. Queste API utilizzano gli standard JavaScript Object Notation (JSON) per formattare i dati inviati e ricevuti. Uno dei principali vantaggi di JSON è la facilità con cui le query API vengono scritte, lette e analizzate da sviluppatori e computer.
+L’API REST di Places Service consente di lavorare in modo programmatico con i POI dell’organizzazione. Queste API ti consentono di creare, aggiornare ed eliminare le librerie e i POI in esse contenuti. Queste API utilizzano gli standard JSON (JavaScript Object Notation) per formattare i dati inviati e ricevuti. Uno dei principali vantaggi di JSON è la facilità con cui le query API vengono scritte, lette e analizzate da sviluppatori e computer.
 
 Prima di poter utilizzare l’API dei servizi web, assicurati di aver soddisfatto i seguenti requisiti:
 
 * Il provisioning di Places Service viene eseguito nell’organizzazione e l’utente dispone dell’accesso appropriato.
 
-   Per ulteriori informazioni, consulta *Prerequisiti per l’accesso degli utenti* in [Panoramica sull’integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
+  Per ulteriori informazioni, vedere *Prerequisiti per l&#39;accesso utente* in [Panoramica sull&#39;integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 
 * Dopo aver eseguito il provisioning di Places Service nell’organizzazione e aver effettuato l’accesso, crea un’integrazione di Adobe per Places Service.
 
-   Per ulteriori informazioni, consulta *Creazione di un’integrazione di Places Service* in [Panoramica sull’integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
+  Per ulteriori informazioni, vedere *Creazione di un&#39;integrazione di Places Service* in [Panoramica sull&#39;integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 
 Informazioni aggiuntive:
 
-* Per ulteriori informazioni sulle API disponibili e su come utilizzarle, consulta [Gestione librerie](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [Gestire i POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
-* Per ulteriori informazioni sulle intestazioni e i parametri di queste API, consulta [Intestazioni e parametri](/help/web-service-api/api-usage/headers-and-parameters.md).
+* Per ulteriori informazioni sulle API disponibili e su come utilizzarle, vedi [Gestione librerie](/help/web-service-api/api-usage/manage-libraries/manage-libraries.md) e [Gestione POI](/help/web-service-api/api-usage/manage-pois/manage-pois.md).
+* Per ulteriori informazioni sulle intestazioni e i parametri di queste API, vedi [Intestazioni e parametri](/help/web-service-api/api-usage/headers-and-parameters.md).

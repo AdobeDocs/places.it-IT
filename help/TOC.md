@@ -6,7 +6,7 @@ feature: Places
 source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 20%
+ht-degree: 18%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 20%
    + [Strategie per l’utilizzo dei metadati con i punti di interesse](poi-mgmt-ui/metadata-with-pois.md)
    + [Caricamento in blocco di POI](poi-mgmt-ui/bulk-upload-pois.md)
    + [Gestire più librerie](poi-mgmt-ui/manage-libraries-in-the-places-ui.md)
-+ API servizio web {#web-service-api}
++ API servizio Web {#web-service-api}
    + [Panoramica API del servizio web](web-service-api/places-web-services.md)
    + [Prerequisiti per l’integrazione](web-service-api/adobe-i-o-integration.md)
    + Utilizzo API {#api-usage}
       + [Panoramica sull’utilizzo delle API](web-service-api/api-usage/api-usage-overview.md)
       + [Intestazioni e parametri](web-service-api/api-usage/headers-and-parameters.md)
-      + Gestione librerie {#manage-libraries}
+      + Gestisci librerie {#manage-libraries}
          + [Panoramica sulla gestione librerie](web-service-api/api-usage/manage-libraries/manage-libraries.md)
          + [Creare una libreria](web-service-api/api-usage/manage-libraries/create-a-library.md)
          + [Leggere una libreria](web-service-api/api-usage/manage-libraries/read-a-library.md)
@@ -57,11 +57,11 @@ ht-degree: 20%
    + [Estensione Luoghi](places-ext-aep-sdks/places-extension/places-extension.md)
 + [Utilizza Places Service con la tua soluzione di monitoraggio](using-your-own-monitor.md)
 + [Utilizza Places Service senza monitoraggio dell’area attiva](use-places-without-active-monitoring.md)
-+ Utilizzare Places Service come parte del flusso di lavoro del Experience Platform Launch {#use-places-launch-workflow}
++ Utilizza Places Service come parte del flusso di lavoro di Experience Platform Launch {#use-places-launch-workflow}
    + [Utilizzare Places Service come parte del flusso di lavoro del Experience Platform Launch](use-places-launch-workflow/places-launch-workflow.md)
    + [Definire gli elementi dati](use-places-launch-workflow/define-data-elements.md)
    + [Creare regole di entrata e di uscita](use-places-launch-workflow/create-rule-places-property.md)
-+ Utilizzare Places Service con altre soluzioni di Adobe {#use-places-with-other-solutions}
++ Utilizza Places Service con altre soluzioni di Adobe {#use-places-with-other-solutions}
    + Adobe Analytics {#places-adobe-analytics}
       + [Utilizzare Places Service con Adobe Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-analytics-overview.md)
       + [Inviare dati di entrata e uscita POI ad Analytics](use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md)

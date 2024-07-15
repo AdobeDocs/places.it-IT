@@ -11,5 +11,5 @@ ht-degree: 0%
 
 # Utilizzare Places Service come parte del flusso di lavoro del Experience Platform Launch {#loc-service-launch-workflow}
 
-* Per definire gli elementi dati, consulta [Definire gli elementi dati](/help/use-places-launch-workflow/define-data-elements.md).
+* Per definire gli elementi dati, vedere [Definire gli elementi dati](/help/use-places-launch-workflow/define-data-elements.md).
 * Per creare regole di entrata e di uscita, vedere [Creare regole di entrata e di uscita](/help/use-places-launch-workflow/create-rule-places-property.md).

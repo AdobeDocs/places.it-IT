@@ -4,8 +4,8 @@ description: Questa sezione illustra come utilizzare Places Service con le notif
 exl-id: c094fe9c-6148-45ba-850a-f4c520d3362c
 source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 8%
+source-wordcount: '216'
+ht-degree: 10%
 
 ---
 
@@ -21,18 +21,18 @@ Prima di iniziare, assicurati di aver completato le seguenti attività:
 
 * Il canale di notifica push in Mobile Services è configurato.
 
-  Per ulteriori informazioni, consulta [Creare un messaggio push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Per ulteriori informazioni, consulta [Creare un messaggio push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=it).
 
 * Scopri come inviare una notifica push a un segmento Analytics in Mobile Services.
 
-  Per ulteriori informazioni, consulta [Creare un messaggio push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html).
+  Per ulteriori informazioni, consulta [Creare un messaggio push](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=it).
 
 ## Inviare una notifica
 
-Il giorno **[!UICONTROL Pubblico]** scheda di *Creare una notifica push* flusso di lavoro, puoi creare il pubblico per questo messaggio in uno dei seguenti modi:
+Nella scheda **[!UICONTROL Pubblico]** del flusso di lavoro *Crea notifica push*, puoi creare il pubblico per questo messaggio in uno dei seguenti modi:
 
-* In **[!UICONTROL Segmenti di Analytics]** , seleziona un segmento di Adobe Analytics creato in precedenza.
+* Nell&#39;elenco a discesa **[!UICONTROL Segmenti di Analytics]**, seleziona un segmento di Adobe Analytics creato in precedenza.
 
-* In **[!UICONTROL Segmento personalizzato]** sezione, crea un pubblico utilizzando i parametri di segmenti personalizzati disponibili.
+* Nella sezione **[!UICONTROL Segmento personalizzato]**, crea un pubblico utilizzando i parametri di segmento personalizzati disponibili.
 
 ![configurazione di un messaggio push](/help/assets/push-set-up.png)

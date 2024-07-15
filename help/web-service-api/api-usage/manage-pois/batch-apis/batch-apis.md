@@ -4,7 +4,7 @@ description: Con le API batch, puoi creare, aggiornare ed eliminare più POI.
 exl-id: 8c77e5e3-2700-4684-a480-c638691994e5
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '101'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Le API batch ti consentono di creare, aggiornare o eliminare più punti di interesse contemporaneamente.
 
-Per aiutarti a completare un’importazione batch dei tuoi POI da un `.csv` nel database Places della tua organizzazione, utilizza il set di script Python. Puoi scaricare il file zip di questi script [qui](https://github.com/adobe/places-scripts). Per istruzioni su come utilizzare gli script, vedi il file README nell’archivio.
+Per completare un&#39;importazione batch dei punti di interesse da un file `.csv` nel database Places della tua organizzazione, utilizza il set di script Python. Puoi scaricare il file zip di questi script [qui](https://github.com/adobe/places-scripts). Per istruzioni su come utilizzare gli script, vedi il file README nell’archivio.
 
 Puoi utilizzare le API batch per completare le seguenti attività:
 

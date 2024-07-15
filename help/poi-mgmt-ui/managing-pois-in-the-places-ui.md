@@ -5,7 +5,7 @@ exl-id: a4cf28ae-1e3c-4724-bca3-ac1d0cd6da09
 source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '407'
-ht-degree: 6%
+ht-degree: 5%
 
 ---
 
@@ -19,7 +19,7 @@ I POI e le librerie vengono creati e gestiti nel database Places utilizzando l�
 1. Accedi a Places Service utilizzando il tuo Adobe ID.
 1. In alto a destra, fai clic sull’icona che sembra un elenco puntato.
 1. Individua il POI da modificare.
-1. Clic **[!UICONTROL ...]** e seleziona **[!UICONTROL Visualizza dettagli]**.
+1. Fare clic su **[!UICONTROL ...]** e selezionare **[!UICONTROL Visualizza dettagli]**.
 1. Aggiorna le informazioni e fai clic su **[!UICONTROL Salva]**.
 
 ## Eliminare un POI
@@ -28,7 +28,7 @@ I POI e le librerie vengono creati e gestiti nel database Places utilizzando l�
 1. Accedi a Places Service utilizzando il tuo Adobe ID.
 1. In alto a destra, fai clic sull’icona che sembra un elenco puntato.
 1. Individua il POI da eliminare.
-1. Clic **[!UICONTROL ...]** e seleziona **[!UICONTROL Elimina]**.
+1. Fai clic su **[!UICONTROL ...]** e seleziona **[!UICONTROL Elimina]**.
 
 ## Filtrare i punti di interesse per città, stato, paese o metadati
 
@@ -40,25 +40,25 @@ I POI e le librerie vengono creati e gestiti nel database Places utilizzando l�
 
    * Per libreria:
 
-      a. Seleziona una libreria.
+     a. Seleziona una libreria.
 
    * Per proprietà:
 
-      a. Nell’elenco a discesa Proprietà, seleziona **[!UICONTROL Paese]**, **[!UICONTROL Stato]**, o **[!UICONTROL Città]**.
+     a. Nell&#39;elenco a discesa Proprietà, selezionare **[!UICONTROL Paese]**, **[!UICONTROL Stato]** o **[!UICONTROL Città]**.
 
-      b. Nella riga successiva, immettere un valore.
+     b. Nella riga successiva, immettere un valore.
 
-      Ad esempio, puoi selezionare **[!UICONTROL Stato]** e tipo **[!UICONTROL California]**.
+     Ad esempio, puoi selezionare **[!UICONTROL Stato]** e digitare **[!UICONTROL California]**.
 
    * Con metadati:
 
-      a. Inserire una chiave e un valore.
+     a. Inserire una chiave e un valore.
 
 ## Definizione di un punto di interesse del recinto geografico
 
 I recinti geografici sono un tipo di POI e sono definiti nel database in base alle seguenti chiavi:
 
-| Chiavi | Descrizione | Obbligatorio? |
+| Chiavi | Descrizione | Obbligatorio |
 | :--- | :--- | :--- |
 | ID | Identificatore univoco assegnato a ciascun POI | Sì |
 | Nome | Nome intuitivo assegnato al punto di interesse. | Sì |
