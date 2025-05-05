@@ -62,7 +62,7 @@ Ad esempio, è possibile selezionare `poiname` come chiave e `{%%Last Entered PO
 
 >[!TIP]
 >
->Le regole di elaborazione di Analytics possono essere impostate per raccogliere questi dati contestuali. Per ulteriori informazioni, vedere [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). Nell&#39;esempio in *Crea un&#39;azione*, l&#39;azione invierà `poiname` come contesto per descrivere l&#39;evento di ingresso POI inviato ad Analytics.
+>Le regole di elaborazione di Analytics possono essere impostate per raccogliere questi dati contestuali. Per ulteriori informazioni, vedere [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=it). Nell&#39;esempio in *Crea un&#39;azione*, l&#39;azione invierà `poiname` come contesto per descrivere l&#39;evento di ingresso POI inviato ad Analytics.
 
 ![creazione di un&#39;azione](/help/assets/configure-action.png)
 

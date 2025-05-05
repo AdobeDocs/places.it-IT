@@ -54,7 +54,7 @@ Le azioni definiscono ciò che l&#39;app farà in risposta alla condizione per c
 
 >[!CAUTION]
 >
->Con questo esempio si presuppone che sia stata creata una libreria POI di tutti i coffee shop degli Stati Uniti. Per ulteriori informazioni sulla creazione di punti di interesse e librerie, vedi [Creare un punto di interesse](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Creare una libreria* in [Gestire più librerie](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html).
+>Con questo esempio si presuppone che sia stata creata una libreria POI di tutti i coffee shop degli Stati Uniti. Per ulteriori informazioni sulla creazione di punti di interesse e librerie, vedi [Creare un punto di interesse](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Creare una libreria* in [Gestire più librerie](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=it).
 
 La procedura seguente illustra come creare una regola che invia un post allo Slack quando si entra in un coffee shop a San Francisco.
 
@@ -124,7 +124,7 @@ Per creare un elemento dati nel Experience Platform Launch:
 
 ### Publish la regola
 
-1. Per attivare la regola, devi pubblicarla. Per ulteriori informazioni sulla pubblicazione della regola nel Experience Platform Launch, vedi [Pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
+1. Per attivare la regola, devi pubblicarla. Per ulteriori informazioni sulla pubblicazione della regola nel Experience Platform Launch, vedi [Pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it).
 
 ### Oltre le entrate e le uscite
 
