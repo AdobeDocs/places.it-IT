@@ -36,7 +36,7 @@ Il file metadata.md include metadati a livello di repository che passano attrave
 | tutorials-title | Utilizzato di rado quando le Esercitazioni non sono appropriate |
 | tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o KT |
 | mini-toc-levels | Determina il numero di livelli di intestazione visualizzati nella barra laterale destra. Il valore predefinito è 2 |
-| git-repo | https://github.com/AdobeDocs/places.en |
+| git-repo | https://github.com/AdobeDocs/places.it-IT |
 | index | set index=no for soft launch |
 
 Nel file TOC.md
