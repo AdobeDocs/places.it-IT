@@ -9,4 +9,4 @@ ht-degree: 0%
 
 Questo archivio è stato migrato a GitHub Cloud:
 
-<https://github.com/Adobe-Enterprise-Docs/places.en>
+<https://github.com/Adobe-Enterprise-Docs/places.it-IT>
