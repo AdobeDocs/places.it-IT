@@ -7,14 +7,14 @@ landing-page-breadcrumb-title: Mobile SDK
 feature-set: Experience Platform
 type: Documentation
 solution-title: Learn & Support
-solution-hub-url: https://helpx.adobe.com/it/support/experience-cloud.html
+solution-hub-url: https://helpx.adobe.com/support/experience-cloud.html
 getting-started-title: Getting Started
-getting-started-url: https://experienceleague.adobe.com/docs/places/using/getting-started.html?lang=it
+getting-started-url: https://experienceleague.adobe.com/docs/places/using/getting-started.html
 tutorials-title: Tutorials
-tutorials-url: https://experienceleague.adobe.com/it#recommended/solutions/experience-platform
+tutorials-url: https://experienceleague.adobe.com/#recommended/solutions/experience-platform
 git-repo: https://github.com/AdobeDocs/places.it-IT
 index: true
-source-git-commit: 896a596bfbfb8c97c55263fc3596d957e4ac52c7
+source-git-commit: 4fb4fa8bbf060afaf6a42a31c2936f42ec1044f2
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 98%
@@ -38,7 +38,7 @@ Il file metadata.md include metadati a livello di repository che passano attrave
 | tutorials-title | Utilizzato di rado quando le Esercitazioni non sono appropriate |
 | tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o KT |
 | mini-toc-levels | Determina il numero di livelli di intestazione visualizzati nella barra laterale destra. Il valore predefinito è 2 |
-| git-repo | https://github.com/AdobeDocs/places.it-IT |
+| git-repo | https://github.com/AdobeDocs/places.en |
 | index | set index=no for soft launch |
 
 Nel file TOC.md
