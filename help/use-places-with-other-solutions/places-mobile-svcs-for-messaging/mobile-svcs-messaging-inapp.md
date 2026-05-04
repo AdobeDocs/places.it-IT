@@ -2,9 +2,14 @@
 title: Notifiche in-app
 description: Questa sezione illustra come utilizzare Places Service con la messaggistica in-app.
 exl-id: c655e64b-0737-44d5-b453-2ac02fb9cbcc
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/Z39ybIytDRlCbkMthWjvk5F-oexy0C9gtqgK1mmyMxM
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: e55547f1-a1ff-40c6-8978-026e40ab7fa4id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: 689
 ht-degree: 2%
 
 ---
@@ -19,7 +24,7 @@ Le informazioni seguenti mostrano come configurare i messaggi in-app per l’att
 
 ## Messaggio in-app
 
-Mobile Services consente di utilizzare i dati sulla posizione inviati ad Analytics come evento/i di attivazione e/o condizione per un messaggio in-app. Se i messaggi in-app vengono attivati dall’SDK e non devono attendere l’elaborazione dei dati da parte di Analytics, possono essere visualizzati in tempo reale non appena si verifica l’evento di attivazione.
+Mobile Services consente di utilizzare i dati sulla posizione inviati ad Analytics come evento/i di attivazione e/o condizione per un messaggio in-app. Se i messaggi in-app vengono attivati da SDK e non devono attendere l’elaborazione dei dati da parte di Analytics, possono essere visualizzati in tempo reale non appena si verifica l’evento di attivazione.
 
 ### Notifiche locali
 
@@ -29,15 +34,15 @@ Elenco dei tipi di messaggistica in-app disponibili:
 * Avviso
 * Notifiche locali
 
-Questi tipi sono messaggi in-app perché sono attivati dall’SDK. Le notifiche locali hanno l’aspetto di notifiche push, in quanto vengono visualizzate quando l’app è in background. Queste notifiche forniscono anche notifiche in tempo reale quando gli utenti entrano o escono dai punti di interesse mentre l’app è in background.
+Questi tipi sono messaggi in-app perché sono attivati da SDK. Le notifiche locali hanno l’aspetto di notifiche push, in quanto vengono visualizzate quando l’app è in background. Queste notifiche forniscono anche notifiche in tempo reale quando gli utenti entrano o escono dai punti di interesse mentre l’app è in background.
 
 ### Prerequisiti
 
 Prima di iniziare, scopri come inviare e creare un messaggio in-app in Mobile Services e come funzionano i trigger. Per ulteriori informazioni, vedere [Creare un messaggio in-app.](https://experienceleague.adobe.com/docs/discontinued/using/mobile-services.html?lang=it)
 
-## Regole nel Experience Platform Launch
+## Regole in Experience Platform Launch
 
-Puoi creare regole di Experience Platform Launch che inviano ad Analytics i dati che desideri possano essere utilizzati come parte delle regole del trigger dei messaggi in-app. Puoi utilizzare i dati delle estensioni Luoghi nelle regole del Experience Platform Launch come eventi e/o condizioni a seconda del caso d’uso.
+Puoi creare regole di Experience Platform Launch per inviare ad Analytics i dati che desideri possano essere utilizzati come parte delle regole del trigger dei messaggi in-app. Puoi utilizzare i dati delle estensioni Luoghi nelle regole di Experience Platform Launch come eventi e/o condizioni a seconda del caso d’uso.
 
 * Utilizzo dei dati sulla posizione come evento che attiva.
 
@@ -62,7 +67,7 @@ Ad esempio, è possibile selezionare `poiname` come chiave e `{%%Last Entered PO
 
 >[!TIP]
 >
->Le regole di elaborazione di Analytics possono essere impostate per raccogliere questi dati contestuali. Per ulteriori informazioni, vedere [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=it). Nell&#39;esempio in *Crea un&#39;azione*, l&#39;azione invierà `poiname` come contesto per descrivere l&#39;evento di ingresso POI inviato ad Analytics.
+>Le regole di elaborazione di Analytics possono essere impostate per raccogliere questi dati contestuali. Per ulteriori informazioni, vedere [Regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html). Nell&#39;esempio in *Crea un&#39;azione*, l&#39;azione invierà `poiname` come contesto per descrivere l&#39;evento di ingresso POI inviato ad Analytics.
 
 ![creazione di un&#39;azione](/help/assets/configure-action.png)
 
@@ -79,7 +84,7 @@ Come parte dei parametri Trigger, puoi creare il pubblico per il messaggio con i
 
   Questa opzione può essere utilizzata con un’azione specifica per la posizione, ad esempio una voce, oppure come contesto per un altro evento, ad esempio un lancio o un clic su un pulsante.
 
-  Di seguito è riportato un esempio di come configurare un messaggio in-app per accogliere gli utenti che immettono un POI il cui nome contiene **[!UICONTROL Adobe]**:
+  Ecco un esempio di come configurare un messaggio in-app per accogliere gli utenti che immettono un POI il cui nome contiene **[!UICONTROL Adobe]**:
 
   ![parametri trigger](/help/assets/trigger-parameters.png)
 

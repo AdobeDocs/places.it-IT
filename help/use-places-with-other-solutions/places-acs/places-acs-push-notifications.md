@@ -2,9 +2,14 @@
 title: Notifiche push con Places Service
 description: Questa sezione fornisce informazioni sull’utilizzo di Places Service con le notifiche push in Campaign Standard.
 exl-id: 4b50f552-deb8-49cd-9221-fbbf33aaa5f9
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+TQID: https://experienceleague.adobe.com/tjJD7Qn27sp8wnNcNdjnANIveyzjG1PZ--3C3rCjrMQ
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dfc56824-e8b9-499e-85d4-21aedb507314id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: 1026
 ht-degree: 1%
 
 ---
@@ -17,9 +22,9 @@ In questa sezione imparerai a utilizzare informazioni storiche sulla geolocalizz
 
 Prima di iniziare, completa le seguenti attività:
 
-* Avere un&#39;app mobile configurata con l&#39;SDK di Adobe Experience Platform Mobile, inclusa l&#39;estensione [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
+* Avere un&#39;app mobile configurata con Adobe Experience Platform Mobile SDK, inclusa l&#39;estensione [Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard).
 
-* Integra [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) nella tua app.
+* Integra [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/getting-started/get-the-sdk) nell&#39;app.
 * Aggiungi l&#39;[estensione Adobe Campaign Standard](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaign-standard) alla configurazione della tua app mobile.
 
 * [Crea un POI](/help/poi-mgmt-ui/create-a-poi-ui.md) nell&#39;interfaccia di gestione POI di Places Service.
@@ -27,9 +32,9 @@ Prima di iniziare, completa le seguenti attività:
 * Abilita e installa l&#39;estensione [Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
 
-## Creazione di elementi dati nel Experience Platform Launch
+## Creare elementi dati in Experience Platform Launch
 
-Dopo aver verificato che l&#39;estensione Places e una soluzione di monitoraggio dell&#39;area ([documentazione CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) per iOS o [documentazione sulla posizione Android](https://developer.android.com/training/location/geofencing)) funzionino correttamente nell&#39;applicazione, devi creare gli elementi dati nel Experience Platform Launch. Gli elementi dati ti consentono di leggere le informazioni fornite dalle estensioni che arrivano attraverso l’hub eventi dell’SDK di Mobile e fungono da alias per recuperare i dati dall’applicazione client. Per recuperare i dati dalle estensioni di Places e inviare le informazioni di Places Service a Campaign, devi creare alcuni elementi di dati.
+Dopo aver verificato che l&#39;estensione Places e una soluzione di monitoraggio dell&#39;area ([documentazione CoreLocation](https://developer.apple.com/documentation/corelocation/monitoring_the_user_s_proximity_to_geographic_regions) per iOS o [documentazione sulla posizione Android](https://developer.android.com/training/location/geofencing)) funzionino correttamente nell&#39;applicazione, devi creare gli elementi dati in Experience Platform Launch. Gli elementi dati ti consentono di leggere le informazioni fornite dalle estensioni che arrivano attraverso l’hub eventi Mobile SDK e fungono da alias per recuperare i dati dall’applicazione client. Per recuperare i dati dalle estensioni di Places e inviare le informazioni di Places Service a Campaign, devi creare alcuni elementi di dati.
 
 Per creare un elemento dati:
 
@@ -48,9 +53,9 @@ Oltre agli elementi dati per Places Service, assicurati di creare elementi dati 
 
 ## Creare una regola per inviare i dati sulla posizione ad Adobe Campaign Standard
 
-Le regole di Experience Platform Launch consentono di creare flussi di lavoro complessi e con più soluzioni basati su attivatori di eventi. Con le regole, puoi creare nuove regole o modificare quelle esistenti e distribuire dinamicamente gli aggiornamenti nelle app mobili. Nell’esempio seguente, la regola viene attivata quando un utente accede a un POI delimitato da geotargeting. Dopo l’attivazione della regola, viene inviato un aggiornamento a Campaign Standard per registrare una voce in un POI specifico per un particolare utente in base all’ID Experience Cloud.
+Le regole in Experience Platform Launch consentono di creare flussi di lavoro complessi e con più soluzioni basati su attivatori di eventi. Con le regole, puoi creare nuove regole o modificare quelle esistenti e distribuire dinamicamente gli aggiornamenti nelle app mobili. Nell’esempio seguente, la regola viene attivata quando un utente accede a un POI delimitato da geotargeting. Dopo l’attivazione della regola, viene inviato un aggiornamento a Campaign Standard per registrare una voce in un POI specifico per un particolare utente in base all’Experience Cloud ID.
 
-1. Nella proprietà di Experienci Platform Launch Mobile, nella scheda **[!UICONTROL Regole]**, fai clic su **[!UICONTROL Aggiungi regola]**.
+1. Nella tua proprietà mobile di Experience Platform Launch, nella scheda **[!UICONTROL Regole]**, fai clic su **[!UICONTROL Aggiungi regola]**.
 1. Nella sezione **[!UICONTROL Events]**, fai clic su **[!UICONTROL +]** e seleziona **[!UICONTROL Places Service]** come estensione.
 1. Per **[!UICONTROL Tipo evento]**, seleziona **[!UICONTROL Inserisci POI]**.
 1. Denomina la regola, ad esempio **L&#39;utente ha immesso un POI**.
@@ -61,7 +66,7 @@ Le regole di Experience Platform Launch consentono di creare flussi di lavoro co
 
 1. Nella sezione **[!UICONTROL Azioni]** fare clic su **[!UICONTROL +]**.
 1. Nell&#39;elenco a discesa **[!UICONTROL Estensione]**, seleziona **[!UICONTROL Mobile Core]** e nell&#39;elenco a discesa **[!UICONTROL Tipo azione]**, seleziona **[!UICONTROL Invia postback]**.
-1. In **[!UICONTROL URL]**, devi costruire l&#39;endpoint delle posizioni Campaign Standard.
+1. In **[!UICONTROL URL]**, devi costruire l&#39;endpoint dei percorsi di Campaign Standard.
 
    L&#39;URL deve essere simile a `https:///rest/head/mobileAppV5//locations/`.
 Assicurati di utilizzare gli elementi dati corretti creati in precedenza per il server Campaign e la pKey.
@@ -87,7 +92,7 @@ Assicurati di utilizzare gli elementi dati corretti creati in precedenza per il 
 
 >[!IMPORTANT]
 >
->* Potrebbe essere utile impostare un hook web di Slack come azione aggiuntiva per convalidare l’attivazione delle voci e la raccolta dei dati corretti.
+>* Potrebbe essere utile impostare un hook web di Slack come azione aggiuntiva per verificare che le voci vengano attivate e che vengano raccolti i dati corretti.
 >* Ricorda di pubblicare le modifiche recenti nell&#39;app per assicurarti che la regola e tutti gli elementi dati siano distribuiti come parte della configurazione. Dopo la pubblicazione, avvia di nuovo l’app mobile per ottenere gli aggiornamenti di configurazione più recenti.
 
 ## Utilizzare i dati sulla posizione per eseguire il targeting dei messaggi di Campaign
@@ -115,7 +120,7 @@ Ora che i dati sulla posizione sono compilati in Campaign, possiamo utilizzare i
 1. Fai clic su **[!UICONTROL Conferma]**.
 1. Esegui di nuovo il conteggio nella parte superiore per vedere come cambia la dimensione del pubblico.
 
-   Se non vedi l&#39;aggiornamento del conteggio, potresti aver inserito un nome POI per il quale nessun dispositivo ha attivato una voce. In questa situazione diventa utile disporre del web hook di Slack, perché puoi visualizzare un elenco di voci POI da vari dispositivi di test.
+   Se non vedi l&#39;aggiornamento del conteggio, potresti aver inserito un nome POI per il quale nessun dispositivo ha attivato una voce. Il web hook di Slack diventa prezioso in questa situazione, perché puoi visualizzare un elenco di voci POI da vari dispositivi di test.
 
 1. Puoi trascinare altri filtri di posizione POI per includere più POI nel messaggio.
 1. Fai clic su **[!UICONTROL Avanti]** per completare la creazione della notifica push per la consegna.

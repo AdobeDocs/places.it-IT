@@ -2,10 +2,15 @@
 title: Adobe Target
 description: Questa sezione fornisce informazioni sull’utilizzo di Places Service con Adobe Target.
 exl-id: 6ee91fca-ea48-4de2-8dcf-87981813c678
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/WsfkEJD0mN5aYKETjcnqiC13dVe5NPYeKfOCTOK82uE
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e43347a8-f2c5-4aa4-8623-6f13875d7e3aid: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 1%
+source-wordcount: 549
+ht-degree: 2%
 
 ---
 
@@ -13,9 +18,9 @@ ht-degree: 1%
 
 In questo documento si presuppone che sia stata implementata l’estensione Places nell’applicazione. Se hai bisogno di aiuto per implementare l&#39;estensione Luoghi, consulta [Estensioni Luoghi](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Dopo che l’estensione Luoghi invia eventi per le entrate e le uscite, puoi sfruttare le Regole in Launch per allegare i dati di Places Service agli eventi SDK di Adobe Target. Con la proprietà desiderata selezionata in Launch, puoi creare questo tipo di regola completando le seguenti attività:
+Dopo che l’estensione Luoghi invia eventi per le entrate e le uscite, puoi sfruttare le Regole in Launch per allegare i dati di Places Service agli eventi di Adobe Target SDK. Con la proprietà desiderata selezionata in Launch, puoi creare questo tipo di regola completando le seguenti attività:
 
-## 1. Creare una regola
+## &#x200B;1. Creare una regola
 
 1. Nella scheda **[!UICONTROL Regole]**, fai clic su **[!UICONTROL Crea nuova regola]**.
 
@@ -24,7 +29,7 @@ Dopo che l’estensione Luoghi invia eventi per le entrate e le uscite, puoi sfr
    * Se non disponi di regole esistenti per questa proprietà, il pulsante si trova al centro della schermata.
    * Se la proprietà dispone di regole, il pulsante si trova in alto a destra dello schermo.
 
-## 2. Seleziona un evento
+## &#x200B;2. Seleziona un evento
 
 1. Assegna alla regola un nome significativo in modo che sia facilmente riconoscibile nell’elenco delle regole.
 
@@ -37,7 +42,7 @@ Dopo che l’estensione Luoghi invia eventi per le entrate e le uscite, puoi sfr
 
 ![aggiungi un evento](/help/assets/ad-setEvent_target.png)
 
-## 3. Aggiungere condizioni
+## &#x200B;3. Aggiungi condizioni
 
 >[!IMPORTANT]
 >
@@ -53,7 +58,7 @@ Nell’esempio seguente, viene creata una condizione per cui la regola viene att
 
 ![aggiungi una condizione](/help/assets/ad-setCondition_target.png)
 
-## 4. Definire l’azione
+## &#x200B;4. Definire l’azione
 
 1. Nella sezione **[!UICONTROL Azioni]**, fai clic su **[!UICONTROL Aggiungi]**.
 1. Dall&#39;elenco a discesa **[!UICONTROL Estensione]**, seleziona **[!UICONTROL Mobile Core]**.
@@ -63,7 +68,7 @@ Nell’esempio seguente, viene creata una condizione per cui la regola viene att
 
 Nel riquadro a destra, puoi aggiungere un payload JSON a forma libera che aggiunge dati a un evento SDK prima che le estensioni in ascolto di questo evento lo udano.
 
-Nell&#39;esempio seguente, i valori `poiCity` e `poiName` vengono aggiunti ai **[!UICONTROL mboxparameters]** per ogni richiesta elaborata nell&#39;evento Target. I valori per le nuove chiavi vengono determinati dinamicamente dall’SDK nel momento in cui questo evento viene elaborato.
+Nell&#39;esempio seguente, i valori `poiCity` e `poiName` vengono aggiunti ai **[!UICONTROL mboxparameters]** per ogni richiesta elaborata nell&#39;evento Target. I valori per le nuove chiavi vengono determinati dinamicamente da SDK al momento dell’elaborazione di questo evento.
 
 >[!TIP]
 >
@@ -73,7 +78,7 @@ Nell&#39;esempio seguente, i valori `poiCity` e `poiName` vengono aggiunti ai **
 
 ![definire l&#39;azione](/help/assets/ad-setAction-target.png)
 
-## 5. Salva la regola e ricostruisci la proprietà
+## &#x200B;5. Salvare la regola e ricreare la proprietà
 
 Dopo aver completato la configurazione, verifica che la regola sia simile alla seguente immagine:
 

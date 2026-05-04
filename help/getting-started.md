@@ -1,15 +1,20 @@
 ---
-title: Introduzione
+title: Guida introduttiva
 description: Guida introduttiva a Places Service.
 exl-id: 1f0ac226-4993-495b-9d07-1e0ada7f19a7
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+TQID: https://experienceleague.adobe.com/NjssmuGH8672GGroi6sil5e0INPIDAcJl7Uz623-Vts
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9id: f7bdf6be-dd3b-4d2d-ac52-0e62ed0d3102
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 1%
+source-wordcount: 216
+ht-degree: 3%
 
 ---
 
-# Introduzione {#getting-started}
+# Guida introduttiva {#getting-started}
 
 Ecco un video utile per ottenere una panoramica di Places Services:
 
@@ -17,22 +22,22 @@ Ecco un video utile per ottenere una panoramica di Places Services:
 Test of different youtube link for exl
 -->
 
->[!VIDEO](https://video.tv.adobe.com/v/3455120?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/41647)
 
 ## Utilizzo di Places Service
 
 Per utilizzare Places Service, completa le seguenti attività:
 
-### 1. Assicurati che l’utente disponga del provisioning necessario per utilizzare Places Service
+### &#x200B;1. Assicurati che l’utente sia in grado di utilizzare Places Service
 
-Il contesto del prodotto Places Service è disponibile con tutte le organizzazioni Experience Cloud.
+Il contesto del prodotto Places Service è disponibile per tutte le organizzazioni di Experience Cloud.
 
-* Assicurati di essere elencato come utente nei contesti di prodotto del servizio Places e del Experience Platform Launch nell’Admin Console.
+* Assicurati di essere elencato come utente nei contesti di prodotto Places Service e Experience Platform Launch in Admin Console.
 
-  Per ulteriori informazioni, vedere *Aggiunta di un utente al servizio Experienci Platform Launch e Places* in [Domande frequenti](/help/places-gain-access.md).
+  Per ulteriori informazioni, consulta *Aggiunta di un utente a Experience Platform Launch e Places Service* in [Domande frequenti](/help/places-gain-access.md).
 
 
-### 2. Creare i punti di interesse
+### &#x200B;2. Creare i punti di interesse
 
 I punti di interesse (POI) sono recinti geografici creati per le organizzazioni e puoi crearli in uno dei seguenti modi:
 
@@ -45,13 +50,13 @@ I punti di interesse (POI) sono recinti geografici creati per le organizzazioni 
   Per ulteriori informazioni, vedere [API servizio Web](/help/web-service-api/places-web-services.md).
 
 
-### 3. Configurare l’estensione Places
+### &#x200B;3. Configurare l’estensione Places
 
 Per ulteriori informazioni sulla configurazione dell’estensione Luoghi, consulta le seguenti informazioni:
 
 * [Estensione Luoghi](/help/places-ext-aep-sdks/places-extension/places-extension.md)
 
-### 4. Implementare una soluzione di monitoraggio regionale (facoltativo)
+### &#x200B;4. Implementare una soluzione di monitoraggio regionale (facoltativo)
 
 Se si prevede di eseguire il monitoraggio delle aree attive, sarà necessario implementare direttamente con il sistema operativo. Per ulteriori informazioni, consulta i seguenti documenti:
 

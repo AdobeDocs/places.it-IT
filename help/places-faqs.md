@@ -2,9 +2,14 @@
 title: Domande frequenti
 description: Questo argomento fornisce informazioni aggiuntive su alcune domande frequenti.
 exl-id: cee9f447-5e50-4ed8-b37b-baecbc0e9b7b
-source-git-commit: 010de286c25c1eeb989fb76e3c2adaa82ac9fd35
+TQID: https://experienceleague.adobe.com/LL9eLMDJaq8ZmeiZxv28QZoqXL1A0QKZ-DvTDUx4Gnw
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 557
 ht-degree: 1%
 
 ---
@@ -13,9 +18,9 @@ ht-degree: 1%
 
 Seguono alcune informazioni e domande frequenti su Places Service.
 
-## Migrazione da trackLocation nell’SDK v4
+## Migrazione da trackLocation nel SDK v4
 
-Se stai eseguendo la migrazione dall&#39;SDK v4 e stai cercando un sostituto dell&#39;API `trackLocation`, consulta l&#39;argomento [Utilizzare Places Service senza il monitoraggio delle aree attive](use-places-without-active-monitoring.md).
+Se stai eseguendo la migrazione dal SDK v4 e stai cercando un sostituto dell&#39;API `trackLocation`, consulta l&#39;argomento [Utilizzare il servizio Places senza il monitoraggio dell&#39;area attiva](use-places-without-active-monitoring.md).
 
 ## Dimensioni e affidabilità
 
@@ -25,9 +30,9 @@ Inoltre, l&#39;accuratezza e l&#39;affidabilità possono essere ridotte in base 
 
 ## Come si attiva un evento di uscita?
 
-Il monitoraggio dell’area geografica implementato deve richiedere un elenco dei punti di interesse nelle vicinanze. Una volta ricevuta, un’area geografica deve essere registrata con il sistema operativo per ogni POI. Il sistema operativo è ora responsabile della notifica all&#39;SDK quando il dispositivo attraversa un limite (entrata o uscita) per una delle aree monitorate. L&#39;SDK attiva un evento di uscita solo quando il sistema operativo notifica all&#39;SDK che l&#39;evento si è verificato. Il motivo principale di questa notifica è la riservatezza temporale dei dati relativi alla posizione.
+Il monitoraggio dell’area geografica implementato deve richiedere un elenco dei punti di interesse nelle vicinanze. Una volta ricevuta, un’area geografica deve essere registrata con il sistema operativo per ogni POI. Il sistema operativo è ora responsabile della notifica al SDK quando il dispositivo attraversa un limite (entrata o uscita) per una delle aree monitorate. SDK attiva un evento di uscita solo quando il sistema operativo notifica al SDK che l&#39;evento si è verificato. Il motivo principale di questa notifica è la riservatezza temporale dei dati relativi alla posizione.
 
-Se il sistema operativo non è in grado di fornire un evento di uscita quando il dispositivo lascia un’area geografica, è più sicuro che l’SDK si limiti a omettere l’evento di uscita. Se l’SDK produce un evento di uscita senza che l’evento venga attivato dal sistema operativo, esiste il rischio che l’evento di uscita venga elaborato ben oltre il periodo di tempo durante il quale il dispositivo era vicino al POI.
+Se il sistema operativo non è in grado di fornire un evento di uscita quando il dispositivo lascia un’area geografica, è più sicuro che SDK si limiti a omettere l’evento di uscita. Se SDK produce un evento di uscita senza che l’evento venga attivato dal sistema operativo, esiste il rischio che l’evento di uscita venga elaborato ben oltre il periodo di tempo durante il quale il dispositivo era vicino al POI.
 
 ## Numero di POI
 

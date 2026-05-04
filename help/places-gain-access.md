@@ -1,11 +1,16 @@
 ---
 title: Accedere a Places Service
-description: In questa sezione vengono fornite informazioni su come aggiungere un utente a Places Service e Experienci Platform Launch, in modo che possa accedere a Places Service.
+description: Questa sezione fornisce informazioni su come aggiungere un utente a Places Service e Experience Platform Launch per consentirgli di accedere a Places Service.
 exl-id: f388945e-cf26-4694-9697-9fe564ae4b69
-source-git-commit: c9058e9b70c2ef97151078f43913963471730bd2
+TQID: https://experienceleague.adobe.com/EYg1wjQJZeHqX7vPnJ1VUZzojqG6ANjS8-VBXV3y51c
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9id: f7bdf6be-dd3b-4d2d-ac52-0e62ed0d3102
+feature_v2: id: c132d929-fa62-4271-803e-b823be07b914id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: b64298cc-90cc-46b7-8917-ee391f1c7516id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0id: f5efb499-54f9-432b-ac5c-599dbac103afid: f6ff4d13-7b5c-4533-8556-95e76673d4cb
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 0%
+source-wordcount: 919
+ht-degree: 1%
 
 ---
 
@@ -23,11 +28,11 @@ Se il tuo ID utente dispone dell’accesso, visualizzerai l’icona Places Servi
 
 ![Pannello sinistro raccolta dati](/help/assets/places_in_data_collection.png)
 
-Se il servizio Places non è disponibile in questa posizione, contatta un amministratore della tua organizzazione per aggiungere l’ID utente a Adobe Experience Platform nell’Admin Console.
+Se il servizio Places non è disponibile in questa posizione, contatta un amministratore della tua organizzazione per aggiungere l’ID utente a Adobe Experience Platform in Admin Console.
 
 ## Aggiunta di un utente per accedere al servizio Places e alla raccolta dati di Experience Adobe Experience Platform
 
-Places è ora incluso in Adobe Experience Platform. Per consentire agli utenti di accedere al servizio [Places](https://experience.adobe.com/#/data-collection/places), è necessario aggiungerli a Adobe Experience Platform nell&#39;Admin Console come utente. Per consentire agli utenti di accedere alla raccolta dati di Experience Platform con le autorizzazioni necessarie per configurare le proprietà dei dispositivi mobili e utilizzare Places con l’SDK di Adobe Experience Platform, è necessario aggiungerli anche alla raccolta dati di Adobe Experience Platform nell’Admin Console e ottenere le seguenti autorizzazioni per la raccolta dati di Adobe Experience Platform:
+Places è ora incluso in Adobe Experience Platform. Per consentire agli utenti di accedere al servizio [Places](https://experience.adobe.com/#/data-collection/places), è necessario aggiungerli a Adobe Experience Platform in Admin Console come utente. Per consentire agli utenti di accedere a Raccolta dati di Experience Platform con le autorizzazioni necessarie per configurare le proprietà dei dispositivi mobili e utilizzare Places con Adobe Experience Platform SDK, è necessario aggiungerli anche a Raccolta dati di Adobe Experience Platform nell’Admin Console e disporre delle seguenti autorizzazioni per Raccolta dati di Adobe Experience Platform:
 
 * Tutte le autorizzazioni in Diritti di proprietà:
    * Approva
@@ -35,27 +40,27 @@ Places è ora incluso in Adobe Experience Platform. Per consentire agli utenti d
    * Modifica proprietà
    * Gestisci ambienti
    * Gestire le estensioni
-   * Pubblica
+   * Pubblicazione
 * Autorizzazione Gestione proprietà in Diritti aziendali
 
 Se è la prima volta che aggiungi un utente, completa i passaggi seguenti per aggiungere utenti a Adobe Experience Platform Data Collection e Adobe Experience Platform. Se in precedenza hai aggiunto degli utenti, è possibile che vengano visualizzati più profili, quindi accertati di selezionare quello corretto.
 
 >[!IMPORTANT]
 >
->Solo gli amministratori dell’organizzazione possono accedere all’Admin Console e aggiungere gli utenti.
+>Solo gli amministratori dell’organizzazione possono accedere ad Admin Console e aggiungere gli utenti.
 
-### 1. Verifica che sia stato eseguito il provisioning di Adobe Experience Platform e Adobe Experience Platform Data Collection
+### &#x200B;1. Verifica che sia stato eseguito il provisioning di Adobe Experience Platform e Adobe Experience Platform Data Collection
 
-1. Accedi all&#39;organizzazione Experience Cloud, [Adobe Experience Cloud home](https://experience.adobe.com).
-1. In alto a destra, fai clic sul selettore della shell di Experience Cloud per visualizzare un menu a discesa.
+1. Accedi alla tua organizzazione Experience Cloud, [Adobe Experience Cloud home](https://experience.adobe.com).
+1. In alto a destra, fai clic sullo switcher della shell Experience Cloud per visualizzare un menu a discesa.
 
    ![commutatore shell](/help/assets/places_shell_switcher1.png)
 
-1. Nella parte inferiore dell&#39;elenco fare clic su **[!UICONTROL Admin Console]**. (Un collegamento all&#39;**[!UICONTROL Admin Console]** è disponibile anche nella sezione Accesso rapido).
+1. Nella parte inferiore dell&#39;elenco fare clic su **[!UICONTROL Admin Console]**. (Un collegamento a **[!UICONTROL Admin Console]** si trova anche nella sezione Accesso rapido).
 
    Se non vedi **[!UICONTROL Admin Console]** nell&#39;elenco, non sei un amministratore. Per completare questa procedura, contatta l’amministratore dell’organizzazione.
 
-1. Nell’Admin Console, se hai accesso a più organizzazioni, verifica che l’organizzazione corretta sia selezionata in alto a destra nella pagina.
+1. In Admin Console, se hai accesso a più organizzazioni, verifica che l’organizzazione corretta sia selezionata in alto a destra nella pagina.
 
    Questa è l’organizzazione a cui aggiungerai gli utenti. Se non è stata selezionata l’organizzazione corretta, fai clic sull’organizzazione e seleziona quella corretta dall’elenco a discesa.
 
@@ -63,14 +68,14 @@ Se è la prima volta che aggiungi un utente, completa i passaggi seguenti per ag
    >
    >Se l’organizzazione desiderata non è presente nell’elenco a discesa, significa che non disponi dell’accesso come amministratore per tale organizzazione.
 
-1. Nell&#39;Admin Console, fare clic sulla scheda Prodotti e verificare che siano visualizzate le schede per **[!UICONTROL Raccolta dati Adobe Experience Platform]** e **[!UICONTROL Adobe Experience Platform]**.
+1. In Admin Console, fai clic sulla scheda Prodotti e verifica che siano visualizzate le schede per **[!UICONTROL Raccolta dati Adobe Experience Platform]** e **[!UICONTROL Adobe Experience Platform]**.
 
    ![](/help/assets/places_provisioned1.png)
 
    Il provisioning di questi 2 prodotti viene eseguito automaticamente per tutte le organizzazioni, pertanto devono essere presenti.
 
 
-### 2. Aggiungere un utente a questi prodotti
+### &#x200B;2. Aggiungi utente a questi prodotti
 
 #### Aggiungere un utente per fornire l’accesso all’interfaccia utente di Places Service
 

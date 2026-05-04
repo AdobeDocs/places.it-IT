@@ -1,17 +1,22 @@
 ---
 title: Panoramica dell’API dei servizi Web
-description: Places Service è l’insieme di servizi che semplificano, ad Adobe, l’idratazione delle soluzioni Adobe Experience Cloud e Adobe Experience Platform con i dati sulla posizione e l’esperienza giusta per la persona giusta al momento giusto e nel posto giusto.
+description: Places Service è il set di servizi che consente ai clienti di Adobe di idratare più facilmente le soluzioni Adobe Experience Cloud e Adobe Experience Platform con i dati sulla posizione e l’esperienza giusta per la persona giusta al momento giusto e nel posto giusto.
 exl-id: 9e7358d1-3ba0-4304-aeb2-fed7162afb57
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/jP7iQH7X85UZROjsa3XzuN0bJZjjKffODFGGji7XZfQ
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: 336
 ht-degree: 1%
 
 ---
 
 # Panoramica API dei servizi Web {#places-web-services-api}
 
-Places Service è l’insieme di servizi che semplificano, ad Adobe, l’idratazione delle soluzioni Adobe Cloud Platform e Adobe Experience Platform con i dati sulla posizione e l’esperienza giusta per la persona giusta al momento giusto e nel posto giusto.
+Places Service è il set di servizi che consente ai clienti di Adobe di idratare più facilmente le soluzioni Adobe Cloud Platform e Adobe Experience Platform con i dati sulla posizione e l’esperienza giusta per la persona giusta al momento giusto e nel posto giusto.
 
 Le API dei servizi web consentono di effettuare le seguenti operazioni:
 
@@ -31,7 +36,7 @@ Prima di poter utilizzare l’API dei servizi web, assicurati di aver soddisfatt
 
   Per ulteriori informazioni, vedere *Prerequisiti per l&#39;accesso utente* in [Panoramica sull&#39;integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 
-* Dopo aver eseguito il provisioning di Places Service nell’organizzazione e aver effettuato l’accesso, crea un’integrazione di Adobe per Places Service.
+* Dopo aver eseguito il provisioning di Places Service nell’organizzazione e aver effettuato l’accesso, crea un’integrazione Adobe per Places Service.
 
   Per ulteriori informazioni, vedere *Creazione di un&#39;integrazione di Places Service* in [Panoramica sull&#39;integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 

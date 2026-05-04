@@ -2,10 +2,15 @@
 title: Inviare dati di entrata e uscita POI ad Analytics
 description: Questa sezione fornisce informazioni su come inviare dati di ingresso e uscita POI ad Analytics.
 exl-id: 69e96261-4902-47dd-a930-a8f3d19c179c
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+TQID: https://experienceleague.adobe.com/H-NkwK7KNSGPjEKYuWNc8F0f3MIu3wBr5FGjypxnqng
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87id: e55547f1-a1ff-40c6-8978-026e40ab7fa4id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2: id: b069d60e-95f3-44d6-95a8-ddc862a4bc38id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2: id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2: id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 1%
+source-wordcount: 443
+ht-degree: 3%
 
 ---
 
@@ -16,9 +21,9 @@ ht-degree: 1%
 >
 >In questa sezione si presuppone che nell’applicazione sia stato implementato Places Service. Per ulteriori informazioni sull&#39;implementazione di Places Service, vedere [Estensioni di Places](/help/places-ext-aep-sdks/places-extension/places-extension.md).
 
-Dopo l’invio degli eventi di entrata e uscita da Places Service, puoi creare regole di Experience Platform Launch per inviare i dati di Places Service ad Adobe Analytics. Per creare questo tipo di regola, seleziona la proprietà in Launch e completa i passaggi seguenti:
+Dopo che Places Service ha inviato gli eventi di entrata e uscita, puoi creare regole in Experience Platform Launch per inviare i dati di Places Service ad Adobe Analytics. Per creare questo tipo di regola, seleziona la proprietà in Launch e completa i passaggi seguenti:
 
-## 1. Creare una regola
+## &#x200B;1. Creare una regola
 
 1. Nella scheda **[!UICONTROL Regole]**, fai clic su **[!UICONTROL Crea nuova regola]**.
 
@@ -27,7 +32,7 @@ Dopo l’invio degli eventi di entrata e uscita da Places Service, puoi creare r
    * Se non disponi di regole esistenti per questa proprietà, il pulsante **[!UICONTROL Crea nuova regola]** sarà al centro della schermata.
    * Se la proprietà dispone di regole, il pulsante **[!UICONTROL Crea nuova regola]** si trova in alto a destra nella schermata.
 
-## 2. Seleziona un evento
+## &#x200B;2. Seleziona un evento
 
 1. Digita un nome significativo per la regola.
 
@@ -44,7 +49,7 @@ Dopo l’invio degli eventi di entrata e uscita da Places Service, puoi creare r
    ![&quot;seleziona un evento&quot;](/help/assets/pt-selectEvent.png)
 
 
-## 3. Aggiungere condizioni
+## &#x200B;3. Aggiungi condizioni
 
 >[!IMPORTANT]
 >
@@ -65,7 +70,7 @@ In questo esempio, viene creata una condizione che causa l&#39;attivazione della
    ![&quot;imposta una condizione&quot;](/help/assets/pt-setCondition.png)
 
 
-## 4. Definire l’azione
+## &#x200B;4. Definire l’azione
 
 1. Nella sezione **[!UICONTROL Azioni]**, fai clic su **[!UICONTROL Aggiungi]**.
 
@@ -75,7 +80,7 @@ In questo esempio, viene creata una condizione che causa l&#39;attivazione della
 
 1. Nel riquadro a destra, aggiungi l’azione o lo stato che desideri inviare ad Analytics.
 
-   Puoi anche scegliere di aggiungere dati contestuali aggiuntivi a questa richiesta. Ricorda che puoi utilizzare gli elementi dati per ottenere questi dati in modo dinamico dall’SDK.
+   Puoi anche scegliere di aggiungere dati contestuali aggiuntivi a questa richiesta. Ricorda che puoi utilizzare elementi dati per ottenere questi dati in modo dinamico da SDK.
 
 1. Fai clic su **[!UICONTROL Mantieni modifiche]**.
 
@@ -83,7 +88,7 @@ In questo esempio, viene creata una condizione che causa l&#39;attivazione della
 
    ![&quot;ha impostato un&#39;azione&quot;](/help/assets/pt-setAction.png)
 
-## 5. Salvare la regola e ricreare la proprietà
+## &#x200B;5. Salvare la regola e ricreare la proprietà
 
 Dopo aver completato la configurazione, verifica che la regola sia simile alla seguente immagine:
 
