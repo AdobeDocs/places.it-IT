@@ -1,10 +1,23 @@
 ---
 title: Creazione di una regola per la proprietà Places Service
-description: L’SDK Places tiene traccia della posizione corrente, monitora i POI configurati intorno alla posizione corrente e tiene traccia degli eventi di entrata e uscita per questi POI.
+description: Il SDK Places tiene traccia della posizione corrente, monitora i POI configurati intorno alla posizione corrente e tiene traccia degli eventi di entrata e uscita per questi POI.
 exl-id: dd5aa7ac-55f9-44dc-8632-e483ef3b91a0
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/jyGVmk-oKX6-5vxZBx6Mz-QF8SBYxAWssvAxJ0QLYWQ
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+  - id: f9a2105e-7a47-4e85-9193-31a519a2cb83
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: 939
 ht-degree: 12%
 
 ---
@@ -25,14 +38,14 @@ Puoi configurare una regola, composta da un evento, una condizione e un’azione
 
 Places Service offre i seguenti eventi sui quali è possibile eseguire una regola:
 
-* **Inserisci il POI**, che viene attivato dall&#39;SDK Places quando il cliente accede al POI configurato.
-* **Esci da POI**, che viene attivato dall&#39;SDK Places quando il cliente esce dal POI configurato.
+* **Inserisci il POI**, che viene attivato da Places SDK quando il cliente accede al POI configurato.
+* **Esci da POI**, che viene attivato da Places SDK quando il cliente esce dal POI configurato.
 
 ### Condizioni di Places Service
 
 Le condizioni definiscono i criteri che i dati associati all’evento, o lo stato condiviso di un’estensione in tale istanza, devono soddisfare per l’azione da intraprendere. Ad esempio, puoi impostare una condizione per attivare un&#39;azione su un ingresso a un coffee shop solo nella città di San Francisco.
 
-L’SDK Luoghi mantiene i seguenti stati:
+Il SDK Places mantiene i seguenti stati:
 
 * POI corrente, che si riferisce al POI in cui il cliente si trova attualmente.
 * Last exited POI (Ultimo punto di interesse in uscita), che si riferisce al punto di interesse più recente chiuso dal cliente.
@@ -56,19 +69,19 @@ Le azioni definiscono ciò che l&#39;app farà in risposta alla condizione per c
 >
 >Con questo esempio si presuppone che sia stata creata una libreria POI di tutti i coffee shop degli Stati Uniti. Per ulteriori informazioni sulla creazione di punti di interesse e librerie, vedi [Creare un punto di interesse](/help/poi-mgmt-ui/create-a-poi-ui.md) e *Creare una libreria* in [Gestire più librerie](https://experienceleague.adobe.com/docs/places/using/poi-mgmt-ui/manage-libraries-in-the-places-ui.html?lang=it).
 
-La procedura seguente illustra come creare una regola che invia un post allo Slack quando si entra in un coffee shop a San Francisco.
+La procedura seguente illustra come creare una regola che invia un post a Slack quando si entra in un coffee shop a San Francisco.
 
 L’evento, la condizione e l’azione sono definiti nei seguenti modi:
 
 * **Evento**: evento di immissione luoghi.
 * **Condizione**: la città per il **POI attuale** è San Francisco
-* **Azione**: invia un postback allo Slack del nome del coffee shop immesso dal cliente.
+* **Azione**: invia un postback a Slack con il nome del coffee shop immesso dal cliente.
 
 ### Prerequisito
 
 Prima di creare una regola, devi creare un elemento dati in Adobe Experience Platform Launch. Gli elementi dati compilano automaticamente le informazioni necessarie sui punti di interesse nel messaggio di postback.
 
-Per creare un elemento dati nel Experience Platform Launch:
+Per creare un elemento dati in Experience Platform Launch:
 
 1. Fare clic sulla scheda **Elementi dati**.
 1. Fare clic su **Aggiungi elemento dati**.
@@ -78,7 +91,7 @@ Per creare un elemento dati nel Experience Platform Launch:
 1. Nel riquadro di destra, seleziona **Current POI**.
 1. Fai clic su **Salva**.
 
-### Creazione di una regola nel Experience Platform Launch per Places Service
+### Creare una regola in Experience Platform Launch per Places Service
 
 ![creazione di una regola](/help/assets/placesrule.png)
 
@@ -110,11 +123,11 @@ Per creare un elemento dati nel Experience Platform Launch:
 1. Nell&#39;elenco a discesa **[!UICONTROL Estensione]**, lascia selezionata l&#39;opzione predefinita **[!UICONTROL Core mobile]**.
 1. Seleziona un tipo di azione, ad esempio **[!UICONTROL Invia postback]**.
 
-   a. In **[!UICONTROL URL]**, digita l&#39;URL di postback per lo Slack, ad esempio `https://hooks.slack.com/services/`.
+   a. In **[!UICONTROL URL]** digitare l&#39;URL di postback per Slack, ad esempio `https://hooks.slack.com/services/`.
 
-   b. Per inviare un corpo del post, selezionare la casella di controllo **[!UICONTROL Aggiungi corpo del Post]**.
+   b. Per inviare un corpo del post, selezionare la casella di controllo **[!UICONTROL Aggiungi corpo del post]**.
 
-   c. In **[!UICONTROL Corpo Post]**, aggiungi il corpo del post, ad esempio: `{ "text": "A customer has entered" }`
+   c. In **[!UICONTROL Corpo post]**, aggiungi il corpo del post, ad esempio: `{ "text": "A customer has entered" }`
 
    c. Digita un tipo di contenuto, ad esempio **[!UICONTROL application/json]**.
 
@@ -122,12 +135,12 @@ Per creare un elemento dati nel Experience Platform Launch:
 
 1. Fai clic su **[!UICONTROL Mantieni modifiche]**.
 
-### Publish la regola
+### Pubblicare la regola
 
-1. Per attivare la regola, devi pubblicarla. Per ulteriori informazioni sulla pubblicazione della regola nel Experience Platform Launch, vedi [Pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it).
+1. Per attivare la regola, devi pubblicarla. Per ulteriori informazioni sulla pubblicazione della regola in Experience Platform Launch, vedi [Pubblicazione](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it).
 
 ### Oltre le entrate e le uscite
 
-L’utilizzo delle entrate e delle uscite del recinto geografico di Places Service per attivare le regole nel Experience Platform Launch è incredibilmente efficace, ma puoi anche utilizzare i dati sulla posizione come condizione affinché altri eventi vengano attivati. Ad esempio, puoi avere un trigger di evento Track Action core mobile pronto per essere attivato in base a un particolare evento di chiamata trackAction all&#39;interno dell&#39;app. In base a questo evento, puoi inserire ulteriori condizioni di posizione nell’evento prima che venga eseguita un’azione. Ad esempio, apri un sondaggio in-app quando si verifica un evento di acquisto `trackAction`, ma **solo** se la posizione corrente dell&#39;utente include metadati specifici di Places Service.
+L’utilizzo delle entrate e delle uscite del recinto geografico di Places Service per attivare le regole in Experience Platform Launch è incredibilmente efficace, ma puoi anche utilizzare i dati sulla posizione come condizione affinché altri eventi vengano attivati. Ad esempio, puoi avere un trigger di evento Track Action core mobile pronto per essere attivato in base a un particolare evento di chiamata trackAction all&#39;interno dell&#39;app. In base a questo evento, puoi inserire ulteriori condizioni di posizione nell’evento prima che venga eseguita un’azione. Ad esempio, apri un sondaggio in-app quando si verifica un evento di acquisto `trackAction`, ma **solo** se la posizione corrente dell&#39;utente include metadati specifici di Places Service.
 
 ![crea una condizione](/help/assets/places-condition.png)

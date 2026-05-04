@@ -2,10 +2,28 @@
 title: Note sulla versione
 description: Note sulla versione di Places Service.
 exl-id: 76da9548-4e32-4b23-9a15-7012973915f3
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/yo1eXPl9cKbp-EVWQT8gZHcAbSDoIFJVD6xKbdoysMc
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+  - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+  - id: d833d0ef-8ed5-4cff-a5e7-9f12abd02a31
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+  - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 1%
+source-wordcount: 1612
+ht-degree: 4%
 
 ---
 
@@ -48,16 +66,16 @@ ht-degree: 1%
 
 * **ACPPlaces 1.3.1 (iOS)**
 
-   * L’estensione Places ora segnala le informazioni sulla versione all’hub eventi nell’SDK core.
+   * L’estensione Places ora riporta le informazioni sulla versione all’hub eventi nel Core SDK.
    * Ora le informazioni sull’iscrizione al punto di interesse del dispositivo hanno un time-to-live predefinito di un’ora dal momento in cui vengono raccolte. Per ulteriori informazioni, vedere [Modifica del time-to-live dell&#39;iscrizione a Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
 
 * **Places 1.4.1 (Android)**
 
-   * L’estensione Places ora segnala le informazioni sulla versione all’hub eventi nell’SDK core.
+   * L’estensione Places ora riporta le informazioni sulla versione all’hub eventi nel Core SDK.
    * Ora le informazioni sull’iscrizione al punto di interesse del dispositivo hanno un time-to-live predefinito di un’ora dal momento in cui vengono raccolte. Per ulteriori informazioni, vedere [Modifica del time-to-live dell&#39;iscrizione a Places](places-ext-aep-sdks/places-extension/places-extension.md#places-ttl)
 
-## 27 gennaio 2020
+## martedì 27 gennaio 2020
 
 * **PlacesMonitor 2.2.0**
 
@@ -74,7 +92,7 @@ ht-degree: 1%
 
       * È stata aggiunta una nuova API, `setAuthorizationStatus`, per impostare lo stato di autorizzazione del dispositivo per Places Services. Il valore viene memorizzato e utilizzato nello stato condiviso Luoghi.
 
-## 4 dicembre 2019
+## giovedì 4 dicembre 2019
 
 * **PlacesMonitor 2.1.2**
 
@@ -82,7 +100,7 @@ ht-degree: 1%
 
       * Chiama l’API Places per raccogliere CLAAuthorizationStatus dal dispositivo quando viene modificato.
 
-## 3 dicembre 2019
+## mercoledì 3 dicembre 2019
 
 * **ACPPlaces 1.3.0**
 
@@ -90,7 +108,7 @@ ht-degree: 1%
 
       * È stata aggiunta una nuova API, `setAuthorizationStatus`, per impostare lo stato di autorizzazione del dispositivo per Places Services. Il valore viene memorizzato e utilizzato nello stato condiviso Luoghi.
 
-## 25 novembre 2019
+## martedì 25 novembre 2019
 
 * **PlacesMonitor 2.1.1**
 
@@ -107,7 +125,7 @@ ht-degree: 1%
       * Il monitor ora riconosce l&#39;avvio di un dispositivo Android e, se necessario, registra nuovamente i recinti geografici con il sistema operativo in base alla posizione corrente del dispositivo.
       * È stata risolta una situazione di tipo &quot;race condition&quot; a causa della quale a volte gli eventi di entrata/uscita venivano eliminati.
 
-## 9 ottobre 2019
+## giovedì 9 ottobre 2019
 
 * **PlacesMonitor 2.1.0**
 
@@ -180,7 +198,7 @@ In questa versione sono stati apportati i seguenti aggiornamenti:
 
 * È stato aggiornato l&#39;utilizzo dell&#39;API ACPPlaces `getNearbyPointsOfInterest` per gestire gli scenari di errore in modo più efficace.
 
-## 22 luglio 2019
+## martedì 22 luglio 2019
 
 In questa versione sono stati apportati i seguenti aggiornamenti:
 
@@ -191,7 +209,7 @@ In questa versione sono stati apportati i seguenti aggiornamenti:
 * È stato corretto un bug a causa del quale il callback `getNearbyPointsOfInterest` restituiva il codice di errore `SERVER_RESPONSE_ERROR instead of CONNECTIVITY_ERROR` su Internet.
 * L&#39;API `getNearbyPointsOfInterest` (senza errorCallback) avrà `successCallback` chiamato con un elenco poi vuoto, in caso di errore durante il recupero dei punti di interesse vicini.
 
-## 19 luglio 2019
+## sabato 19 luglio 2019
 
 In questa versione sono stati apportati i seguenti aggiornamenti:
 
@@ -228,7 +246,7 @@ In questa versione sono stati apportati i seguenti aggiornamenti:
 
 Sono stati risolti i seguenti problemi nell’interfaccia utente Luoghi:
 
-* Lo switcher della soluzione in Places è stato aggiornato per allinearlo al resto dell’Experience Cloud.
+* Lo switcher della soluzione in Places è stato aggiornato per allinearlo al resto di Experience Cloud.
 * È stato risolto un problema che causava il salvataggio della classificazione nelle istanze in cui non venivano apportate modifiche alla classificazione.
 * Il raggio minimo consentito nell’interfaccia utente è stato aumentato a 10 metri.
 * È stato risolto un problema a causa del quale, se si eliminavano tutti i numeri nel campo, il campo del raggio veniva ripristinato a 20 metri.
@@ -271,7 +289,7 @@ In questa versione sono stati apportati i seguenti aggiornamenti:
 * Integrazione CI (CircleCI)
 * Integrazione code coverage (codecov)
 
-## 25 marzo 2019
+## martedì 25 marzo 2019
 
 iOS Places Monitor 1.0.0
 
@@ -298,7 +316,7 @@ Di seguito sono riportate le funzioni chiave di questa versione:
 
 #### Estensione Luoghi
 
-Utilizzando l’estensione Places, puoi aggiungere le librerie del servizio Places alla tua app mobile e agire in base ai loro POI. Utilizzando il generatore di regole in Experienci Platform Launch, puoi attivare azioni quando gli utenti entrano ed escono dai POI.
+Utilizzando l’estensione Places, puoi aggiungere le librerie del servizio Places alla tua app mobile e agire in base ai loro POI. Utilizzando il generatore di regole in Experience Platform Launch, puoi attivare azioni quando gli utenti entrano ed escono dai POI.
 
 Nell’estensione Luoghi:
 

@@ -2,10 +2,26 @@
 title: Rapporto sui dati relativi alla posizione in Analytics Workspace
 description: Questa sezione fornisce informazioni su come creare rapporti sui dati relativi alla posizione in Analytics Workspace.
 exl-id: 45ca3c80-71b7-41de-9b00-645504061935
-source-git-commit: d5c216aebd99ffef01c37c17c62576835b52438b
+TQID: https://experienceleague.adobe.com/Xym9Ko8czyd3wYWVo22sQoK6gk-VvftGVHfIDUys06E
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+  - id: e55547f1-a1ff-40c6-8978-026e40ab7fa4
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+feature_v2:
+  - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
+  - id: c20d46e7-1c7d-476c-a50e-3961d4dce35f
+  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
+  - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+subfeature_v2:
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: d3cdead0-685a-4489-9250-4bb709942f66
+source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 3%
+source-wordcount: 483
+ht-degree: 6%
 
 ---
 
@@ -30,9 +46,9 @@ Il presente documento presuppone quanto segue:
    Per ulteriori informazioni sugli elementi dati in Launch, vedere [Definire un elemento dati](/help/use-places-launch-workflow/define-data-elements.md).
 
 
-## 1. Creare una regola Launch
+## &#x200B;1. Creare una regola Launch
 
-Crea una regola in base alla quale l’SDK invierà i dati ad Analytics quando il dispositivo entrerà in un POI. La creazione di questo tipo di regola è descritta nella pagina [Invia dati di ingresso e uscita POI ad Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
+Crea una regola in base alla quale SDK invierà dati ad Analytics quando il dispositivo entrerà in un POI. La creazione di questo tipo di regola è descritta nella pagina [Invia dati di ingresso e uscita POI ad Analytics](/help/use-places-with-other-solutions/places-adobe-analytics/use-places-adobe-analytics.md).
 
 In questo esempio, per l’azione della regola sono definiti i seguenti valori per la richiesta Analytics:
 
@@ -42,7 +58,7 @@ In questo esempio, per l’azione della regola sono definiti i seguenti valori p
 
 ![&quot;ha impostato un&#39;azione&quot;](/help/assets/pt-setAction.png)
 
-## 2. Creare le variabili di Analytics
+## &#x200B;2. Creare le variabili di Analytics
 
 Per mappare i dati contestuali (inviati nel passaggio 1), è necessario creare prima le variabili per la suite di rapporti di Analytics. Per ulteriori informazioni sulla creazione di variabili in Analytics, vedi [Variabili di conversione (eVar)](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/evar.html?lang=it).
 
@@ -50,7 +66,7 @@ In questo esempio, è stata creata una variabile di conversione, **[!UICONTROL E
 
 ![&quot;creare una variabile di analisi&quot;](/help/assets/aa-evar.png)
 
-## 3. Creare regole di elaborazione
+## &#x200B;3. Creare regole di elaborazione
 
 Questo passaggio è necessario per mappare i dati contestuali (passaggio 1) alle variabili di Analytics (passaggio 2). Per ulteriori informazioni sulla creazione di regole di elaborazione, vedere [Panoramica sulle regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=it).
 
@@ -58,7 +74,7 @@ In questo esempio, è stata creata una regola di elaborazione per mappare il val
 
 ![&quot;creare una regola di elaborazione&quot;](/help/assets/aa-processing-rule.png)
 
-## 4. Generare un rapporto in Workspace
+## &#x200B;4. Generare un rapporto in Workspace
 
 Questo passaggio mostra un rapporto di base in Analytics Workspace per visualizzare i dati raccolti nei passaggi 1-3. Per ulteriori informazioni sull&#39;utilizzo di Analytics Workspace, vedere [Analytics Workspace overview](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=it).
 

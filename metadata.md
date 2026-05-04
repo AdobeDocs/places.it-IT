@@ -2,6 +2,8 @@
 cloud: Experience Cloud
 product: places service
 solution: Data Collection, Experience Platform
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
 landing-page-name: mobile
 landing-page-breadcrumb-title: Mobile SDK
 feature-set: Experience Platform
@@ -14,10 +16,10 @@ tutorials-title: Tutorials
 tutorials-url: https://experienceleague.adobe.com/it#recommended/solutions/experience-platform
 git-repo: https://github.com/AdobeDocs/places.it-IT
 index: true
-source-git-commit: 4fb4fa8bbf060afaf6a42a31c2936f42ec1044f2
+source-git-commit: c34560100defb53b29dc8121405bfa51058c69a4
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 98%
+source-wordcount: 167
+ht-degree: 80%
 
 ---
 
@@ -26,24 +28,24 @@ ht-degree: 98%
 
 # Metadati per uso interno
 
-Il file metadata.md include metadati a livello di repository che passano attraverso i file TOC.md della guida utente nel repository. Se desideri modificare il contenuto di metadata.md per qualsiasi guida utente, esegui questa operazione in qualsiasi file TOC.md.
+Il file metadata.md include metadati a livello di archivio che vengono trasmessi ai file TOC.md della guida utente presente nell’archivio stesso. Se desideri modificare il contenuto del file metadata.md per qualsiasi Guida utente, effettua questa operazione in qualsiasi file TOC.md.
 
-| metadati | funzione |
+| metadati | cosa fa |
 |--- |--- |
 | solution-title | Utilizzato nell’intestazione dell’articolo come collegamento |
 | solution-hub-url | Apre la pagina dell’hub helpx |
 | solution-icon | Visualizza l’icona della soluzione accanto al titolo della soluzione. Non ancora implementato |
-| getting-started-title | Utilizzato di rado quando le Esercitazioni non sono appropriate |
-| getting-started-url | Collegamento all’aiuto della pagina guida introduttiva |
-| tutorials-title | Utilizzato di rado quando le Esercitazioni non sono appropriate |
-| tutorials-url | Collegamento alle esercitazioni video: esercitazioni helpx o KT |
-| mini-toc-levels | Determina il numero di livelli di intestazione visualizzati nella barra laterale destra. Il valore predefinito è 2 |
+| getting-started-title | Utilizzato di rado quando i tutorial non sono appropriati |
+| getting-started-url | Collegamento alla pagina della Guida introduttiva helpx |
+| tutorials-title | Utilizzato di rado quando i tutorial non sono appropriati |
+| tutorials-url | Collegamento ai tutorial video: tutorial helpx o KT |
+| mini-toc-levels | Determina il numero di livelli dei titoli visualizzati nella barra a destra. il valore predefinito è 2 |
 | git-repo | https://github.com/AdobeDocs/places.it-IT |
-| index | set index=no for soft launch |
+| index | set index=no per soft launch |
 
 Nel file TOC.md
 
-| metadati | funzione |
+| metadati | cosa fa |
 |--- |--- |
 | user-guide-title | Utilizzato nell’intestazione dell’articolo come collegamento |
 | user-guide-url | Apre la pagina dell’hub helpx |
