@@ -5,14 +5,14 @@ feature: Mobile SDK
 exl-id: 09c02753-09b3-4e07-82b2-b6c72c4e0e42
 source-git-commit: 9f2c6fee6e0d6d075b662cc0b6cbee49cf05ee55
 workflow-type: tm+mt
-source-wordcount: '33'
+source-wordcount: '38'
 ht-degree: 0%
 
 ---
 
 # Estensione Luoghi {#places-extension}
 
-Passa al portale per sviluppatori Adobe per visualizzare la documentazione per le estensioni SDK [Places](https://developer.adobe.com/client-sdks/documentation/places/).
+Passa al portale per sviluppatori di Adobe per visualizzare la documentazione per le [estensioni Places SDK](https://developer.adobe.com/client-sdks/documentation/places/).
 
 <!-- 
 
@@ -29,7 +29,7 @@ The Places extension allows you to act based on the location of your users. This
 
 1. Complete the publishing process to update the SDK configuration.
 
-   For more information about publishing in Experience Platform Launch, see [Publishing](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html?lang=it).
+   For more information about publishing in Experience Platform Launch, see [Publishing](https://experienceleague.adobe.com/docs/experience-platform/tags/publish/overview.html).
 
 ### Configure the Places extension {#configure-places-extension}
 
