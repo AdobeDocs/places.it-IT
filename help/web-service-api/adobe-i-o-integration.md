@@ -4,8 +4,8 @@ description: Informazioni sulla creazione di un progetto API Adobe Developer.
 exl-id: d7d31938-6c0e-40f8-a9d3-30af96043119
 source-git-commit: 3d477c6133b74a7e6380d0db1af5125aaa844035
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 0%
+source-wordcount: '504'
+ht-degree: 1%
 
 ---
 
@@ -20,7 +20,7 @@ Verifica con l’amministratore di sistema della tua organizzazione che siano st
 * Sei stato aggiunto all’organizzazione.
 * Sei stato aggiunto a un profilo all’interno di Adobe Experience Platform.
 
-  Per ulteriori informazioni, consulta *Aggiungere un utente o uno sviluppatore al servizio Places e ai profili di Experience Platform Launch* in [Accedere a Places Service](/help/places-gain-access.md).
+  Per ulteriori informazioni, consulta *Aggiungere un utente o uno sviluppatore ai profili Places Service e Experience Platform Launch* in [Accedere a Places Service](/help/places-gain-access.md).
 
 ### Richieste REST API
 
@@ -45,7 +45,7 @@ Per creare un progetto per l’API del servizio Places, completa quanto segue:
 
 1. Accedi al [sito Web Adobe Developer](https://developer.adobe.com) con il tuo Adobe ID.
 2. Fai clic su **[!UICONTROL Console]** nell&#39;angolo superiore destro della pagina.
-3. Se sei assegnato a più di un’organizzazione di Adobi, seleziona l’organizzazione corretta dall’elenco a discesa nell’angolo in alto a destra della pagina.
+3. Se sei assegnato a più di un’organizzazione Adobe, seleziona l’organizzazione corretta dall’elenco a discesa nell’angolo in alto a destra della pagina.
 4. Fare clic sul pulsante **[!UICONTROL Crea nuovo progetto]**.
 5. Fai clic sul pulsante **[!UICONTROL Aggiungi API]** nella sezione Introduzione al nuovo progetto.
 6. Per selezionare l’API Luoghi, scorri la pagina verso il basso fino alla scheda Luoghi e fai clic sulla casella di controllo nell’angolo superiore destro della scheda.
@@ -67,4 +67,4 @@ Per creare un progetto per l’API del servizio Places, completa quanto segue:
 
 >[!IMPORTANT]
 >
->I token di accesso Adobe sono **only** validi per 24 ore. Salvare quindi il comando CURL di esempio (passaggio 5). Se il token di accesso non è più valido, è necessario rigenerarlo.
+>I token di accesso Adobe sono **only** validi per 24 ore, quindi salva il comando CURL di esempio (passaggio 5). Se il token di accesso non è più valido, è necessario rigenerarlo.
