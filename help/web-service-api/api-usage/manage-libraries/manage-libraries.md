@@ -6,9 +6,7 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '53'
 ht-degree: 5%
-
 ---
-
 # Panoramica sulla gestione librerie {#manage-libraries}
 
 È possibile utilizzare le API REST di Places Service per completare le seguenti attività:
