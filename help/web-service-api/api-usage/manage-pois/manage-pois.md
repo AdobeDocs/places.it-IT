@@ -6,9 +6,7 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '48'
 ht-degree: 0%
-
 ---
-
 # Panoramica sulla gestione dei punti di interesse {#manage-pois}
 
 È possibile utilizzare le API REST di Places Service per completare le seguenti attività:

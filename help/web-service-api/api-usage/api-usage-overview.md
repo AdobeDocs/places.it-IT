@@ -6,9 +6,7 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '38'
 ht-degree: 0%
-
 ---
-
 # Panoramica sull’utilizzo delle API {#api-usage-overview}
 
 Per utilizzare l’API REST Places per gestire i POI e le librerie, consulta le sezioni seguenti:
