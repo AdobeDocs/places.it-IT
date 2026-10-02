@@ -5,18 +5,16 @@ feature: Mobile SDK
 exl-id: ce1a113c-dee0-49df-8d2f-789ccc1c8322
 source-git-commit: f521d5e3b0b69977877d88382ce41fcb7d1c54b9
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '589'
 ht-degree: 32%
-
 ---
-
 # Riferimento API di Places {#places-api-reference}
 
 Seguono informazioni sui riferimenti API nell’estensione Luoghi:
 
 ## Elaborazione di un evento regionale
 
-Quando un dispositivo supera uno dei limiti predefiniti per l’area geografica dell’app, l’area geografica e il tipo di evento vengono passati all’SDK per l’elaborazione.
+Quando un dispositivo supera uno dei limiti predefiniti per l’area geografica dell’app, l’area geografica e il tipo di evento vengono passati al SDK per l’elaborazione.
 
 ### RecintoProcesso (Android)
 

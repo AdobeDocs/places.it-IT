@@ -6,16 +6,14 @@ source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 19%
-
 ---
-
 # Intestazioni e parametri {#headers-and-parameters}
 
 Di seguito sono riportati i dettagli relativi alle intestazioni e ai parametri disponibili nell’API REST di Places Service:
 
 ## Intestazioni supportate
 
-| Header | Descrizione | Metodo | Esempio |
+| Intestazione | Descrizione | Metodo | Esempio |
 | :--- | :--- | :--- | :--- |
 | `Authorization` | Token bearer | Tutto |  |
 | `x-api-key` | Chiave API | Tutto | `19776964b4cde49e08d8f62e5824f777b` |
