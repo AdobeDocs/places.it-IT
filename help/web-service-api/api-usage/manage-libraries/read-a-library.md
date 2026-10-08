@@ -2,16 +2,17 @@
 title: Leggere una libreria
 description: Leggi una libreria utilizzando l’API REST Places.
 exl-id: c9c5a862-beab-42a9-8e40-abf93da592ea
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '45'
 ht-degree: 4%
-
 ---
-
 # Leggere una libreria {#read-a-library}
 
-Metodo GET che restituisce i dettagli di una libreria.
+Un metodo GET che restituisce i dettagli di una libreria.
 
 ## Richiesta
 
