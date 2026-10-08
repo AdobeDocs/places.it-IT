@@ -5,24 +5,31 @@ exl-id: 72704bfc-5837-4439-bdb2-e77ddf935639
 TQID: https://experienceleague.adobe.com/FVZzn3FwSAFgnRBjkiFwHG8Zl2I-I4fPrqax-zGNclk
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
   - id: f002a92a-b99f-47a4-90c8-65e0e415bc7a
+    internal-label: Pass
 feature_v2:
   - id: bef6f891-2e8a-425e-8f99-7ddf22070daa
+    internal-label: APIs
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 854
+source-wordcount: '854'
 ht-degree: 0%
-
 ---
-
 # Caricamento in blocco di POI {#bulk-upload-pois}
 
 Il pulsante **Importa POI** nel servizio Places può essere utilizzato per caricare in blocco nuovi POI utilizzando un file CSV. Viene fornito un modello di foglio di calcolo di esempio per mostrare quali colonne di dati sono necessarie e come aggiungere metadati personalizzati facoltativi.
@@ -78,20 +85,20 @@ Elenco delle colonne e dei valori da utilizzare:
 Nell’interfaccia utente di Places Service vengono utilizzati i valori delle seguenti colonne:
 
 * color, che viene utilizzato come colore del pin che rappresenta la posizione del POI nella mappa dell’interfaccia utente di Places Service.
-   * I valori validi sono &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B e #3DC8DE e &quot;&quot;.
-   * Se il valore viene lasciato vuoto, l’interfaccia utente di Places Service utilizza il blu come colore predefinito.
+  * I valori validi sono &quot;&quot;, #3E76D0, #AA99E8, #DC2ABA, #FC685B, #FC962E, #F6C436, #BECE5D, #61B56B e #3DC8DE e &quot;&quot;.
+  * Se il valore viene lasciato vuoto, l’interfaccia utente di Places Service utilizza il blu come colore predefinito.
 
-     I valori corrispondono rispettivamente a blu (#3E76D0), viola (#AA99E8), fuschia (#DC2ABA), arancione (#FC685B), arancione chiaro (#FC962E), giallo (#F6C436), verde chiaro (#BECE5D), verde (#61B56B) e blu chiaro (#3DC8DE).
+    I valori corrispondono rispettivamente a blu (#3E76D0), viola (#AA99E8), fuschia (#DC2ABA), arancione (#FC685B), arancione chiaro (#FC962E), giallo (#F6C436), verde chiaro (#BECE5D), verde (#61B56B) e blu chiaro (#3DC8DE).
 
 * che viene utilizzata come icona sul pin che rappresenta la posizione del POI sulla mappa dell’interfaccia utente di Places Service.
 
-   * I valori validi sono: &quot;&quot;, shop, hotelbed, car, airplane, train, ship, stadium, amusementpark, anchor, beaker, bell, bid, book, box, Sincronia file, browse, brush, building, calcolatrice, fotocamera, orologio, istruzione, torcia elettrica, follow, game, femmina, maschio, regalo, martello, cuore, casa, key, launch, lightbulb, mailbox, money, pin, promote, ribbon, shoppingCart, star, target, teiera, thumbDown, thumbUp, trap, trophy, wrench.
+  * I valori validi sono: &quot;&quot;, shop, hotelbed, car, airplane, train, ship, stadium, amusementpark, anchor, beaker, bell, bid, book, box, Sincronia file, browse, brush, building, calcolatrice, fotocamera, orologio, istruzione, torcia elettrica, follow, game, femmina, maschio, regalo, martello, cuore, casa, key, launch, lightbulb, mailbox, money, pin, promote, ribbon, shoppingCart, star, target, teiera, thumbDown, thumbUp, trap, trophy, wrench.
 
-     I valori delle icone sono elencati nell&#39;ordine in cui compaiono nella figura seguente:
+    I valori delle icone sono elencati nell&#39;ordine in cui compaiono nella figura seguente:
 
-     ![icone nell&#39;interfaccia utente](/help/assets/UI_icons.png)
+    ![icone nell&#39;interfaccia utente](/help/assets/UI_icons.png)
 
-   * Se il valore viene lasciato vuoto, l’interfaccia utente utilizza l’icona stella come icona predefinita.
+  * Se il valore viene lasciato vuoto, l’interfaccia utente utilizza l’icona stella come icona predefinita.
 
 * Le colonne non menzionate possono essere lasciate vuote.
 
@@ -112,7 +119,7 @@ Nell’interfaccia utente di Places Service vengono utilizzati i valori delle se
 
    * `org_id`
 
-     L’orgID di Experience Cloud in cui i POI devono essere importati. Per informazioni su come ottenere l&#39;ID organizzazione, vedere *Prerequisiti per l&#39;accesso utente* in [Panoramica dell&#39;integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
+     L’ID organizzazione di Experience Cloud in cui i POI devono essere importati. Per informazioni su come ottenere l&#39;ID organizzazione, vedere *Prerequisiti per l&#39;accesso utente* in [Panoramica dell&#39;integrazione e prerequisiti](/help/web-service-api/adobe-i-o-integration.md).
 
    * `api_key`
 

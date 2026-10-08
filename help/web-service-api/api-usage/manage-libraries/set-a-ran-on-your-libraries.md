@@ -2,16 +2,17 @@
 title: Impostare una classificazione nelle librerie
 description: Imposta una classificazione nelle librerie utilizzando l’API REST Luoghi.
 exl-id: c922bddc-1587-4da8-acb4-c2d69ce11808
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 3%
-
 ---
-
 # Impostare una classificazione nelle librerie {#set-rank-on-libraries}
 
-Metodo PUT che consente di impostare un ordine di classifica per tutte le librerie.
+Un metodo PUT che consente di impostare un ordine di classifica su tutte le librerie.
 
 ## Richiesta
 
@@ -26,7 +27,7 @@ Metodo PUT che consente di impostare un ordine di classifica per tutte le librer
 -H 'Accept-Language: en-US'
 ```
 
-## Dati PUT
+## DATI PUT
 
 ```
 "library_rank_order": ["dfcc5270-1d6d-4bc9-9cd9-85ecd5ebc12b","ea45781f-26af-44b1-b4f8-43baf5f0fe28"]  

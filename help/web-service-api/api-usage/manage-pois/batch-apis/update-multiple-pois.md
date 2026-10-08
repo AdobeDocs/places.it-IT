@@ -2,16 +2,17 @@
 title: Aggiornare più punti di interesse
 description: Utilizza le API batch per aggiornare più punti di interesse.
 exl-id: 194027fb-eafd-4207-9190-47125ebf3bc3
-source-git-commit: 4ab15ded930b31e4e06920af31f37fdfe45df8eb
+product_v2:
+  - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
 source-wordcount: '56'
 ht-degree: 5%
-
 ---
-
 # Aggiornare più punti di interesse {#update-multiple-pois}
 
-Metodo POST che consente di aggiornare più punti di interesse.
+Un metodo POST che consente di aggiornare più punti di interesse.
 
 ## Richiesta
 

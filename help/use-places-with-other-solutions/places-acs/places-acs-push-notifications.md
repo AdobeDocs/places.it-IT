@@ -5,23 +5,29 @@ exl-id: 4b50f552-deb8-49cd-9221-fbbf33aaa5f9
 TQID: https://experienceleague.adobe.com/tjJD7Qn27sp8wnNcNdjnANIveyzjG1PZ--3C3rCjrMQ
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
   - id: edbd1a0e-46c8-49da-8c10-dba9ec80bba9
+    internal-label: Experience Platform
 feature_v2:
   - id: c132d929-fa62-4271-803e-b823be07b914
+    internal-label: Profile
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
+    internal-label: Data collection
 subfeature_v2:
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
-source-git-commit: f962cef761f006c8e7d45b76ba24746e36bdaba6
+    internal-label: Data collection
+source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
 workflow-type: tm+mt
-source-wordcount: 1026
+source-wordcount: '1026'
 ht-degree: 1%
-
 ---
-
 # Notifiche push con Places Service {#push-notifications}
 
 In questa sezione imparerai a utilizzare informazioni storiche sulla geolocalizzazione per eseguire il targeting delle notifiche push distribuite tramite Adobe Campaign Standard.
@@ -57,7 +63,7 @@ Per creare un elemento dati:
 
 1. Ripeti i passaggi da 1 a 4 e crea elementi di dati per *Last Entered POI Latitude*, *Last Entered POI Longitude*, e *Last Entered POI Radius*.
 
-Oltre agli elementi dati per Places Service, assicurati di creare elementi dati core per dispositivi mobili per *ID app* e *ID Experience Cloud*.
+Oltre agli elementi dati per Places Service, accertati di creare elementi dati core per dispositivi mobili per *ID app* e *ID Experience Cloud*.
 
 ## Creare una regola per inviare i dati sulla posizione ad Adobe Campaign Standard
 
@@ -77,7 +83,7 @@ Le regole in Experience Platform Launch consentono di creare flussi di lavoro co
 1. In **[!UICONTROL URL]**, devi costruire l&#39;endpoint dei percorsi di Campaign Standard.
 
    L&#39;URL deve essere simile a `https:///rest/head/mobileAppV5//locations/`.
-Assicurati di utilizzare gli elementi dati corretti creati in precedenza per il server Campaign e la pKey.
+   Assicurati di utilizzare gli elementi dati corretti creati in precedenza per il server Campaign e la pKey.
 
 1. Fai clic sulla casella per aggiungere un corpo del post e inviare quanto segue:
 
