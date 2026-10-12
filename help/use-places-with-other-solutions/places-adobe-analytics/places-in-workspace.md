@@ -2,7 +2,7 @@
 title: Rapporto sui dati relativi alla posizione in Analytics Workspace
 description: Questa sezione fornisce informazioni su come creare rapporti sui dati relativi alla posizione in Analytics Workspace.
 exl-id: 45ca3c80-71b7-41de-9b00-645504061935
-TQID: https://experienceleague.adobe.com/Xym9Ko8czyd3wYWVo22sQoK6gk-VvftGVHfIDUys06E
+TQID: 'https://experienceleague.adobe.com/Xym9Ko8czyd3wYWVo22sQoK6gk-VvftGVHfIDUys06E'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
@@ -13,13 +13,8 @@ product_v2:
 feature_v2:
   - id: b069d60e-95f3-44d6-95a8-ddc862a4bc38
     internal-label: Reports
-  - id: c20d46e7-1c7d-476c-a50e-3961d4dce35f
-    internal-label: Reporting
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
-subfeature_v2:
+    internal-label: Data collection tags
   - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
     internal-label: Places
 topic_v2:
@@ -29,7 +24,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
+source-git-commit: 1b8be32cf474f0f65c484158870ece14f7c75ecd
 workflow-type: tm+mt
 source-wordcount: '483'
 ht-degree: 6%
@@ -48,7 +43,7 @@ Il presente documento presuppone quanto segue:
 
 1. L’utente Adobe Analytics è un amministratore e ha accesso alle regole di elaborazione.
 
-   Per ulteriori informazioni sulle regole di elaborazione, consulta [Panoramica sulle regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=it).
+   Per ulteriori informazioni sulle regole di elaborazione, consulta [Panoramica sulle regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 1. Nella proprietà Launch, sono stati creati elementi dati per le variabili Places Service desiderate.
 
@@ -77,7 +72,7 @@ In questo esempio, è stata creata una variabile di conversione, **[!UICONTROL E
 
 ## &#x200B;3. Creare regole di elaborazione
 
-Questo passaggio è necessario per mappare i dati contestuali (passaggio 1) alle variabili di Analytics (passaggio 2). Per ulteriori informazioni sulla creazione di regole di elaborazione, vedere [Panoramica sulle regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html?lang=it).
+Questo passaggio è necessario per mappare i dati contestuali (passaggio 1) alle variabili di Analytics (passaggio 2). Per ulteriori informazioni sulla creazione di regole di elaborazione, vedere [Panoramica sulle regole di elaborazione](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules.html).
 
 In questo esempio, è stata creata una regola di elaborazione per mappare il valore dei dati contestuali **[!UICONTROL poi.name]** in **[!UICONTROL Places POI Name (eVar2)]**. Sarà necessario creare regole di elaborazione aggiuntive per ogni variabile di posizione creata.
 

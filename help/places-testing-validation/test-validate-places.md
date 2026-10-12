@@ -2,12 +2,12 @@
 title: Test e convalida di Places Service
 description: In questa sezione vengono fornite informazioni su come verificare e convalidare Places Service.
 exl-id: 8dad6619-566b-4aea-b29c-a89192a66441
-TQID: https://experienceleague.adobe.com/nO4tOQW9rp3zjkHT6aJ5IcXHcD9heOaRAJiEchiz1Fk
+TQID: 'https://experienceleague.adobe.com/nO4tOQW9rp3zjkHT6aJ5IcXHcD9heOaRAJiEchiz1Fk'
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
   - id: dc5cf79d-43c4-4731-bffa-1df5d7549cb1
-    internal-label: Adobe Sign
+    internal-label: Acrobat Sign
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
@@ -21,23 +21,23 @@ feature_v2:
     internal-label: Implementation
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
     internal-label: Integrations
-  - id: daec7ead-f475-492a-a3b3-02ae08565d6f
-    internal-label: Implementation
   - id: e08599ea-8888-4294-ba74-3ba0a7762a46
-    internal-label: Data collection
+    internal-label: Data collection tags
   - id: eb9732ab-8232-4b21-bc4c-89de86dbe4d7
-    internal-label: Integrations
-  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
     internal-label: Integrations
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
     internal-label: Integrations
   - id: fd307ce7-56f5-4ee3-af68-a7833ff6e85e
     internal-label: API
+  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
+    internal-label: Places
+  - id: f6ac78a3-5b59-40f5-a37d-45df5303d3a3
+    internal-label: Dashboards
 subfeature_v2:
   - id: c3bf7e1e-1db5-4c72-9293-e2f0b1ab73d0
     internal-label: Triggers
-  - id: d2a6cbf4-df32-480f-909e-b42f66dcb9f0
-    internal-label: Places
+  - id: ed0d8d0e-04b9-4326-be72-a0fbca265377
+    internal-label: Integrations
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
@@ -45,7 +45,7 @@ topic_v2:
     internal-label: Implementation
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d8704da9c84a066f72471421290d4b46c65f41e1
+source-git-commit: 1b8be32cf474f0f65c484158870ece14f7c75ecd
 workflow-type: tm+mt
 source-wordcount: '1748'
 ht-degree: 2%
@@ -84,7 +84,7 @@ Poiché le variabili ambientali possono essere un fattore nel segnale di posizio
 |  | **Verifica della messaggistica in-app di Adobe Campaign Standard con Places Service.** |  |
 | 12 | Nel dashboard principale di Campaign configura un nuovo messaggio in-app (tipo = broadcast) |  |
 | 12 bis | In trigger, selezionare **Tipo di evento Places - Voce come trigger**. |  |
-| 12 ter | Seleziona **[!UICONTROL Places Custom metadata]** come filtro aggiuntivo. Utilizza il tipo di POI = Last Entered POI.<br>Utilizziamo **[!UICONTROL Last Entered]** come tipo di POI perché nella maggior parte dei casi, **[!UICONTROL Last Entered]** sarà lo stesso di **[!UICONTROL Current POI]**. <br><br>**[!UICONTROL Il punto di interesse corrente &#x200B;]**&#x200B;deve essere utilizzato solo nelle istanze in cui sono presenti recinti geografici di interesse sovrapposti. In questo caso, questi POI devono essere CLASSIFICATI e poi il&#x200B;**[!UICONTROL &#x200B; POI attuale &#x200B;]**&#x200B;visualizzerà il POI classificato più in alto dei 2 o 3 recinti geografici in cui un utente potrebbe essere attualmente. |  |
+| 12 ter | Seleziona **[!UICONTROL Places Custom metadata]** come filtro aggiuntivo. Utilizza il tipo di POI = Last Entered POI.<br>Utilizziamo **[!UICONTROL Last Entered]** come tipo di POI perché nella maggior parte dei casi, **[!UICONTROL Last Entered]** sarà lo stesso di **[!UICONTROL Current POI]**. <br><br>**[!UICONTROL Il punto di interesse corrente ]**deve essere utilizzato solo nelle istanze in cui sono presenti recinti geografici di interesse sovrapposti. In questo caso, questi POI devono essere CLASSIFICATI e poi il**[!UICONTROL  POI attuale ]**visualizzerà il POI classificato più in alto dei 2 o 3 recinti geografici in cui un utente potrebbe essere attualmente. |  |
 | 12c | Seleziona una chiave di metadati personalizzata che ti aiuterà a limitare quali POI riceveranno un messaggio. |  |
 | 12d | Per frequenza e durata, attendi solo a uno o due giorni, in modo che se non ti piace il criterio, puoi far scadere il trigger in un periodo di tempo più breve. |  |
 | 12e | Per il click-through Always/Once o Until, selezionare *ALWAYS* in modo da poter eseguire il test in più posizioni. | Un messaggio in-app viene visualizzato SEMPRE quando simuli una modifica della posizione che soddisfa i criteri di metadati appropriati. |
